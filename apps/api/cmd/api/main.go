@@ -45,7 +45,7 @@ func main() {
 	srv.StartChatJanitor(ctx)
 
 	httpSrv := &http.Server{
-		Addr:              ":" + cfg.Port,
+		Addr:              cfg.Host + ":" + cfg.Port,
 		Handler:           srv.Router(),
 		ReadHeaderTimeout: 10 * time.Second,
 		ReadTimeout:       30 * time.Second,

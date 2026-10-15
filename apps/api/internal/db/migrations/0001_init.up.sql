@@ -1,4 +1,10 @@
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
+-- gen_random_uuid() bawaan PostgreSQL >= 13; pgcrypto hanya untuk versi lama.
+-- Di shared hosting (cPanel) user DB sering tak boleh CREATE EXTENSION → abaikan bila gagal.
+DO $$ BEGIN
+  CREATE EXTENSION IF NOT EXISTS pgcrypto;
+EXCEPTION WHEN OTHERS THEN
+  RAISE NOTICE 'pgcrypto dilewati: %', SQLERRM;
+END $$;
 
 CREATE TABLE users (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),

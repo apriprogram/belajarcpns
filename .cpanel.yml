@@ -1,0 +1,5 @@
+---
+# cPanel Git Version Control → "Deploy HEAD Commit" menjalankan skrip ini (build di server). docs/DEPLOY-CPANEL.md
+deployment:
+  tasks:
+    - /bin/bash $HOME/repositories/belajarcpns/deploy/cpanel/deploy.sh

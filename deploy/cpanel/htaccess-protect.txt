@@ -1,0 +1,11 @@
+# BELAJARCPNS-PROTECT-START — tambahkan di ATAS baris Passenger yang dibuat cPanel.
+# Folder aplikasi ada di dalam document root → tutup akses langsung ke file internal.
+Options -Indexes
+RewriteEngine On
+RewriteRule ^(_app|server\.js|package\.json|tmp)(/|$) - [F,L]
+RewriteRule (^|/)\.(env|git|htaccess) - [F,L]
+# Paksa HTTPS & tanpa www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://belajarcpns.web.id%{REQUEST_URI} [R=301,L]
+# BELAJARCPNS-PROTECT-END

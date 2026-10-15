@@ -5,3 +5,5 @@ deploy/Caddyfile text eol=lf
 *.ps1 text eol=crlf
 *.png binary
 *.jpg binary
+.cpanel.yml text eol=lf
+deploy/cpanel/* text eol=lf

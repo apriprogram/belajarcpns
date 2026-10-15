@@ -1,0 +1,8 @@
+{
+  "name": "belajarcpns",
+  "private": true,
+  "description": "Peluncur cPanel: API Go + Next.js standalone (lihat docs/DEPLOY-CPANEL.md)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}

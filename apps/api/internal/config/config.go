@@ -7,6 +7,7 @@ import (
 )
 
 type Config struct {
+	Host         string // HOST: alamat listen (kosong = semua interface; 127.0.0.1 di shared hosting)
 	Port         string
 	DatabaseURL  string
 	JWTSecret    string
@@ -25,6 +26,7 @@ func get(key, def string) string {
 
 func Load() Config {
 	return Config{
+		Host:         strings.TrimSpace(os.Getenv("HOST")),
 		Port:         get("PORT", "8080"),
 		DatabaseURL:  get("DATABASE_URL", "postgres://bisapns:bisapns@localhost:5432/bisapns?sslmode=disable"),
 		JWTSecret:    get("JWT_SECRET", "ganti-dengan-secret-panjang-dan-acak"),
