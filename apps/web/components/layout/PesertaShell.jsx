@@ -4,7 +4,7 @@ import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { BookOpenCheck, CornerDownLeft, History, LayoutGrid, Menu as MenuIcon, MessageSquareQuote, Search, Timer, UserRound, X } from 'lucide-react';
+import { BookOpenCheck, CirclePlay, CornerDownLeft, History, LayoutGrid, Menu as MenuIcon, MessageSquareQuote, Search, Timer, UserRound, X } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import { GroupChat } from '@/components/chat/GroupChat';
 import { PanelFooter } from './PanelFooter';
@@ -12,7 +12,7 @@ import { Logo } from './Logo';
 import { NotificationBell } from './NotificationBell';
 import { TraktirKopi } from './TraktirKopi';
 import { UserMenu } from './UserMenu';
-import { OnboardingTour } from './OnboardingTour';
+import { OnboardingTour, startTour } from './OnboardingTour';
 
 export const PESERTA_NAV = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutGrid },
@@ -36,6 +36,7 @@ const isActive = (path, item) => (item.match || [item.href]).some((p) => path ==
 /** Kerangka panel peserta: topbar ala dashboard medis (logo, nav pill, cari ⌘K, lonceng, profil). */
 export function PesertaShell({ children }) {
   const pathname = usePathname() || '';
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -117,6 +118,16 @@ export function PesertaShell({ children }) {
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt lg:hidden"
             >
               <Search className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
+            </button>
+            <button
+              type="button"
+              onClick={() => startTour(router)}
+              data-tour="tour-btn"
+              aria-label="Putar tutorial dashboard"
+              title="Putar tutorial"
+              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-cobalt-50 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt max-[380px]:hidden"
+            >
+              <CirclePlay className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
             </button>
             <span data-tour="kopi" className="inline-flex rounded-full">
               <TraktirKopi />

@@ -112,7 +112,7 @@ function PackageCard({ p }) {
   const active = !!p.active_attempt_id;
   const status = active ? 'berlangsung' : p.availability;
   return (
-    <Panel padding="none" className={cn('flex flex-col p-5 sm:p-6', active && '!ring-2 !ring-cobalt-100')}>
+    <Panel padding="none" className={cn('flex flex-col p-5 transition-[box-shadow] duration-200 hover:!ring-2 hover:!ring-cobalt focus-within:!ring-2 focus-within:!ring-cobalt sm:p-6', active && '!ring-2 !ring-cobalt-100')}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-center gap-3">
           <IconBox icon={Timer} tone={active ? 'cobalt' : 'plain'} />

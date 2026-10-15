@@ -19,6 +19,16 @@ import { useSite } from '@/components/providers/SiteProvider';
  */
 export const TOUR_EVENT = 'bisapns:tour';
 const NEW_USER_DAYS = 7;
+
+/** Putar tur: di /dashboard langsung, dari halaman lain pindah ke dashboard dulu. */
+export function startTour(router) {
+  const fire = () => window.dispatchEvent(new Event(TOUR_EVENT));
+  if (window.location.pathname === '/dashboard') fire();
+  else {
+    router.push('/dashboard');
+    setTimeout(fire, 1200);
+  }
+}
 const keyFor = (id) => `bisapns:tour-done:${id}`;
 
 const STEPS = [
@@ -29,6 +39,7 @@ const STEPS = [
   { id: 'menu', targets: ['menu'], mobileOnly: true, mascot: '/maskot/latihan.webp', title: 'Menu utama', body: 'Buka menu ini untuk Latihan soal (per materi + pembahasan), Tryout CBT 110 soal/100 menit, dan Riwayat hasil ujianmu.' },
   { id: 'search', targets: ['search'], mascot: '/maskot/section-skd.webp', title: 'Cari cepat', body: 'Lompat ke halaman mana pun dengan cepat. Di komputer, tekan Ctrl K.' },
   { id: 'kopi', targets: ['kopi'], mascot: '/maskot/developer.webp', title: 'Traktir kopi developer ☕', body: 'Suka belajar di sini? Dukung developer lewat tombol hati ini agar soal dan fitur baru terus bertambah. Seikhlasnya saja!' },
+  { id: 'tour', targets: ['tour-btn'], mascot: '/maskot/section-faq.webp', title: 'Putar ulang tutorial', body: 'Lupa fungsi sebuah fitur? Tekan tombol ini kapan saja untuk memutar tutorial ini lagi.' },
   { id: 'notif', targets: ['notif'], mascot: '/maskot/section-faq.webp', title: 'Pengumuman', body: 'Info terbaru dari admin — jadwal tryout akbar, paket baru, dan kabar penting lainnya — muncul di sini.' },
   { id: 'stats', targets: ['stats'], mascot: '/maskot/section-fitur.webp', title: 'Ringkasan belajarmu', body: 'Waktu belajar, rata-rata skor, tryout selesai, dan akurasi latihan diperbarui otomatis setiap kamu belajar.' },
   { id: 'kalender', targets: ['kalender'], mascot: '/maskot/section-langkah.webp', title: 'Kalender minggu ini', body: 'Jadwal tryout terdekat dan target harianmu tampil per hari, supaya belajar lebih teratur.' },

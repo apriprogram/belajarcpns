@@ -386,7 +386,7 @@ function AnswerSummary({ correct, wrong, empty }) {
 
 function AnnouncementsCard({ items }) {
   return (
-    <Panel className="flex flex-1 flex-col">
+    <Panel className="flex flex-1 flex-col !ring-2 !ring-cobalt">
       <PanelHeader title="Pengumuman" info={<>Info terbaru dari tim <BrandName />.</>} action={items.length ? <SoftPill tone="ghost">{items.length}</SoftPill> : null} />
       {!items.length ? (
         <EmptyState size="sm" icon={<Megaphone />} title="Belum ada pengumuman" description="Info terbaru dari admin akan tampil di sini." className="flex-1" />

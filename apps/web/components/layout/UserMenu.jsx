@@ -2,6 +2,7 @@
 
 import { ChevronDown, Compass, LayoutDashboard, LogOut, MessageSquareQuote, ShieldCheck, UserRound } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { startTour } from './OnboardingTour';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { Avatar, Dropdown, Skeleton } from '@/components/ui';
 import { cn } from '@/lib/cn';
@@ -49,14 +50,3 @@ export function UserMenu({ admin = false, className }) {
 }
 
 export default UserMenu;
-
-/** Buka dashboard lalu putar tur pengenalan (components/layout/OnboardingTour). */
-function startTour(router) {
-  const fire = () => window.dispatchEvent(new Event('bisapns:tour'));
-  if (window.location.pathname === '/dashboard') fire();
-  else {
-    router.push('/dashboard');
-    setTimeout(fire, 1200);
-  }
-}
-
