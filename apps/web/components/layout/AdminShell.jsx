@@ -320,7 +320,7 @@ export function AdminShell({ children }) {
                 className={cn('!rounded-xl', pathname.startsWith('/admin/pengaturan') && '!bg-ghost')}
               />
               <div className="[&_button]:!rounded-xl">
-                <NotificationBell variant="ghost" />
+                <NotificationBell variant="ghost" engage={false} />
               </div>
               <UserMenu admin className="!shadow-none ring-1 ring-inset ring-mist-100 [&>span:nth-child(2)]:max-w-[150px]" />
             </div>

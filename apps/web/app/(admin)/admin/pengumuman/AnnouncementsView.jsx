@@ -1,10 +1,10 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { CalendarDays, Megaphone, Pencil, Plus, Trash2 } from 'lucide-react';
+import { CalendarDays, Eye, Heart, Megaphone, Pencil, Plus, Trash2, Users } from 'lucide-react';
 import { api, ApiError, errorMessage } from '@/lib/api';
 import { formatAngka, formatRelatif, formatTanggalJam } from '@/lib/format';
-import { Button, ConfirmDialog, EmptyState, ErrorState, Field, IconButton, Input, Modal, Skeleton, Switch, Textarea, useToast } from '@/components/ui';
+import { Avatar, Button, ConfirmDialog, EmptyState, ErrorState, Field, IconButton, Input, Modal, Skeleton, Switch, Textarea, useToast } from '@/components/ui';
 import { AdminPageHeader, IconBox, ModalTitle, Panel, StatusPill } from '@/components/admin/AdminUI';
 import { Segmented } from '@/components/admin/Segmented';
 import { FormAlert } from '@/components/auth/AuthParts';
@@ -19,6 +19,7 @@ export function AnnouncementsView() {
   const [editing, setEditing] = useState(null); // {} baru | objek
   const [toDelete, setToDelete] = useState(null);
   const [busyId, setBusyId] = useState(null);
+  const [stats, setStats] = useState(null); // pengumuman yang dibuka detail interaksinya
 
   const all = useMemo(() => data || [], [data]);
   const shown = all.filter((a) => tab === 'semua' || (tab === 'terbit' ? a.published : !a.published));
@@ -96,9 +97,25 @@ export function AnnouncementsView() {
               </div>
               <h2 className="mt-4 line-clamp-2 text-[16px] font-semibold leading-snug tracking-[-0.01em]">{a.title}</h2>
               <p className="mt-2 line-clamp-4 whitespace-pre-line text-sm leading-relaxed text-mist-700">{a.body}</p>
-              <p className="mt-4 flex items-center gap-1.5 text-xs text-mist-700" title={formatTanggalJam(a.created_at)}>
-                <CalendarDays className="h-3.5 w-3.5" /> {formatRelatif(a.created_at)}
-              </p>
+              <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+                <p className="mr-auto flex items-center gap-1.5 text-xs text-mist-700" title={formatTanggalJam(a.created_at)}>
+                  <CalendarDays className="h-3.5 w-3.5" /> {formatRelatif(a.created_at)}
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setStats(a)}
+                  title="Lihat peserta yang melihat & menyukai"
+                  aria-label={`Interaksi peserta: ${a.views || 0} dilihat, ${a.likes || 0} suka. Lihat detail.`}
+                  className="inline-flex h-7 cursor-pointer items-center gap-2.5 rounded-full bg-ghost px-3 text-xs font-semibold tabular-nums text-obsidian-600 ring-1 ring-inset ring-mist-100 transition-colors hover:bg-cobalt-50 hover:text-cobalt-700 hover:ring-cobalt-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+                >
+                  <span className="inline-flex items-center gap-1">
+                    <Eye className="h-3.5 w-3.5" aria-hidden /> {formatAngka(a.views || 0)}
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <Heart className={a.likes ? 'h-3.5 w-3.5 fill-danger text-danger' : 'h-3.5 w-3.5'} aria-hidden /> {formatAngka(a.likes || 0)}
+                  </span>
+                </button>
+              </div>
               <div className="mt-auto flex items-center gap-2 border-t border-mist-100 pt-4">
                 <Switch size="sm" checked={a.published} disabled={busyId === a.id} onChange={(v) => togglePublish(a, v)} label={<span className="text-[13px]">{a.published ? 'Terbit' : 'Draf'}</span>} className="mr-auto items-center" aria-label={`Terbitkan ${a.title}`} />
                 <IconButton icon={<Pencil />} label={`Ubah ${a.title}`} variant="soft" size="sm" onClick={() => setEditing(a)} />
@@ -117,6 +134,8 @@ export function AnnouncementsView() {
           reload({ silent: true });
         }}
       />
+
+      <EngagementModal item={stats} onClose={() => setStats(null)} />
 
       <ConfirmDialog
         open={!!toDelete}
@@ -237,6 +256,97 @@ function AnnouncementModal({ item, onClose, onSaved }) {
           <Switch checked={v.published} onChange={(on) => setV((s) => ({ ...s, published: on }))} label="Terbitkan sekarang" description="Pengumuman terbit tampil di dashboard semua peserta." />
         </div>
       </form>
+    </Modal>
+  );
+}
+
+/** Detail interaksi: siapa saja peserta yang melihat & menyukai pengumuman (GET /admin/announcements/:id/engagement). */
+function EngagementModal({ item, onClose }) {
+  const [tab, setTab] = useState('lihat');
+  const id = item?.id;
+  const { loading, error, data, reload } = useResource(() => (id ? api.get(`/admin/announcements/${id}/engagement`) : Promise.resolve(null)), [id]);
+  const viewers = data?.viewers || [];
+  const list = tab === 'suka' ? viewers.filter((x) => x.liked) : viewers;
+  const audience = data?.audience || 0;
+  const pct = audience ? Math.round(((data?.views || 0) / audience) * 100) : 0;
+
+  return (
+    <Modal open={!!item} onClose={onClose} size="md" icon={<Users />} eyebrow="Interaksi peserta" title={item?.title || ''}>
+      {error ? (
+        <ErrorState error={error} onRetry={() => reload()} />
+      ) : (
+        <div>
+          <div className="grid grid-cols-2 gap-3">
+            <div className="rounded-2xl bg-ghost p-4">
+              <p className="flex items-center gap-1.5 text-xs font-medium text-mist-700">
+                <Eye className="h-3.5 w-3.5" aria-hidden /> Dilihat
+              </p>
+              {loading ? (
+                <Skeleton className="mt-2 h-8 w-16" />
+              ) : (
+                <p className="mt-1.5 text-[28px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(data?.views || 0)}</p>
+              )}
+              <p className="mt-1.5 text-xs text-mist-700">
+                dari {formatAngka(audience)} peserta · <span className="font-semibold text-obsidian">{pct}%</span>
+              </p>
+              <span className="mt-2 block h-1.5 overflow-hidden rounded-full bg-mist-100">
+                <span className="block h-full rounded-full bg-cobalt" style={{ width: `${Math.min(100, pct)}%` }} />
+              </span>
+            </div>
+            <div className="rounded-2xl bg-danger-50 p-4">
+              <p className="flex items-center gap-1.5 text-xs font-medium text-danger-700">
+                <Heart className="h-3.5 w-3.5 fill-danger text-danger" aria-hidden /> Disukai
+              </p>
+              {loading ? (
+                <Skeleton className="mt-2 h-8 w-16" />
+              ) : (
+                <p className="mt-1.5 text-[28px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(data?.likes || 0)}</p>
+              )}
+              <p className="mt-1.5 text-xs text-mist-700">
+                {data?.views ? `${Math.round(((data?.likes || 0) / data.views) * 100)}% dari yang melihat` : 'peserta menyukai'}
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-5">
+            <Segmented
+              value={tab}
+              onChange={setTab}
+              ariaLabel="Daftar peserta"
+              options={[
+                { value: 'lihat', label: 'Melihat', count: loading ? undefined : viewers.length },
+                { value: 'suka', label: 'Menyukai', count: loading ? undefined : viewers.filter((x) => x.liked).length },
+              ]}
+            />
+          </div>
+
+          <ul className="mt-3 max-h-[320px] divide-y divide-mist-100 overflow-y-auto">
+            {loading ? (
+              [0, 1, 2].map((k) => (
+                <li key={k} className="py-2.5">
+                  <Skeleton className="h-9 w-full" />
+                </li>
+              ))
+            ) : !list.length ? (
+              <li className="py-8 text-center text-sm text-mist-700">{tab === 'suka' ? 'Belum ada peserta yang menyukai.' : 'Belum ada peserta yang melihat.'}</li>
+            ) : (
+              list.map((x) => (
+                <li key={x.id} className="flex items-center gap-3 py-2.5">
+                  <Avatar name={x.name} src={x.avatar_url || undefined} size="sm" />
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-sm font-medium text-obsidian">{x.name}</p>
+                    <p className="truncate text-xs text-mist-700">{x.email}</p>
+                  </div>
+                  {x.liked && <Heart className="h-4 w-4 shrink-0 fill-danger text-danger" aria-label="Menyukai" />}
+                  <span className="shrink-0 text-right text-[11px] text-mist-500" title={formatTanggalJam(tab === 'suka' ? x.liked_at : x.viewed_at)}>
+                    {formatRelatif(tab === 'suka' ? x.liked_at : x.viewed_at)}
+                  </span>
+                </li>
+              ))
+            )}
+          </ul>
+        </div>
+      )}
     </Modal>
   );
 }

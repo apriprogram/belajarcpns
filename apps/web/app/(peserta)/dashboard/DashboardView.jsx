@@ -1,7 +1,7 @@
 'use client';
 
 import { BrandName } from '@/components/layout/Logo';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ArrowRight, BookOpenCheck, CheckCircle2, Clock3, Crosshair, Megaphone, Timer, Trophy } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import { api } from '@/lib/api';
@@ -14,7 +14,8 @@ import { DeltaPill, DetailLink, IconBox, MeterBars, PageHead, Panel, PanelHeader
 import { WeekCalendarCard } from './WeekCalendarCard';
 import { TargetsCard } from './TargetsCard';
 import { TestimonialInviteCard } from './TestimonialInviteCard';
-import { AnnouncementModal } from '@/components/layout/AnnouncementModal';
+import { AnnouncementLike, AnnouncementModal } from '@/components/layout/AnnouncementModal';
+import { useAnnouncementSync } from '@/lib/announcements';
 
 export function DashboardView() {
   const { user } = useAuth();
@@ -385,8 +386,11 @@ function AnswerSummary({ correct, wrong, empty }) {
   );
 }
 
-function AnnouncementsCard({ items }) {
+function AnnouncementsCard({ items: initial }) {
+  const [items, setItems] = useState(initial);
   const [selected, setSelected] = useState(null);
+  useEffect(() => setItems(initial), [initial]);
+  useAnnouncementSync(setItems);
   return (
     <Panel className="flex flex-1 flex-col !ring-2 !ring-cobalt">
       <PanelHeader title="Pengumuman" info={<>Info terbaru dari tim <BrandName />.</>} action={items.length ? <SoftPill tone="ghost">{items.length}</SoftPill> : null} />
@@ -395,19 +399,20 @@ function AnnouncementsCard({ items }) {
       ) : (
         <ul className="-mx-1 divide-y divide-mist-100">
           {items.slice(0, 4).map((a) => (
-            <li key={a.id} className="py-1.5 first:pt-0 last:pb-0">
+            <li key={a.id} className="relative py-1.5 first:pt-0 last:pb-0">
               <button
                 type="button"
                 onClick={() => setSelected(a)}
                 className="flex w-full cursor-pointer gap-3 rounded-xl px-1 py-1.5 text-left transition-colors hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
               >
-              <IconBox icon={Megaphone} tone="ghost" />
-              <div className="min-w-0">
-                <p className="text-sm font-semibold leading-snug">{a.title}</p>
-                <p className="mt-0.5 line-clamp-2 text-[13px] leading-relaxed text-mist-700">{a.body}</p>
-                <p className="mt-1 text-[11px] font-medium text-mist-500">{formatRelatif(a.created_at)}</p>
-              </div>
+                <IconBox icon={Megaphone} tone="ghost" />
+                <div className="min-w-0">
+                  <p className="text-sm font-semibold leading-snug">{a.title}</p>
+                  <p className="mt-0.5 line-clamp-2 text-[13px] leading-relaxed text-mist-700">{a.body}</p>
+                  <p className="mt-1 text-[11px] font-medium leading-7 text-mist-500">{formatRelatif(a.created_at)}</p>
+                </div>
               </button>
+              <AnnouncementLike item={a} className="absolute bottom-2.5 right-1" />
             </li>
           ))}
         </ul>

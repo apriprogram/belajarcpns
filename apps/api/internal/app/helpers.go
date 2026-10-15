@@ -137,18 +137,33 @@ type Announcement struct {
 	Body      string    `json:"body"`
 	Published bool      `json:"published"`
 	CreatedAt time.Time `json:"created_at"`
+	Views     int       `json:"views"`
+	Likes     int       `json:"likes"`
+	Liked     bool      `json:"liked"`
 }
 
+// annStatsCols: kolom tambahan views, likes, liked (oleh user $1) untuk query "FROM announcements a".
+const annStatsCols = `,
+	(SELECT count(*) FROM announcement_views v WHERE v.announcement_id = a.id),
+	(SELECT count(*) FROM announcement_likes l WHERE l.announcement_id = a.id),
+	EXISTS (SELECT 1 FROM announcement_likes l WHERE l.announcement_id = a.id AND l.user_id::text = $1)`
+
+// queryAnnouncements memindai id, title, body, published, created_at [, views, likes, liked].
 func (s *Server) queryAnnouncements(ctx context.Context, sql string, args ...any) ([]Announcement, error) {
 	rows, err := s.DB.Query(ctx, sql, args...)
 	if err != nil {
 		return nil, err
 	}
 	defer rows.Close()
+	withStats := len(rows.FieldDescriptions()) >= 8
 	out := []Announcement{}
 	for rows.Next() {
 		var a Announcement
-		if err := rows.Scan(&a.ID, &a.Title, &a.Body, &a.Published, &a.CreatedAt); err != nil {
+		dst := []any{&a.ID, &a.Title, &a.Body, &a.Published, &a.CreatedAt}
+		if withStats {
+			dst = append(dst, &a.Views, &a.Likes, &a.Liked)
+		}
+		if err := rows.Scan(dst...); err != nil {
 			return nil, err
 		}
 		out = append(out, a)

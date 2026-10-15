@@ -6,16 +6,18 @@ import { Bell, Megaphone } from 'lucide-react';
 import { api } from '@/lib/api';
 import { excerpt, formatRelatif } from '@/lib/format';
 import { Dropdown, IconButton, Spinner } from '@/components/ui';
-import { AnnouncementModal } from './AnnouncementModal';
+import { AnnouncementLike, AnnouncementModal } from './AnnouncementModal';
+import { useAnnouncementSync } from '@/lib/announcements';
 
 const SEEN_KEY = 'bisapns:announcements-seen';
 
-/** Tombol bulat notifikasi → daftar pengumuman terbit (GET /api/announcements). */
-export function NotificationBell({ variant = 'white' }) {
+/** Tombol bulat notifikasi → daftar pengumuman terbit (GET /api/announcements). engage=false (admin): tanpa hitung lihat/suka. */
+export function NotificationBell({ variant = 'white', engage = true }) {
   const [items, setItems] = useState(null);
   const [error, setError] = useState(false);
   const [unread, setUnread] = useState(false);
   const [selected, setSelected] = useState(null);
+  useAnnouncementSync(setItems);
 
   const load = useCallback(async () => {
     try {
@@ -84,30 +86,32 @@ export function NotificationBell({ variant = 'white' }) {
         )}
         {items &&
           items.slice(0, 8).map((a) => (
-            <button
-              key={a.id}
-              type="button"
-              onClick={() => {
-                close();
-                setSelected(a);
-              }}
-              className="block w-full cursor-pointer rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
-            >
-              <div className="flex items-start gap-3">
-                <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cobalt" />
-                <div className="min-w-0">
-                  <p className="text-sm font-medium leading-snug">{a.title}</p>
-                  <p className="mt-0.5 line-clamp-2 text-[13px] text-mist-700">{excerpt(a.body, 140)}</p>
-                  <p className="mt-1 text-[11px] text-mist-500">{formatRelatif(a.created_at)}</p>
+            <div key={a.id} className="relative">
+              <button
+                type="button"
+                onClick={() => {
+                  close();
+                  setSelected(a);
+                }}
+                className="block w-full cursor-pointer rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+              >
+                <div className="flex items-start gap-3">
+                  <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cobalt" />
+                  <div className="min-w-0">
+                    <p className="text-sm font-medium leading-snug">{a.title}</p>
+                    <p className="mt-0.5 line-clamp-2 text-[13px] text-mist-700">{excerpt(a.body, 140)}</p>
+                    <p className="mt-1 text-[11px] leading-7 text-mist-500">{formatRelatif(a.created_at)}</p>
+                  </div>
                 </div>
-              </div>
-            </button>
+              </button>
+              {engage && <AnnouncementLike item={a} className="absolute bottom-2.5 right-3" />}
+            </div>
           ))}
       </div>
       </>
       )}
     </Dropdown>
-    <AnnouncementModal item={selected} onClose={() => setSelected(null)} />
+    <AnnouncementModal item={selected} onClose={() => setSelected(null)} engage={engage} />
     </>
   );
 }

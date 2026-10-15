@@ -580,7 +580,7 @@ func (s *Server) exportPackageReport(c *gin.Context) {
 // ---------- Pengumuman (admin) ----------
 
 func (s *Server) adminListAnnouncements(c *gin.Context) {
-	out, err := s.queryAnnouncements(c, `SELECT id, title, body, published, created_at FROM announcements ORDER BY created_at DESC`)
+	out, err := s.queryAnnouncements(c, `SELECT a.id, a.title, a.body, a.published, a.created_at`+annStatsCols+` FROM announcements a ORDER BY a.created_at DESC`, auth.UserID(c))
 	if err != nil {
 		httpx.Internal(c, err)
 		return

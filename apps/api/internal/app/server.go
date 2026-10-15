@@ -80,6 +80,10 @@ func (s *Server) Router() *gin.Engine {
 	authed.DELETE("/me/avatar", s.deleteAvatar)
 	authed.GET("/categories", s.listCategories)
 	authed.GET("/announcements", s.listPublishedAnnouncements)
+	annLimit := httpx.NewRateLimiter(120, time.Minute)
+	authed.POST("/announcements/:id/view", annLimit.Middleware(), s.viewAnnouncement)
+	authed.PUT("/announcements/:id/like", annLimit.Middleware(), s.likeAnnouncement)
+	authed.DELETE("/announcements/:id/like", annLimit.Middleware(), s.likeAnnouncement)
 
 	// GroupChat (semua pengguna terautentikasi: peserta & admin)
 	chatLimit := httpx.NewRateLimiter(30, time.Minute)
@@ -155,6 +159,7 @@ func (s *Server) Router() *gin.Engine {
 	ad.POST("/announcements", s.createAnnouncement)
 	ad.PUT("/announcements/:id", s.updateAnnouncement)
 	ad.DELETE("/announcements/:id", s.deleteAnnouncement)
+	ad.GET("/announcements/:id/engagement", s.adminAnnouncementEngagement)
 	ad.GET("/messages", s.adminListMessages)
 	ad.GET("/messages/unread", s.adminUnreadMessages)
 	ad.PATCH("/messages/:id", s.adminMarkMessage)

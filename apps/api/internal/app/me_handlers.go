@@ -122,7 +122,7 @@ func (s *Server) myDashboard(c *gin.Context) {
 		httpx.Internal(c, err)
 		return
 	}
-	anns, err := s.queryAnnouncements(c, `SELECT id, title, body, published, created_at FROM announcements WHERE published ORDER BY created_at DESC LIMIT 5`)
+	anns, err := s.queryAnnouncements(c, `SELECT a.id, a.title, a.body, a.published, a.created_at`+annStatsCols+` FROM announcements a WHERE a.published ORDER BY a.created_at DESC LIMIT 5`, uid)
 	if err != nil {
 		httpx.Internal(c, err)
 		return
@@ -565,7 +565,7 @@ func (s *Server) practiceAnswer(c *gin.Context) {
 // ---------- Pengumuman (peserta) ----------
 
 func (s *Server) listPublishedAnnouncements(c *gin.Context) {
-	out, err := s.queryAnnouncements(c, `SELECT id, title, body, published, created_at FROM announcements WHERE published ORDER BY created_at DESC LIMIT 20`)
+	out, err := s.queryAnnouncements(c, `SELECT a.id, a.title, a.body, a.published, a.created_at`+annStatsCols+` FROM announcements a WHERE a.published ORDER BY a.created_at DESC LIMIT 20`, auth.UserID(c))
 	if err != nil {
 		httpx.Internal(c, err)
 		return
