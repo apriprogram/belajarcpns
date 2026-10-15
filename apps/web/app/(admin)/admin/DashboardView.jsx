@@ -91,7 +91,6 @@ export function DashboardView() {
         </Panel>
       ) : (
         <div className="space-y-4">
-          <VisitorStats />
           <div className="grid gap-4 xl:grid-cols-12">
             {/* Kartu statistik 2×2 */}
             <section aria-label="Statistik utama" className="grid gap-4 sm:grid-cols-2 xl:col-span-7">
@@ -329,6 +328,7 @@ export function DashboardView() {
               </Panel>
             </div>
           </div>
+          <VisitorStats />
         </div>
       )}
     </div>

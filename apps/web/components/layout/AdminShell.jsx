@@ -191,19 +191,6 @@ function SidebarContent({ pathname, collapsed = false, onToggle, onClose, onNavi
         ))}
       </nav>
 
-      {/* Area bawah: profil (notifikasi ada di topbar) */}
-      <div className={cn('mt-3 flex border-t border-mist-100 pt-3', collapsed ? 'flex-col items-center gap-2' : 'items-center gap-1')}>
-        <div className={cn('[&>.animate-pulse]:!h-10 [&>.animate-pulse]:!w-10', !collapsed && 'min-w-0 flex-1 [&>.animate-pulse]:!w-28')}>
-          <UserMenu
-            admin
-            className={cn(
-              '!shadow-none !ring-0 hover:!bg-ghost',
-              collapsed && 'sm:!pr-1 [&>:not(:first-child)]:!hidden',
-              !collapsed && '[&>span:nth-child(2)]:max-w-[150px]',
-            )}
-          />
-        </div>
-      </div>
     </div>
   );
 }
@@ -335,7 +322,7 @@ export function AdminShell({ children }) {
               <div className="[&_button]:!rounded-xl">
                 <NotificationBell variant="ghost" />
               </div>
-              <UserMenu admin className="!shadow-none !ring-0 lg:hidden" />
+              <UserMenu admin className="!shadow-none ring-1 ring-inset ring-mist-100 [&>span:nth-child(2)]:max-w-[150px]" />
             </div>
           </div>
         </header>
