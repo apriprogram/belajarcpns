@@ -13,12 +13,19 @@ TOOLS="$HOME/.local/opt"
 LOG="$HOME/belajarcpns-deploy.log"
 LOCK="$HOME/.belajarcpns-deploy.lock"
 
-exec > >(tee -a "$LOG") 2>&1
+# Catat ke log (jailshell cPanel tak punya /dev/fd → tanpa process substitution).
+if [ -z "${DEPLOY_LOGGING:-}" ]; then
+  export DEPLOY_LOGGING=1
+  bash "$0" "$@" 2>&1 | tee -a "$LOG"
+  exit "${PIPESTATUS[0]}"
+fi
 echo "===== $(date '+%F %T') deploy $(git -C "$REPO" log --oneline -1) ====="
 
 # Satu deploy dalam satu waktu.
-exec 9>"$LOCK"
-flock -n 9 || { echo "Deploy lain sedang berjalan."; exit 1; }
+if command -v flock >/dev/null 2>&1; then
+  exec 9>"$LOCK"
+  flock -n 9 || { echo "Deploy lain sedang berjalan."; exit 1; }
+fi
 
 mkdir -p "$APP/_app"/{bin,logs,data/uploads} "$BUILD" "$TOOLS"
 
