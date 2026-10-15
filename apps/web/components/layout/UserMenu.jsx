@@ -1,6 +1,7 @@
 'use client';
 
-import { ChevronDown, LayoutDashboard, LogOut, MessageSquareQuote, ShieldCheck, UserRound } from 'lucide-react';
+import { ChevronDown, Compass, LayoutDashboard, LogOut, MessageSquareQuote, ShieldCheck, UserRound } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 import { useAuth } from '@/components/providers/AuthProvider';
 import { Avatar, Dropdown, Skeleton } from '@/components/ui';
 import { cn } from '@/lib/cn';
@@ -8,6 +9,7 @@ import { cn } from '@/lib/cn';
 /** Chip profil: avatar + nama + peran → menu Profil / (Panel admin) / Keluar. */
 export function UserMenu({ admin = false, className }) {
   const { user, loading, logout } = useAuth();
+  const router = useRouter();
   if (loading && !user) return <Skeleton className="h-11 w-11 sm:w-44" rounded="rounded-full" />;
   const name = user?.name || 'Pengguna';
   const role = user?.role === 'admin' ? 'Admin' : 'Peserta';
@@ -15,6 +17,7 @@ export function UserMenu({ admin = false, className }) {
     { header: user?.email || 'Akun' },
     admin ? { label: 'Profil saya', icon: <UserRound />, href: '/admin/profil' } : { label: 'Profil saya', icon: <UserRound />, href: '/profil' },
     ...(!admin ? [{ label: 'Tulis testimoni', icon: <MessageSquareQuote />, href: '/testimoni' }] : []),
+    ...(!admin ? [{ label: 'Tur dashboard', icon: <Compass />, onClick: () => startTour(router) }] : []),
     ...(admin ? [{ label: 'Dashboard peserta', icon: <LayoutDashboard />, href: '/dashboard' }] : []),
     ...(!admin && user?.role === 'admin' ? [{ label: 'Panel admin', icon: <ShieldCheck />, href: '/admin' }] : []),
     { divider: true },
@@ -46,3 +49,14 @@ export function UserMenu({ admin = false, className }) {
 }
 
 export default UserMenu;
+
+/** Buka dashboard lalu putar tur pengenalan (components/layout/OnboardingTour). */
+function startTour(router) {
+  const fire = () => window.dispatchEvent(new Event('bisapns:tour'));
+  if (window.location.pathname === '/dashboard') fire();
+  else {
+    router.push('/dashboard');
+    setTimeout(fire, 1200);
+  }
+}
+

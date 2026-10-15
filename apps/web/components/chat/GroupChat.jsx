@@ -753,6 +753,7 @@ export function GroupChat() {
           type="button"
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
+          data-tour="groupchat"
           aria-label={open ? 'Tutup GroupChat' : `Buka GroupChat${unreadShown ? `, ${unreadShown} pesan baru` : ''}${unreadShown > 0 && unreadMention ? ', ada yang menandai Anda' : ''}`}
           className={cn(
             'fixed bottom-5 right-5 z-[45] flex h-14 w-14 items-center justify-center rounded-full bg-obsidian text-white shadow-float transition-transform duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/40 sm:bottom-6 sm:right-6',

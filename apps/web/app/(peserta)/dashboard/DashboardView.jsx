@@ -59,7 +59,7 @@ export function DashboardView() {
         <div className="space-y-4">
           {/* Baris 1: 4 kartu statistik + grafik waktu belajar */}
           <div className="grid gap-4 xl:grid-cols-12 [&>*]:min-w-0">
-            <div className="grid gap-4 sm:grid-cols-2 xl:col-span-7">
+            <div data-tour="stats" className="grid gap-4 sm:grid-cols-2 xl:col-span-7">
               <StatTile
                 loading={loading}
                 title="Waktu belajar hari ini"
@@ -136,10 +136,10 @@ export function DashboardView() {
 
           {/* Baris 2: kalender minggu + target harian */}
           <div className="grid gap-4 xl:grid-cols-12 [&>*]:min-w-0">
-            <div className="xl:col-span-8">
+            <div data-tour="kalender" className="xl:col-span-8">
               <WeekCalendarCard upcoming={d?.upcoming || []} targets={d?.targets_today || []} loading={loading} />
             </div>
-            <div className="xl:col-span-4">
+            <div data-tour="target" className="xl:col-span-4">
               <TargetsCard targets={d?.targets_today || []} setTargets={setTargets} loading={loading} />
             </div>
           </div>

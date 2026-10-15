@@ -12,6 +12,7 @@ import { Logo } from './Logo';
 import { NotificationBell } from './NotificationBell';
 import { TraktirKopi } from './TraktirKopi';
 import { UserMenu } from './UserMenu';
+import { OnboardingTour } from './OnboardingTour';
 
 export const PESERTA_NAV = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutGrid },
@@ -78,6 +79,7 @@ export function PesertaShell({ children }) {
                 <Link
                   key={item.href}
                   href={item.href}
+                  data-tour={`nav-${item.href.slice(1)}`}
                   aria-current={active ? 'page' : undefined}
                   className={cn(
                     'inline-flex h-11 items-center gap-2 rounded-full px-4 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 focus-visible:ring-offset-ghost',
@@ -98,6 +100,7 @@ export function PesertaShell({ children }) {
               onClick={() => setPaletteOpen(true)}
               aria-haspopup="dialog"
               aria-keyshortcuts="Meta+K Control+K"
+              data-tour="search"
               className="hidden h-11 w-56 items-center gap-2.5 rounded-full bg-white pl-4 pr-1.5 text-left text-sm text-mist-500 ring-1 ring-inset ring-mist-100 transition-colors hover:ring-mist focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt lg:flex xl:w-64"
             >
               <Search className="h-[18px] w-[18px] shrink-0 text-mist-700" strokeWidth={1.75} aria-hidden />
@@ -110,18 +113,26 @@ export function PesertaShell({ children }) {
               aria-haspopup="dialog"
               aria-label="Cari halaman"
               title="Cari halaman"
+              data-tour="search"
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt lg:hidden"
             >
               <Search className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
             </button>
-            <TraktirKopi />
-            <NotificationBell />
-            <UserMenu />
+            <span data-tour="kopi" className="inline-flex rounded-full">
+              <TraktirKopi />
+            </span>
+            <span data-tour="notif" className="inline-flex rounded-full">
+              <NotificationBell />
+            </span>
+            <span data-tour="profil" className="inline-flex rounded-full">
+              <UserMenu />
+            </span>
             <button
               type="button"
               onClick={() => setMobileOpen((v) => !v)}
               aria-expanded={mobileOpen}
               aria-controls="menu-mobile"
+              data-tour="menu"
               aria-label={mobileOpen ? 'Tutup menu' : 'Buka menu'}
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-obsidian text-white transition-colors hover:bg-obsidian-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 md:hidden"
             >
@@ -160,6 +171,7 @@ export function PesertaShell({ children }) {
       </div>
       <QuickSearch open={paletteOpen} onClose={() => setPaletteOpen(false)} />
       <GroupChat />
+      {pathname === '/dashboard' && <OnboardingTour />}
     </div>
   );
 }

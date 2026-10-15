@@ -442,3 +442,11 @@ html.gc-resizing .gc-dock-pad {
 @media (prefers-reduced-motion: reduce) {
   .emblem-float { animation: none; }
 }
+
+/* Konfeti tur onboarding */
+.tour-confetti { animation: tour-confetti 1.8s cubic-bezier(.2,.7,.4,1) forwards; opacity: 0; }
+@keyframes tour-confetti {
+  0% { opacity: 1; transform: translateY(-10px) rotate(0deg); }
+  100% { opacity: 0; transform: translateY(260px) rotate(540deg); }
+}
+@media (prefers-reduced-motion: reduce) { .tour-confetti { display: none; } }
