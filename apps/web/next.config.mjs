@@ -19,8 +19,11 @@ const NOINDEX_PATHS = [
 ];
 const NOINDEX = [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }];
 
+const BUILD_CPUS = Number(process.env.NEXT_BUILD_CPUS) || undefined; // batasi worker build di shared hosting (docs/DEPLOY-CPANEL.md)
+
 const nextConfig = {
   output: 'standalone',
+  ...(BUILD_CPUS ? { experimental: { cpus: BUILD_CPUS, workerThreads: false } } : {}),
   reactStrictMode: true,
   poweredByHeader: false,
   // Font TTF untuk gambar Open Graph dibaca lewat fs (lib/og-image.jsx) → pastikan ikut ke output standalone.

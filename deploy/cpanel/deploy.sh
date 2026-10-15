@@ -46,13 +46,14 @@ if [ ! -x "$TOOLS/go/bin/go" ] || [ "$("$TOOLS/go/bin/go" env GOVERSION)" != "$G
   rm -rf "$TOOLS/go"
   curl -fsSL "https://go.dev/dl/$GOV.linux-amd64.tar.gz" | tar -xz -C "$TOOLS"
 fi
-export PATH="$TOOLS/go/bin:$PATH" GOPATH="$BUILD/gopath" GOCACHE="$BUILD/gocache" GOFLAGS=-trimpath GOTOOLCHAIN=local
+# Hosting membatasi jumlah proses (LVE) → kompilasi tidak terlalu paralel.
+export GOMAXPROCS=2 PATH="$TOOLS/go/bin:$PATH" GOPATH="$BUILD/gopath" GOCACHE="$BUILD/gocache" GOFLAGS=-trimpath GOTOOLCHAIN=local
 rm -rf "$BUILD/api" && cp -r "$REPO/apps/api" "$BUILD/api"
 (
   cd "$BUILD/api"
   sed -i '/DEV-ONLY-REPLACE-START/,/DEV-ONLY-REPLACE-END/d' go.mod
   go mod tidy
-  CGO_ENABLED=0 go build -ldflags='-s -w' -o "$APP/_app/bin/bisapns-api.new" ./cmd/api
+  CGO_ENABLED=0 go build -p 2 -ldflags='-s -w' -o "$APP/_app/bin/bisapns-api.new" ./cmd/api
 )
 echo "API terbangun."
 
@@ -65,11 +66,11 @@ mkdir -p "$BUILD/web"
 (
   cd "$BUILD/web"
   if [ ! -d node_modules ] || ! cmp -s package-lock.json node_modules/.deploy-lock; then
-    npm ci --no-audit --no-fund
+    npm ci --no-audit --no-fund --maxsockets=4
     cp package-lock.json node_modules/.deploy-lock
   fi
   rm -rf .next/standalone .next/static
-  API_URL="http://127.0.0.1:$API_PORT" SITE_URL="https://$DOMAIN" NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS=--max-old-space-size=3072 npm run build
+  API_URL="http://127.0.0.1:$API_PORT" SITE_URL="https://$DOMAIN" NEXT_TELEMETRY_DISABLED=1 NEXT_BUILD_CPUS=2 UV_THREADPOOL_SIZE=2 NODE_OPTIONS=--max-old-space-size=3072 npm run build
   rm -rf "$APP/_app/web.new" && mkdir -p "$APP/_app/web.new"
   cp -r .next/standalone/. "$APP/_app/web.new/"
   cp -r .next/static "$APP/_app/web.new/.next/static"
