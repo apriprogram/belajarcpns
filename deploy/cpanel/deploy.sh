@@ -1,17 +1,19 @@
 #!/bin/bash
-# Deploy BELAJAR CPNS di cPanel dari repo Git (cPanel → Git Version Control → Deploy HEAD Commit,
-# lewat .cpanel.yml) atau manual di Terminal:  bash ~/repositories/belajarcpns/deploy/cpanel/deploy.sh
-# Membangun API Go + web Next.js DI SERVER lalu memasang ke folder domain. docs/DEPLOY-CPANEL.md
+# Deploy BELAJAR CPNS di cPanel. Dipanggil .cpanel.yml (Git Version Control → Deploy HEAD Commit) atau manual:
+#   bash ~/repositories/belajarcpns/deploy/cpanel/deploy.sh
+# Paket (API Go + Next.js standalone) dibangun GitHub Actions (.github/workflows/cpanel-build.yml) karena
+# RAM/proses shared hosting tidak cukup untuk build. Skrip ini mengunduh paket untuk commit HEAD repo,
+# memasangnya ke folder domain, lalu memulai ulang aplikasi. docs/DEPLOY-CPANEL.md
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")/../.." && pwd)"
 DOMAIN="${DEPLOY_DOMAIN:-belajarcpns.web.id}"
 APP="${DEPLOY_APP:-$HOME/public/$DOMAIN}"           # Application root Node.js App
-BUILD="${DEPLOY_BUILD:-$HOME/.belajarcpns-build}"    # cache build (di luar public)
-NODEVENV="${DEPLOY_NODEVENV:-$HOME/nodevenv/public/$DOMAIN/22}"
-TOOLS="$HOME/.local/opt"
+GH_REPO="${DEPLOY_GH_REPO:-apriprogram/belajarcpns}"
+PKG_URL="https://github.com/$GH_REPO/releases/download/cpanel-build/belajarcpns-build.tar.gz"
+WAIT_MIN="${DEPLOY_WAIT_MIN:-20}"                     # tunggu build GitHub Actions maks. N menit
 LOG="$HOME/belajarcpns-deploy.log"
-LOCK="$HOME/.belajarcpns-deploy.lock"
+STAGE="$HOME/.belajarcpns-stage"
 
 # Catat ke log (jailshell cPanel tak punya /dev/fd → tanpa process substitution).
 if [ -z "${DEPLOY_LOGGING:-}" ]; then
@@ -19,72 +21,51 @@ if [ -z "${DEPLOY_LOGGING:-}" ]; then
   bash "$0" "$@" 2>&1 | tee -a "$LOG"
   exit "${PIPESTATUS[0]}"
 fi
+
+HEAD=$(git -C "$REPO" rev-parse HEAD)
 echo "===== $(date '+%F %T') deploy $(git -C "$REPO" log --oneline -1) ====="
 
-# Satu deploy dalam satu waktu.
 if command -v flock >/dev/null 2>&1; then
-  exec 9>"$LOCK"
+  exec 9>"$HOME/.belajarcpns-deploy.lock"
   flock -n 9 || { echo "Deploy lain sedang berjalan."; exit 1; }
 fi
 
-mkdir -p "$APP/_app"/{bin,logs,data/uploads} "$BUILD" "$TOOLS"
+mkdir -p "$APP/_app"/{bin,logs,data/uploads}
 
 # ---------- .env (dibuat sekali; isi password DB lewat File Manager) ----------
 ENVF="$APP/_app/.env"
 if [ ! -f "$ENVF" ]; then
   sed "s|__JWT_SECRET__|$(head -c 48 /dev/urandom | base64 | tr -d '\n/+=')|" "$REPO/deploy/cpanel/env.template" >"$ENVF"
   chmod 600 "$ENVF"
-  echo "Dibuat $ENVF — ISI password database (GANTI_PASSWORD_DB) lalu deploy/restart lagi."
+  echo "Dibuat $ENVF — ISI password database (GANTI_PASSWORD_DB) lalu jalankan deploy lagi."
 fi
 API_PORT=$(sed -n "s/^API_PORT=['\"]\{0,1\}\([0-9]*\).*/\1/p" "$ENVF" | head -n1)
 API_PORT=${API_PORT:-47391}
 
-# ---------- API Go ----------
-GOV=$(curl -fsSL "https://go.dev/VERSION?m=text" | head -n1)
-if [ ! -x "$TOOLS/go/bin/go" ] || [ "$("$TOOLS/go/bin/go" env GOVERSION)" != "$GOV" ]; then
-  echo "Memasang $GOV ..."
-  rm -rf "$TOOLS/go"
-  curl -fsSL "https://go.dev/dl/$GOV.linux-amd64.tar.gz" | tar -xz -C "$TOOLS"
-fi
-# Hosting membatasi jumlah proses (LVE) → kompilasi tidak terlalu paralel.
-export GOMAXPROCS=2 PATH="$TOOLS/go/bin:$PATH" GOPATH="$BUILD/gopath" GOCACHE="$BUILD/gocache" GOFLAGS=-trimpath GOTOOLCHAIN=local
-rm -rf "$BUILD/api" && cp -r "$REPO/apps/api" "$BUILD/api"
-(
-  cd "$BUILD/api"
-  sed -i '/DEV-ONLY-REPLACE-START/,/DEV-ONLY-REPLACE-END/d' go.mod
-  go mod tidy
-  CGO_ENABLED=0 go build -p 2 -ldflags='-s -w' -o "$APP/_app/bin/bisapns-api.new" ./cmd/api
-)
-echo "API terbangun."
-
-# ---------- Web Next.js (standalone) ----------
-# shellcheck disable=SC1091
-set +u
-source "$NODEVENV/bin/activate"
-set -u
-mkdir -p "$BUILD/web"
-# Salin sumber (pertahankan node_modules & cache .next/cache agar build berikutnya cepat).
-( cd "$REPO/apps/web" && tar --exclude=node_modules --exclude=.next -cf - . ) | ( cd "$BUILD/web" && tar -xf - )
-(
-  cd "$BUILD/web"
-  if [ ! -d node_modules ] || ! cmp -s package-lock.json node_modules/.deploy-lock; then
-    npm ci --no-audit --no-fund --maxsockets=4
-    cp package-lock.json node_modules/.deploy-lock
+# ---------- Unduh paket untuk commit HEAD ----------
+rm -rf "$STAGE" && mkdir -p "$STAGE"
+deadline=$(( $(date +%s) + WAIT_MIN * 60 ))
+while :; do
+  if curl -fsSL --retry 3 -o "$STAGE/pkg.tar.gz" "$PKG_URL?t=$(date +%s)"; then
+    BUILT=$(tar -xzOf "$STAGE/pkg.tar.gz" ./_app/BUILD_COMMIT 2>/dev/null || true)
+    [ "$BUILT" = "$HEAD" ] && break
+    echo "Paket di GitHub masih untuk ${BUILT:0:7}, menunggu build ${HEAD:0:7} (GitHub Actions)..."
+  else
+    echo "Paket belum tersedia, menunggu GitHub Actions..."
   fi
-  rm -rf .next/standalone .next/static
-  API_URL="http://127.0.0.1:$API_PORT" SITE_URL="https://$DOMAIN" NEXT_TELEMETRY_DISABLED=1 NEXT_BUILD_CPUS=2 UV_THREADPOOL_SIZE=2 NODE_OPTIONS=--max-old-space-size=3072 npm run build
-  rm -rf "$APP/_app/web.new" && mkdir -p "$APP/_app/web.new"
-  cp -r .next/standalone/. "$APP/_app/web.new/"
-  cp -r .next/static "$APP/_app/web.new/.next/static"
-  cp -r public "$APP/_app/web.new/public"
-)
-set +u; deactivate || true; set -u
-echo "Web terbangun."
+  [ "$(date +%s)" -ge "$deadline" ] && { echo "GAGAL: paket untuk ${HEAD:0:7} belum ada setelah $WAIT_MIN menit. Cek tab Actions di GitHub."; exit 1; }
+  sleep 30
+done
+tar -xzf "$STAGE/pkg.tar.gz" -C "$STAGE"
+BUILT_PORT=$(cat "$STAGE/_app/BUILD_API_PORT" 2>/dev/null || echo 47391)
+[ "$BUILT_PORT" = "$API_PORT" ] || echo "PERINGATAN: paket dibangun untuk API_PORT=$BUILT_PORT, .env memakai $API_PORT — samakan!"
+echo "Paket ${HEAD:0:7} terunduh."
 
 # ---------- Pasang ----------
-cp "$REPO/deploy/cpanel/server.js" "$APP/server.js"
-cp "$REPO/deploy/cpanel/package.json" "$APP/package.json"
-cp "$REPO/deploy/cpanel/watchdog.sh" "$APP/_app/bin/watchdog.sh"
+cp "$STAGE/server.js" "$STAGE/package.json" "$APP/"
+cp "$STAGE/_app/bin/watchdog.sh" "$APP/_app/bin/watchdog.sh"
+cp "$STAGE/_app/bin/bisapns-api" "$APP/_app/bin/bisapns-api.new"
+cp "$STAGE/_app/BUILD_COMMIT" "$APP/_app/BUILD_COMMIT"
 chmod +x "$APP/_app/bin/watchdog.sh" "$APP/_app/bin/bisapns-api.new"
 
 # Blok proteksi .htaccess di atas baris Passenger buatan cPanel.
@@ -94,21 +75,22 @@ if ! grep -q "BELAJARCPNS-PROTECT-START" "$HT"; then
   cat "$REPO/deploy/cpanel/htaccess-protect.txt" "$HT" >"$HT.new" && mv "$HT.new" "$HT"
 fi
 
-# Tukar versi lama ↔ baru, hentikan API lama, mulai ulang aplikasi Node (Passenger).
-rm -rf "$APP/_app/web.old" && { [ -d "$APP/_app/web" ] && mv "$APP/_app/web" "$APP/_app/web.old" || true; }
-mv "$APP/_app/web.new" "$APP/_app/web"
+# Tukar web lama ↔ baru, hentikan API lama, mulai ulang aplikasi Node (Passenger).
+rm -rf "$APP/_app/web.old"
+if [ -d "$APP/_app/web" ]; then mv "$APP/_app/web" "$APP/_app/web.old"; fi
+mv "$STAGE/_app/web" "$APP/_app/web"
 mv -f "$APP/_app/bin/bisapns-api.new" "$APP/_app/bin/bisapns-api"
-pkill -u "$(id -u)" -f "$APP/_app/bin/bisapns-api" || pkill -u "$(id -u)" -x bisapns-api || true
+pkill -u "$(id -u)" -f "_app/bin/bisapns-api" || true
 sleep 1
 /bin/sh "$APP/_app/bin/watchdog.sh" || true
 mkdir -p "$APP/tmp" && touch "$APP/tmp/restart.txt"
-rm -rf "$APP/_app/web.old"
+rm -rf "$APP/_app/web.old" "$STAGE"
 
-sleep 4
+sleep 5
 if curl -fsS --max-time 5 "http://127.0.0.1:$API_PORT/health" | grep -q '"ok"'; then
   echo "API sehat di 127.0.0.1:$API_PORT"
 else
   echo "PERINGATAN: API belum sehat — lihat $APP/_app/logs/api.log (cek password DB di _app/.env)"
-  tail -n 20 "$APP/_app/logs/api.log" || true
+  tail -n 15 "$APP/_app/logs/api.log" || true
 fi
 echo "===== selesai $(date '+%F %T') ====="
