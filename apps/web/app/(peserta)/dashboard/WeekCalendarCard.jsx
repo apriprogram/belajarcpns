@@ -93,7 +93,7 @@ export function WeekCalendarCard({ upcoming = [], targets = [], loading }) {
         }
       />
 
-      <div className="-mx-1 overflow-x-auto px-1 pb-1">
+      <div className="relative -mx-1 overflow-x-auto px-1 pb-1">
         <ul className="grid min-w-[700px] grid-cols-7 overflow-hidden rounded-2xl ring-1 ring-inset ring-mist-100" aria-label={`Minggu ${monthLabel}`}>
           {week.map((d, i) => {
             const isToday = d.key === todayKey;

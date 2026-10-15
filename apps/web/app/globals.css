@@ -41,6 +41,9 @@
   body {
     @apply bg-ghost text-obsidian font-sans antialiased;
     font-feature-settings: 'cv11', 'ss01';
+    /* Pengaman: elemen yang tak sengaja melebar tidak boleh membuat halaman bergeser/zoom-out di HP.
+       clip (bukan hidden) → tidak membuat scroll container, jadi header sticky tetap berfungsi. */
+    overflow-x: clip;
   }
   h1, h2, h3, h4 {
     @apply tracking-tight text-obsidian;
