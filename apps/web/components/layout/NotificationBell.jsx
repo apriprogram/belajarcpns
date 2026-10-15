@@ -6,6 +6,7 @@ import { Bell, Megaphone } from 'lucide-react';
 import { api } from '@/lib/api';
 import { excerpt, formatRelatif } from '@/lib/format';
 import { Dropdown, IconButton, Spinner } from '@/components/ui';
+import { AnnouncementModal } from './AnnouncementModal';
 
 const SEEN_KEY = 'bisapns:announcements-seen';
 
@@ -14,6 +15,7 @@ export function NotificationBell({ variant = 'white' }) {
   const [items, setItems] = useState(null);
   const [error, setError] = useState(false);
   const [unread, setUnread] = useState(false);
+  const [selected, setSelected] = useState(null);
 
   const load = useCallback(async () => {
     try {
@@ -46,6 +48,7 @@ export function NotificationBell({ variant = 'white' }) {
   };
 
   return (
+    <>
     <Dropdown
       width={340}
       onOpenChange={onOpenChange}
@@ -59,6 +62,8 @@ export function NotificationBell({ variant = 'white' }) {
         />
       }
     >
+      {({ close }) => (
+      <>
       <div className="mb-1 border-b border-mist-100 px-3 pb-2.5 pt-2">
         <p className="text-sm font-semibold">Pengumuman</p>
         <p className="text-xs text-mist-700">Info terbaru dari tim <BrandName /></p>
@@ -79,7 +84,15 @@ export function NotificationBell({ variant = 'white' }) {
         )}
         {items &&
           items.slice(0, 8).map((a) => (
-            <div key={a.id} className="rounded-lg px-3 py-2.5 hover:bg-ghost">
+            <button
+              key={a.id}
+              type="button"
+              onClick={() => {
+                close();
+                setSelected(a);
+              }}
+              className="block w-full cursor-pointer rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+            >
               <div className="flex items-start gap-3">
                 <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-cobalt" />
                 <div className="min-w-0">
@@ -88,10 +101,14 @@ export function NotificationBell({ variant = 'white' }) {
                   <p className="mt-1 text-[11px] text-mist-500">{formatRelatif(a.created_at)}</p>
                 </div>
               </div>
-            </div>
+            </button>
           ))}
       </div>
+      </>
+      )}
     </Dropdown>
+    <AnnouncementModal item={selected} onClose={() => setSelected(null)} />
+    </>
   );
 }
 

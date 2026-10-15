@@ -14,6 +14,7 @@ import { DeltaPill, DetailLink, IconBox, MeterBars, PageHead, Panel, PanelHeader
 import { WeekCalendarCard } from './WeekCalendarCard';
 import { TargetsCard } from './TargetsCard';
 import { TestimonialInviteCard } from './TestimonialInviteCard';
+import { AnnouncementModal } from '@/components/layout/AnnouncementModal';
 
 export function DashboardView() {
   const { user } = useAuth();
@@ -385,6 +386,7 @@ function AnswerSummary({ correct, wrong, empty }) {
 }
 
 function AnnouncementsCard({ items }) {
+  const [selected, setSelected] = useState(null);
   return (
     <Panel className="flex flex-1 flex-col !ring-2 !ring-cobalt">
       <PanelHeader title="Pengumuman" info={<>Info terbaru dari tim <BrandName />.</>} action={items.length ? <SoftPill tone="ghost">{items.length}</SoftPill> : null} />
@@ -393,17 +395,24 @@ function AnnouncementsCard({ items }) {
       ) : (
         <ul className="-mx-1 divide-y divide-mist-100">
           {items.slice(0, 4).map((a) => (
-            <li key={a.id} className="flex gap-3 px-1 py-3 first:pt-0 last:pb-0">
+            <li key={a.id} className="py-1.5 first:pt-0 last:pb-0">
+              <button
+                type="button"
+                onClick={() => setSelected(a)}
+                className="flex w-full cursor-pointer gap-3 rounded-xl px-1 py-1.5 text-left transition-colors hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+              >
               <IconBox icon={Megaphone} tone="ghost" />
               <div className="min-w-0">
                 <p className="text-sm font-semibold leading-snug">{a.title}</p>
                 <p className="mt-0.5 line-clamp-2 text-[13px] leading-relaxed text-mist-700">{a.body}</p>
                 <p className="mt-1 text-[11px] font-medium text-mist-500">{formatRelatif(a.created_at)}</p>
               </div>
+              </button>
             </li>
           ))}
         </ul>
       )}
+      <AnnouncementModal item={selected} onClose={() => setSelected(null)} />
     </Panel>
   );
 }

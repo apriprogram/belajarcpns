@@ -19,9 +19,9 @@ export function TestimonialInviteCard() {
   return (
     <Link
       href="/testimoni"
-      className="group relative flex items-center gap-3 overflow-hidden rounded-[20px] bg-cobalt-50 p-4 ring-1 ring-inset ring-cobalt-100 transition-colors hover:bg-cobalt-100/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+      className="group relative flex items-center gap-3 overflow-hidden rounded-[20px] bg-amber-50 p-4 ring-1 ring-inset ring-amber-300 transition-colors hover:bg-amber-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
     >
-      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white text-cobalt ring-1 ring-inset ring-cobalt-100" aria-hidden>
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-400 text-white ring-1 ring-inset ring-amber-500" aria-hidden>
         <MessageSquareQuote className="h-5 w-5" strokeWidth={1.75} />
       </span>
       <span className="min-w-0 flex-1">
@@ -35,17 +35,17 @@ export function TestimonialInviteCard() {
             </span>
             <span className="mt-1 flex items-center gap-2">
               <StarRating value={t.rating} size="xs" />
-              <span className="text-xs font-medium text-cobalt-700">Lihat / ubah</span>
+              <span className="text-xs font-medium text-amber-800">Lihat / ubah</span>
             </span>
           </>
         ) : (
           <>
             <span className="block text-sm font-semibold text-obsidian">Bagikan pengalaman Anda</span>
-            <span className="mt-0.5 block text-[13px] leading-snug text-cobalt-700">Tulis testimoni singkat — bisa tampil di halaman utama.</span>
+            <span className="mt-0.5 block text-[13px] leading-snug text-amber-800">Tulis testimoni singkat — bisa tampil di halaman utama.</span>
           </>
         )}
       </span>
-      <ArrowRight className="h-4 w-4 shrink-0 text-cobalt transition-transform group-hover:translate-x-0.5" aria-hidden />
+      <ArrowRight className="h-4 w-4 shrink-0 text-amber-600 transition-transform group-hover:translate-x-0.5" aria-hidden />
     </Link>
   );
 }

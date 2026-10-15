@@ -1,8 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useSite } from '@/components/providers/SiteProvider';
-import { LogoMark } from './Logo';
 import { cn } from '@/lib/cn';
 
 /**
@@ -10,7 +8,6 @@ import { cn } from '@/lib/cn';
  * admin: tautan disesuaikan untuk panel admin.
  */
 export function PanelFooter({ admin = false, className }) {
-  const { brand, footer } = useSite();
   const year = new Date().getFullYear();
   const links = admin
     ? [
@@ -27,12 +24,18 @@ export function PanelFooter({ admin = false, className }) {
   return (
     <footer className={cn('rounded-[20px] bg-white px-5 py-4 ring-1 ring-inset ring-mist-100 sm:px-6 md:pr-24', className)}>
       <div className="flex flex-col items-center justify-between gap-3 text-[13px] text-mist-700 md:flex-row">
-        <div className="flex items-center gap-2.5 text-center md:text-left">
-          <LogoMark className="h-7 w-7 shrink-0" />
-          <p>
-            © {year} <span className="font-semibold text-obsidian">{brand.name}</span>.{footer.copyright ? ` ${footer.copyright}` : ''}
-          </p>
-        </div>
+        <a
+          href="https://apriprogram.web.id"
+          target="_blank"
+          rel="noopener"
+          className="flex items-center gap-2.5 rounded-md text-center transition-colors hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt md:text-left"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element -- logo statis */}
+          <img src="/apriprogram.png" alt="" width={28} height={28} className="h-7 w-7 shrink-0" />
+          <span>
+            © {year} <span className="font-semibold text-obsidian">Apriprogram</span>
+          </span>
+        </a>
         <nav aria-label="Tautan footer">
           <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5">
             {links.map((l) => (
