@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { FileStack } from 'lucide-react';
 import { api, ApiError, errorMessage } from '@/lib/api';
-import { Button, Field, Input, Modal, Textarea, useToast } from '@/components/ui';
+import { Button, DateTimeField, Field, Input, Modal, Textarea, useToast } from '@/components/ui';
 import { FormAlert } from '@/components/auth/AuthParts';
 import { ModalTitle } from './AdminUI';
 
@@ -117,10 +117,10 @@ export function PackageFormModal({ open, onClose, onCreated }) {
             <Input type="number" min={1} max={600} inputMode="numeric" value={v.duration_minutes} onChange={set('duration_minutes')} mono />
           </Field>
           <Field label="Mulai" optional error={errors.start_at}>
-            <Input type="datetime-local" value={v.start_at} onChange={set('start_at')} />
+            <DateTimeField label="Jadwal mulai" value={v.start_at} onChange={(x) => set('start_at')({ target: { value: x } })} placeholder="Kapan saja" />
           </Field>
           <Field label="Selesai" optional error={errors.end_at}>
-            <Input type="datetime-local" value={v.end_at} onChange={set('end_at')} />
+            <DateTimeField label="Jadwal selesai" value={v.end_at} onChange={(x) => set('end_at')({ target: { value: x } })} placeholder="Tanpa batas" min={v.start_at ? v.start_at.slice(0, 10) : undefined} defaultTime="20:00" align="end" />
           </Field>
         </div>
         <div className="border-t border-mist-100 pt-5">

@@ -22,6 +22,7 @@ export { SearchInput } from './SearchInput';
 export { Popover } from './Popover';
 export { Calendar, DatePicker, NAMA_BULAN, NAMA_HARI, formatTanggalPanjang, toISODate, toDateOnly } from './Calendar';
 export { TimeList } from './TimeList';
+export { DateTimeField } from './DateTimeField';
 export { FileUpload, formatUkuranFile } from './FileUpload';
 export { SegmentedControl } from './SegmentedControl';
 export { FilterBar } from './FilterBar';

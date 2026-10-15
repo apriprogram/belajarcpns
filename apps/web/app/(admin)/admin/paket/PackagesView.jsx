@@ -132,7 +132,7 @@ export function PackagesView() {
       ) : (
         <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
           {shown.map((p) => (
-            <article key={p.id} className="flex flex-col rounded-[20px] bg-white p-2 ring-1 ring-inset ring-mist-100 transition-colors hover:ring-mist">
+            <article key={p.id} className="flex flex-col rounded-[20px] bg-white p-2 ring-1 ring-inset ring-mist-100 transition-[box-shadow,color] duration-200 hover:ring-2 hover:ring-cobalt focus-within:ring-2 focus-within:ring-cobalt">
               <div className="rounded-[14px] bg-ghost px-4 pb-4 pt-3.5">
                 <div className="flex items-start justify-between gap-3">
                   <p className="font-mono text-[11px] font-medium tracking-wide text-mist-700">{shortCode(p.id)}</p>

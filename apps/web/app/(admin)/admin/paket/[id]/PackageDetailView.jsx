@@ -7,6 +7,7 @@ import { api, ApiError, errorMessage } from '@/lib/api';
 import { cn } from '@/lib/cn';
 import { formatAngka, formatTanggalJam } from '@/lib/format';
 import {
+  DateTimeField,
   Button,
   Chip,
   ConfirmDialog,
@@ -289,10 +290,10 @@ export function PackageDetailView() {
             </Field>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1 2xl:grid-cols-2">
               <Field label="Jadwal mulai" optional error={formErrors.start_at}>
-                <Input type="datetime-local" value={form.start_at} onChange={setF('start_at')} />
+                <DateTimeField label="Jadwal mulai" value={form.start_at} onChange={setF('start_at')} placeholder="Kapan saja" invalid={!!formErrors.start_at} />
               </Field>
               <Field label="Jadwal selesai" optional error={formErrors.end_at}>
-                <Input type="datetime-local" value={form.end_at} onChange={setF('end_at')} />
+                <DateTimeField label="Jadwal selesai" value={form.end_at} onChange={setF('end_at')} placeholder="Tanpa batas" min={form.start_at ? form.start_at.slice(0, 10) : undefined} defaultTime="20:00" align="end" invalid={!!formErrors.end_at} />
               </Field>
             </div>
             <p className="-mt-2 text-xs text-mist-700">Waktu dalam WIB. Kosongkan agar paket dapat dikerjakan kapan saja.</p>
