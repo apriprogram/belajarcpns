@@ -1,8 +1,9 @@
 # Deploy ke cPanel (belajarcpns.web.id)
 
 Hosting: cPanel + CloudLinux (Node.js Selector/Passenger, PostgreSQL 13, Terminal). Kode diambil dari GitHub
-(`apriprogram/belajarcpns`) lewat **Git™ Version Control**, lalu **dibangun di server** oleh `deploy/cpanel/deploy.sh`
-(dipanggil `.cpanel.yml`).
+(`apriprogram/belajarcpns`) lewat **Git™ Version Control**. RAM/proses shared hosting tidak cukup untuk build Next.js,
+jadi paket dibangun **GitHub Actions** (`.github/workflows/cpanel-build.yml`, rilis `cpanel-build`) setiap push ke `main`.
+`deploy/cpanel/deploy.sh` (dipanggil `.cpanel.yml`) mengunduh paket untuk commit HEAD repo lalu memasangnya.
 
 ## Susunan di server
 ```
@@ -17,8 +18,6 @@ Hosting: cPanel + CloudLinux (Node.js Selector/Passenger, PostgreSQL 13, Termina
      ├─ web/                         hasil build Next.js standalone
      ├─ data/uploads/                file unggahan (avatar, gambar soal)
      └─ logs/api.log, logs/watchdog.log
-~/.belajarcpns-build/                cache build (node_modules, Go module cache)
-~/.local/opt/go/                     toolchain Go (diunduh otomatis dari go.dev)
 ~/belajarcpns-deploy.log             log setiap deploy
 ```
 
@@ -34,13 +33,14 @@ Hosting: cPanel + CloudLinux (Node.js Selector/Passenger, PostgreSQL 13, Termina
 6. **SSL/TLS Status** → Run AutoSSL. HTTPS & non-www dipaksa oleh `.htaccess`.
 
 ## Update rutin
-1. Di laptop: commit & `git push` ke `main`.
+1. Di laptop: commit & `git push` ke `main` → tunggu workflow **cpanel-build** hijau di tab Actions GitHub (±3–5 menit).
 2. cPanel → Git Version Control → Manage → **Pull or Deploy** → **Update from Remote** → **Deploy HEAD Commit**.
    (Atau Terminal: `cd ~/repositories/belajarcpns && git pull && bash deploy/cpanel/deploy.sh`.)
 3. Pantau `~/belajarcpns-deploy.log`. Migrasi database berjalan otomatis saat API start.
 
 ## Catatan
-- `API_URL` dibaku saat build (`http://127.0.0.1:$API_PORT`); ubah `API_PORT` di `.env` → wajib deploy ulang.
+- `API_URL` dibaku saat build (`http://127.0.0.1:47391`, `env.API_PORT` di workflow). Ubah port → ubah workflow & `_app/.env` bersamaan.
+- deploy.sh menunggu paket yang cocok dengan commit HEAD maksimal 20 menit (`DEPLOY_WAIT_MIN`).
 - API hanya listen di `127.0.0.1` (`HOST`), tidak terbuka ke internet; semua akses lewat Next.js `/api/*`.
 - `SEED=true` sekali saja untuk data contoh (akun `admin@bisapns.id / Admin123!` — **segera ganti password**),
   lalu kembalikan ke `false`.

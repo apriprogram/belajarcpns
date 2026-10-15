@@ -1,0 +1,78 @@
+# Bangun paket siap pasang untuk cPanel (API Go + Next.js standalone) setiap push ke main,
+# lalu unggah ke rilis "cpanel-build". Server mengunduhnya lewat deploy/cpanel/deploy.sh. docs/DEPLOY-CPANEL.md
+name: cpanel-build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cpanel-build
+  cancel-in-progress: true
+
+env:
+  API_PORT: '47391'
+  SITE_URL: https://belajarcpns.web.id
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+          cache: false
+
+      - name: Build API (linux/amd64, statis)
+        working-directory: apps/api
+        run: |
+          sed -i '/DEV-ONLY-REPLACE-START/,/DEV-ONLY-REPLACE-END/d' go.mod
+          go mod tidy
+          go vet ./...
+          go test ./...
+          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags='-s -w' -o "$RUNNER_TEMP/pkg/_app/bin/bisapns-api" ./cmd/api
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Build web (Next.js standalone)
+        working-directory: apps/web
+        env:
+          API_URL: http://127.0.0.1:${{ env.API_PORT }}
+          NEXT_TELEMETRY_DISABLED: '1'
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+          W="$RUNNER_TEMP/pkg/_app/web"
+          mkdir -p "$W"
+          cp -r .next/standalone/. "$W/"
+          cp -r .next/static "$W/.next/static"
+          cp -r public "$W/public"
+
+      - name: Kemas paket
+        run: |
+          P="$RUNNER_TEMP/pkg"
+          cp deploy/cpanel/server.js deploy/cpanel/package.json "$P/"
+          cp deploy/cpanel/watchdog.sh "$P/_app/bin/"
+          chmod +x "$P/_app/bin/"*
+          echo "$GITHUB_SHA" > "$P/_app/BUILD_COMMIT"
+          echo "${{ env.API_PORT }}" > "$P/_app/BUILD_API_PORT"
+          tar -czf "$RUNNER_TEMP/belajarcpns-build.tar.gz" -C "$P" .
+          ls -la "$RUNNER_TEMP/belajarcpns-build.tar.gz"
+
+      - name: Unggah ke rilis cpanel-build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view cpanel-build >/dev/null 2>&1 || gh release create cpanel-build --title "cPanel build (otomatis)" --notes "Paket siap pasang untuk cPanel. Dibuat otomatis oleh .github/workflows/cpanel-build.yml — jangan diubah manual." --prerelease
+          gh release upload cpanel-build "$RUNNER_TEMP/belajarcpns-build.tar.gz" --clobber
+          gh release edit cpanel-build --target "$GITHUB_SHA" --notes "Commit: $GITHUB_SHA"
