@@ -19,15 +19,27 @@ function visitorId() {
   }
 }
 
+/** Host lokal/pengembangan tidak dicatat agar statistik hanya berisi pengunjung asli.
+ *  Untuk menguji pelacakan di lokal: localStorage.setItem('bisapns:track-local', '1'). */
+function isLocalHost() {
+  const h = location.hostname;
+  if (!(h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '::1' || h.endsWith('.localhost') || h.endsWith('.test'))) return false;
+  try {
+    return localStorage.getItem('bisapns:track-local') !== '1';
+  } catch {
+    return true;
+  }
+}
+
 /**
  * Catat page view anonim ke POST /api/track setiap pindah halaman (docs/VISITORS.md).
- * Halaman /admin tidak dicatat. Do Not Track dihormati.
+ * Halaman /admin dan akses dari localhost tidak dicatat. Do Not Track dihormati.
  */
 export function VisitTracker() {
   const pathname = usePathname() || '/';
   const last = useRef('');
   useEffect(() => {
-    if (pathname.startsWith('/admin') || pathname === last.current) return;
+    if (pathname.startsWith('/admin') || pathname === last.current || isLocalHost()) return;
     if (typeof navigator !== 'undefined' && (navigator.doNotTrack === '1' || window.doNotTrack === '1')) return;
     last.current = pathname;
     const body = JSON.stringify({ visitor_id: visitorId(), path: pathname, referrer: document.referrer && !document.referrer.startsWith(location.origin) ? document.referrer : '' });
