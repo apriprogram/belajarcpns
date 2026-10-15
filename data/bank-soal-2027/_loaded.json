@@ -1,0 +1,64 @@
+{
+ "packages": [
+  {
+   "paket": 1,
+   "id": "a1ff670b-4e9a-45aa-acf5-5889adc1cbf7",
+   "title": "Tryout SKD CPNS 2027 #1",
+   "questions": 110
+  },
+  {
+   "paket": 2,
+   "id": "b706f71e-7e0f-4d07-b354-3db811763f30",
+   "title": "Tryout SKD CPNS 2027 #2",
+   "questions": 110
+  },
+  {
+   "paket": 3,
+   "id": "85ccb8d0-7eb9-4507-bda5-7229f3ce5dd3",
+   "title": "Tryout SKD CPNS 2027 #3",
+   "questions": 110
+  },
+  {
+   "paket": 4,
+   "id": "85bf2dc8-edbb-4585-b5a7-6bd6d8dc859e",
+   "title": "Tryout SKD CPNS 2027 #4",
+   "questions": 110
+  },
+  {
+   "paket": 5,
+   "id": "7c68e3bd-f8f2-4dc6-a69f-af8d9dd9f3d8",
+   "title": "Tryout SKD CPNS 2027 #5",
+   "questions": 110
+  },
+  {
+   "paket": 6,
+   "id": "2d7a12da-af91-44da-9a50-f8a5c70877ac",
+   "title": "Tryout SKD CPNS 2027 #6",
+   "questions": 110
+  },
+  {
+   "paket": 7,
+   "id": "7184cd02-5443-4623-9a6f-9a9dd29599fc",
+   "title": "Tryout SKD CPNS 2027 #7",
+   "questions": 110
+  },
+  {
+   "paket": 8,
+   "id": "984e1b52-6a6a-41af-8033-0e9e5f6fa481",
+   "title": "Tryout SKD CPNS 2027 #8",
+   "questions": 110
+  },
+  {
+   "paket": 9,
+   "id": "d015c271-b592-4e07-8c66-631daa097577",
+   "title": "Tryout SKD CPNS 2027 #9",
+   "questions": 110
+  },
+  {
+   "paket": 10,
+   "id": "11b8fe6e-019e-4edb-8af7-3647151b39ce",
+   "title": "Tryout SKD CPNS 2027 #10",
+   "questions": 110
+  }
+ ]
+}

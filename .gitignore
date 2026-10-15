@@ -1,0 +1,31 @@
+# Dependensi & build
+node_modules/
+.next/
+out/
+bin/
+/tmp/
+tmp/
+*.test
+coverage.out
+
+# Env & rahasia
+.env
+.env.*
+!.env.example
+
+# Data runtime
+uploads/*
+!uploads/.gitkeep
+apps/api/uploads/*
+backups/*
+!backups/.gitkeep
+*.dump
+
+# Log & OS/editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json

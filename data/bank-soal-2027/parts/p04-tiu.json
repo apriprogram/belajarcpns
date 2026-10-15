@@ -1,0 +1,1103 @@
+{
+ "paket": 4,
+ "questions": [
+  {
+   "id": "P04-TIU-01",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "analogi bagian–keseluruhan (halaman : buku)",
+   "body": "HALAMAN : BUKU = … : …\nManakah pasangan kata yang hubungannya serupa?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "PENA : TINTA",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "GERBONG : KERETA",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "PENULIS : NOVEL",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "RAK : BUKU",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "KAYU : MEJA",
+     "weight": 0
+    }
+   ],
+   "explanation": "Hubungannya bagian–keseluruhan: halaman adalah bagian dari buku, seperti gerbong adalah bagian dari rangkaian kereta. Pena : tinta = alat–isinya; penulis : novel = pelaku–hasil karya; rak : buku = tempat–benda yang disimpan; kayu : meja = bahan–produk.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-02",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "analogi alat–fungsi (drone : pemetaan udara)",
+   "body": "DRONE : PEMETAAN UDARA = … : …\nAnalogi yang sepadan dengan pasangan kata itu ialah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "PILOT : PENERBANGAN",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "BANDARA : PESAWAT",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "KAMERA : FOTOGRAFER",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "PEMINDAI : DIGITALISASI DOKUMEN",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "BENSIN : KENDARAAN",
+     "weight": 0
+    }
+   ],
+   "explanation": "Hubungannya alat–fungsi: drone adalah alat untuk pemetaan udara, seperti pemindai (scanner) adalah alat untuk digitalisasi dokumen. Pilot : penerbangan = pelaku–kegiatan; bandara : pesawat = tempat–objek; kamera : fotografer = alat–penggunanya; bensin : kendaraan = bahan bakar–pemakainya.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-03",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analogi pelaku–hasil karya (kartografer : peta)",
+   "body": "KARTOGRAFER : PETA = … : …\nTentukan pasangan kata dengan relasi sejenis.",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "KOMPOSER : LAGU",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "PELUKIS : KANVAS",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "PILOT : PESAWAT",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "PENJAHIT : JARUM",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "DOKTER : PASIEN",
+     "weight": 0
+    }
+   ],
+   "explanation": "Hubungannya pelaku–hasil karya: kartografer membuat peta, komposer menciptakan lagu. Pelukis : kanvas = pelaku–media kerja (bukan hasil karya); pilot : pesawat = pelaku–kendaraan yang dikemudikan; penjahit : jarum = pelaku–alat; dokter : pasien = pelaku–orang yang dilayani.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-04",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analogi bentuk lama–bentuk digital (arsip kertas : arsip digital, surat : surel)",
+   "body": "ARSIP KERTAS : ARSIP DIGITAL = SURAT : …\nKata yang tepat untuk melengkapi analogi tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "AMPLOP",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "POS",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "PERANGKO",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "KOP SURAT",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "SUREL",
+     "weight": 5
+    }
+   ],
+   "explanation": "Hubungannya bentuk konvensional–bentuk digital: arsip digital adalah bentuk elektronik dari arsip kertas, dan surel (surat elektronik) adalah bentuk elektronik dari surat. Amplop = pembungkus surat; pos = layanan pengiriman; perangko = tanda bayar pengiriman; kop surat = bagian dari surat.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-05",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "silogisme tidak ada–semua: sayuran rak X – bayam tidak layu",
+   "body": "Di sebuah toko sayur berlaku pernyataan berikut.\nTidak ada sayuran di rak X yang layu.\nSemua bayam di toko itu diletakkan di rak X.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tidak ada bayam di toko itu yang layu.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Sebagian bayam di toko itu layu.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Semua sayuran di rak X adalah bayam.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Semua sayuran yang tidak layu di toko itu adalah bayam.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Sayuran yang layu di toko itu pasti bayam.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Semua bayam berada di rak X, sedangkan tidak ada sayuran di rak X yang layu; jadi tidak ada bayam di toko itu yang layu. B dan E bertentangan dengan kesimpulan tersebut; C membalik premis 2; D tidak didukung karena rak X dapat berisi sayuran lain selain bayam.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-06",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "silogisme biimplikasi: akun layanan aktif ⇔ verifikasi wajah",
+   "body": "Akun layanan publik digital seorang warga aktif jika dan hanya jika verifikasi wajah pemiliknya berhasil.\nVerifikasi wajah Pak Rudi tidak berhasil.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Akun layanan publik digital Pak Rudi aktif.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Pak Rudi tidak memiliki akun layanan publik digital.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Akun layanan publik digital Pak Rudi tidak aktif.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Akun Pak Rudi tetap aktif selama datanya benar.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Akun Pak Rudi aktif tanpa verifikasi wajah.",
+     "weight": 0
+    }
+   ],
+   "explanation": "\"p jika dan hanya jika q\" berarti p dan q selalu bernilai sama. Karena q (verifikasi berhasil) salah, p (akun aktif) juga salah: akun Pak Rudi tidak aktif. A, D, dan E bertentangan dengan biimplikasi; B tidak dapat disimpulkan karena premis tidak membahas kepemilikan akun.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-07",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "silogisme rantai 3 kategori: klub catur – turnamen – rating – pemula",
+   "body": "Semua anggota klub catur adalah peserta turnamen.\nSemua peserta turnamen adalah pemegang rating.\nTidak ada pemegang rating yang merupakan pemain pemula.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua pemegang rating adalah anggota klub catur.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sebagian pemain pemula adalah anggota klub catur.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Semua yang bukan pemain pemula adalah peserta turnamen.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Tidak ada anggota klub catur yang merupakan pemain pemula.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Sebagian peserta turnamen bukan anggota klub catur.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Anggota klub catur ⊂ peserta turnamen ⊂ pemegang rating, dan pemegang rating terpisah dari pemain pemula. Jadi tidak ada anggota klub catur yang pemain pemula. A membalik premis; B bertentangan; C dan E tidak dapat dipastikan dari premis.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-08",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "silogisme kondisional berkonjungsi: lolos uji keamanan → dirilis dan diumumkan",
+   "body": "Jika aplikasi lolos uji keamanan, aplikasi tersebut dirilis dan diumumkan kepada publik.\nAplikasi SiapLayan tidak diumumkan kepada publik.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Aplikasi SiapLayan tidak dirilis.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Aplikasi SiapLayan lolos uji keamanan, tetapi belum dirilis.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Aplikasi SiapLayan dirilis tanpa diumumkan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Aplikasi SiapLayan tidak lolos uji keamanan dan tidak dirilis.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Aplikasi SiapLayan tidak lolos uji keamanan.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Pola p → (q ∧ r). Karena r salah (tidak diumumkan), q ∧ r salah, sehingga p salah (modus tollens): SiapLayan tidak lolos uji keamanan. Status rilis (q) tidak dapat dipastikan, jadi A, C, dan D tidak dapat disimpulkan; B bertentangan dengan premis.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-09",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "analitis 4 orang turun lift lantai 1–4",
+   "body": "Empat pegawai—Rina, Sinta, Tomi, dan Umar—naik lift yang sama dari basemen. Mereka turun di lantai 1, 2, 3, dan 4, masing-masing di lantai yang berbeda. Ketentuannya:\n1. Tomi turun di lantai yang lebih tinggi daripada Rina dan Umar.\n2. Sinta turun tepat satu lantai di bawah Rina.\n3. Umar tidak turun di lantai 1.\nPegawai yang turun di lantai 3 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rina",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sinta",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Tomi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Umar",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Tidak dapat ditentukan",
+     "weight": 0
+    }
+   ],
+   "explanation": "Sinta di bawah Rina, Rina dan Umar di bawah Tomi, sehingga Tomi di lantai 4. Jika Umar di lantai 2, Rina dan Sinta harus di lantai 1 dan 3 (tidak berurutan), jadi Umar di lantai 3, Rina di lantai 2, dan Sinta di lantai 1.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-10",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "analitis antrean 6 pemohon IKD dengan prioritas lansia/disabilitas",
+   "body": "Enam pemohon aktivasi Identitas Kependudukan Digital (IKD)—Pak Harun (lansia), Bu Sari (penyandang disabilitas), Joko, Kirana, Lukas, dan Maya—dilayani satu per satu di sebuah loket. Ketentuannya:\n1. Pemohon lansia dan penyandang disabilitas dilayani lebih dahulu daripada semua pemohon lainnya.\n2. Kirana dilayani tepat setelah Joko.\n3. Lukas dilayani lebih dahulu daripada Joko.\n4. Maya tidak dilayani paling akhir.\nPemohon yang pasti dilayani paling akhir adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kirana",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Joko",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Lukas",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Maya",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Pak Harun",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pak Harun dan Bu Sari mengisi urutan 1–2, sehingga Joko, Kirana, Lukas, dan Maya mengisi urutan 3–6. Lukas harus sebelum Joko, jadi Joko di urutan 4 atau 5. Jika Joko ke-4, Kirana ke-5, Lukas ke-3, dan Maya terpaksa ke-6 (melanggar syarat 4). Jadi Joko ke-5 dan Kirana pasti ke-6.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-11",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analitis 8 orang duduk melingkar (siapa di antara siapa)",
+   "body": "Delapan orang—Ana, Budi, Cahya, Dani, Elsa, Farhan, Gilang, dan Hesti—duduk mengelilingi meja bundar dengan delapan kursi berjarak sama. Dua orang disebut berhadapan jika duduk tepat di seberang satu sama lain. Ketentuannya:\n1. Ana duduk berhadapan dengan Elsa.\n2. Budi duduk bersebelahan dengan Ana.\n3. Cahya duduk berhadapan dengan Budi.\n4. Gilang duduk bersebelahan dengan Ana.\n5. Hesti duduk berhadapan dengan Gilang.\nSiapa yang duduk tepat di antara Cahya dan Hesti?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Dani",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Budi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Farhan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Gilang",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Elsa",
+     "weight": 5
+    }
+   ],
+   "explanation": "Beri nomor kursi 1–8 searah jarum jam dengan Ana di kursi 1, sehingga Elsa di kursi 5. Budi dan Gilang adalah dua tetangga Ana (kursi 2 dan 8); misalkan Budi di kursi 2, maka Cahya di kursi 6, Gilang di kursi 8, dan Hesti di kursi 4. Urutan kursi 4–5–6 adalah Hesti–Elsa–Cahya, jadi Elsa duduk di antara Cahya dan Hesti (susunan cerminnya memberi hasil sama).",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-12",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analitis pembentukan tim 3 dari 6 kandidat (inklusi–eksklusi)",
+   "body": "Sebuah instansi akan membentuk tim beranggotakan 3 orang untuk proyek Satu Data dari enam kandidat: Andi dan Bela (analis data), Cici dan Doni (pranata komputer), serta Evi dan Fajar (humas). Syarat pembentukan tim:\n1. Tim memuat sedikitnya satu analis data dan sedikitnya satu pranata komputer.\n2. Jika Andi dipilih, Evi juga harus dipilih.\n3. Cici dan Fajar tidak boleh dipilih bersama.\n4. Jika Doni dipilih, Bela tidak boleh dipilih.\nSusunan tim yang memenuhi semua syarat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Andi, Cici, dan Doni",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Andi, Doni, dan Evi",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Bela, Doni, dan Evi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Bela, Evi, dan Fajar",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Bela, Cici, dan Fajar",
+     "weight": 0
+    }
+   ],
+   "explanation": "Periksa tiap opsi: A melanggar syarat 2 (Andi tanpa Evi); C melanggar syarat 4 (Doni bersama Bela); D melanggar syarat 1 (tanpa pranata komputer); E melanggar syarat 3 (Cici bersama Fajar). Hanya Andi, Doni, dan Evi yang memenuhi semua syarat.",
+   "verify": null
+  },
+  {
+   "id": "P04-TIU-13",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "operasi bilangan bulat campuran −18 + 7 × (−3) − (−24) ÷ 6",
+   "body": "Hasil dari −18 + 7 × (−3) − (−24) ÷ 6 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "−35",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "−43",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "−39",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "−31",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "35",
+     "weight": 0
+    }
+   ],
+   "explanation": "Dahulukan perkalian dan pembagian: 7 × (−3) = −21 dan (−24) ÷ 6 = −4. Jadi −18 + (−21) − (−4) = −18 − 21 + 4 = −35.",
+   "verify": {
+    "expr": "-18 + 7 * (-3) - (-24) / 6",
+    "expect": "−35"
+   }
+  },
+  {
+   "id": "P04-TIU-14",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "hitung cepat 25 × 36 × 4 ÷ 9",
+   "body": "Hasil dari 25 × 36 × 4 ÷ 9 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "360",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "900",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "3.600",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "400",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "100",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kelompokkan agar mudah: (25 × 4) × (36 ÷ 9) = 100 × 4 = 400.",
+   "verify": {
+    "expr": "25 * 36 * 4 / 9",
+    "expect": "400"
+   }
+  },
+  {
+   "id": "P04-TIU-15",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "persen naik 25% lalu turun 20% dari 1.200",
+   "body": "Bilangan 1.200 dinaikkan 25%, kemudian hasilnya diturunkan 20%. Hasil akhirnya adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "1.260",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "1.140",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "1.500",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "1.250",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "1.200",
+     "weight": 5
+    }
+   ],
+   "explanation": "1.200 × 125% = 1.500, lalu 1.500 × 80% = 1.200. Faktor totalnya 1,25 × 0,8 = 1, sehingga hasilnya kembali 1.200.",
+   "verify": {
+    "expr": "1200 * Fraction(125, 100) * Fraction(80, 100)",
+    "expect": "1.200"
+   }
+  },
+  {
+   "id": "P04-TIU-16",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "perkalian dan pembagian desimal 0,0375 × 4.800 ÷ 1,2",
+   "body": "Hasil dari 0,0375 × 4.800 ÷ 1,2 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "15",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "150",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "1.500",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "144",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "216",
+     "weight": 0
+    }
+   ],
+   "explanation": "0,0375 = 3/80, sehingga 0,0375 × 4.800 = 3 × 60 = 180. Kemudian 180 ÷ 1,2 = 150.",
+   "verify": {
+    "expr": "Fraction('0.0375') * 4800 / Fraction('1.2')",
+    "expect": "150"
+   }
+  },
+  {
+   "id": "P04-TIU-17",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "deret geometri ÷2 mulai 640",
+   "body": "Suku berikutnya dari deret 640, 320, 160, 80, 40, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "10",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "30",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "20",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "25",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "15",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setiap suku dibagi 2: 640, 320, 160, 80, 40, sehingga suku berikutnya 40 ÷ 2 = 20.",
+   "verify": {
+    "expr": "640 / 2**5",
+    "expect": "20"
+   }
+  },
+  {
+   "id": "P04-TIU-18",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret bilangan prima mulai 11",
+   "body": "Suku berikutnya dari deret 11, 13, 17, 19, 23, 29, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "31",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "33",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "37",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "35",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "39",
+     "weight": 0
+    }
+   ],
+   "explanation": "Deret berisi bilangan prima berurutan mulai 11. Bilangan prima setelah 29 adalah 31 (33, 35, dan 39 bukan prima; 37 prima tetapi muncul setelah 31).",
+   "verify": {
+    "expr": "min(n for n in range(30, 40) if min(n % d for d in range(2, n)) > 0)",
+    "expect": "31"
+   }
+  },
+  {
+   "id": "P04-TIU-19",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret selang-seling +5 / −2 mulai 10",
+   "body": "Suku berikutnya dari deret 10, 15, 13, 18, 16, 21, 19, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "17",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "22",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "26",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "24",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "23",
+     "weight": 0
+    }
+   ],
+   "explanation": "Polanya +5 dan −2 bergantian: 10 (+5) 15 (−2) 13 (+5) 18 (−2) 16 (+5) 21 (−2) 19. Berikutnya +5, yaitu 24.",
+   "verify": {
+    "expr": "19 + 5",
+    "expect": "24"
+   }
+  },
+  {
+   "id": "P04-TIU-20",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "deret ×2 dan +3 bergantian mulai 5",
+   "body": "Suku berikutnya dari deret 5, 10, 13, 26, 29, 58, 61, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "64",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "119",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "183",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "124",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "122",
+     "weight": 5
+    }
+   ],
+   "explanation": "Operasi ×2 dan +3 bergantian: 5 ×2 = 10, +3 = 13, ×2 = 26, +3 = 29, ×2 = 58, +3 = 61. Berikutnya giliran ×2: 61 × 2 = 122.",
+   "verify": {
+    "expr": "61 * 2",
+    "expect": "122"
+   }
+  },
+  {
+   "id": "P04-TIU-21",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "PK jumlah pecahan 1/3 + 1/6 vs 1/2",
+   "body": "P = 1/3 + 1/6\nQ = 1/2\nHubungan yang tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "P = 2/6 + 1/6 = 3/6 = 1/2, sama dengan Q. Jadi P = Q.",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if p == 2*q else ('P > Q' if p > q else ('P < Q' if p < q else 'P = Q')))(Fraction(1, 3) + Fraction(1, 6), Fraction(1, 2))",
+    "expect": "P = Q"
+   }
+  },
+  {
+   "id": "P04-TIU-22",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PK y < 0: y³ vs y²",
+   "body": "Diketahui y < 0.\nP = y³\nQ = y²\nHubungan yang tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "Untuk y negatif, y³ bernilai negatif sedangkan y² bernilai positif. Contoh y = −2: P = −8, Q = 4; y = −0,5: P = −0,125, Q = 0,25. Selalu P < Q.",
+   "verify": {
+    "expr": "(lambda s: s.pop() if len(s) == 1 else 'Hubungan P dan Q tidak dapat ditentukan')({('P > Q' if y**3 > y**2 else ('P < Q' if y**3 < y**2 else 'P = Q')) for y in [Fraction(-k, 7) for k in range(1, 200)]})",
+    "expect": "P < Q"
+   }
+  },
+  {
+   "id": "P04-TIU-23",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "PK keliling persegi panjang 15 × 9 m vs persegi luas 144 m² (denah ruang layanan)",
+   "body": "Denah sebuah kantor layanan memuat dua ruangan.\nP = keliling ruang tunggu berbentuk persegi panjang berukuran 15 m × 9 m\nQ = keliling ruang arsip berbentuk persegi dengan luas 144 m²\nHubungan yang tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "P = 2 × (15 + 9) = 48 m. Sisi ruang arsip = √144 = 12 m, sehingga Q = 4 × 12 = 48 m. Jadi P = Q.",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if p == 2*q else ('P > Q' if p > q else ('P < Q' if p < q else 'P = Q')))(2 * (15 + 9), 4 * math.isqrt(144))",
+    "expect": "P = Q"
+   }
+  },
+  {
+   "id": "P04-TIU-24",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "rata-rata gabungan: 5 siswa 78, ditambah 1 siswa jadi 80",
+   "body": "Rata-rata nilai 5 siswa adalah 78. Setelah nilai seorang siswa baru ditambahkan, rata-rata nilai keenam siswa menjadi 80. Nilai siswa baru tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "90",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "80",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "88",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "92",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "85",
+     "weight": 0
+    }
+   ],
+   "explanation": "Jumlah nilai 5 siswa = 5 × 78 = 390. Jumlah nilai 6 siswa = 6 × 80 = 480. Nilai siswa baru = 480 − 390 = 90.",
+   "verify": {
+    "expr": "6 * 80 - 5 * 78",
+    "expect": "90"
+   }
+  },
+  {
+   "id": "P04-TIU-25",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "panel surya 8 × 400 W × 5 jam vs kebutuhan 14 kWh/hari, surplus 30 hari",
+   "body": "Atap sebuah kantor dipasangi 8 panel surya berdaya 400 W. Setiap panel bekerja efektif 5 jam per hari. Kebutuhan listrik kantor 14 kWh per hari. Jika produksi dan kebutuhan listrik setiap hari dianggap tetap, kelebihan energi listrik selama 30 hari adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "48 kWh",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "60 kWh",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "420 kWh",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "480 kWh",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "2 kWh",
+     "weight": 0
+    }
+   ],
+   "explanation": "Produksi per hari = 8 × 400 W × 5 jam = 16.000 Wh = 16 kWh. Kelebihan per hari = 16 − 14 = 2 kWh, sehingga selama 30 hari = 2 × 30 = 60 kWh.",
+   "verify": {
+    "expr": "(Fraction(8 * 400 * 5, 1000) - 14) * 30",
+    "expect": "60 kWh"
+   }
+  },
+  {
+   "id": "P04-TIU-26",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "diskon ganda 25% lalu 10% dari Rp480.000",
+   "body": "Harga sebuah printer Rp480.000. Toko memberikan diskon 25%, lalu diskon tambahan 10% dari harga setelah diskon pertama. Harga yang harus dibayar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp312.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rp360.000",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rp336.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp324.000",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Rp348.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setelah diskon 25%: 480.000 × 75% = Rp360.000. Setelah diskon tambahan 10%: 360.000 × 90% = Rp324.000. (Diskon ganda tidak sama dengan diskon 35%.)",
+   "verify": {
+    "expr": "480000 * Fraction(75, 100) * Fraction(90, 100)",
+    "expect": "Rp324.000"
+   }
+  },
+  {
+   "id": "P04-TIU-27",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "pekerjaan bersama: digitalisasi arsip 6 pegawai 20 hari, tambah 4 pegawai setelah 5 hari",
+   "body": "Digitalisasi arsip sebuah dinas dapat diselesaikan oleh 6 pegawai dalam 20 hari. Setelah pekerjaan berjalan 5 hari, ditambahkan 4 pegawai dengan kemampuan kerja yang sama. Lama seluruh pekerjaan digitalisasi arsip tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "12 hari",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "9 hari",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "14 hari",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "15 hari",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "16 hari",
+     "weight": 0
+    }
+   ],
+   "explanation": "Total pekerjaan = 6 × 20 = 120 hari-orang. Selama 5 hari selesai 6 × 5 = 30, sisa 90 hari-orang. Sisa dikerjakan 10 pegawai: 90 ÷ 10 = 9 hari. Lama seluruh pekerjaan = 5 + 9 = 14 hari.",
+   "verify": {
+    "expr": "5 + Fraction(6 * 20 - 6 * 5, 6 + 4)",
+    "expect": "14 hari"
+   }
+  }
+ ]
+}

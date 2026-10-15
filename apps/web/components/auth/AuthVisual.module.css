@@ -1,0 +1,40 @@
+/* Panel media auth: bar progres slide + zoom pelan pada media aktif. */
+
+.fill {
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation: auth-fill var(--dur, 5000ms) linear forwards;
+}
+
+.fillDone {
+  transform: scaleX(1);
+}
+
+.zoom {
+  animation: auth-zoom 9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes auth-fill {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes auth-zoom {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fill {
+    animation: none;
+    transform: scaleX(1);
+  }
+  .zoom {
+    animation: none;
+  }
+}

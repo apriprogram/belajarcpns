@@ -1,0 +1,1103 @@
+{
+ "paket": 6,
+ "questions": [
+  {
+   "id": "P06-TIU-01",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "analogi tempat–kegiatan posyandu penimbangan balita",
+   "body": "POSYANDU : PENIMBANGAN BALITA = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "BIDAN : PERSALINAN",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "TIMBANGAN : BERAT BADAN",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "VAKSIN : KEKEBALAN",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "PERPUSTAKAAN : PEMINJAMAN BUKU",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "BALITA : GIZI",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasinya tempat–kegiatan: posyandu adalah tempat penimbangan balita, perpustakaan adalah tempat peminjaman buku. Bidan–persalinan adalah profesi–kegiatan yang ditangani, timbangan–berat badan alat–yang diukur, vaksin–kekebalan sarana–hasil, dan balita–gizi subjek–kebutuhan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-02",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "analogi penyimpan–yang disimpan cloud berkas gudang",
+   "body": "PENYIMPANAN AWAN (CLOUD) : BERKAS = GUDANG : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "BARANG",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "RAK",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "KUNCI",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "PENJAGA",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "TRUK",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasinya penyimpan–yang disimpan: penyimpanan awan menyimpan berkas digital, gudang menyimpan barang. Rak adalah perlengkapan di dalam gudang, kunci pengaman gudang, penjaga orang yang mengawasi, dan truk pengangkut barang.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-03",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analogi pekerja–alat ukur penjahit meteran",
+   "body": "PENJAHIT : METERAN = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "PELUKIS : KUAS",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "PETANI : CANGKUL",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "GURU : SISWA",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "NELAYAN : JARING",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "PERAWAT : TERMOMETER",
+     "weight": 5
+    }
+   ],
+   "explanation": "Relasinya pekerja–alat ukur yang dipakainya: penjahit mengukur kain dengan meteran, perawat mengukur suhu tubuh dengan termometer. Kuas, cangkul, dan jaring memang alat kerja, tetapi bukan alat ukur; guru–siswa adalah pekerja–sasaran kerja.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-04",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analogi pencegah–ancaman verifikasi dua langkah peretasan",
+   "body": "VERIFIKASI DUA LANGKAH : PERETASAN = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "ANTIVIRUS : KOMPUTER",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "TANGGUL : BANJIR",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "PEMADAM : KEBAKARAN",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "OBAT : PENYAKIT",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "PERETAS : DATA",
+     "weight": 0
+    }
+   ],
+   "explanation": "Verifikasi dua langkah mencegah peretasan sebelum terjadi; relasinya pencegah–ancaman. Tanggul mencegah banjir. Antivirus–komputer adalah pelindung–yang dilindungi, pemadam–kebakaran dan obat–penyakit adalah penanganan setelah kejadian, sedangkan peretas–data adalah pelaku–sasaran.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-05",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "silogisme semua–semua pendaki jaket pos pemeriksaan",
+   "body": "Semua pendaki Gunung X membawa jaket.\nSemua orang yang membawa jaket lolos pemeriksaan di pos pendakian.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua orang yang lolos pemeriksaan di pos pendakian adalah pendaki Gunung X.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sebagian pendaki Gunung X tidak lolos pemeriksaan di pos pendakian.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Semua pendaki Gunung X lolos pemeriksaan di pos pendakian.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Semua orang yang membawa jaket adalah pendaki Gunung X.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Orang yang tidak membawa jaket pasti tidak lolos pemeriksaan di pos pendakian.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pendaki Gunung X termasuk pembawa jaket, dan semua pembawa jaket lolos pemeriksaan; jadi semua pendaki Gunung X lolos pemeriksaan. Opsi A dan D membalik premis (tidak sah), opsi B bertentangan dengan kesimpulan, dan opsi E tidak pasti karena orang tanpa jaket bisa saja lolos dengan cara lain.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-06",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "silogisme modus tollens izin usaha data pemohon lengkap",
+   "body": "Jika data pemohon lengkap, izin usaha terbit paling lambat 3 hari kerja.\nIzin usaha yang diajukan Bu Sinta tidak terbit dalam 3 hari kerja.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Data pemohon Bu Sinta lengkap.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Izin usaha Bu Sinta tidak akan pernah terbit.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sistem perizinan daring sedang mengalami gangguan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Data pemohon Bu Sinta tidak lengkap.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Semua pemohon yang datanya tidak lengkap tidak mendapat izin usaha.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pola modus tollens: jika p maka q; bukan q; maka bukan p. Karena izin tidak terbit dalam 3 hari kerja, data Bu Sinta tidak lengkap. Opsi 'data lengkap' bertentangan, 'tidak akan pernah terbit' dan 'sistem gangguan' tidak dibahas premis, dan opsi terakhir menarik kesimpulan dari kebalikan (invers) premis yang tidak sah.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-07",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "silogisme sebagian bukan–semua musisi orkestra konservatori partitur",
+   "body": "Sebagian musisi orkestra bukan lulusan konservatori.\nSemua musisi orkestra mahir membaca partitur.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua orang yang mahir membaca partitur adalah lulusan konservatori.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sebagian lulusan konservatori tidak mahir membaca partitur.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sebagian musisi orkestra tidak mahir membaca partitur.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Semua lulusan konservatori adalah musisi orkestra.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Sebagian orang yang mahir membaca partitur bukan lulusan konservatori.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Musisi orkestra yang bukan lulusan konservatori tetap mahir membaca partitur (premis 2). Jadi ada orang yang mahir membaca partitur tetapi bukan lulusan konservatori. Opsi A bertentangan dengan hal ini, opsi C bertentangan dengan premis 2, sedangkan opsi B dan D tidak dibahas oleh premis.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-08",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "silogisme kontraposisi ekuivalen pengguna layanan daring akun terverifikasi",
+   "body": "Aturan sebuah portal layanan publik menyatakan: \"Semua pengguna layanan daring memiliki akun terverifikasi.\"\nPernyataan yang ekuivalen (bernilai sama) dengan aturan tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua pemilik akun terverifikasi adalah pengguna layanan daring.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Semua orang yang tidak memiliki akun terverifikasi bukan pengguna layanan daring.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Semua orang yang bukan pengguna layanan daring tidak memiliki akun terverifikasi.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Sebagian pengguna layanan daring tidak memiliki akun terverifikasi.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Sebagian pemilik akun terverifikasi bukan pengguna layanan daring.",
+     "weight": 0
+    }
+   ],
+   "explanation": "'Semua A adalah B' ekuivalen dengan kontraposisinya, 'semua yang bukan B bukan A': semua orang yang tidak memiliki akun terverifikasi bukan pengguna layanan daring. Opsi A adalah konvers dan opsi C invers (tidak ekuivalen), opsi D adalah negasinya, dan opsi E tidak dapat dipastikan dari aturan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-09",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analitis enam mobil parkir berjajar warna",
+   "body": "Enam mobil berwarna abu-abu, biru, hitam, kuning, merah, dan putih diparkir berjajar di petak 1 sampai 6 (dari kiri ke kanan), satu mobil per petak.\n• Mobil putih diparkir tepat di sebelah kanan mobil merah.\n• Mobil hitam dan mobil biru diparkir di kedua petak paling ujung.\n• Mobil kuning diparkir tepat di sebelah kiri mobil hitam.\n• Mobil abu-abu tidak diparkir bersebelahan dengan mobil biru.\nMobil yang diparkir di petak 4 adalah mobil berwarna …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Abu-abu",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Biru",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Kuning",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Merah",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Putih",
+     "weight": 0
+    }
+   ],
+   "explanation": "Mobil kuning tepat di kiri mobil hitam, sehingga hitam tidak mungkin di petak 1; jadi hitam di petak 6, kuning di petak 5, dan biru di petak 1. Petak 2–4 diisi merah, putih, dan abu-abu; abu-abu tidak boleh di petak 2 (bersebelahan dengan biru) dan merah–putih harus berurutan, maka merah di petak 2, putih di petak 3, dan abu-abu di petak 4.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-10",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "analitis jadwal lima webinar lima hari narasumber tidak bentrok",
+   "body": "Panitia menjadwalkan lima webinar layanan publik digital pada hari Senin sampai Jumat, satu webinar per hari: Arsip Elektronik, Kecerdasan Artifisial, Keamanan Siber, Layanan Terpadu, dan Satu Data.\n• Webinar Keamanan Siber dan Kecerdasan Artifisial dibawakan narasumber yang sama, sehingga keduanya tidak boleh dijadwalkan pada hari yang berurutan.\n• Webinar Layanan Terpadu dijadwalkan pada hari Selasa.\n• Webinar Satu Data dijadwalkan tepat sehari setelah webinar Arsip Elektronik.\n• Webinar Keamanan Siber dijadwalkan lebih awal daripada webinar Kecerdasan Artifisial.\nWebinar Keamanan Siber dijadwalkan pada hari …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Senin",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Selasa",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rabu",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kamis",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Jumat",
+     "weight": 0
+    }
+   ],
+   "explanation": "Selasa terisi Layanan Terpadu, sehingga pasangan Arsip–Satu Data hanya bisa Rabu–Kamis atau Kamis–Jumat. Jika Rabu–Kamis, Keamanan Siber dan Kecerdasan Artifisial menempati Senin dan Jumat; jika Kamis–Jumat, keduanya menempati Senin dan Rabu (tidak berurutan). Karena Keamanan Siber lebih awal, di kedua kemungkinan webinar Keamanan Siber jatuh pada hari Senin.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-11",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "analitis tujuh orang duduk melingkar pasti benar",
+   "body": "Tujuh pegawai, yaitu Ani, Budi, Citra, Dodi, Eva, Fani, dan Gilang, duduk mengelilingi meja bundar dengan tujuh kursi. Ungkapan \"dipisahkan oleh satu orang\" berarti di antara keduanya, pada sisi meja yang lebih dekat, terdapat tepat satu orang.\n• Ani duduk bersebelahan dengan Budi.\n• Budi dan Dodi dipisahkan oleh satu orang.\n• Citra duduk di antara Eva dan Fani (bersebelahan dengan keduanya).\n• Gilang tidak duduk bersebelahan dengan Ani.\n• Dodi tidak duduk bersebelahan dengan Eva.\nPernyataan berikut yang PASTI benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Dodi duduk bersebelahan dengan Ani.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Gilang duduk bersebelahan dengan Dodi.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Eva duduk bersebelahan dengan Gilang.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Ani dan Gilang dipisahkan oleh satu orang.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Fani duduk bersebelahan dengan Budi.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Beri nomor kursi 0–6 searah jarum jam dengan Ani di kursi 0 dan Budi di kursi 1, sehingga Dodi di kursi 3 atau 6. Jika Dodi di kursi 6, blok Eva–Citra–Fani menempati kursi 2–4 (Gilang di 5) atau kursi 3–5 dengan Eva di 3 (Gilang di 2). Jika Dodi di kursi 3, blok itu di kursi 4–6 dengan Eva di 6 dan Gilang di 2. Gilang selalu di kursi 2 atau 5, yaitu dipisahkan satu orang dari Ani; opsi lain gagal pada setidaknya satu susunan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-12",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analitis pencocokan pegawai unit kerja hari piket pusat data",
+   "body": "Lima pegawai, yaitu Arif, Bunga, Candra, Dimas, dan Erna, berasal dari lima unit berbeda: Aplikasi, Data, Infrastruktur, Jaringan, dan Keamanan. Masing-masing mendapat satu jadwal piket pusat data pada hari Senin sampai Jumat, satu orang per hari.\n• Pegawai unit Data piket pada hari Senin.\n• Dimas berasal dari unit Infrastruktur.\n• Bunga piket tepat sehari sebelum Dimas.\n• Arif piket tepat sehari setelah pegawai unit Keamanan.\n• Candra piket lebih awal daripada Erna, dan Erna lebih awal daripada Bunga.\n• Pegawai unit Jaringan piket lebih awal daripada pegawai unit Aplikasi.\nPegawai unit Jaringan piket pada hari …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Senin",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Selasa",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rabu",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Kamis",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Jumat",
+     "weight": 0
+    }
+   ],
+   "explanation": "Urutan Candra < Erna < Bunga, dengan Dimas tepat setelah Bunga, menyisakan satu celah untuk Arif. Arif tidak mungkin Senin (tidak ada hari sebelumnya), tidak mungkin Selasa (Candra di Senin adalah unit Data, bukan Keamanan), dan tidak mungkin Jumat (pegawai Kamis adalah Dimas, unit Infrastruktur). Jadi urutannya Candra (Data), Erna (Keamanan), Arif, Bunga, Dimas; karena Jaringan lebih awal daripada Aplikasi, Arif dari unit Jaringan dan piket hari Rabu.",
+   "verify": null
+  },
+  {
+   "id": "P06-TIU-13",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "aritmatika pecahan 5/6 3/8 1/12",
+   "body": "Hasil dari 5/6 − 3/8 + 1/12 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "7/24",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "5/12",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "11/24",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "1/2",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "13/24",
+     "weight": 5
+    }
+   ],
+   "explanation": "Samakan penyebut menjadi 24: 20/24 − 9/24 + 2/24 = 13/24.",
+   "verify": {
+    "expr": "Fraction(5, 6) - Fraction(3, 8) + Fraction(1, 12)",
+    "expect": "13/24"
+   }
+  },
+  {
+   "id": "P06-TIU-14",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "aritmatika persamaan linear 4x-7=2x+15",
+   "body": "Jika 4x − 7 = 2x + 15, nilai dari 3x − 8 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "4",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "11",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "22",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "25",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "33",
+     "weight": 0
+    }
+   ],
+   "explanation": "4x − 2x = 15 + 7 → 2x = 22 → x = 11. Maka 3x − 8 = 33 − 8 = 25.",
+   "verify": {
+    "expr": "[3 * x - 8 for x in range(-100, 101) if 4 * x - 7 == 2 * x + 15][0]",
+    "expect": "25"
+   }
+  },
+  {
+   "id": "P06-TIU-15",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "aritmatika persentase 36 dari 480",
+   "body": "Bilangan 36 adalah berapa persen dari 480?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "0,75%",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "7,5%",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "8%",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "12,5%",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "13,3%",
+     "weight": 0
+    }
+   ],
+   "explanation": "36/480 × 100% = 0,075 × 100% = 7,5%.",
+   "verify": {
+    "expr": "Fraction(36, 480) * 100",
+    "expect": "7,5%"
+   }
+  },
+  {
+   "id": "P06-TIU-16",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "aritmatika pangkat pecahan 27 16 32",
+   "body": "Nilai dari 27^(2/3) + 16^(3/4) − 32^(0,4) adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "9",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "11",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "13",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "17",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "21",
+     "weight": 0
+    }
+   ],
+   "explanation": "27^(2/3) = (∛27)² = 3² = 9; 16^(3/4) = (⁴√16)³ = 2³ = 8; 32^(0,4) = 32^(2/5) = (⁵√32)² = 2² = 4. Jadi 9 + 8 − 4 = 13.",
+   "verify": {
+    "expr": "round(27 ** (2 / 3) + 16 ** (3 / 4) - 32 ** 0.4, 9)",
+    "expect": "13"
+   }
+  },
+  {
+   "id": "P06-TIU-17",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "deret kurang 6 mulai 75",
+   "body": "Bilangan berikutnya dari deret 75, 69, 63, 57, 51, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "39",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "41",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "43",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "45",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "47",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setiap suku berkurang 6, sehingga suku berikutnya 51 − 6 = 45.",
+   "verify": {
+    "expr": "75 - 6 * 5",
+    "expect": "45"
+   }
+  },
+  {
+   "id": "P06-TIU-18",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret tribonacci 1 1 2 4 7 13",
+   "body": "Bilangan berikutnya dari deret 1, 1, 2, 4, 7, 13, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "17",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "19",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "20",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "22",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "24",
+     "weight": 5
+    }
+   ],
+   "explanation": "Setiap suku adalah jumlah tiga suku sebelumnya: 1 + 1 + 2 = 4, 1 + 2 + 4 = 7, 2 + 4 + 7 = 13, sehingga suku berikutnya 4 + 7 + 13 = 24.",
+   "verify": {
+    "expr": "4 + 7 + 13",
+    "expect": "24"
+   }
+  },
+  {
+   "id": "P06-TIU-19",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret selang-seling kali 2 kurang 3 mulai 6",
+   "body": "Bilangan berikutnya dari deret 6, 12, 9, 18, 15, 30, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "24",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "27",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "33",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "57",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "60",
+     "weight": 0
+    }
+   ],
+   "explanation": "Polanya bergantian ×2 lalu −3: 6 → 12 → 9 → 18 → 15 → 30, sehingga suku berikutnya 30 − 3 = 27.",
+   "verify": {
+    "expr": "15 * 2 - 3",
+    "expect": "27"
+   }
+  },
+  {
+   "id": "P06-TIU-20",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "deret pecahan pembilang tambah 2 penyebut kali 2 suku ke-8",
+   "body": "Perhatikan deret 1/2, 3/4, 5/8, 7/16, 9/32, … Suku ke-8 deret tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "15/256",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "13/128",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "17/256",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "15/128",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "17/512",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pembilang naik 2 (1, 3, 5, …) sehingga pembilang suku ke-n = 2n − 1; penyebut dikali 2 (2, 4, 8, …) sehingga penyebut suku ke-n = 2ⁿ. Suku ke-8 = (2 × 8 − 1)/2⁸ = 15/256.",
+   "verify": {
+    "expr": "Fraction(2 * 8 - 1, 2 ** 8)",
+    "expect": "15/256"
+   }
+  },
+  {
+   "id": "P06-TIU-21",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "perbandingan kuantitatif pecahan 15/16 vs 16/17",
+   "body": "P = 15/16\nQ = 16/17\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "Bandingkan dengan perkalian silang: 15 × 17 = 255 dan 16 × 16 = 256. Karena 255 < 256, maka 15/16 < 16/17, jadi P < Q.",
+   "verify": {
+    "expr": "(lambda P, Q: 'P = Q' if P == Q else 'P = 2Q' if P == 2 * Q else 'P > Q' if P > Q else 'P < Q')(Fraction(15, 16), Fraction(16, 17))",
+    "expect": "P < Q"
+   }
+  },
+  {
+   "id": "P06-TIU-22",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "perbandingan kuantitatif 0,5% dari 600 vs 3",
+   "body": "P = 0,5% dari 600\nQ = 3\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "P = 0,5/100 × 600 = 3, sama dengan Q, sehingga P = Q.",
+   "verify": {
+    "expr": "(lambda P, Q: 'P = Q' if P == Q else 'P = 2Q' if P == 2 * Q else 'P > Q' if P > Q else 'P < Q')(Fraction(5, 1000) * 600, 3)",
+    "expect": "P = Q"
+   }
+  },
+  {
+   "id": "P06-TIU-23",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "perbandingan kuantitatif persen kenaikan daring vs penurunan luring",
+   "body": "Dalam setahun, jumlah pengguna layanan daring sebuah kantor pelayanan naik dari 1.200 menjadi 1.500 orang per bulan, sedangkan jumlah pengguna layanan luring turun dari 1.500 menjadi 1.200 orang per bulan.\nP = persentase kenaikan pengguna layanan daring\nQ = persentase penurunan pengguna layanan luring\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "Perubahannya sama-sama 300 orang, tetapi pembandingnya berbeda. P = 300/1.200 × 100% = 25% dan Q = 300/1.500 × 100% = 20%. Jadi P > Q.",
+   "verify": {
+    "expr": "(lambda P, Q: 'P = Q' if P == Q else 'P = 2Q' if P == 2 * Q else 'P > Q' if P > Q else 'P < Q')(Fraction(1500 - 1200, 1200) * 100, Fraction(1500 - 1200, 1500) * 100)",
+    "expect": "P > Q"
+   }
+  },
+  {
+   "id": "P06-TIU-24",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "soal cerita tiang pagar keliling taman persegi panjang",
+   "body": "Sebuah taman berbentuk persegi panjang berukuran 40 m × 25 m. Di sekeliling taman akan dipasang tiang pagar setiap 2,5 m, termasuk di keempat sudutnya. Banyak tiang yang diperlukan adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "26 tiang",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "51 tiang",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "52 tiang",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "53 tiang",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "65 tiang",
+     "weight": 0
+    }
+   ],
+   "explanation": "Keliling taman = 2 × (40 + 25) = 130 m. Karena pagar membentuk lintasan tertutup, banyak tiang = keliling ÷ jarak = 130 ÷ 2,5 = 52 tiang (tidak perlu ditambah 1).",
+   "verify": {
+    "expr": "Fraction(2 * (40 + 25)) / Fraction(5, 2)",
+    "expect": "52 tiang"
+   }
+  },
+  {
+   "id": "P06-TIU-25",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "soal cerita biaya sewa penyimpanan cloud per blok GB",
+   "body": "Sebuah kantor menyewa penyimpanan awan (cloud) dengan tarif hipotetis Rp15.000 per blok 50 GB setiap bulan. Sewa hanya dapat dilakukan per blok utuh. Jika kantor membutuhkan kapasitas 180 GB, biaya sewa per bulan adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp30.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rp45.000",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rp54.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp60.000",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Rp75.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "180 GB ÷ 50 GB = 3,6 blok, dibulatkan ke atas menjadi 4 blok karena sewa per blok utuh. Biaya = 4 × Rp15.000 = Rp60.000.",
+   "verify": {
+    "expr": "math.ceil(Fraction(180, 50)) * 15000",
+    "expect": "Rp60.000"
+   }
+  },
+  {
+   "id": "P06-TIU-26",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "soal cerita bunga tunggal 8% 9 bulan",
+   "body": "Pak Hendra menabung Rp4.500.000 di koperasi dengan bunga tunggal 8% per tahun. Besar bunga yang diperoleh setelah 9 bulan adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp240.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rp270.000",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Rp300.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp360.000",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Rp4.770.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "Bunga = pokok × persentase × waktu = Rp4.500.000 × 8% × 9/12 = Rp4.500.000 × 6% = Rp270.000.",
+   "verify": {
+    "expr": "4500000 * Fraction(8, 100) * Fraction(9, 12)",
+    "expect": "Rp270.000"
+   }
+  },
+  {
+   "id": "P06-TIU-27",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "soal cerita penurunan pemakaian kertas 35% per tahun bertingkat",
+   "body": "Tahun ini sebuah instansi memakai 12.000 rim kertas. Karena penerapan tata naskah dinas elektronik, pemakaian kertas setiap tahun turun 35% dari pemakaian tahun sebelumnya. Pemakaian kertas instansi tersebut dua tahun lagi adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "1.470 rim",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "2.730 rim",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "3.600 rim",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "4.200 rim",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "5.070 rim",
+     "weight": 5
+    }
+   ],
+   "explanation": "Tahun depan: 12.000 × 65% = 7.800 rim. Dua tahun lagi: 7.800 × 65% = 5.070 rim. Penurunan 35% dihitung dari tahun sebelumnya (bertingkat), bukan 70% dari pemakaian awal.",
+   "verify": {
+    "expr": "12000 * Fraction(65, 100) ** 2",
+    "expect": "5.070 rim"
+   }
+  }
+ ]
+}

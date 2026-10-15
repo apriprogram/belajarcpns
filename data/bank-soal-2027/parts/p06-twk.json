@@ -1,0 +1,1175 @@
+{
+ "paket": 6,
+ "questions": [
+  {
+   "id": "P06-TWK-01",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "atlet berdarah campuran membela Merah Putih",
+   "body": "Kevin lahir dan besar di luar negeri dari ayah warga negara asing dan ibu asal Indonesia. Setelah memenuhi ketentuan yang berlaku, ia memilih membela tim nasional Indonesia. Menjelang laga melawan tim dari negara tempat ia dibesarkan, sejumlah pendukung mengirim komentar merendahkan kepada pemain lawan di media sosial, sementara sebagian warganet meragukan kesungguhan Kevin. Sikap Kevin yang paling mencerminkan nasionalisme adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminta pelatih tidak memainkannya pada laga itu agar tidak dianggap mengkhianati negara tempat ia lahir dan dibesarkan sejak kecil.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Bermain sepenuh hati dan bangga membela Merah Putih, sambil tetap menghormati lawan dan mengajak pendukung bersikap sportif.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Ikut membalas komentar dengan merendahkan tim lawan untuk membuktikan kesetiaannya kepada Indonesia.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Bermain setengah hati agar hubungan baiknya dengan para pemain lawan tetap terjaga.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengancam berhenti membela tim nasional bila warganet terus meragukan kesungguhannya.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Nasionalisme (kisi-kisi KepmenPANRB 406/2026) berarti mewujudkan kepentingan dan tujuan bersama bangsa dengan tetap mempertahankan identitas nasional. Kevin menunjukkannya dengan bangga dan total membela Merah Putih, tanpa merendahkan bangsa lain dan sambil menjunjung sportivitas.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-02",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Hari Ibu & Kongres Perempuan Indonesia I",
+   "body": "Peringatan Hari Ibu setiap 22 Desember, yang ditetapkan melalui Keppres 316/1959, berakar pada peristiwa ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kongres Perempuan Indonesia I yang berlangsung di Surabaya pada 22–25 Desember 1928",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Kongres Perempuan Indonesia I yang berlangsung di Yogyakarta pada 22–25 Desember 1945",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Kongres Pemuda II yang berlangsung di Yogyakarta pada 22–25 Desember 1928",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kongres Perempuan Indonesia I yang berlangsung di Yogyakarta pada 22–25 Desember 1928",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "kelahiran R.A. Kartini yang kemudian ditetapkan sebagai hari nasional",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kongres Perempuan Indonesia I berlangsung di Yogyakarta pada 22–25 Desember 1928; tanggal pembukaannya, 22 Desember, ditetapkan sebagai Hari Ibu melalui Keppres 316/1959.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-03",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "gotong royong lintas agama pascabencana",
+   "body": "Banjir melanda sebuah kelurahan yang warganya menganut beragam agama. Pengurus masjid, gereja, dan wihara sepakat membuka posko bersama. Saat pembagian bantuan, beberapa relawan mengusulkan agar bantuan dari tiap rumah ibadah hanya dibagikan kepada umatnya masing-masing supaya \"lebih tertib\". Sebagai koordinator posko, sikap yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membagikan bantuan sesuai pendataan kebutuhan korban tanpa membedakan agama, dengan melibatkan relawan dari semua rumah ibadah.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Menyetujui usulan itu karena setiap rumah ibadah paling memahami kebutuhan umatnya sendiri.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Membubarkan posko bersama dan meminta tiap rumah ibadah membuka posko masing-masing.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mendahulukan korban yang seagama dengan mayoritas warga karena jumlahnya paling banyak.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menyerahkan seluruh pembagian bantuan kepada pemerintah kelurahan agar relawan dari tiap rumah ibadah tidak perlu saling berkoordinasi.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Semangat Bhinneka Tunggal Ika menuntut persatuan dalam keragaman: korban bencana dibantu berdasarkan kebutuhan, bukan latar belakang agama. Posko bersama lintas rumah ibadah justru memperkuat gotong royong dan persatuan warga.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-04",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "larangan bendera untuk iklan & ditulisi",
+   "body": "Menjelang HUT Kemerdekaan RI, pemilik toko elektronik berencana mencetak logo toko dan tulisan \"Diskon 17%\" pada Bendera Negara yang akan dikibarkan di depan tokonya. Ia juga mengajak karyawan membubuhkan tanda tangan pada bendera itu sebagai \"tanda semangat\". Berdasarkan UU 24/2009, tindakan yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mencetak logo dalam ukuran kecil di sudut bendera agar warna merah putih tetap dominan.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Membatalkan tulisan diskon, tetapi tetap membubuhkan tanda tangan seluruh karyawan sebagai wujud semangat kebangsaan.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menyulam logo toko pada bendera karena sulaman lebih rapi dan tahan lama daripada cetakan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Memakai bendera bertulisan diskon itu hanya selama bulan Agustus, lalu menyimpannya dengan baik.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengibarkan Bendera Negara tanpa tulisan atau tanda apa pun dan membuat materi promosi diskon secara terpisah.",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 24 melarang setiap orang memakai Bendera Negara untuk reklame atau iklan komersial (huruf b) serta mencetak, menyulam, dan menulis huruf, angka, gambar, atau tanda lain pada Bendera Negara (huruf d). Promosi harus dibuat terpisah dan bendera dikibarkan tanpa tambahan apa pun.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-05",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Lagu Kebangsaan di konten digital",
+   "body": "Seorang kreator konten berencana membuat video promosi minuman produksinya dengan latar lagu \"Indonesia Raya\" yang liriknya diganti nama produk agar lucu dan cepat viral. Sikap yang paling tepat sesuai UU 24/2009 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tetap membuat video asalkan nada dan irama asli lagu tidak diubah.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Tetap membuat video asalkan diberi keterangan \"parodi\" yang jelas sejak awal dan tidak dimaksudkan menghina agar penonton tidak salah paham terhadap isi videonya.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Membatalkan rencana itu karena Lagu Kebangsaan dilarang dipakai untuk iklan komersial dan hasil ubahannya dilarang disebarluaskan untuk tujuan komersial.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Tetap membuat video asalkan hanya diunggah di akun pribadi, bukan akun resmi perusahaan.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengganti lirik dengan pesan promosi yang sopan sehingga tidak terkesan menghina.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 64 melarang setiap orang: mengubah Lagu Kebangsaan dengan nada, irama, kata-kata, dan gubahan lain untuk menghina atau merendahkan kehormatannya (huruf a); memperdengarkan, menyanyikan, atau menyebarluaskan hasil ubahannya untuk tujuan komersial (huruf b); serta menggunakan Lagu Kebangsaan untuk iklan dengan tujuan komersial (huruf c). Video promosi produk dengan lirik yang diubah terkena huruf b dan c; label parodi, lirik yang sopan, atau unggahan di akun pribadi tidak menghapus larangan tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-06",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "harmonis: menghargai tanpa membedakan latar belakang",
+   "body": "Dimas, pegawai baru dari daerah lain, sering ditertawakan di grup percakapan kantor karena logat bicaranya, bahkan dijadikan bahan candaan dalam rapat. Sebagai rekan kerja Dimas, tindakan yang paling sesuai dengan nilai harmonis dalam kode perilaku ASN adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tidak ikut menertawakan, mengingatkan rekan-rekan dengan santun agar menghargai setiap orang tanpa membedakan latar belakang, serta membantu Dimas beradaptasi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Ikut tertawa agar tidak dianggap kaku, karena candaan semacam itu wajar dalam pergaulan kantor.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menyarankan Dimas segera mengubah logatnya agar tidak lagi menjadi bahan candaan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Diam saja karena hal itu merupakan urusan pribadi Dimas dengan rekan-rekannya.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menyebarkan tangkapan layar percakapan itu ke media sosial agar rekan-rekannya jera.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 20/2023 Pasal 4 ayat (2) huruf d (harmonis) meliputi: menghargai setiap orang tanpa membedakan latar belakang, suka menolong, dan membangun lingkungan kerja yang kondusif. Tidak ikut menertawakan, menegur dengan santun, dan membantu rekan baru beradaptasi mewujudkan ketiganya; menyebarkan tangkapan layar justru mempermalukan orang lain.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-07",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "kebocoran soal ujian dinas",
+   "body": "Malam sebelum ujian dinas kenaikan jabatan, Laras menerima berkas dari nomor tak dikenal di grup percakapan peserta yang diklaim sebagai kunci jawaban ujian esok hari. Beberapa peserta sudah mengunduhnya. Sikap Laras yang paling mencerminkan integritas adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membuka berkas itu hanya untuk memastikan apakah isinya benar-benar kunci jawaban.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mempelajari berkas itu sebagai bahan latihan karena belum tentu soalnya sama.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menghapus berkas itu dan diam saja agar tidak ikut terlibat masalah.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Tidak membuka dan tidak memakai berkas itu, lalu melaporkan kejadian tersebut kepada panitia ujian.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Meneruskan berkas itu kepada panitia sekaligus kepada rekan-rekan dekat agar mereka waspada dan bisa ikut memeriksanya.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Integritas menuntut kejujuran (kisi-kisi KepmenPANRB 406/2026): tidak memanfaatkan kebocoran soal dan berani melaporkannya agar ujian tetap adil. Menghapus lalu diam membiarkan kecurangan berlanjut, sedangkan meneruskan ke rekan justru ikut menyebarkan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-08",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "nilai antikorupsi: kerja keras",
+   "body": "Unit perekaman KTP-el tempat Bayu bekerja ditargetkan melayani 600 perekaman bulan ini, tetapi menjelang akhir bulan capaiannya baru 480. Seorang rekan mengusulkan agar perekaman bulan depan dicatat sebagai capaian bulan ini supaya target terpenuhi. Sikap Bayu yang paling mencerminkan nilai kerja keras adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyetujui usulan rekan karena data itu tetap akan direkam pada bulan depan.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menerima kegagalan target tanpa upaya tambahan karena sepinya kedatangan warga dianggap bukan tanggung jawab petugas di unit perekaman.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mengusulkan layanan jemput bola dan tambahan jam layanan sesuai ketentuan untuk mengejar target, serta melaporkan capaian apa adanya.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Meminta atasan menurunkan target agar capaian unit terlihat baik.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mencatat sebagian warga yang belum datang sebagai sudah direkam untuk menutup selisih.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kerja keras termasuk sembilan nilai antikorupsi KPK: bersungguh-sungguh mencapai hasil tanpa jalan pintas yang curang. Upaya tambahan yang sah dengan laporan jujur mencerminkan kerja keras, sedangkan manipulasi data adalah ketidakjujuran.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-09",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "pungutan liar",
+   "body": "Seorang warga bertanya kepada Lina, petugas layanan administrasi, mengapa rekan Lina di loket sebelah meminta Rp50.000 sebagai \"biaya percepatan\", padahal papan standar pelayanan di kantor itu menyebutkan layanan tersebut tanpa biaya. Mengingat PP 94/2021 melarang PNS melakukan pungutan di luar ketentuan, tindakan Lina yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyarankan warga membayar saja agar urusannya cepat selesai.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menjelaskan bahwa tidak ada biaya di luar ketentuan, melayani warga sesuai standar, dan melaporkan praktik rekannya kepada atasan atau unit pengaduan.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Diam saja karena yang meminta biaya adalah rekannya, bukan dirinya.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mengambil alih berkas warga, tetapi meminta separuh \"biaya percepatan\" sebagai jasa karena ia memproses berkas warga itu lebih cepat daripada rekannya di loket sebelah.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menyarankan warga mengurus di kantor lain yang tidak memungut biaya.",
+     "weight": 0
+    }
+   ],
+   "explanation": "PP 94/2021 Pasal 5 melarang PNS melakukan pungutan di luar ketentuan. Lina wajib menegakkan standar pelayanan dengan menjelaskan bahwa layanan gratis, melayani warga, dan melaporkan pungli agar praktik itu dihentikan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-10",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "kolaboratif: ego sektoral data",
+   "body": "Dinas A dan Dinas B sama-sama mengelola data penerima bantuan sosial, tetapi datanya sering tidak cocok sehingga ada warga yang menerima ganda dan ada yang terlewat. Saat Dinas B mengajak memadankan data, beberapa pegawai Dinas A menolak karena menganggap data itu \"milik dinas sendiri\". Sebagai pengelola data di Dinas A, sikap yang paling mencerminkan nilai kolaboratif adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menolak ajakan Dinas B karena setiap dinas cukup bertanggung jawab atas datanya sendiri.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mengirimkan seluruh data penerima melalui surel pribadi kepada pegawai Dinas B agar lebih cepat.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Memperbaiki data Dinas A sendiri tanpa melibatkan Dinas B agar tidak bergantung pada pihak lain.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menunggu instruksi tertulis dari pemerintah pusat sebelum menanggapi ketidakcocokan data.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengusulkan kepada pimpinan mekanisme pemadanan data bersama Dinas B sesuai ketentuan pengamanan data, agar kedua dinas menghasilkan data yang akurat untuk tujuan bersama.",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 20/2023 Pasal 4 ayat (2) huruf g (kolaboratif): memberi kesempatan kepada berbagai pihak untuk berkontribusi, terbuka bekerja sama menghasilkan nilai tambah, dan menggerakkan pemanfaatan sumber daya untuk tujuan bersama. Pemadanan data resmi antardinas mengatasi ego sektoral tanpa mengabaikan keamanan data.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-11",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "kolusi (UU 28/1999)",
+   "body": "Dalam sebuah pengadaan barang, pejabat pengadaan dan direktur perusahaan penyedia diam-diam bersepakat menyusun spesifikasi teknis yang hanya dapat dipenuhi perusahaan tersebut agar perusahaan itu menang. Keduanya tidak memiliki hubungan keluarga dan tidak ada pemberian hadiah dalam kesepakatan itu. Akibatnya, penyedia lain yang menawarkan harga lebih murah tersingkir dan keuangan negara dirugikan. Menurut pengertian dalam UU 28/1999, perbuatan tersebut paling tepat digolongkan sebagai ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "nepotisme",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "gratifikasi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "pemerasan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "pungutan liar",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "kolusi",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 28/1999 Pasal 1 angka 4: kolusi adalah permufakatan atau kerja sama secara melawan hukum antar-penyelenggara negara atau antara penyelenggara negara dan pihak lain yang merugikan orang lain, masyarakat, dan/atau negara. Kesepakatan \"atur pemenang\" antara pejabat dan penyedia memenuhi unsur itu; tidak ada hubungan keluarga, hadiah, paksaan, atau pungutan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-12",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Hakordia & UNCAC",
+   "body": "Pernyataan yang tepat mengenai Hari Antikorupsi Sedunia dan Konvensi PBB Antikorupsi (UNCAC) adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Hari Antikorupsi Sedunia diperingati setiap 9 Desember, berkaitan dengan penandatanganan UNCAC di Merida pada 2003, dan Indonesia mengesahkan UNCAC dengan UU Nomor 7 Tahun 2006.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Hari Antikorupsi Sedunia diperingati setiap 9 Desember, berkaitan dengan penandatanganan UNCAC di Jenewa pada 2003, dan Indonesia mengesahkan UNCAC dengan UU Nomor 7 Tahun 2006.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Hari Antikorupsi Sedunia diperingati setiap 10 Desember, berkaitan dengan penandatanganan UNCAC di Merida pada 2003, dan Indonesia mengesahkan UNCAC dengan UU Nomor 7 Tahun 2006.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hari Antikorupsi Sedunia diperingati setiap 9 Desember, berkaitan dengan penandatanganan UNCAC di Merida pada 2003, dan Indonesia mengesahkan UNCAC dengan UU Nomor 28 Tahun 1999.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Hari Antikorupsi Sedunia diperingati setiap 9 Desember, berkaitan dengan penandatanganan UNCAC di Merida pada 2006, dan Indonesia mengesahkan UNCAC dengan UU Nomor 7 Tahun 2003.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Hari Antikorupsi Sedunia (Hakordia) diperingati setiap 9 Desember, terkait penandatanganan UNCAC di Merida pada 2003. Indonesia mengesahkan UNCAC melalui UU Nomor 7 Tahun 2006.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-13",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "pembinaan kesadaran bela negara lingkup pendidikan",
+   "body": "Sebuah universitas memasukkan materi wawasan kebangsaan ke dalam perkuliahan dan kegiatan kemahasiswaan. Salah satu mahasiswanya, Raka, yang akan mewakili Indonesia dalam olimpiade sains internasional, berkomitmen menjunjung sportivitas dan menjaga nama baik bangsa selama kompetisi. Berdasarkan UU 23/2019, pernyataan yang paling tepat mengenai situasi tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Pembinaan kesadaran bela negara hanya sah bila berupa latihan dasar kemiliteran, sehingga program kampus itu tidak termasuk bela negara.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Pembinaan kesadaran bela negara di lingkup pendidikan hanya ditujukan bagi jenjang pendidikan dasar dan menengah.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Pembinaan kesadaran bela negara di lingkup pendidikan memang diselenggarakan melalui sistem pendidikan nasional pada setiap jalur, jenjang, dan jenis pendidikan, termasuk perguruan tinggi.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Prestasi dan sikap Raka tidak berkaitan dengan bela negara karena bela negara hanya dilakukan pada masa perang.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Pembinaan kesadaran bela negara di perguruan tinggi hanya wajib bagi mahasiswa yang kelak menjadi ASN.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 8: pembinaan kesadaran bela negara di lingkup pendidikan diselenggarakan melalui sistem pendidikan nasional pada setiap jalur, jenjang, dan jenis pendidikan. Program kampus itu sah sebagai pembinaan, dan menjaga nama baik bangsa dalam kompetisi merupakan wujud kesadaran bela negara.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-14",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "pertahanan negara kepulauan",
+   "body": "Tim perencana pertahanan menyusun strategi yang menyebar kekuatan laut dan udara hingga pulau-pulau terluar serta membangun pos pengamatan di selat-selat strategis. Strategi tersebut paling sesuai dengan prinsip penyusunan pertahanan negara dalam UU 3/2002, yaitu ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "memusatkan seluruh kekuatan pertahanan di ibu kota negara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "memperhatikan kondisi geografis Indonesia sebagai negara kepulauan",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "menyesuaikan kekuatan pertahanan semata-mata dengan jumlah penduduk tiap provinsi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "meniru pola pertahanan negara daratan yang tidak memiliki wilayah laut",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "mengandalkan sepenuhnya bantuan pertahanan dari negara sahabat",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 3/2002 Pasal 3 ayat (2): pertahanan negara disusun dengan memperhatikan kondisi geografis Indonesia sebagai negara kepulauan. Penyebaran kekuatan laut dan udara hingga pulau terluar sejalan dengan prinsip tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-15",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Deklarasi Djuanda & Hari Nusantara",
+   "body": "Pernyataan yang tepat mengenai Deklarasi Djuanda adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Dicetuskan Perdana Menteri Djuanda Kartawidjaja pada 13 Desember 1957, menyatakan laut di antara pulau-pulau Indonesia sebagai laut bebas, dan tanggalnya diperingati sebagai Hari Nusantara.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Dicetuskan Wakil Presiden Mohammad Hatta pada 13 Desember 1957, menyatakan laut di antara dan di dalam kepulauan Indonesia sebagai satu kesatuan wilayah NKRI, dan tanggalnya diperingati sebagai Hari Nusantara.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Dicetuskan Perdana Menteri Djuanda Kartawidjaja pada 13 Desember 1957, menyatakan laut di antara dan di dalam kepulauan Indonesia sebagai satu kesatuan wilayah NKRI, dan tanggalnya diperingati sebagai Hari Maritim Nasional.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Dicetuskan Perdana Menteri Djuanda Kartawidjaja pada 13 Desember 1957, menyatakan laut di antara dan di dalam kepulauan Indonesia sebagai satu kesatuan wilayah NKRI, dan tanggalnya diperingati sebagai Hari Nusantara.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Dicetuskan Perdana Menteri Djuanda Kartawidjaja pada 13 Desember 1945, menyatakan laut di antara dan di dalam kepulauan Indonesia sebagai satu kesatuan wilayah NKRI, dan tanggalnya diperingati sebagai Hari Nusantara.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Deklarasi Djuanda dicetuskan Perdana Menteri Djuanda Kartawidjaja pada 13 Desember 1957 dan menyatakan laut di antara dan di dalam kepulauan Indonesia merupakan satu kesatuan wilayah NKRI. Tanggal 13 Desember ditetapkan sebagai Hari Nusantara melalui Keppres 126/2001.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-16",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "TKR & Hari TNI",
+   "body": "Pernyataan yang tepat mengenai pembentukan tentara kebangsaan Indonesia pada awal kemerdekaan adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "BKR dibentuk pada 5 Oktober 1945, lalu berubah menjadi TKR pada Agustus 1945.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "TKR dibentuk pada 5 Oktober 1945 sebagai kelanjutan BKR, dan tanggal pembentukannya diperingati sebagai Hari TNI.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "TKR dibentuk pada 12 November 1945, dan tanggal itu diperingati sebagai Hari TNI.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Soedirman dipilih sebagai pimpinan TKR pada 5 Oktober 1945, bertepatan dengan pembentukan BKR.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Hari TNI diperingati setiap 12 November untuk mengenang terpilihnya Soedirman sebagai pimpinan TKR dalam konferensi para komandan.",
+     "weight": 0
+    }
+   ],
+   "explanation": "TKR dibentuk pada 5 Oktober 1945, berawal dari BKR yang dibentuk pada Agustus 1945; tanggal 5 Oktober diperingati sebagai Hari TNI. Soedirman dipilih sebagai pimpinan TKR dalam konferensi 12 November 1945.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-17",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "UNCLOS & laut teritorial 12 mil",
+   "body": "Seorang analis memetakan dua kapal asing: kapal P berada 10 mil laut dari garis pangkal kepulauan Indonesia, sedangkan kapal Q berada 30 mil laut dari garis pangkal yang sama. Berdasarkan UNCLOS 1982, yang telah disahkan Indonesia dengan UU 17/1985, pernyataan yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kapal P dan Q sama-sama berada di laut teritorial Indonesia, sebab lebar laut teritorial negara kepulauan paling jauh 50 mil laut diukur dari garis pangkal kepulauan.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Kapal P berada di luar laut teritorial Indonesia, sebab lebar laut teritorial hanya 3 mil laut dari garis pangkal.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Kedua kapal berada di laut internasional, sebab konsep negara kepulauan tidak diakui dalam UNCLOS 1982.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Status kedua kapal belum dapat ditentukan karena Indonesia belum mengesahkan UNCLOS 1982.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Kapal P berada di laut teritorial Indonesia karena lebar laut teritorial paling jauh 12 mil laut dari garis pangkal, sedangkan kapal Q berada di luarnya.",
+     "weight": 5
+    }
+   ],
+   "explanation": "UNCLOS 1982 mengakui konsep negara kepulauan dan disahkan Indonesia melalui UU 17/1985. Menurut UNCLOS Pasal 3, lebar laut teritorial paling jauh 12 mil laut dari garis pangkal, sehingga kapal P (10 mil laut) berada di laut teritorial, sedangkan kapal Q (30 mil laut) di luarnya.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-18",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "hoaks provokatif saat krisis",
+   "body": "Setelah gempa melanda sebuah kota, beredar pesan suara berantai di grup warga yang menuduh kelompok suku tertentu menjarah rumah korban dan mengajak warga \"bertindak sendiri\". Belum ada keterangan resmi dari aparat. Sebagai ASN yang menjadi anggota grup tersebut, sikap yang paling mencerminkan bela negara adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meneruskan pesan itu ke grup keluarga dengan catatan \"belum tentu benar\" agar mereka tetap waspada.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Membalas pesan itu dengan tuduhan serupa terhadap kelompok lain agar pemberitaan seimbang.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Keluar dari grup agar tidak ikut terseret persoalan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Tidak meneruskan pesan itu, mengecek kebenarannya melalui sumber resmi, mengingatkan anggota grup agar tidak terprovokasi, dan melaporkan konten tersebut kepada pihak berwenang.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Menunggu pesan itu viral terlebih dahulu sebelum memutuskan perlu tidaknya dilaporkan.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 4 ayat (3) mencakup wujud ancaman yang membahayakan keselamatan segenap bangsa; hoaks provokatif saat krisis dapat memicu konflik antarkelompok. Bela negara nonfisik diwujudkan dengan menyaring, mengecek fakta, tidak menyebarkan, meredam provokasi, dan melapor.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-19",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "DPD: jumlah sama tiap provinsi, maks. 1/3 DPR",
+   "body": "Dalam sebuah simulasi ketatanegaraan, misalkan jumlah anggota DPR 600 orang dan terdapat 40 provinsi (angka hipotetis, bukan jumlah sebenarnya). Berdasarkan UUD NRI 1945 Pasal 22C ayat (1) dan (2), rancangan keanggotaan DPD yang sesuai adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Setiap provinsi diwakili 4 anggota DPD yang dipilih melalui pemilihan umum.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Setiap provinsi diwakili 6 anggota DPD yang dipilih melalui pemilihan umum.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Provinsi berpenduduk besar diwakili 6 anggota DPD dan provinsi lainnya 3 anggota, semuanya dipilih melalui pemilihan umum.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Setiap provinsi diwakili 4 anggota DPD yang dipilih oleh DPRD provinsi.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Setiap provinsi diwakili 7 anggota DPD yang ditunjuk oleh gubernur.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 22C ayat (1): anggota DPD dipilih dari setiap provinsi melalui pemilihan umum; ayat (2): jumlah anggota DPD dari setiap provinsi sama dan jumlah seluruhnya tidak lebih dari sepertiga jumlah anggota DPR. Dengan angka hipotetis ini, batasnya 600 : 3 = 200 orang, sehingga 4 × 40 = 160 memenuhi. Pilihan 6 × 40 = 240 dan 7 × 40 = 280 melebihi batas, jumlah yang berbeda antarprovinsi melanggar ayat (2), sedangkan pemilihan oleh DPRD atau penunjukan oleh gubernur melanggar ayat (1).",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-20",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "asas pemilu & sifat KPU",
+   "body": "Menurut UUD NRI 1945 Pasal 22E, rumusan yang tepat mengenai asas dan penyelenggara pemilihan umum adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Langsung, umum, bebas, rahasia, jujur, dan adil setiap empat tahun sekali; diselenggarakan oleh komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Langsung, umum, bebas, terbuka, jujur, dan adil setiap lima tahun sekali; diselenggarakan oleh komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali; diselenggarakan oleh komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali; diselenggarakan oleh komisi pemilihan umum yang bersifat nasional, sementara, dan mandiri.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali; diselenggarakan oleh komisi pemilihan umum yang bertanggung jawab kepada Presiden.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 22E ayat (1): pemilihan umum dilaksanakan secara langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali; ayat (5): pemilihan umum diselenggarakan oleh suatu komisi pemilihan umum yang bersifat nasional, tetap, dan mandiri.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-21",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "pelaku kekuasaan kehakiman",
+   "body": "Kekuasaan kehakiman merupakan kekuasaan yang merdeka untuk menyelenggarakan peradilan guna menegakkan hukum dan keadilan. Menurut UUD NRI 1945 Pasal 24 ayat (2), kekuasaan kehakiman dilakukan oleh ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mahkamah Agung, Mahkamah Konstitusi, dan Komisi Yudisial",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mahkamah Agung beserta badan peradilan di bawahnya dalam lingkungan peradilan umum, agama, militer, dan tata usaha negara, tanpa Mahkamah Konstitusi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mahkamah Agung beserta badan peradilan di bawahnya dalam lingkungan peradilan umum, agama, militer, dan tata usaha negara, serta Mahkamah Konstitusi",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Mahkamah Konstitusi beserta badan peradilan di bawahnya dalam lingkungan peradilan umum dan agama",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mahkamah Agung, Kejaksaan Agung, dan Kepolisian Negara Republik Indonesia",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 24 ayat (1) menyatakan kekuasaan kehakiman merdeka; ayat (2): kekuasaan kehakiman dilakukan oleh sebuah Mahkamah Agung dan badan peradilan di bawahnya dalam lingkungan peradilan umum, agama, militer, dan tata usaha negara, serta oleh sebuah Mahkamah Konstitusi.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-22",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "perisai Pancasila",
+   "body": "Keterangan letak pada setiap pilihan dikutip dari rumusan Pasal 48 UU 24/2009. Menurut undang-undang tersebut, pernyataan yang tepat tentang lambang pada perisai Garuda Pancasila adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kepala banteng di bagian kanan atas perisai melambangkan dasar Persatuan Indonesia.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rantai bermata bulatan dan persegi di bagian kiri bawah perisai melambangkan dasar Keadilan Sosial bagi Seluruh Rakyat Indonesia.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Garis hitam tebal di tengah perisai melambangkan dasar Ketuhanan Yang Maha Esa.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kapas dan padi di bagian kanan bawah perisai melambangkan dasar Kemanusiaan yang Adil dan Beradab.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Pohon beringin di bagian kiri atas perisai melambangkan dasar Persatuan Indonesia.",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 48: garis hitam tebal di tengah perisai melukiskan khatulistiwa; bintang di tengah (sila 1); rantai bermata bulatan dan persegi di kiri bawah (sila 2); pohon beringin di kiri atas (sila 3); kepala banteng di kanan atas (sila 4); kapas dan padi di kanan bawah (sila 5). Letak yang disebut di kelima pilihan sudah sesuai rumusan pasal itu, sehingga kunci ditentukan oleh pasangan lambang dan sila, bukan oleh tafsiran kiri/kanan dari sudut orang yang melihat gambar. Hanya pasangan pohon beringin–Persatuan Indonesia yang benar.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-23",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "identitas budaya & hak masyarakat tradisional",
+   "body": "Pemerintah daerah merencanakan kawasan wisata di wilayah yang dihuni masyarakat adat. Masyarakat adat meminta agar situs ritual mereka tidak dibongkar dan upacara adat tidak dijadikan tontonan tanpa persetujuan mereka, tetapi mereka juga mendukung pembangunan jalan dan fasilitas kesehatan. Kebijakan yang paling sejalan dengan UUD NRI 1945 Pasal 28I ayat (3) adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melibatkan masyarakat adat dalam perencanaan, mempertahankan situs ritual dan tata cara adat mereka, sambil tetap membangun fasilitas yang dibutuhkan sesuai perkembangan zaman.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Memindahkan seluruh masyarakat adat ke lokasi lain agar pembangunan kawasan wisata berjalan cepat.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menghentikan semua pembangunan di wilayah itu agar kehidupan masyarakat adat tidak berubah sedikit pun.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menjadikan upacara adat sebagai atraksi wisata harian tanpa meminta persetujuan masyarakat adat.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengabaikan permintaan masyarakat adat karena kepentingan pariwisata daerah lebih besar.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 28I ayat (3): identitas budaya dan hak masyarakat tradisional dihormati selaras dengan perkembangan zaman dan peradaban. Artinya, identitas dan hak adat dihormati tanpa menutup pembangunan yang dibutuhkan; menggusur atau membekukan sama-sama tidak sejalan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-24",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "kebudayaan nasional & bahasa daerah",
+   "body": "Pendataan di sebuah kabupaten menunjukkan makin sedikit anak muda yang mampu berbahasa daerah setempat. Seorang pejabat mengusulkan agar sekolah melarang sama sekali penggunaan bahasa daerah supaya siswa fasih berbahasa Indonesia, sedangkan pejabat lain mengusulkan program pelestarian bahasa daerah. Kebijakan yang paling sejalan dengan UUD NRI 1945 Pasal 32 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melarang sama sekali penggunaan bahasa daerah di sekolah agar persatuan bangsa lebih terjaga.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menjalankan program pelestarian bahasa daerah bagi generasi muda, misalnya melalui pembelajaran dan kegiatan budaya, karena negara menghormati dan memelihara bahasa daerah sebagai kekayaan budaya nasional.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Membiarkan bahasa daerah ditinggalkan secara alami karena sudah ada bahasa persatuan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mewajibkan seluruh dokumen resmi pemerintah daerah ditulis hanya dalam bahasa daerah.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menyeragamkan semua bahasa daerah di kabupaten itu menjadi satu bahasa daerah yang paling banyak penuturnya.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 32 ayat (1): negara memajukan kebudayaan nasional dengan menjamin kebebasan masyarakat memelihara dan mengembangkan nilai budayanya; ayat (2): negara menghormati dan memelihara bahasa daerah sebagai kekayaan budaya nasional. Pelestarian bahasa daerah sejalan dengan amanat itu.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-25",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "bank sentral diatur UU",
+   "body": "Dalam diskusi kelompok, seorang peserta berpendapat bahwa kewenangan dan independensi bank sentral cukup diatur dengan peraturan presiden agar mudah disesuaikan dengan kebutuhan. Tanggapan yang tepat berdasarkan UUD NRI 1945 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Pendapat itu tepat karena bank sentral merupakan bagian dari pemerintahan yang dipimpin Presiden.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Pendapat itu tepat asalkan peraturan presiden tersebut mendapat pertimbangan DPD.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Pendapat itu keliru karena hal tersebut cukup diatur dengan peraturan yang dibuat dan ditetapkan sendiri oleh bank sentral agar independensinya terjaga sepenuhnya.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Pendapat itu keliru karena UUD menghendaki susunan, kedudukan, kewenangan, tanggung jawab, dan independensi bank sentral diatur dengan undang-undang.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Pendapat itu keliru karena UUD sama sekali tidak mengatur keberadaan bank sentral.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI 1945 Pasal 23D: negara memiliki suatu bank sentral yang susunan, kedudukan, kewenangan, tanggung jawab, dan independensinya diatur dengan undang-undang, bukan dengan peraturan presiden atau peraturan internal bank sentral.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-26",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "kata baku set 6",
+   "body": "Kalimat yang seluruh katanya sudah menggunakan bentuk baku sesuai KBBI adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Petugas yang andal itu mengimbau warga membawa fotokopi KTP.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Ustadz itu mengajak jemaah berdzikir setelah salat.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Udara di ruang arsip sangat lembab sehingga kertas mudah rusak.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Saya terlanjur mengirim berkas sebelum diperiksa ulang.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Ia menghimbau peserta agar membawa dua lembar foto kopi ijazah.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Menurut KBBI VI daring, bentuk bakunya adalah imbau, lembap, telanjur, andal, ustaz, zikir, dan fotokopi. Bentuk himbau, lembab, terlanjur, handal, ustadz, dzikir, dan foto kopi tidak baku.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-27",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "partikel -lah/-kah/pun",
+   "body": "Kalimat yang penulisan partikelnya sesuai dengan EYD V adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Walau pun lelah, ia tetap menyelesaikan laporan itu.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Apapun hasilnya, terimalah keputusan panitia dengan lapang dada.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Selama tiga tahun bekerja di kantor itu, ia belum sekalipun datang terlambat ke tempat kerja.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Meskipun hujan deras, petugas tetap membuka layanan bagi siapa pun yang datang.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Siapa kah petugas yang berjaga di loket hari ini?",
+     "weight": 0
+    }
+   ],
+   "explanation": "EYD V: partikel -lah, -kah, dan -tah ditulis serangkai (siapakah); partikel pun ditulis terpisah (apa pun, siapa pun, sekali pun yang berarti 'satu kali pun'), kecuali pada kata penghubung yang sudah padu seperti meskipun, walaupun, adapun, bagaimanapun, dan sekalipun (bermakna 'walaupun').",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-28",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "kelogisan: waktu dan tempat dipersilakan",
+   "body": "Pembawa acara dalam sebuah rapat dinas berkata, \"Waktu dan tempat kami persilakan kepada Bapak Kepala Dinas.\" Perbaikan yang membuat kalimat tersebut logis adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Waktu dan tempatnya kami persilakan kepada Bapak Kepala Dinas.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Bapak Kepala Dinas kami persilakan untuk menyampaikan sambutan.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Waktu dan tempat dipersilakan kepada Bapak Kepala Dinas untuk menyampaikan sambutan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kami persilakan waktu dan tempat kepada Bapak Kepala Dinas.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Waktu dan tempat kami persilakan dengan hormat kepada Bapak Kepala Dinas.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kalimat \"Waktu dan tempat kami persilakan ...\" tidak logis karena yang dipersilakan semestinya orang, bukan waktu dan tempat. Perbaikan yang logis menjadikan Bapak Kepala Dinas sebagai pihak yang dipersilakan.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-29",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "kesesuaian isi teks: kesehatan mental remaja",
+   "body": "Bacalah teks berikut.\nMasa remaja merupakan masa peralihan yang diwarnai perubahan fisik, emosi, dan hubungan sosial. Pada masa ini, tekanan akademik, perundungan, dan kebiasaan membandingkan diri dengan orang lain di media sosial dapat memicu kecemasan. Sayangnya, tidak sedikit remaja yang memilih memendam perasaannya karena takut dianggap lemah. Karena itu, keluarga dan sekolah perlu menghadirkan suasana yang aman untuk bercerita. Guru bimbingan dan konseling dapat menjadi tempat bercerita pertama di sekolah, sedangkan orang tua dapat membiasakan percakapan hangat di rumah. Apabila keluhan yang dirasakan sudah mengganggu kegiatan sehari-hari, remaja perlu didampingi untuk memperoleh bantuan tenaga profesional.\nPernyataan yang TIDAK sesuai dengan isi teks tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kebiasaan membandingkan diri dengan orang lain di media sosial disebut sebagai salah satu pemicu kecemasan remaja, selain tekanan akademik dan perundungan.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sebagian remaja memendam perasaannya karena khawatir dipandang lemah.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Guru bimbingan dan konseling dapat berperan sebagai tempat bercerita pertama di sekolah.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Keluarga dan sekolah sama-sama berperan menghadirkan suasana yang aman untuk bercerita.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Remaja perlu dibawa ke tenaga profesional sejak pertama kali merasa cemas, meskipun keluhannya belum mengganggu kegiatan sehari-hari.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Teks menyatakan pendampingan ke tenaga profesional diperlukan apabila keluhan sudah mengganggu kegiatan sehari-hari, bukan sejak pertama kali merasa cemas. Empat pernyataan lain sesuai dengan kalimat-kalimat dalam teks.",
+   "verify": null
+  },
+  {
+   "id": "P06-TWK-30",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "nama gedung & usaha berbahasa Indonesia",
+   "body": "Berdasarkan UU 24/2009, penamaan berikut yang sesuai dengan ketentuan penggunaan bahasa Indonesia untuk nama gedung dan usaha adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Pengembang milik badan hukum Indonesia menamai apartemen barunya \"Sky Garden Tower\" agar menarik minat pembeli dari kalangan menengah atas.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Koperasi milik warga menamai pusat perbelanjaannya \"Mall of Prosperity\" agar terdengar lebih bergengsi.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Pemerintah kota mempertahankan nama berbahasa Belanda pada gedung peninggalan masa kolonial karena memiliki nilai sejarah.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Yayasan pendidikan milik WNI menamai sekolahnya \"Bright Future School\" agar terkesan bertaraf global.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Badan usaha milik WNI menamai kompleks perkantorannya \"Central Business Park\" karena lokasinya strategis.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 36 ayat (3) mewajibkan bahasa Indonesia untuk nama bangunan atau gedung, apartemen, perkantoran, kompleks perdagangan, lembaga usaha, dan lembaga pendidikan milik WNI atau badan hukum Indonesia; ayat (4) membolehkan bahasa daerah atau asing bila memiliki nilai sejarah, budaya, adat istiadat, dan/atau keagamaan. Hanya gedung bersejarah yang memenuhi pengecualian itu; alasan menarik, bergengsi, atau strategis tidak termasuk.",
+   "verify": null
+  }
+ ]
+}

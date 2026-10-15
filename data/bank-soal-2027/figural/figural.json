@@ -1,0 +1,3204 @@
+{
+  "questions": [
+    {
+      "id": "P01-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 90 [bendera, kunci]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p01-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 90° searah jarum jam. Aturan yang sama diterapkan pada gambar ketiga (kunci): diputar 90° searah jarum jam, yaitu Gambar B. Pilihan lain salah: Gambar A diputar 180°, besar sudutnya salah; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D diputar 90° berlawanan arah jarum jam, arah putarnya terbalik; Gambar E merupakan bayangan cermin dari jawaban yang benar.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perubahan jumlah sisi 1",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p01-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah sisi bangun bertambah 1. Aturan yang sama diterapkan pada gambar ketiga: bangunnya menjadi segi enam, yaitu Gambar D. Pilihan lain salah: Gambar A berupa segi empat, seharusnya segi enam; Gambar B isiannya ikut berubah, padahal isian tidak termasuk aturan; Gambar C berupa segi tujuh, seharusnya segi enam; Gambar E berupa segi lima, seharusnya segi enam.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perubahan jumlah titik 2",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p01-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah titik bertambah 2. Aturan yang sama diterapkan pada gambar ketiga: titiknya menjadi 4, yaitu Gambar A. Pilihan lain salah: Gambar B sama dengan gambar ketiga, tidak ada perubahan; Gambar C titiknya 0, seharusnya 4; Gambar D titiknya 3, seharusnya 4; Gambar E titiknya 5, seharusnya 4.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian kiral [sepatu]",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p01-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar adalah bangun sepatu yang sama, hanya diputar dengan sudut berbeda. Gambar C merupakan bayangan cermin bangun sepatu tersebut sehingga tidak dapat diperoleh hanya dengan memutar. Jadi, gambar yang berbeda adalah Gambar C.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian selisih",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p01-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, banyak titik di dalam bangun sama dengan banyak sisi bangunnya. Gambar C berupa segi lima (5 sisi) tetapi memiliki 4 titik. Jadi, gambar yang berbeda adalah Gambar C.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perubahan jumlah titik 1",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p01-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah titik bertambah 1. Maka gambar berikutnya: titiknya menjadi 5, yaitu Gambar B. Pilihan lain salah: Gambar A titiknya 3, seharusnya 5; Gambar C titiknya 7, seharusnya 5; Gambar D titiknya 6, seharusnya 5; Gambar E titiknya 4, seharusnya 5.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: putaran 90 [palu]",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p01-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 90° searah jarum jam. Maka gambar berikutnya: diputar 90° searah jarum jam, yaitu Gambar B. Pilihan lain salah: Gambar A diputar 90° berlawanan arah jarum jam, arah putarnya terbalik; Gambar C sama dengan gambar terakhir pada deret; Gambar D merupakan bayangan cermin dari jawaban yang benar; Gambar E diputar 180°, besar sudutnya salah.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P01-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran 90 + perubahan jumlah titik 1 [bendera]",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p01-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 90° searah jarum jam dan jumlah titik bertambah 1. Maka gambar berikutnya: diputar 90° searah jarum jam dan titiknya menjadi 5, yaitu Gambar A. Pilihan lain salah: Gambar B diputar 90° berlawanan arah jarum jam, arah putarnya terbalik; Gambar C bangun tidak diputar; Gambar D diputar 180°, besar sudutnya salah; Gambar E sama dengan gambar terakhir pada deret.",
+      "verify": null,
+      "paket": 1
+    },
+    {
+      "id": "P02-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: pencerminan v [sepatu, palu]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p02-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun dicerminkan terhadap garis tegak (kiri dan kanan tertukar). Aturan yang sama diterapkan pada gambar ketiga (palu): dicerminkan terhadap garis tegak, yaitu Gambar C. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar B dicerminkan terhadap garis mendatar, sumbunya salah; Gambar D diputar 90°, bukan dicerminkan; Gambar E diputar 180°, bukan dicerminkan.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: pertukaran posisi bangun",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p02-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun luar dan bangun dalam bertukar posisi (isian tetap mengikuti posisinya). Aturan yang sama diterapkan pada gambar ketiga: bintang menjadi bangun luar dan persegi menjadi bangun dalam, yaitu Gambar E. Pilihan lain salah: Gambar A yang ditukar isiannya, bukan bentuk bangunnya; Gambar B isian bangun luar dan dalam ikut tertukar; Gambar C bangun dalamnya bintang, padahal seharusnya persegi; Gambar D sama dengan gambar ketiga, tidak ada perubahan.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perpindahan 0 2",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p02-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bintang berpindah 2 kotak di sepanjang tepi searah jarum jam. Aturan yang sama diterapkan pada gambar ketiga: bintang berada di pojok kanan bawah, yaitu Gambar B. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar C bintang berada di pojok kiri atas, langkah perpindahannya salah; Gambar D bintang berada di kotak tengah bawah, langkah perpindahannya salah; Gambar E bintang berada di kotak tengah kanan, langkah perpindahannya salah.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian daerah",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p02-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar masing-masing membentuk tepat 2 daerah tertutup. Gambar A membentuk 1 daerah tertutup. Jadi, gambar yang berbeda adalah Gambar A.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian paritas",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p02-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Empat gambar memiliki banyak titik genap (habis dibagi dua), apa pun bentuk bangunnya. Gambar E memiliki 5 titik (ganjil). Jadi, gambar yang berbeda adalah Gambar E.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perubahan jumlah sisi 1",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p02-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah sisi bangun bertambah 1. Maka gambar berikutnya: bangunnya menjadi segi tujuh, yaitu Gambar C. Pilihan lain salah: Gambar A berupa segi delapan, seharusnya segi tujuh; Gambar B berupa segi enam, seharusnya segi tujuh; Gambar D berupa segi lima, seharusnya segi tujuh; Gambar E isiannya ikut berubah, padahal isian tidak termasuk aturan.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: pergantian isian 1",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p02-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, isian bangun berganti berurutan putih → arsir → abu-abu → hitam → putih (berulang). Maka gambar berikutnya: isiannya arsir, yaitu Gambar A. Pilihan lain salah: Gambar B bentuk bangunnya ikut berubah, padahal bentuk tidak termasuk aturan; Gambar C urutan isiannya tidak sesuai pola; Gambar D urutan isiannya tidak sesuai pola; Gambar E sama dengan gambar terakhir pada deret.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P02-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: perubahan jumlah sisi 1 + pergantian isian 0 3",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p02-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah sisi bangun bertambah 1 dan isian bangun berganti-ganti putih (kosong) dan hitam. Maka gambar berikutnya: bangunnya menjadi segi tujuh dan isiannya hitam, yaitu Gambar C. Pilihan lain salah: Gambar A jumlah sisi tidak berubah; Gambar B sama dengan gambar terakhir pada deret; Gambar D berupa segi delapan, seharusnya segi tujuh; Gambar E isiannya arsir, tidak mengikuti pola.",
+      "verify": null,
+      "paket": 2
+    },
+    {
+      "id": "P03-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 270 [siku, kait]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p03-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 90° berlawanan arah jarum jam. Aturan yang sama diterapkan pada gambar ketiga (bangun kait): diputar 90° berlawanan arah jarum jam, yaitu Gambar A. Pilihan lain salah: Gambar B diputar 180°, besar sudutnya salah; Gambar C diputar 90° searah jarum jam, arah putarnya terbalik; Gambar D sama dengan gambar ketiga, tidak ada perubahan; Gambar E merupakan bayangan cermin dari jawaban yang benar.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: pertukaran isian",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p03-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, isian bangun luar dan bangun dalam saling bertukar. Aturan yang sama diterapkan pada gambar ketiga: bangun luar berisian putih (kosong) dan bangun dalam berisian arsir, yaitu Gambar E. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar B warnanya ikut terbalik; Gambar C yang ditukar bentuk bangunnya, bukan isiannya; Gambar D bangun dalamnya persegi, padahal seharusnya segitiga.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: putaran 180 + perubahan isian 0 3 [segitiga, bendera]",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p03-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 180° dan isian bangun berubah dari putih (kosong) menjadi hitam. Aturan yang sama diterapkan pada gambar ketiga (bendera): diputar 180° dan isiannya hitam, yaitu Gambar B. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar C bangun tidak diputar; Gambar D hanya diputar 90°, bukan 180°; Gambar E diputar 90° berlawanan arah jarum jam, besar sudutnya salah.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian sudut",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p03-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Pada empat gambar, kedua jarum selalu membentuk sudut 90°. Pada Gambar E, sudut antara kedua jarum 45°. Jadi, gambar yang berbeda adalah Gambar E.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian sama",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p03-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, bangun di bagian dalam sama bentuknya dengan bangun di bagian luar. Gambar A berupa lingkaran dengan bintang di dalamnya (bentuknya berbeda). Jadi, gambar yang berbeda adalah Gambar A.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perubahan jumlah titik 2",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p03-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah titik bertambah 2. Maka gambar berikutnya: titiknya menjadi 9, yaitu Gambar B. Pilihan lain salah: Gambar A sama dengan gambar terakhir pada deret; Gambar C titiknya 5, seharusnya 9; Gambar D titiknya 8, seharusnya 9; Gambar E isiannya ikut berubah, padahal isian tidak termasuk aturan.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perpindahan 0 -1",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p03-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, lingkaran hitam berpindah 1 kotak di sepanjang tepi berlawanan arah jarum jam. Maka gambar berikutnya: lingkaran hitam berada di kotak tengah kanan, yaitu Gambar A. Pilihan lain salah: Gambar B lingkaran hitam berada di kotak tengah bawah, langkah perpindahannya salah; Gambar C lingkaran hitam berada di kotak tengah atas, langkah perpindahannya salah; Gambar D lingkaran hitam berada di pojok kanan atas, langkah perpindahannya salah; Gambar E sama dengan gambar terakhir pada deret.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P03-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran 90 + perubahan jumlah titik 1 (selang-seling) [kunci]",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p03-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Aturannya berselang-seling: langkah pertama bangun diputar 90° searah jarum jam, langkah berikutnya jumlah titik bertambah 1, begitu seterusnya. Perubahan terakhir pada deret adalah perubahan jumlah titik. Maka giliran berikutnya adalah putaran: diputar 90° searah jarum jam, yaitu Gambar D. Pilihan lain salah: Gambar A yang diterapkan perubahan jumlah titik, padahal giliran berikutnya adalah putaran; Gambar B kedua aturan diterapkan sekaligus, padahal aturannya berselang-seling; Gambar C merupakan bayangan cermin dari jawaban yang benar; Gambar E diputar 90° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 3
+    },
+    {
+      "id": "P04-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: pencerminan h [kunci, bendera]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p04-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun dicerminkan terhadap garis mendatar (atas dan bawah tertukar). Aturan yang sama diterapkan pada gambar ketiga (bendera): dicerminkan terhadap garis mendatar, yaitu Gambar A. Pilihan lain salah: Gambar B merupakan bayangan cermin dari jawaban yang benar; Gambar C dicerminkan terhadap garis tegak, sumbunya salah; Gambar D diputar 90°, bukan dicerminkan; Gambar E sama dengan gambar ketiga, tidak ada perubahan.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perubahan jumlah sisi 2",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p04-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah sisi bangun bertambah 2. Aturan yang sama diterapkan pada gambar ketiga: bangunnya menjadi segi lima, yaitu Gambar D. Pilihan lain salah: Gambar A berupa segi enam, seharusnya segi lima; Gambar B isiannya ikut berubah, padahal isian tidak termasuk aturan; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar E berupa segi empat, seharusnya segi lima.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 90",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p04-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, susunan garis diputar 90° searah jarum jam. Aturan yang sama diterapkan pada gambar ketiga: diputar 90° searah jarum jam, yaitu Gambar C. Pilihan lain salah: Gambar A dicerminkan, bukan diputar; Gambar B diputar 180°, besar sudutnya salah; Gambar D sama dengan gambar ketiga, tidak ada perubahan; Gambar E diputar 90° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian simetri-lipat",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p04-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar memiliki sumbu simetri: bila dilipat pada sumbu itu (tegak, mendatar), kedua bagiannya tepat berimpit. Gambar D tidak memiliki sumbu simetri sama sekali. Jadi, gambar yang berbeda adalah Gambar D.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian kiral [panah]",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p04-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Empat gambar adalah panah siku yang sama, hanya diputar dengan sudut berbeda. Gambar E merupakan bayangan cermin panah siku tersebut sehingga tidak dapat diperoleh hanya dengan memutar. Jadi, gambar yang berbeda adalah Gambar E.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: putaran 90",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p04-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Setiap langkah, susunan garis diputar 90° searah jarum jam. Maka gambar berikutnya: diputar 90° searah jarum jam, yaitu Gambar E. Pilihan lain salah: Gambar A diputar 90° berlawanan arah jarum jam, arah putarnya terbalik; Gambar B dicerminkan, bukan diputar; Gambar C diputar 180°, besar sudutnya salah; Gambar D sama dengan gambar terakhir pada deret.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: gabungan garis (union)",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p04-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Deret dibaca per tiga gambar: gambar ke-3 adalah gabungan seluruh garis gambar ke-1 dan ke-2 (garis yang sama tetap digambar satu kali). Dengan cara yang sama, gambar ke-6 memuat semua garis dari gambar ke-4 dan ke-5, yaitu Gambar A. Pilihan lain salah: Gambar B hanya garis yang sama yang dipertahankan; Gambar C ada garis tambahan yang tidak berasal dari gambar ke-4 maupun ke-5; Gambar D garis yang sama justru dihapus; Gambar E sama dengan gambar kelima.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P04-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran jarum 0 1 + putaran jarum 1 -2",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p04-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jarum panah (panjang) berputar 45° searah jarum jam dan jarum bertitik (pendek) berputar 90° berlawanan arah jarum jam. Maka gambar berikutnya: jarum panah menunjuk ke arah bawah dan jarum bertitik menunjuk ke arah kiri atas, yaitu Gambar C. Pilihan lain salah: Gambar A jarum panah tidak berputar, padahal seharusnya ikut berputar; Gambar B jarum panah menunjuk ke kiri bawah, seharusnya ke bawah; Gambar D jarum panah menunjuk ke kanan, seharusnya ke bawah; Gambar E sama dengan gambar terakhir pada deret.",
+      "verify": null,
+      "paket": 4
+    },
+    {
+      "id": "P05-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 45 [palu, sepatu]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p05-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 45° searah jarum jam. Aturan yang sama diterapkan pada gambar ketiga (bangun sepatu): diputar 45° searah jarum jam, yaitu Gambar B. Pilihan lain salah: Gambar A merupakan bayangan cermin dari jawaban yang benar; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D diputar 90° searah jarum jam, besar sudutnya salah; Gambar E diputar 45° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perubahan jumlah titik 1",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p05-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah titik bertambah 1. Aturan yang sama diterapkan pada gambar ketiga: titiknya menjadi 5, yaitu Gambar D. Pilihan lain salah: Gambar A titiknya 3, seharusnya 5; Gambar B titiknya 7, seharusnya 5; Gambar C titiknya 6, seharusnya 5; Gambar E titiknya 4, seharusnya 5.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: penggabungan dengan bayangan cermin v",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p05-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, susunan garis digabung dengan bayangan cerminnya terhadap garis tegak sehingga gambar menjadi simetris. Aturan yang sama diterapkan pada gambar ketiga: gambarnya menjadi simetris, yaitu Gambar B. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar C hanya dicerminkan, tidak digabung dengan gambar asalnya; Gambar D digabung dengan bayangan cermin terhadap sumbu yang salah; Gambar E digabung dengan hasil putaran 180°, bukan dengan bayangan cerminnya.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian selisih",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p05-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, banyak lingkaran hitam sama dengan banyak lingkaran putih. Gambar A memiliki 3 lingkaran hitam dan 2 lingkaran putih. Jadi, gambar yang berbeda adalah Gambar A.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sulit",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian daerah",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p05-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar masing-masing membentuk tepat 3 daerah tertutup. Gambar D membentuk 2 daerah tertutup. Jadi, gambar yang berbeda adalah Gambar D.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: putaran 135 [kunci]",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p05-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 135° searah jarum jam. Maka gambar berikutnya: diputar 135° searah jarum jam, yaitu Gambar D. Pilihan lain salah: Gambar A diputar 180°, besar sudutnya salah; Gambar B merupakan bayangan cermin dari jawaban yang benar; Gambar C sama dengan gambar terakhir pada deret; Gambar E diputar 135° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perpindahan 0 3",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p05-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, segitiga hitam berpindah 3 kotak di sepanjang tepi searah jarum jam. Maka gambar berikutnya: segitiga hitam berada di kotak tengah kiri, yaitu Gambar C. Pilihan lain salah: Gambar A segitiga hitam berada di kotak tengah atas, langkah perpindahannya salah; Gambar B sama dengan gambar terakhir pada deret; Gambar D segitiga hitam berada di pojok kiri bawah, langkah perpindahannya salah; Gambar E segitiga hitam berada di pojok kiri atas, langkah perpindahannya salah.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P05-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran 45 + perubahan ukuran 2 [siku]",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p05-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 45° searah jarum jam dan ukuran bangun mengecil bertahap besar → sedang → kecil, lalu kembali besar. Maka gambar berikutnya: diputar 45° searah jarum jam dan ukurannya kecil, yaitu Gambar C. Pilihan lain salah: Gambar A bangun tidak diputar; Gambar B sama dengan gambar terakhir pada deret; Gambar D diputar 90° searah jarum jam, besar sudutnya salah; Gambar E diputar 45° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 5
+    },
+    {
+      "id": "P06-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 135 [kait, segitiga]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p06-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 135° searah jarum jam. Aturan yang sama diterapkan pada gambar ketiga (segitiga siku-siku bertitik): diputar 135° searah jarum jam, yaitu Gambar E. Pilihan lain salah: Gambar A diputar 135° berlawanan arah jarum jam, arah putarnya terbalik; Gambar B merupakan bayangan cermin dari jawaban yang benar; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D diputar 180°, besar sudutnya salah.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: pencerminan v + perubahan jumlah titik 1 [bendera, sepatu]",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p06-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun dicerminkan terhadap garis tegak (kiri dan kanan tertukar) dan jumlah titik bertambah 1. Aturan yang sama diterapkan pada gambar ketiga (bangun sepatu): dicerminkan terhadap garis tegak dan titiknya menjadi 4, yaitu Gambar A. Pilihan lain salah: Gambar B diputar 180°, bukan dicerminkan; Gambar C dicerminkan terhadap garis mendatar, sumbunya salah; Gambar D bangun tidak dicerminkan; Gambar E sama dengan gambar ketiga, tidak ada perubahan.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: perpindahan 0 1 + perpindahan 1 -2",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p06-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, lingkaran hitam berpindah 1 kotak di sepanjang tepi searah jarum jam dan lingkaran putih berpindah 2 kotak di sepanjang tepi berlawanan arah jarum jam. Aturan yang sama diterapkan pada gambar ketiga: lingkaran hitam berada di kotak tengah kiri dan lingkaran putih berada di kotak tengah atas, yaitu Gambar B. Pilihan lain salah: Gambar A lingkaran hitam berada di kotak tengah bawah, langkah perpindahannya salah; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D lingkaran hitam berada di pojok kiri atas, langkah perpindahannya salah; Gambar E lingkaran hitam tidak berpindah, padahal seharusnya ikut berpindah.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian kiral [kunci]",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p06-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar adalah kunci yang sama, hanya diputar dengan sudut berbeda. Gambar C merupakan bayangan cermin kunci tersebut sehingga tidak dapat diperoleh hanya dengan memutar. Jadi, gambar yang berbeda adalah Gambar C.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian jarak",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p06-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, lingkaran hitam dan lingkaran putih selalu berseberangan (segaris melewati kotak tengah). Pada Gambar D, lingkaran putih berada 5 kotak searah jarum jam dari lingkaran hitam. Jadi, gambar yang berbeda adalah Gambar D.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: gabungan garis XOR (garis sama dihapus)",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p06-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Deret dibaca per tiga gambar: gambar ke-3 adalah gabungan gambar ke-1 dan ke-2, tetapi garis yang terdapat pada keduanya dihapus (hanya garis yang tidak sama yang dipertahankan). Dengan cara yang sama, gambar ke-6 adalah gabungan gambar ke-4 dan ke-5 tanpa garis yang sama, yaitu Gambar E. Pilihan lain salah: Gambar A ada garis yang hilang; Gambar B hanya garis yang sama yang dipertahankan; Gambar C garis yang sama tidak dihapus; Gambar D sama dengan gambar kelima.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran 270 + perubahan jumlah titik 2 [segitiga]",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p06-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 90° berlawanan arah jarum jam dan jumlah titik bertambah 2. Maka gambar berikutnya: diputar 90° berlawanan arah jarum jam dan titiknya menjadi 8, yaitu Gambar E. Pilihan lain salah: Gambar A sama dengan gambar terakhir pada deret; Gambar B diputar 90° searah jarum jam, arah putarnya terbalik; Gambar C diputar 180°, besar sudutnya salah; Gambar D bangun tidak diputar.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P06-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: perpindahan 0 1 + perpindahan 1 -1",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p06-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, lingkaran hitam berpindah 1 kotak di sepanjang tepi searah jarum jam dan segitiga hitam berpindah 1 kotak di sepanjang tepi berlawanan arah jarum jam. Maka gambar berikutnya: lingkaran hitam berada di kotak tengah kanan dan segitiga hitam berada di pojok kanan atas, yaitu Gambar A. Pilihan lain salah: Gambar B segitiga hitam berada di pojok kanan bawah, langkah perpindahannya salah; Gambar C lingkaran hitam berada di kotak tengah atas, langkah perpindahannya salah; Gambar D sama dengan gambar terakhir pada deret; Gambar E lingkaran hitam berada di pojok kanan bawah, langkah perpindahannya salah.",
+      "verify": null,
+      "paket": 6
+    },
+    {
+      "id": "P07-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: perubahan jumlah sisi 1 + perubahan jumlah titik -1",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p07-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah sisi bangun bertambah 1 dan jumlah titik berkurang 1. Aturan yang sama diterapkan pada gambar ketiga: bangunnya menjadi segi enam dan titiknya menjadi 2, yaitu Gambar D. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar B titiknya 3, seharusnya 2; Gambar C jumlah sisi tidak berubah; Gambar E berupa segi tujuh, seharusnya segi enam.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: pertukaran posisi bangun + pembalikan warna",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p07-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun luar dan bangun dalam bertukar posisi (isian tetap mengikuti posisinya) dan warnanya dibalik (hitam menjadi putih, putih menjadi hitam). Aturan yang sama diterapkan pada gambar ketiga: segitiga menjadi bangun luar dan segilima menjadi bangun dalam dan bangun luar berisian putih (kosong) dan bangun dalam berisian hitam, yaitu Gambar E. Pilihan lain salah: Gambar A pertukaran posisi bangun tidak diterapkan; Gambar B isian bangun luar dan dalam ikut tertukar; Gambar C bangun dalamnya segitiga, padahal seharusnya segilima; Gambar D yang ditukar isiannya, bukan bentuk bangunnya.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: putaran jarum 0 2 + putaran jarum 1 -1",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p07-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jarum panah (panjang) berputar 90° searah jarum jam dan jarum bertitik (pendek) berputar 45° berlawanan arah jarum jam. Aturan yang sama diterapkan pada gambar ketiga: jarum panah menunjuk ke arah kiri bawah dan jarum bertitik menunjuk ke arah kanan atas, yaitu Gambar B. Pilihan lain salah: Gambar A jarum panah menunjuk ke kiri, seharusnya ke kiri bawah; Gambar C jarum panah tidak berputar, padahal seharusnya ikut berputar; Gambar D sama dengan gambar ketiga, tidak ada perubahan; Gambar E jarum bertitik menunjuk ke kanan bawah, seharusnya ke kanan atas.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sulit",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian daerah",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p07-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar masing-masing membentuk tepat 4 daerah tertutup. Gambar B membentuk 3 daerah tertutup. Jadi, gambar yang berbeda adalah Gambar B.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "gambar yang berbeda: invarian selisih",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p07-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, banyak titik di dalam bangun selalu satu lebih sedikit daripada banyak sisi bangunnya. Gambar C berupa segi enam (6 sisi) tetapi memiliki 6 titik. Jadi, gambar yang berbeda adalah Gambar C.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: dua deret berselang",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p07-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Deret terdiri atas dua pola yang berselang. Gambar ke-1, 3, 5: bangun diputar 90° searah jarum jam. Gambar ke-2, 4, 6: jumlah titik bertambah 1. Tanda tanya adalah gambar ke-6 sehingga mengikuti pola kedua: titiknya menjadi 3, yaitu Gambar E. Pilihan lain salah: Gambar A titiknya 1, seharusnya 3; Gambar B titiknya 4, seharusnya 3; Gambar C melanjutkan deret gambar ke-1, 3, 5; padahal tanda tanya adalah gambar ke-6 yang mengikuti deret gambar ke-2, 4, 6; Gambar D titiknya 2, seharusnya 3.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: putaran 270 [sepatu]",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p07-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 90° berlawanan arah jarum jam. Maka gambar berikutnya: diputar 90° berlawanan arah jarum jam, yaitu Gambar C. Pilihan lain salah: Gambar A diputar 180°, besar sudutnya salah; Gambar B sama dengan gambar terakhir pada deret; Gambar D diputar 90° searah jarum jam, arah putarnya terbalik; Gambar E merupakan bayangan cermin dari jawaban yang benar.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P07-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perubahan jumlah titik -1",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p07-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah titik berkurang 1. Maka gambar berikutnya: titiknya menjadi 4, yaitu Gambar C. Pilihan lain salah: Gambar A titiknya 6, seharusnya 4; Gambar B titiknya 5, seharusnya 4; Gambar D titiknya 3, seharusnya 4; Gambar E isiannya ikut berubah, padahal isian tidak termasuk aturan.",
+      "verify": null,
+      "paket": 7
+    },
+    {
+      "id": "P08-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: putaran 270 + perubahan ukuran -2 [panah, kunci]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p08-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 90° berlawanan arah jarum jam dan ukuran bangun mengecil dari besar menjadi kecil. Aturan yang sama diterapkan pada gambar ketiga (kunci): diputar 90° berlawanan arah jarum jam dan ukurannya kecil, yaitu Gambar C. Pilihan lain salah: Gambar A bangun tidak diputar; Gambar B sama dengan gambar ketiga, tidak ada perubahan; Gambar D diputar 180°, besar sudutnya salah; Gambar E diputar 90° searah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: perubahan jumlah sisi 1 + perubahan isian 3 2",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p08-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, jumlah sisi bangun bertambah 1 dan isian bangun berubah dari hitam menjadi abu-abu. Aturan yang sama diterapkan pada gambar ketiga: bangunnya menjadi segi empat dan isiannya abu-abu, yaitu Gambar E. Pilihan lain salah: Gambar A isiannya putih (kosong), seharusnya abu-abu; Gambar B berupa segi lima, seharusnya segi empat; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D jumlah sisi tidak berubah.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: pencerminan h",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p08-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, susunan garis dicerminkan terhadap garis mendatar (atas dan bawah tertukar). Aturan yang sama diterapkan pada gambar ketiga: dicerminkan terhadap garis mendatar, yaitu Gambar A. Pilihan lain salah: Gambar B diputar 180°, bukan dicerminkan; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D diputar 90°, bukan dicerminkan; Gambar E dicerminkan terhadap garis tegak, sumbunya salah.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sulit",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian simetri-lipat",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p08-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar memiliki sumbu simetri: bila dilipat pada sumbu itu (tegak, mendatar, atau diagonal), kedua bagiannya tepat berimpit. Gambar C tidak memiliki sumbu simetri sama sekali. Jadi, gambar yang berbeda adalah Gambar C.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian sudut",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p08-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, kedua jarum selalu membentuk sudut 135°. Pada Gambar D, sudut antara kedua jarum 180°. Jadi, gambar yang berbeda adalah Gambar D.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: gabungan garis XOR (garis sama dihapus)",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p08-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Deret dibaca per tiga gambar: gambar ke-3 adalah gabungan gambar ke-1 dan ke-2, tetapi garis yang terdapat pada keduanya dihapus (hanya garis yang tidak sama yang dipertahankan). Dengan cara yang sama, gambar ke-6 adalah gabungan gambar ke-4 dan ke-5 tanpa garis yang sama, yaitu Gambar A. Pilihan lain salah: Gambar B ada garis yang hilang; Gambar C hanya garis yang sama yang dipertahankan; Gambar D garis yang sama tidak dihapus; Gambar E sama dengan gambar kelima.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: pergantian isian 1 + perubahan jumlah titik 1",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p08-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, isian bangun berganti berurutan putih → arsir → abu-abu → hitam → putih (berulang) dan jumlah titik bertambah 1. Maka gambar berikutnya: isiannya putih (kosong) dan titiknya menjadi 5, yaitu Gambar B. Pilihan lain salah: Gambar A isian/warna tidak berubah; Gambar C sama dengan gambar terakhir pada deret; Gambar D urutan isiannya tidak sesuai pola; Gambar E urutan isiannya tidak sesuai pola.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P08-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran jarum 0 -1 + putaran jarum 1 2",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p08-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jarum panah (panjang) berputar 45° berlawanan arah jarum jam dan jarum bertitik (pendek) berputar 90° searah jarum jam. Maka gambar berikutnya: jarum panah menunjuk ke arah atas dan jarum bertitik menunjuk ke arah kanan, yaitu Gambar D. Pilihan lain salah: Gambar A sama dengan gambar terakhir pada deret; Gambar B jarum panah menunjuk ke kiri atas, seharusnya ke atas; Gambar C jarum panah tidak berputar, padahal seharusnya ikut berputar; Gambar E jarum bertitik menunjuk ke kiri, seharusnya ke kanan.",
+      "verify": null,
+      "paket": 8
+    },
+    {
+      "id": "P09-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: putaran 315 + perubahan isian 1 0 [sepatu, siku]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p09-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 45° berlawanan arah jarum jam dan isian bangun berubah dari arsir menjadi putih (kosong). Aturan yang sama diterapkan pada gambar ketiga (bangun siku): diputar 45° berlawanan arah jarum jam dan isiannya putih (kosong), yaitu Gambar D. Pilihan lain salah: Gambar A sama dengan gambar ketiga, tidak ada perubahan; Gambar B diputar 90° berlawanan arah jarum jam, besar sudutnya salah; Gambar C diputar 45° searah jarum jam, arah putarnya terbalik; Gambar E bangun tidak diputar.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: penggabungan dengan bayangan cermin h",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p09-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, susunan garis digabung dengan bayangan cerminnya terhadap garis mendatar sehingga gambar menjadi simetris. Aturan yang sama diterapkan pada gambar ketiga: gambarnya menjadi simetris, yaitu Gambar D. Pilihan lain salah: Gambar A digabung dengan bayangan cermin terhadap sumbu yang salah; Gambar B hanya dicerminkan, tidak digabung dengan gambar asalnya; Gambar C digabung dengan hasil putaran 180°, bukan dengan bayangan cerminnya; Gambar E sama dengan gambar ketiga, tidak ada perubahan.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: perpindahan 0 -3",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p09-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, tanda silang berpindah 3 kotak di sepanjang tepi berlawanan arah jarum jam. Aturan yang sama diterapkan pada gambar ketiga: tanda silang berada di pojok kanan atas, yaitu Gambar E. Pilihan lain salah: Gambar A tanda silang berada di kotak tengah kanan, langkah perpindahannya salah; Gambar B sama dengan gambar ketiga, tidak ada perubahan; Gambar C tanda silang berada di kotak tengah atas, langkah perpindahannya salah; Gambar D tanda silang berada di pojok kiri atas, langkah perpindahannya salah.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "gambar yang berbeda: invarian selisih",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p09-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, lingkaran hitam selalu 1 lebih banyak daripada lingkaran putih. Gambar B memiliki 1 lingkaran hitam dan 1 lingkaran putih. Jadi, gambar yang berbeda adalah Gambar B.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "gambar yang berbeda: invarian relasi",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p09-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, bangun dalam selalu memiliki satu sisi lebih banyak daripada bangun luarnya. Pada Gambar A, bangun luar segitiga sedangkan bangun dalam segitiga. Jadi, gambar yang berbeda adalah Gambar A.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: pencerminan v + putaran 90 (selang-seling) [palu]",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p09-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 5
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Aturannya berselang-seling: langkah pertama bangun dicerminkan terhadap garis tegak (kiri dan kanan tertukar), langkah berikutnya bangun diputar 90° searah jarum jam, begitu seterusnya. Perubahan terakhir pada deret adalah putaran. Maka giliran berikutnya adalah pencerminan: dicerminkan terhadap garis tegak, yaitu Gambar C. Pilihan lain salah: Gambar A yang diterapkan putaran, padahal giliran berikutnya adalah pencerminan; Gambar B kedua aturan diterapkan sekaligus, padahal aturannya berselang-seling; Gambar D dicerminkan terhadap garis mendatar, sumbunya salah; Gambar E diputar 180°, bukan dicerminkan.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perpindahan 0 2 + perpindahan 1 1",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p09-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Setiap langkah, bintang berpindah 2 kotak di sepanjang tepi searah jarum jam dan lingkaran putih berpindah 1 kotak di sepanjang tepi searah jarum jam. Maka gambar berikutnya: bintang berada di kotak tengah bawah dan lingkaran putih berada di pojok kiri bawah, yaitu Gambar E. Pilihan lain salah: Gambar A bintang berada di kotak tengah atas, langkah perpindahannya salah; Gambar B lingkaran putih berada di pojok kanan bawah, langkah perpindahannya salah; Gambar C sama dengan gambar terakhir pada deret; Gambar D bintang tidak berpindah, padahal seharusnya ikut berpindah.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P09-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "deret gambar: perubahan jumlah sisi -1",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p09-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, jumlah sisi bangun berkurang 1. Maka gambar berikutnya: bangunnya menjadi segi empat, yaitu Gambar D. Pilihan lain salah: Gambar A berupa segi lima, seharusnya segi empat; Gambar B berupa segi enam, seharusnya segi empat; Gambar C berupa segitiga, seharusnya segi empat; Gambar E isiannya ikut berubah, padahal isian tidak termasuk aturan.",
+      "verify": null,
+      "paket": 9
+    },
+    {
+      "id": "P10-FIG-01",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: pencerminan h + perubahan jumlah titik 2 [kait, panah]",
+      "body": "Gambar pertama berhubungan dengan gambar kedua. Hubungan yang sama berlaku antara gambar ketiga dan gambar \"?\". Pilihlah gambar yang tepat.",
+      "image": "figural/p10-analogi-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun dicerminkan terhadap garis mendatar (atas dan bawah tertukar) dan jumlah titik bertambah 2. Aturan yang sama diterapkan pada gambar ketiga (panah siku): dicerminkan terhadap garis mendatar dan titiknya menjadi 5, yaitu Gambar E. Pilihan lain salah: Gambar A bangun tidak dicerminkan; Gambar B diputar 180°, bukan dicerminkan; Gambar C sama dengan gambar ketiga, tidak ada perubahan; Gambar D dicerminkan terhadap garis tegak, sumbunya salah.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-02",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "analogi gambar: pertukaran posisi bangun + pertukaran isian",
+      "body": "Tentukan gambar pengganti tanda tanya agar hubungan gambar ketiga dengan \"?\" sama dengan hubungan gambar pertama dengan gambar kedua.",
+      "image": "figural/p10-analogi-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun luar dan bangun dalam bertukar posisi, dan setiap bangun membawa isiannya sendiri (bentuk dan isian sama-sama berpindah). Aturan yang sama diterapkan pada gambar ketiga: segienam (hitam) menjadi bangun luar dan lingkaran (arsir) menjadi bangun dalam, yaitu Gambar D. Pilihan lain salah: Gambar A pertukaran posisi bangun tidak diterapkan; Gambar B pertukaran isian tidak diterapkan; Gambar C yang ditukar isiannya, bukan bentuk bangunnya; Gambar E warnanya ikut terbalik.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-03",
+      "subtest": "TIU",
+      "category": "Figural – Analogi",
+      "difficulty": "mudah",
+      "basis": "pola-2024",
+      "topic": "analogi gambar: putaran 180 [segitiga, palu]",
+      "body": "Perhatikan gambar berikut. Hubungan gambar pertama dengan gambar kedua sama dengan hubungan gambar ketiga dengan gambar yang ditandai \"?\". Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p10-analogi-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Dari gambar pertama ke gambar kedua, bangun diputar 180°. Aturan yang sama diterapkan pada gambar ketiga (palu): diputar 180°, yaitu Gambar B. Pilihan lain salah: Gambar A merupakan bayangan cermin dari jawaban yang benar; Gambar C hanya diputar 90°, bukan 180°; Gambar D sama dengan gambar ketiga, tidak ada perubahan; Gambar E diputar 90° berlawanan arah jarum jam, besar sudutnya salah.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-04",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "gambar yang berbeda: invarian kiral [palu]",
+      "body": "Manakah gambar yang tidak sesuai dengan pola gambar-gambar lainnya?",
+      "image": "figural/p10-ketidaksamaan-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Empat gambar adalah palu yang sama, hanya diputar dengan sudut berbeda. Gambar B merupakan bayangan cermin palu tersebut sehingga tidak dapat diperoleh hanya dengan memutar. Jadi, gambar yang berbeda adalah Gambar B.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-05",
+      "subtest": "TIU",
+      "category": "Figural – Ketidaksamaan",
+      "difficulty": "sedang",
+      "basis": "prediksi-2027",
+      "topic": "gambar yang berbeda: invarian jarak",
+      "body": "Empat dari lima gambar berikut mengikuti pola yang sama. Gambar manakah yang berbeda?",
+      "image": "figural/p10-ketidaksamaan-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 5
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Pada empat gambar, lingkaran putih selalu tepat satu kotak searah jarum jam dari lingkaran hitam (bersebelahan di tepi). Pada Gambar B, lingkaran putih berada 4 kotak searah jarum jam dari lingkaran hitam. Jadi, gambar yang berbeda adalah Gambar B.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-06",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: putaran 45 + perubahan jumlah titik 1 [kait]",
+      "body": "Gambar manakah yang tepat untuk melanjutkan deret gambar berikut (menggantikan tanda tanya)?",
+      "image": "figural/p10-serial-1.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 5
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, bangun diputar 45° searah jarum jam dan jumlah titik bertambah 1. Maka gambar berikutnya: diputar 45° searah jarum jam dan titiknya menjadi 6, yaitu Gambar A. Pilihan lain salah: Gambar B bangun tidak diputar; Gambar C sama dengan gambar terakhir pada deret; Gambar D diputar 90° searah jarum jam, besar sudutnya salah; Gambar E diputar 45° berlawanan arah jarum jam, arah putarnya terbalik.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-07",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sulit",
+      "basis": "prediksi-2027",
+      "topic": "deret gambar: dua deret berselang",
+      "body": "Perhatikan pola perubahan pada deret gambar berikut. Gambar manakah yang tepat menggantikan tanda tanya?",
+      "image": "figural/p10-serial-2.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 0
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 5
+        }
+      ],
+      "explanation": "Deret terdiri atas dua pola yang berselang. Gambar ke-1, 3, 5: jumlah sisi bangun bertambah 1. Gambar ke-2, 4, 6: bangun diputar 90° berlawanan arah jarum jam. Tanda tanya adalah gambar ke-6 sehingga mengikuti pola kedua: diputar 90° berlawanan arah jarum jam, yaitu Gambar E. Pilihan lain salah: Gambar A merupakan bayangan cermin dari jawaban yang benar; Gambar B diputar 90° searah jarum jam, arah putarnya terbalik; Gambar C diputar 180°, besar sudutnya salah; Gambar D melanjutkan deret gambar ke-1, 3, 5; padahal tanda tanya adalah gambar ke-6 yang mengikuti deret gambar ke-2, 4, 6.",
+      "verify": null,
+      "paket": 10
+    },
+    {
+      "id": "P10-FIG-08",
+      "subtest": "TIU",
+      "category": "Figural – Serial",
+      "difficulty": "sedang",
+      "basis": "pola-2024",
+      "topic": "deret gambar: putaran 270",
+      "body": "Tentukan gambar berikutnya yang sesuai dengan pola deret gambar di bawah ini.",
+      "image": "figural/p10-serial-3.png",
+      "options": [
+        {
+          "label": "A",
+          "body": "Gambar A",
+          "weight": 0
+        },
+        {
+          "label": "B",
+          "body": "Gambar B",
+          "weight": 0
+        },
+        {
+          "label": "C",
+          "body": "Gambar C",
+          "weight": 0
+        },
+        {
+          "label": "D",
+          "body": "Gambar D",
+          "weight": 5
+        },
+        {
+          "label": "E",
+          "body": "Gambar E",
+          "weight": 0
+        }
+      ],
+      "explanation": "Setiap langkah, susunan garis diputar 90° berlawanan arah jarum jam. Maka gambar berikutnya: diputar 90° berlawanan arah jarum jam, yaitu Gambar D. Pilihan lain salah: Gambar A diputar 90° searah jarum jam, arah putarnya terbalik; Gambar B diputar 180°, besar sudutnya salah; Gambar C sama dengan gambar terakhir pada deret; Gambar E dicerminkan, bukan diputar.",
+      "verify": null,
+      "paket": 10
+    }
+  ]
+}

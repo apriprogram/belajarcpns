@@ -1,0 +1,1103 @@
+{
+ "paket": 8,
+ "questions": [
+  {
+   "id": "P08-TIU-01",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "analogi hasil–pembuat madu lebah",
+   "body": "MADU : LEBAH = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "ROTI : TEPUNG",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "KANDANG : AYAM",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "JARING : LABA-LABA",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "NELAYAN : IKAN",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "KULIT : JERUK",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi hasil–pembuat: madu dihasilkan oleh lebah, jaring dibuat oleh laba-laba. Roti–tepung = produk–bahan, kandang–ayam = tempat–penghuni (kandang tidak dibuat ayam), nelayan–ikan = pelaku–objek tangkapan, kulit–jeruk = bagian–keseluruhan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-02",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "analogi kendaraan–tempat isi energi SPKLU SPBU",
+   "body": "KENDARAAN LISTRIK : STASIUN PENGISIAN = KENDARAAN BBM : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "BENGKEL",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "KILANG MINYAK",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "TERMINAL",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "GARASI",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "SPBU",
+     "weight": 5
+    }
+   ],
+   "explanation": "Relasi kendaraan–tempat mengisi sumber energinya: kendaraan listrik mengisi daya di stasiun pengisian, kendaraan BBM mengisi bahan bakar di SPBU. Kilang minyak adalah tempat mengolah BBM (bukan tempat mengisi kendaraan), bengkel tempat perbaikan, terminal tempat naik-turun penumpang, garasi tempat menyimpan kendaraan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-03",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analogi satuan 1/1000 milimeter meter miligram",
+   "body": "MILIMETER : METER = MILIGRAM : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "GRAM",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "KILOGRAM",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "DESIGRAM",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "ONS",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "TON",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi satuan seperseribu: 1 milimeter = 1/1.000 meter, dan 1 miligram = 1/1.000 gram. Kilogram (1 mg = 1/1.000.000 kg), desigram (1 mg = 1/100 dg), ons, dan ton tidak memiliki perbandingan 1 : 1.000.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-04",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analogi unit–satuan–rangkaian piksel gambar video huruf kata",
+   "body": "PIKSEL : GAMBAR : VIDEO = HURUF : KATA : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "ABJAD",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "SUKU KATA",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "AKSARA",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "KALIMAT",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "EJAAN",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi bertingkat unit terkecil–satuan–rangkaian: piksel menyusun gambar dan rangkaian gambar membentuk video; huruf menyusun kata dan rangkaian kata membentuk kalimat. Abjad adalah kumpulan huruf, suku kata lebih kecil dari kata, aksara setara dengan huruf, dan ejaan adalah kaidah penulisan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-05",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "silogisme modus ponens panen cabai harga",
+   "body": "Jika panen cabai melimpah, maka harga cabai turun.\nMusim ini panen cabai melimpah.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Musim ini harga cabai naik.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Musim ini harga cabai turun.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Musim ini harga cabai tidak berubah.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Musim ini harga semua jenis sayuran turun.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Musim ini panen cabai tidak melimpah.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Modus ponens: p → q dan p benar, maka q. Karena panen cabai melimpah, harga cabai turun. A dan C bertentangan dengan kesimpulan, D memperluas ke sayuran lain tanpa dasar, E bertentangan dengan premis 2.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-06",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "silogisme Darii relawan bencana aplikasi pelaporan",
+   "body": "Semua relawan bencana di Kabupaten Z telah mengikuti pelatihan tanggap darurat.\nSebagian pengguna aplikasi pelaporan bencana adalah relawan bencana di Kabupaten Z.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua pengguna aplikasi pelaporan bencana telah mengikuti pelatihan tanggap darurat.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Semua yang telah mengikuti pelatihan tanggap darurat adalah relawan bencana di Kabupaten Z.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sebagian pengguna aplikasi pelaporan bencana tidak mengikuti pelatihan tanggap darurat.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Sebagian pengguna aplikasi pelaporan bencana telah mengikuti pelatihan tanggap darurat.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Sebagian relawan bencana di Kabupaten Z tidak menggunakan aplikasi pelaporan bencana.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pengguna aplikasi yang juga relawan pasti telah mengikuti pelatihan (premis 1), sehingga sebagian pengguna aplikasi telah mengikuti pelatihan. A terlalu luas, B membalik premis 1, sedangkan C dan E tidak didukung informasi.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-07",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "silogisme dua premis negatif perenang pelari pesepeda",
+   "body": "Tidak ada perenang di klub olahraga itu yang menjadi pelari.\nTidak ada pelari di klub olahraga itu yang menjadi pesepeda.\nKesimpulan yang tepat mengenai perenang dan pesepeda di klub itu adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tidak ada perenang yang menjadi pesepeda.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Semua perenang adalah pesepeda.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sebagian perenang adalah pesepeda.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Sebagian pesepeda bukan perenang.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Tidak dapat ditarik kesimpulan yang pasti.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Kedua premis negatif dan hanya menyatakan bahwa perenang dan pesepeda sama-sama terpisah dari pelari. Hubungan perenang dengan pesepeda bisa beririsan, terpisah sama sekali, atau salah satu termuat di dalam yang lain, sehingga A–D tidak dapat dipastikan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-08",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "silogisme rantai 4 premis laporan warga verifikasi anonim",
+   "body": "Semua laporan yang diverifikasi akan ditindaklanjuti.\nSetiap laporan yang ditindaklanjuti dicantumkan dalam rekap bulanan.\nLaporan yang tidak memuat bukti pendukung tidak diverifikasi.\nSebagian laporan anonim tidak dicantumkan dalam rekap bulanan.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Sebagian laporan anonim tidak diverifikasi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Semua laporan anonim tidak memuat bukti pendukung.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sebagian laporan anonim tidak memuat bukti pendukung.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Semua laporan yang memuat bukti pendukung dicantumkan dalam rekap bulanan.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Sebagian laporan yang dicantumkan dalam rekap bulanan adalah laporan anonim.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Premis 1–2: diverifikasi → ditindaklanjuti → masuk rekap. Kontraposisinya: tidak masuk rekap → tidak ditindaklanjuti → tidak diverifikasi, sehingga laporan anonim yang tidak masuk rekap pasti tidak diverifikasi. C keliru karena premis 3 hanya berarti 'tanpa bukti → tidak diverifikasi', bukan sebaliknya; B, D, E tidak didukung premis.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-09",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "dua baris 4+4 duduk berhadapan",
+   "body": "Delapan pegawai, yaitu Adi, Beni, Cici, Dita, Eka, Fani, Gilang, dan Hadi, duduk dalam dua baris yang saling berhadapan, masing-masing empat kursi. Kursi setiap baris diurutkan dari barat ke timur sehingga kursi di baris utara tepat berhadapan dengan kursi di baris selatan yang urutannya sama.\n1) Hadi duduk tepat di antara Adi dan Cici dalam satu baris.\n2) Fani duduk di kursi paling timur baris selatan.\n3) Cici duduk di salah satu ujung baris utara.\n4) Eka duduk berhadapan dengan Adi dan bersebelahan dengan Fani.\n5) Dita tidak duduk sebaris dengan Eka.\nPegawai yang duduk berhadapan dengan Dita adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Adi",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Eka",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Fani",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Beni",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Gilang",
+     "weight": 0
+    }
+   ],
+   "explanation": "Dari (1) dan (3), Adi, Hadi, Cici duduk berurutan di baris utara dengan Cici di ujung. Jika Cici di ujung timur, Adi di kursi ke-2 dan Eka (berhadapan dengan Adi) di kursi selatan ke-2 yang tidak bersebelahan dengan Fani, bertentangan dengan (4). Jadi Cici di ujung barat, Hadi kursi ke-2, Adi kursi ke-3, dan Eka di kursi selatan ke-3. Dita tidak sebaris dengan Eka, maka Dita menempati kursi utara yang tersisa (paling timur), berhadapan dengan Fani.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-10",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "antrean 7 pemohon paspor aturan prioritas",
+   "body": "Loket layanan paspor menerapkan aturan antrean berikut.\n1) Pemohon lansia dan penyandang disabilitas dilayani lebih dahulu daripada semua pemohon lain.\n2) Ibu yang membawa balita dilayani setelah kelompok pada aturan (1), tetapi sebelum pemohon umum.\n3) Dalam kelompok yang sama, pemohon yang sudah mendaftar melalui aplikasi dilayani lebih dahulu daripada yang belum.\n4) Jika kelompok dan status pendaftarannya sama, urutan mengikuti nomor kedatangan.\nTujuh pemohon datang dengan nomor kedatangan berikut:\n(1) Rudi – umum, mendaftar lewat aplikasi\n(2) Sari – ibu membawa balita, belum mendaftar\n(3) Tono – lansia, belum mendaftar\n(4) Umar – umum, belum mendaftar\n(5) Vina – penyandang disabilitas, mendaftar lewat aplikasi\n(6) Wati – ibu membawa balita, mendaftar lewat aplikasi\n(7) Yoga – umum, mendaftar lewat aplikasi\nPemohon yang dilayani pada urutan keempat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Wati",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sari",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Rudi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Tono",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Yoga",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kelompok prioritas: Vina (sudah mendaftar) lalu Tono → urutan 1–2. Ibu dengan balita: Wati (sudah mendaftar) lalu Sari → urutan 3–4. Pemohon umum: Rudi dan Yoga (sudah mendaftar, menurut nomor kedatangan) lalu Umar → urutan 5–7. Urutan keempat adalah Sari.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-11",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "jadwal ujian 6 mata pelajaran 3 hari",
+   "body": "Sebuah sekolah menjadwalkan ujian enam mata pelajaran, yaitu Matematika, Bahasa Indonesia, Bahasa Inggris, Fisika, Kimia, dan Biologi, pada hari Senin, Selasa, dan Rabu. Setiap hari diujikan tepat dua mata pelajaran dengan ketentuan:\n1) Matematika dan Fisika tidak diujikan pada hari yang sama.\n2) Kimia diujikan sehari setelah Fisika.\n3) Bahasa Indonesia diujikan pada hari Senin.\n4) Biologi tidak diujikan pada hari yang sama dengan Kimia.\n5) Bahasa Inggris diujikan pada hari yang lebih awal daripada Matematika.\nPernyataan yang pasti benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Fisika diujikan pada hari Senin.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Kimia diujikan pada hari Rabu.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Biologi diujikan pada hari Senin.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Matematika diujikan pada hari Rabu.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Bahasa Inggris diujikan pada hari Senin.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Dari (5), Matematika bukan hari Senin. Jika Matematika hari Selasa, Fisika harus Senin (1) dan Kimia Selasa (2); Bahasa Inggris harus Senin (5), padahal Senin sudah berisi Bahasa Indonesia dan Fisika, jadi tidak mungkin. Maka Matematika pasti hari Rabu. Opsi lain hanya mungkin, misalnya Fisika Senin–Kimia Selasa maupun Fisika Selasa–Kimia Rabu sama-sama memenuhi.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-12",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "pilih 4 dari 7 aplikasi integrasi syarat kondisional",
+   "body": "Tim SPBE pemerintah kota akan memilih tepat 4 dari 7 aplikasi (P, Q, R, S, T, U, dan V) untuk diintegrasikan ke portal layanan terpadu dengan ketentuan:\n1) Jika P dipilih, maka Q tidak dipilih.\n2) R dipilih hanya jika S juga dipilih.\n3) T dan U tidak boleh dipilih bersama-sama.\n4) Jika S dipilih, maka V juga dipilih.\n5) Sekurang-kurangnya satu dari Q dan T dipilih.\nJika P dipilih, pernyataan yang pasti benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "T dipilih.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "R dipilih.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "U dipilih.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "S tidak dipilih.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "V tidak dipilih.",
+     "weight": 0
+    }
+   ],
+   "explanation": "P dipilih → Q tidak dipilih (1) → T dipilih (5) → U tidak dipilih (3). Dua tempat tersisa diisi dari R, S, V; R memerlukan S (2) dan S memerlukan V (4), sehingga pasangan yang mungkin hanya S dan V. Pilihannya P, S, T, V: T pasti dipilih, sedangkan B–E tidak mungkin.",
+   "verify": null
+  },
+  {
+   "id": "P08-TIU-13",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "pembagian 1.250 ÷ 0,25",
+   "body": "Hasil dari 1.250 ÷ 0,25 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "312,5",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "500",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "50.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "2.500",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "5.000",
+     "weight": 5
+    }
+   ],
+   "explanation": "Membagi dengan 0,25 sama dengan mengalikan dengan 4: 1.250 × 4 = 5.000.",
+   "verify": {
+    "expr": "1250 / Fraction('0.25')",
+    "expect": "5.000"
+   }
+  },
+  {
+   "id": "P08-TIU-14",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "substitusi a³ − 2ab + b² a=2 b=−3",
+   "body": "Jika a = 2 dan b = −3, nilai dari a³ − 2ab + b² adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "5",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "11",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "29",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "−13",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "27",
+     "weight": 0
+    }
+   ],
+   "explanation": "a³ = 8; −2ab = −2 × 2 × (−3) = 12; b² = (−3)² = 9. Jadi 8 + 12 + 9 = 29.",
+   "verify": {
+    "expr": "(lambda a, b: a**3 - 2*a*b + b**2)(2, -3)",
+    "expect": "29"
+   }
+  },
+  {
+   "id": "P08-TIU-15",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "persen faktor sama 12,5% × 64 + 37,5% × 64",
+   "body": "Hasil dari 12,5% × 64 + 37,5% × 64 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "24",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "32",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "36",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "40",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "48",
+     "weight": 0
+    }
+   ],
+   "explanation": "Faktorkan 64: (12,5% + 37,5%) × 64 = 50% × 64 = 32.",
+   "verify": {
+    "expr": "Fraction('0.125')*64 + Fraction('0.375')*64",
+    "expect": "32"
+   }
+  },
+  {
+   "id": "P08-TIU-16",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "deret teleskopik 1/(n(n+1)) sampai 9×10",
+   "body": "Nilai dari 1/(1 × 2) + 1/(2 × 3) + 1/(3 × 4) + … + 1/(9 × 10) adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "9/10",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "1/10",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "10/11",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "11/10",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "8/9",
+     "weight": 0
+    }
+   ],
+   "explanation": "1/(k(k + 1)) = 1/k − 1/(k + 1), sehingga suku-suku saling menghapus: (1 − 1/2) + (1/2 − 1/3) + … + (1/9 − 1/10) = 1 − 1/10 = 9/10.",
+   "verify": {
+    "expr": "sum(Fraction(1, k*(k+1)) for k in range(1, 10))",
+    "expect": "9/10"
+   }
+  },
+  {
+   "id": "P08-TIU-17",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "deret geometri ×2 mulai 7",
+   "body": "Bilangan berikutnya dari deret 7, 14, 28, 56, 112, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "168",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "196",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "220",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "224",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "448",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setiap suku dikali 2, sehingga suku berikutnya 112 × 2 = 224.",
+   "verify": {
+    "expr": "7 * 2**5",
+    "expect": "224"
+   }
+  },
+  {
+   "id": "P08-TIU-18",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret selisih −3 −6 −9 mulai 100",
+   "body": "Bilangan berikutnya dari deret 100, 97, 91, 82, 70, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "58",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "55",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "52",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "57",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "60",
+     "weight": 0
+    }
+   ],
+   "explanation": "Selisihnya −3, −6, −9, −12 (kelipatan 3), berikutnya −15: 70 − 15 = 55.",
+   "verify": {
+    "expr": "100 - 3*(1+2+3+4+5)",
+    "expect": "55"
+   }
+  },
+  {
+   "id": "P08-TIU-19",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret selisih bertambah +2 +3 +4 mulai 6",
+   "body": "Bilangan berikutnya dari deret 6, 8, 11, 15, 20, 26, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "31",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "32",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "34",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "35",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "33",
+     "weight": 5
+    }
+   ],
+   "explanation": "Selisihnya +2, +3, +4, +5, +6, berikutnya +7: 26 + 7 = 33.",
+   "verify": {
+    "expr": "6 + sum(range(2, 8))",
+    "expect": "33"
+   }
+  },
+  {
+   "id": "P08-TIU-20",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "deret 2ⁿ + n",
+   "body": "Bilangan berikutnya dari deret 3, 6, 11, 20, 37, 70, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "134",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "137",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "135",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "136",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "140",
+     "weight": 0
+    }
+   ],
+   "explanation": "Suku ke-n = 2ⁿ + n: 2 + 1, 4 + 2, 8 + 3, 16 + 4, 32 + 5, 64 + 6. Suku ke-7 = 128 + 7 = 135 (selisih 3, 5, 9, 17, 33 berlanjut 65).",
+   "verify": {
+    "expr": "2**7 + 7",
+    "expect": "135"
+   }
+  },
+  {
+   "id": "P08-TIU-21",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PK 0,3 × 0,3 vs 0,3 + 0,3",
+   "body": "P = 0,3 × 0,3\nQ = 0,3 + 0,3\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "P = 0,09 dan Q = 0,6, sehingga P < Q.",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q')))(Fraction('0.3') * Fraction('0.3'), Fraction('0.3') + Fraction('0.3'))",
+    "expect": "P < Q"
+   }
+  },
+  {
+   "id": "P08-TIU-22",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PK 7/9 vs desimal berulang 0,777…",
+   "body": "P = 7/9\nQ = 0,777… (angka 7 berulang terus-menerus)\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "Misalkan Q = 0,777…; maka 10Q − Q = 7,777… − 0,777… = 7, sehingga 9Q = 7 dan Q = 7/9. Jadi P = Q.",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q')))(Fraction(7, 9), Fraction(7, 10) / (1 - Fraction(1, 10)))",
+    "expect": "P = Q"
+   }
+  },
+  {
+   "id": "P08-TIU-23",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "PK sistem persamaan 2x+y=10 x−y=2",
+   "body": "Diketahui 2x + y = 10 dan x − y = 2.\nP = x\nQ = y\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 5
+    }
+   ],
+   "explanation": "Jumlahkan kedua persamaan: 3x = 12, sehingga x = 4 dan y = 10 − 2 × 4 = 2. P = 4 = 2 × 2 = 2Q. Walaupun P > Q juga benar, P = 2Q adalah hubungan yang paling tepat (paling spesifik).",
+   "verify": {
+    "expr": "(lambda x: (lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q')))(x, 10 - 2*x))(Fraction(10 + 2, 3))",
+    "expect": "P = 2Q"
+   }
+  },
+  {
+   "id": "P08-TIU-24",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "uang kembalian belanja beras dan minyak",
+   "body": "Bu Rina membeli 3 kg beras seharga Rp14.500 per kg dan 2 liter minyak goreng seharga Rp18.000 per liter. Jika ia membayar dengan selembar uang Rp100.000, uang kembalian yang diterimanya adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp20.500",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Rp21.500",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rp38.500",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp19.500",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Rp67.500",
+     "weight": 0
+    }
+   ],
+   "explanation": "Belanja = 3 × Rp14.500 + 2 × Rp18.000 = Rp43.500 + Rp36.000 = Rp79.500. Kembalian = Rp100.000 − Rp79.500 = Rp20.500.",
+   "verify": {
+    "expr": "100000 - (3*14500 + 2*18000)",
+    "expect": "Rp20.500"
+   }
+  },
+  {
+   "id": "P08-TIU-25",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "selisih biaya energi motor BBM vs motor listrik 1.500 km",
+   "body": "Harga BBM dan tarif listrik berikut bersifat hipotetis. Sebuah motor berbahan bakar minyak menempuh 50 km per liter dengan harga BBM Rp10.000 per liter. Sebuah motor listrik memerlukan 2 kWh untuk setiap 100 km dengan tarif listrik Rp1.500 per kWh. Untuk menempuh jarak 1.500 km, selisih biaya energi kedua motor adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp45.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rp240.000",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rp270.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp255.000",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Rp300.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "Motor BBM: 1.500 : 50 = 30 liter × Rp10.000 = Rp300.000. Motor listrik: (1.500 : 100) × 2 = 30 kWh × Rp1.500 = Rp45.000. Selisih = Rp255.000.",
+   "verify": {
+    "expr": "Fraction(1500, 50)*10000 - Fraction(1500, 100)*2*1500",
+    "expect": "Rp255.000"
+   }
+  },
+  {
+   "id": "P08-TIU-26",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "lintasan melingkar 400 m berlawanan arah bertemu",
+   "body": "Dua pelari mulai berlari pada saat yang sama dari titik yang sama pada lintasan melingkar sepanjang 400 m, tetapi dengan arah berlawanan. Kecepatan pelari pertama 3 m/s dan pelari kedua 5 m/s. Keduanya bertemu untuk pertama kalinya setelah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "50 detik",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "200 detik",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "80 detik",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "100 detik",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "40 detik",
+     "weight": 0
+    }
+   ],
+   "explanation": "Karena berlawanan arah, jarak tempuh keduanya dijumlahkan: kecepatan gabungan 3 + 5 = 8 m/s. Mereka bertemu saat jarak gabungan 400 m: 400 : 8 = 50 detik.",
+   "verify": {
+    "expr": "Fraction(400, 3 + 5)",
+    "expect": "50 detik"
+   }
+  },
+  {
+   "id": "P08-TIU-27",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "kaidah pencacahan kata sandi 2 huruf 3 angka berbeda",
+   "body": "Kata sandi akun layanan digital terdiri atas 2 huruf kapital (A–Z) yang diikuti 3 angka (0–9). Huruf boleh berulang, sedangkan ketiga angka harus berbeda. Banyak kata sandi berbeda yang dapat dibuat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "676.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "468.000",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "81.120",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "486.720",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "78.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "Dua huruf boleh berulang: 26 × 26 = 676. Tiga angka berbeda dengan urutan diperhatikan: 10 × 9 × 8 = 720. Banyak kata sandi = 676 × 720 = 486.720.",
+   "verify": {
+    "expr": "26**2 * 10*9*8",
+    "expect": "486.720"
+   }
+  }
+ ]
+}

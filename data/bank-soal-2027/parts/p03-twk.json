@@ -1,0 +1,1175 @@
+{
+ "paket": 3,
+ "questions": [
+  {
+   "id": "P03-TWK-01",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Chauvinisme (kasus suporter merendahkan bangsa lain)",
+   "body": "Setelah tim nasional menang dalam laga internasional, sekelompok suporter mengunggah video berisi nyanyian yang mengejek bangsa lawan sebagai bangsa rendahan. Mereka menganggap tindakan itu sebagai bukti kecintaan kepada Indonesia, bahkan mengajak warganet lain menirunya.\nSikap kelompok suporter tersebut paling tepat digolongkan sebagai ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "patriotisme, karena mereka bersedia mengorbankan waktu dan tenaga demi kejayaan tim nasional",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "chauvinisme, karena rasa cinta tanah air yang sangat berlebihan membuat mereka merendahkan bangsa lain",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "primordialisme, karena mereka memegang teguh adat dan tradisi yang dibawa sejak kecil",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "kosmopolitanisme, karena mereka aktif berinteraksi dengan warganet dari berbagai negara",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "nasionalisme sejati, karena membela nama baik bangsa sendiri boleh dilakukan dengan cara apa pun, termasuk mengejek lawan",
+     "weight": 0
+    }
+   ],
+   "explanation": "KBBI mengartikan chauvinisme sebagai cinta tanah air secara sangat berlebihan; dalam kasus ini kebanggaan pada bangsa sendiri berubah menjadi sikap merendahkan bangsa lain. Nasionalisme yang tepat tetap menghormati bangsa lain, sehingga mengejek bangsa lawan bukan wujud nasionalisme sejati.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-02",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Taman Siswa & Hardiknas",
+   "body": "Perguruan Nasional Taman Siswa merupakan salah satu tonggak pendidikan pada masa pergerakan nasional dan dikenal dengan semboyan Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut Wuri Handayani.\nPernyataan yang tepat mengenai pendirian Taman Siswa dan kaitannya dengan peringatan nasional adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Didirikan Ki Hajar Dewantara di Yogyakarta pada 2 Mei 1922; tanggal berdirinya itu diperingati sebagai Hari Pendidikan Nasional",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Didirikan Ki Hajar Dewantara di Batavia (kini Jakarta) pada 3 Juli 1922; hari lahir pendirinya, 2 Mei, diperingati sebagai Hari Kebangkitan Nasional",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Didirikan dr. Soetomo di Yogyakarta pada 3 Juli 1922; hari lahir pendirinya, 2 Mei, diperingati sebagai Hari Pendidikan Nasional",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Didirikan Ki Hajar Dewantara di Yogyakarta pada 3 Juli 1922; hari lahir pendirinya, 2 Mei, diperingati sebagai Hari Pendidikan Nasional",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Didirikan Ki Hajar Dewantara di Yogyakarta pada 3 Juli 1922; tanggal berdirinya, 3 Juli, diperingati sebagai Hari Pendidikan Nasional",
+     "weight": 0
+    }
+   ],
+   "explanation": "Perguruan Nasional Taman Siswa didirikan Ki Hajar Dewantara di Yogyakarta pada 3 Juli 1922. Hari Pendidikan Nasional diperingati setiap 2 Mei, yaitu hari lahir Ki Hajar Dewantara (1889), bukan tanggal berdirinya Taman Siswa.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-03",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Klaim budaya oleh negara lain (kasus viral)",
+   "body": "Dimas, staf dinas kebudayaan kabupaten, menemukan video viral yang menyebut sebuah tarian tradisional dari daerahnya sebagai budaya asli negara lain. Kolom komentar dipenuhi ajakan untuk menyerbu akun media sosial warga negara tersebut dengan makian. Sebagian rekan kerjanya juga mendesak agar instansi mengeluarkan pernyataan keras hari itu juga.\nTindakan Dimas yang paling mencerminkan nasionalisme adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Memverifikasi isi video, melengkapi dokumentasi tarian bersama sanggar setempat, lalu menyampaikan persoalan itu melalui jalur resmi instansi",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Segera menyiapkan pernyataan resmi instansi bahwa tarian itu milik daerahnya agar tidak didahului pihak lain, meskipun isi video belum diperiksa",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mengajak sanggar tari membuat video tandingan yang menyindir negara tersebut supaya warganet mengetahui asal-usul tarian itu",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Membiarkan perdebatan di media sosial mereda dengan sendirinya karena kebudayaan pada dasarnya dapat dimiliki oleh siapa saja",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Ikut menyebarkan ajakan warganet agar tekanan publik terhadap negara tersebut makin besar dan klaimnya segera ditarik",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kisi-kisi TWK (KepmenPANRB 406/2026) menuntut nasionalisme yang mewujudkan kepentingan nasional dengan tetap mempertahankan identitas nasional. Respons yang tepat atas klaim budaya adalah memastikan fakta, memperkuat dokumentasi dan pelestarian, serta menempuh jalur resmi/diplomasi, bukan reaksi tergesa-gesa atau ujaran kebencian.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-04",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Sikap saat Lagu Kebangsaan",
+   "body": "Dalam pembukaan seminar nasional di sebuah hotel, pembawa acara meminta hadirin berdiri karena lagu Indonesia Raya akan diperdengarkan melalui pengeras suara. Beberapa peserta di meja belakang tetap duduk sambil menikmati hidangan karena merasa lagu itu hanya diputar dari rekaman.\nMenurut UU No. 24 Tahun 2009, ketentuan bagi setiap orang yang hadir saat Lagu Kebangsaan diperdengarkan adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "wajib berdiri tegak hanya apabila Lagu Kebangsaan dinyanyikan secara langsung oleh paduan suara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "boleh tetap duduk asalkan tidak berbicara dan tidak menggunakan telepon genggam",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "dianjurkan berdiri, tetapi kewajiban itu hanya berlaku bagi aparatur sipil negara",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "wajib ikut menyanyikan Lagu Kebangsaan, sedangkan sikap berdiri bersifat sukarela",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "wajib berdiri tegak dengan sikap hormat, baik lagu itu dinyanyikan maupun hanya diperdengarkan",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU No. 24 Tahun 2009 Pasal 62 menyatakan setiap orang yang hadir pada saat Lagu Kebangsaan diperdengarkan dan/atau dinyanyikan wajib berdiri tegak dengan sikap hormat. Kewajiban ini berlaku bagi semua yang hadir, termasuk saat lagu diputar dari rekaman.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-05",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Objek pemajuan kebudayaan",
+   "body": "Pemerintah desa bersama karang taruna mendokumentasikan aturan main egrang, gobak sodor, dan permainan tradisional lain yang mulai jarang dimainkan anak-anak. Hasilnya dijadikan buku saku dan video pembelajaran untuk sekolah dasar di desa itu sebagai bagian dari upaya pemajuan kebudayaan.\nMenurut UU No. 5 Tahun 2017 tentang Pemajuan Kebudayaan, kelompok berikut yang SELURUHNYA termasuk objek pemajuan kebudayaan adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "permainan rakyat, cagar budaya, dan tradisi lisan",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "manuskrip, museum, dan adat istiadat",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "permainan rakyat, olahraga tradisional, dan manuskrip",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "ritus, seni, dan desa wisata",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "bahasa, teknologi tradisional, dan bangunan bersejarah",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 5 Tahun 2017 Pasal 5 menyebut sepuluh objek pemajuan kebudayaan: tradisi lisan, manuskrip, adat istiadat, ritus, pengetahuan tradisional, teknologi tradisional, seni, bahasa, permainan rakyat, dan olahraga tradisional. Cagar budaya, museum, desa wisata, dan bangunan bersejarah tidak tercantum dalam pasal tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-06",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Fungsi ASN",
+   "body": "Nadia, ASN di kantor kecamatan, bertugas di wilayah yang warganya kerap bergesekan setelah pertandingan sepak bola antardesa. Ia menginisiasi pertemuan rutin para pemuda dari kedua desa, mengajak tokoh masyarakat masing-masing menjadi penengah, dan menjaga agar dirinya tidak memihak kelompok mana pun.\nMenurut UU No. 20 Tahun 2023 tentang ASN, fungsi ASN yang paling tercermin dari tindakan Nadia adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "pelaksana kebijakan publik",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "pelayan publik",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "perekat dan pemersatu bangsa",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "pengawas penyelenggaraan pembangunan desa",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "penegak hukum di wilayah kecamatan",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 20 Tahun 2023 Pasal 10 menyebut fungsi ASN sebagai pelaksana kebijakan publik, pelayan publik, serta perekat dan pemersatu bangsa. Upaya Nadia meredam gesekan antarkelompok secara netral paling mencerminkan fungsi perekat dan pemersatu bangsa.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-07",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Ketangguhan (kasus tekanan atasan)",
+   "body": "Rina, anggota tim pengadaan, diminta atasannya menaikkan nilai kontrak jasa kebersihan di atas hasil evaluasi tim tanpa dasar yang sah. Setelah Rina menolak, atasan berulang kali menekannya dan menyindir bahwa ia tidak akan dilibatkan lagi dalam kegiatan kantor.\nTindakan Rina yang paling mencerminkan unsur ketangguhan dalam integritas adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tetap menolak dengan santun, menjelaskan aturan yang berlaku, dan bertahan pada nilai hasil evaluasi meskipun tekanan terus berlanjut",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Menaikkan nilai kontrak sesuai permintaan, tetapi meminta atasan menandatangani surat perintah tertulis sebagai pelindung dirinya",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mengundurkan diri dari tim pengadaan agar tidak lagi berhadapan dengan tekanan atasan, lalu membiarkan anggota tim lain memutuskan nilai kontraknya",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menawarkan jalan tengah berupa kenaikan nilai kontrak yang lebih kecil agar hubungan dengan atasan tetap baik",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menunda pembahasan kontrak tanpa kejelasan sambil berharap atasan melupakan permintaannya seiring waktu",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kisi-kisi TWK merumuskan integritas sebagai kejujuran, ketangguhan, komitmen, dan konsistensi sebagai satu kesatuan sikap. Ketangguhan tampak ketika seseorang tetap teguh mempertahankan kebenaran di bawah tekanan; menuruti, mundur, berkompromi, atau menunda berarti goyah menghadapi tekanan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-08",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Nilai \"mandiri\"",
+   "body": "Fajar, CPNS yang sedang mengikuti pelatihan dasar, ditawari jasa joki untuk mengerjakan tugas dan kuis daringnya dengan imbalan tertentu. Ia menolak tawaran itu dan memilih mengerjakan sendiri seluruh tugasnya tanpa bergantung pada orang lain.\nNilai antikorupsi yang paling menonjol dari sikap Fajar adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "peduli",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "sederhana",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "adil",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "mandiri",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "berani",
+     "weight": 0
+    }
+   ],
+   "explanation": "Salah satu dari sembilan nilai antikorupsi KPK adalah mandiri, yaitu tidak bergantung pada orang lain dalam menyelesaikan tugas. Menolak joki dan mengerjakan tugas pelatihan sendiri paling tepat mencerminkan nilai mandiri.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-09",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Hadiah terkait jabatan",
+   "body": "Anda adalah PNS yang menjadi pejabat pemeriksa hasil pekerjaan pengadaan alat tulis kantor. Sehari setelah berita acara serah terima ditandatangani, perwakilan vendor datang membawa voucer belanja sebagai \"tanda terima kasih atas kerja samanya\". Ia menegaskan bahwa pekerjaan sudah selesai sehingga pemberian itu tidak akan memengaruhi apa pun.\nBerdasarkan PP No. 94 Tahun 2021 tentang Disiplin PNS, sikap Anda yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menerima voucer itu karena diberikan setelah berita acara serah terima ditandatangani sehingga tidak memengaruhi hasil pemeriksaan Anda",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menolak voucer itu dengan sopan karena PNS dilarang menerima hadiah yang berhubungan dengan jabatan atau pekerjaannya",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menerima voucer itu, lalu menyerahkannya ke koperasi kantor agar dapat dinikmati seluruh pegawai",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menerima voucer itu karena nilainya kecil dan vendor juga memberikannya kepada pegawai lain",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menolak voucer itu di kantor, tetapi mempersilakan vendor mengirimkannya ke alamat rumah",
+     "weight": 0
+    }
+   ],
+   "explanation": "PP No. 94 Tahun 2021 Pasal 5 melarang PNS menerima hadiah yang berhubungan dengan jabatan dan/atau pekerjaannya. Pemberian vendor kepada pejabat pemeriksa jelas terkait jabatan, sehingga waktu pemberian, nilainya, atau penyalurannya kepada pihak lain tidak menghapus larangan itu.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-10",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Kompeten",
+   "body": "Putri ditugasi menyusun laporan analisis kepuasan layanan unitnya untuk pertama kali. Karena tenggat tinggal tiga hari, seorang rekan menawarkan laporan serupa milik unit lain dan menyarankan agar Putri cukup mengganti nama unit serta angka-angkanya.\nSikap Putri yang paling sesuai dengan nilai dasar Kompeten dalam UU No. 20 Tahun 2023 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyalin laporan unit lain dengan mengganti nama unit dan angka-angkanya agar laporan selesai tepat waktu",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menyalin sebagian besar isi laporan unit lain, lalu mencantumkan nama penyusun aslinya sebagai bentuk kejujuran",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Meminta rekan yang menawarkan laporan itu untuk sekalian menyusunkan laporan unitnya hingga selesai",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menunda penyusunan laporan sampai kantor menyelenggarakan pelatihan khusus tentang analisis kepuasan layanan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menjadikan laporan unit lain sebagai bahan belajar, lalu menyusun sendiri laporan dari data unitnya dengan kualitas terbaik",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU No. 20 Tahun 2023 Pasal 4 ayat (2) huruf c merinci perilaku Kompeten, antara lain terus belajar dan mengembangkan kapabilitas serta melaksanakan tugas dengan kualitas terbaik. Menjadikan laporan lain sebagai bahan belajar lalu menyusun laporan sendiri memenuhi kedua perilaku itu, sedangkan menyalin, menitipkan, atau menunda tugas tidak.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-11",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Sumber konflik kepentingan",
+   "body": "Pak Hendra, kepala seksi, diberi wewenang memilih seorang tenaga pendukung administrasi untuk kegiatan yang dipimpinnya. Salah satu pelamar adalah keponakannya sendiri yang secara administratif memenuhi syarat. Rekan Pak Hendra berpendapat tidak ada masalah karena keponakan bukan anggota keluarga inti dan posisi itu bukan jabatan ASN.\nMenurut UU No. 30 Tahun 2014 tentang Administrasi Pemerintahan, penilaian yang tepat atas situasi tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tidak berpotensi menimbulkan konflik kepentingan karena keponakan tidak termasuk anggota keluarga inti",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Berpotensi menimbulkan konflik kepentingan karena keputusan Pak Hendra dapat dilatarbelakangi hubungan dengan kerabat dan keluarga",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Tidak berpotensi menimbulkan konflik kepentingan selama keponakannya memenuhi seluruh syarat administrasi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Berpotensi menimbulkan konflik kepentingan hanya jika keponakannya kelak menerima honor atau fasilitas lebih tinggi daripada tenaga pendukung lain",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Tidak berpotensi menimbulkan konflik kepentingan karena tenaga pendukung administrasi bukan jabatan ASN",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 30 Tahun 2014 Pasal 43 ayat (1) menyatakan konflik kepentingan terjadi apabila keputusan dan/atau tindakan dilatarbelakangi, antara lain, kepentingan pribadi dan/atau bisnis (huruf a) atau hubungan dengan kerabat dan keluarga (huruf b). Keponakan adalah kerabat, sehingga potensi konflik kepentingan tetap ada walaupun ia memenuhi syarat dan posisinya bukan jabatan ASN.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-12",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "LHKPN",
+   "body": "Pak Bima baru saja dilantik pada jabatan yang tergolong penyelenggara negara. Seorang kenalannya mengatakan bahwa laporan harta kekayaan cukup dibuat ketika Pak Bima sudah tidak menjabat lagi.\nMenurut UU No. 28 Tahun 1999 tentang Penyelenggaraan Negara yang Bersih dan Bebas dari Korupsi, Kolusi, dan Nepotisme, kewajiban Pak Bima yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "melaporkan dan mengumumkan kekayaannya sebelum dan setelah menjabat",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "melaporkan kekayaannya hanya setelah masa jabatannya berakhir",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "mengumumkan kekayaannya hanya apabila diminta oleh masyarakat",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "melaporkan kekayaannya kepada atasan langsung tanpa perlu diumumkan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "melaporkan kekayaannya sebelum menjabat tanpa perlu diumumkan",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 28 Tahun 1999 Pasal 5 angka 3 mewajibkan setiap penyelenggara negara melaporkan dan mengumumkan kekayaannya sebelum dan setelah menjabat. Kewajiban itu mencakup pelaporan sekaligus pengumuman, baik sebelum maupun setelah masa jabatan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-13",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Nilai dasar \"setia pada Pancasila sebagai ideologi negara\" (kasus)",
+   "body": "Raka, mahasiswa tingkat akhir, diajak teman satu organisasinya bergabung dengan kelompok diskusi tertutup yang terang-terangan ingin mengganti Pancasila dengan ideologi lain. Temannya menjanjikan beasiswa dan jaringan kerja bila Raka mau ikut.\nTindakan Raka yang paling mencerminkan nilai dasar bela negara \"setia pada Pancasila sebagai ideologi negara\" adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mengikuti beberapa pertemuan kelompok itu terlebih dahulu agar dapat menilai ajarannya secara objektif sebelum memutuskan sikap terhadap ajakan tersebut",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menerima tawaran beasiswanya saja tanpa ikut menyebarkan gagasan kelompok tersebut kepada mahasiswa lain",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menjauhi temannya tanpa berkata apa pun karena urusan ideologi merupakan pilihan pribadi setiap orang",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menyebarkan identitas para anggota kelompok itu di media sosial agar mereka dikucilkan oleh mahasiswa lain",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menolak ajakan itu, menegaskan bahwa Pancasila adalah dasar negara yang harus dijaga, dan melaporkan kegiatan kelompok itu kepada kampus",
+     "weight": 5
+    }
+   ],
+   "explanation": "Setia pada Pancasila sebagai ideologi negara merupakan nilai dasar bela negara dalam UU No. 23 Tahun 2019 Pasal 7 ayat (3) huruf c. Nilai itu diwujudkan dengan menolak paham yang ingin mengganti Pancasila, meneguhkan Pancasila sebagai dasar negara, dan menempuh jalur yang sah, bukan berkompromi atau main hakim sendiri.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-14",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Sishankamrata",
+   "body": "Menurut UUD NRI Tahun 1945 Pasal 30 ayat (2), usaha pertahanan dan keamanan negara dilaksanakan melalui sistem pertahanan dan keamanan rakyat semesta. Pembagian peran yang tepat dalam sistem tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "TNI sebagai kekuatan utama, Polri dan rakyat sebagai kekuatan pendukung",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "TNI, Polri, dan rakyat sama-sama berkedudukan sebagai kekuatan utama",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "rakyat sebagai kekuatan utama, TNI dan Polri sebagai kekuatan pendukung",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "TNI dan Polri sebagai kekuatan utama, rakyat sebagai kekuatan pendukung",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "TNI sebagai kekuatan utama, Polri sebagai kekuatan cadangan, rakyat sebagai kekuatan pendukung",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI Tahun 1945 Pasal 30 ayat (2) menyatakan usaha pertahanan dan keamanan negara dilaksanakan melalui sistem pertahanan dan keamanan rakyat semesta oleh TNI dan Polri sebagai kekuatan utama, dan rakyat sebagai kekuatan pendukung.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-15",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Pertahanan semesta",
+   "body": "Dalam sebuah diskusi, seorang peserta berpendapat bahwa pertahanan negara cukup diserahkan kepada militer dan baru perlu dipersiapkan ketika perang benar-benar terjadi.\nMenurut UU No. 3 Tahun 2002 Pasal 1 angka 2, pendapat tersebut keliru karena sistem pertahanan negara ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "bersifat semesta dan melibatkan seluruh warga negara, tetapi baru dipersiapkan pemerintah setelah negara secara resmi menyatakan keadaan perang",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "bertumpu pada kekuatan militer, dipersiapkan ketika ancaman muncul, dan diselenggarakan secara bertahap sesuai besar kecilnya ancaman",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "melibatkan seluruh warga negara, wilayah, dan sumber daya nasional, dipersiapkan secara dini, serta diselenggarakan secara total, terpadu, terarah, dan berlanjut",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "melibatkan seluruh warga negara dan wilayah, dipersiapkan secara dini, tetapi diselenggarakan hanya di daerah perbatasan yang rawan ancaman",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "melibatkan sumber daya nasional dan bantuan negara sahabat, serta diselenggarakan secara terpusat oleh pemerintah ketika perang terjadi",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 3 Tahun 2002 Pasal 1 angka 2 mendefinisikan sistem pertahanan negara sebagai sistem pertahanan bersifat semesta yang melibatkan seluruh warga negara, wilayah, dan sumber daya nasional, dipersiapkan secara dini, serta diselenggarakan secara total, terpadu, terarah, dan berlanjut. Jadi, pertahanan bukan hanya urusan militer dan tidak menunggu perang terjadi.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-16",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Palagan Ambarawa",
+   "body": "Palagan Ambarawa merupakan salah satu pertempuran penting pada masa mempertahankan kemerdekaan. Fase penentuannya berlangsung pada 12–15 Desember 1945.\nPernyataan yang tepat mengenai peristiwa tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Fase penentuan dipimpin Kolonel Soedirman, dan tanggal 15 Desember kini diperingati sebagai Hari Juang Kartika TNI AD",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Fase penentuan dipimpin Kolonel Soedirman, dan tanggal 12 Desember kini diperingati sebagai Hari Juang Kartika TNI AD",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Fase penentuan dipimpin Kolonel A.H. Nasution, dan tanggal 15 Desember kini diperingati sebagai Hari Juang Kartika TNI AD",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Fase penentuan dipimpin Kolonel Soedirman, dan tanggal 15 Desember kini diperingati sebagai Hari Tentara Nasional Indonesia",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Fase penentuan dipimpin Kolonel A.H. Nasution, dan pertempuran diakhiri dengan membumihanguskan kota agar tidak dimanfaatkan lawan",
+     "weight": 0
+    }
+   ],
+   "explanation": "Fase penentuan Palagan Ambarawa (12–15 Desember 1945) berada di bawah pimpinan Kolonel Soedirman, dan tanggal 15 Desember diperingati sebagai Hari Juang Kartika TNI AD. Pembumihangusan kota yang diumumkan A.H. Nasution adalah peristiwa Bandung Lautan Api, bukan Palagan Ambarawa.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-17",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Narkoba sebagai ancaman",
+   "body": "Sebuah kantor dinas meluncurkan program \"Kantor Bersih Narkoba\" berupa tes urine berkala, edukasi bahaya narkoba, dan kanal pelaporan peredaran gelap di lingkungan kerja. Seorang pegawai menganggap program itu tidak ada hubungannya dengan bela negara karena bela negara hanya menyangkut ancaman perang.\nPernyataan yang tepat menurut UU No. 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Program itu tidak berkaitan dengan bela negara karena ancaman yang diatur undang-undang tersebut hanya ancaman militer dari negara lain",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Program itu tidak berkaitan dengan bela negara karena penyalahgunaan narkoba sepenuhnya urusan kesehatan pribadi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Program itu baru berkaitan dengan bela negara apabila pelaku peredaran narkoba berasal dari negara lain",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Program itu baru berkaitan dengan bela negara apabila pelaksanaannya dipimpin langsung oleh prajurit TNI",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Program itu sejalan dengan bela negara karena peredaran dan penyalahgunaan narkoba termasuk wujud ancaman dalam undang-undang tersebut",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU No. 23 Tahun 2019 Pasal 4 membagi ancaman menjadi ancaman militer, nonmiliter, dan hibrida, dan ayat (3) menyebut peredaran dan penyalahgunaan narkoba sebagai salah satu wujud ancaman. Karena itu, upaya mencegah narkoba di lingkungan kerja merupakan bagian dari menghadapi ancaman terhadap bangsa dan negara.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-18",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Pembinaan lingkup masyarakat",
+   "body": "Badan Kesatuan Bangsa dan Politik sebuah kabupaten menyusun program pembinaan kesadaran bela negara lingkup masyarakat. Dalam rapat, panitia sepakat menyasar tokoh agama, tokoh masyarakat, dan tokoh adat.\nSasaran lain yang secara tegas disebut dalam UU No. 23 Tahun 2019 Pasal 9 untuk pembinaan lingkup masyarakat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "pegawai badan usaha milik negara, badan usaha milik daerah, dan badan usaha swasta di wilayah kabupaten tersebut",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "kader organisasi masyarakat, organisasi komunitas, organisasi profesi, dan partai politik",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "peserta didik dan pendidik pada setiap jalur, jenjang, dan jenis pendidikan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "prajurit TNI dan anggota Polri yang bertugas di wilayah kabupaten tersebut",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "aparatur sipil negara di lingkungan kementerian, lembaga, dan pemerintah daerah",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 23 Tahun 2019 Pasal 9 menyebut sasaran pembinaan kesadaran bela negara lingkup masyarakat: tokoh agama, tokoh masyarakat, tokoh adat, kader organisasi masyarakat, organisasi komunitas, organisasi profesi, dan partai politik, serta kelompok masyarakat lain. Peserta didik dibina melalui lingkup pendidikan, sedangkan pegawai badan usaha, ASN, prajurit TNI, dan anggota Polri melalui lingkup pekerjaan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-19",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Kedaulatan rakyat",
+   "body": "Pasal 1 ayat (2) UUD NRI Tahun 1945 diubah melalui Perubahan Ketiga. Bunyi pasal tersebut setelah perubahan adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kedaulatan berada di tangan rakyat dan dilakukan sepenuhnya oleh Majelis Permusyawaratan Rakyat.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut undang-undang.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Kedaulatan berada di tangan rakyat dan dilaksanakan oleh Presiden bersama DPR.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Kedaulatan berada di tangan negara dan dilaksanakan menurut Undang-Undang Dasar.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setelah Perubahan Ketiga, UUD NRI Tahun 1945 Pasal 1 ayat (2) berbunyi \"Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar.\" Pelaksanaan kedaulatan tidak lagi diserahkan sepenuhnya kepada satu lembaga, tetapi menurut UUD.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-20",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Pembukaan alinea II",
+   "body": "Alinea kedua Pembukaan UUD NRI Tahun 1945 menyatakan bahwa perjuangan pergerakan kemerdekaan Indonesia telah mengantarkan rakyat Indonesia ke depan pintu gerbang kemerdekaan Negara Indonesia. Sifat negara Indonesia yang dicita-citakan dalam alinea tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "merdeka, berdaulat, demokratis, dan berkeadilan sosial",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "bersatu, berdaulat, maju, dan berkelanjutan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "merdeka, bersatu, berdaulat, adil dan makmur",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "merdeka, bersatu, aman, damai, dan sejahtera",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "berdaulat, adil, makmur, dan berkepribadian luhur",
+     "weight": 0
+    }
+   ],
+   "explanation": "Alinea kedua Pembukaan UUD NRI Tahun 1945 memuat cita-cita Negara Indonesia yang merdeka, bersatu, berdaulat, adil dan makmur. Rumusan \"bersatu, berdaulat, maju, dan berkelanjutan\" adalah visi RPJPN 2025–2045 (UU No. 59 Tahun 2024), bukan isi alinea kedua.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-21",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Kekuasaan pemerintahan & menteri",
+   "body": "Dalam diskusi kelas, beberapa mahasiswa menyampaikan pendapat tentang kedudukan Presiden dan para menteri. Pendapat yang sesuai dengan UUD NRI Tahun 1945 Pasal 4 ayat (1) dan Pasal 17 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Presiden memegang kekuasaan pemerintahan menurut UUD; menteri diangkat oleh Presiden, tetapi hanya dapat diberhentikan setelah mendapat persetujuan DPR",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Presiden memegang kekuasaan pemerintahan menurut UUD; menteri diangkat dan diberhentikan Presiden, dan tiap menteri membidangi urusan tertentu dalam pemerintahan",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Presiden memegang kekuasaan pemerintahan bersama DPR; menteri diangkat dan diberhentikan oleh Presiden, dan bertanggung jawab kepada DPR",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Presiden memegang kekuasaan pemerintahan menurut UUD; menteri dipilih oleh MPR dan bertanggung jawab kepada MPR",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Presiden memegang kekuasaan pemerintahan menurut UUD; menteri diangkat oleh Presiden dan bebas menentukan sendiri urusan yang dibidanginya",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI Tahun 1945 Pasal 4 ayat (1) menyatakan Presiden memegang kekuasaan pemerintahan menurut UUD. Pasal 17 ayat (1)–(3) menyatakan Presiden dibantu menteri-menteri negara yang diangkat dan diberhentikan oleh Presiden, dan setiap menteri membidangi urusan tertentu dalam pemerintahan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-22",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PPKI & 18 Agustus 1945",
+   "body": "Panitia Persiapan Kemerdekaan Indonesia (PPKI) memegang peran penting dalam peletakan dasar ketatanegaraan Indonesia. Pernyataan yang tepat mengenai PPKI adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Dibentuk 7 Agustus 1945 dengan ketua Mohammad Hatta dan wakil ketua Soekarno, lalu pada 18 Agustus 1945 mengesahkan UUD",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Dibentuk 18 Agustus 1945 dengan ketua Soekarno dan wakil ketua Mohammad Hatta untuk merumuskan teks proklamasi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Pada 18 Agustus 1945 mengesahkan UUD dengan sila pertama yang tetap sesuai rumusan Piagam Jakarta",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Pada 18 Agustus 1945 mengubah sila pertama Piagam Jakarta menjadi \"Kemanusiaan yang adil dan beradab\"",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Dibentuk 7 Agustus 1945 dengan ketua Soekarno dan wakil ketua Mohammad Hatta, lalu pada 18 Agustus 1945 mengesahkan UUD",
+     "weight": 5
+    }
+   ],
+   "explanation": "PPKI dibentuk 7 Agustus 1945 dengan Soekarno sebagai ketua dan Mohammad Hatta sebagai wakil ketua. Pada 18 Agustus 1945 PPKI mengesahkan UUD, dan sila pertama rumusan Piagam Jakarta diubah menjadi \"Ketuhanan Yang Maha Esa\".",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-23",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "Lingkungan hidup baik & sehat",
+   "body": "Limbah sebuah pabrik dibuang ke sungai yang biasa dipakai warga untuk mandi dan mencuci. Air sungai menjadi keruh dan berbau, ikan-ikan mati, dan warga tidak lagi dapat memanfaatkan sungai itu untuk kebutuhan sehari-hari.\nHak konstitusional warga yang paling jelas terlanggar menurut UUD NRI Tahun 1945 Pasal 28H ayat (1) adalah hak ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "mendapatkan lingkungan hidup yang baik dan sehat",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "memperoleh pendidikan dan manfaat ilmu pengetahuan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "berserikat, berkumpul, dan mengeluarkan pendapat",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "memperoleh kesempatan yang sama dalam pemerintahan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "memilih dan dipilih dalam pemilihan umum",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI Tahun 1945 Pasal 28H ayat (1) menjamin hak setiap orang untuk hidup sejahtera lahir dan batin, bertempat tinggal, mendapatkan lingkungan hidup yang baik dan sehat, serta memperoleh pelayanan kesehatan. Pencemaran sungai oleh limbah pabrik paling jelas melanggar hak atas lingkungan hidup yang baik dan sehat.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-24",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Demokrasi ekonomi",
+   "body": "Pemerintah daerah menyusun strategi pengembangan ekonomi dengan mengacu pada UUD NRI Tahun 1945 Pasal 33 ayat (4) tentang penyelenggaraan perekonomian nasional berdasar atas demokrasi ekonomi.\nPrinsip berikut yang TIDAK termasuk dalam rumusan pasal tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "kebersamaan",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "efisiensi berkeadilan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "berwawasan lingkungan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "persaingan bebas",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "kemandirian",
+     "weight": 0
+    }
+   ],
+   "explanation": "UUD NRI Tahun 1945 Pasal 33 ayat (4) menyebut prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, berwawasan lingkungan, kemandirian, serta menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional. Persaingan bebas tidak termasuk dalam rumusan tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-25",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Pemberhentian Presiden/Wapres",
+   "body": "Menurut UUD NRI Tahun 1945 Pasal 7A dan 7B, Presiden dan/atau Wakil Presiden dapat diberhentikan dalam masa jabatannya oleh MPR atas usul DPR melalui prosedur tertentu.\nPernyataan yang sesuai dengan prosedur tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "DPR dapat langsung mengajukan usul pemberhentian kepada MPR tanpa terlebih dahulu meminta MK memeriksa dan memutus pendapatnya",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "MK wajib memeriksa, mengadili, dan memutus dengan seadil-adilnya pendapat DPR paling lama 30 hari setelah permintaan DPR diterima",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "DPR lebih dahulu mengajukan permintaan kepada MK dengan dukungan minimal 2/3 anggota yang hadir dalam sidang paripurna yang dihadiri minimal 2/3 anggota DPR",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "MPR wajib menyelenggarakan sidang untuk memutuskan usul DPR paling lambat 90 hari sejak MPR menerima usul pemberhentian tersebut",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Keputusan MPR diambil dalam rapat paripurna yang dihadiri minimal 2/3 jumlah anggota dan disetujui minimal 3/4 jumlah anggota yang hadir",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 7B UUD NRI Tahun 1945 mengatur bahwa DPR lebih dahulu mengajukan permintaan kepada MK dengan dukungan sekurang-kurangnya 2/3 anggota yang hadir dalam sidang paripurna yang dihadiri sekurang-kurangnya 2/3 anggota DPR. MK memutus paling lama 90 hari, MPR bersidang paling lambat 30 hari, dan keputusan MPR diambil dalam rapat yang dihadiri sekurang-kurangnya 3/4 anggota dan disetujui sekurang-kurangnya 2/3 anggota yang hadir.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-26",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Kata baku set 3",
+   "body": "Seorang staf humas memeriksa ejaan pada draf pengumuman resmi instansinya. Kelompok kata berikut yang SELURUHNYA ditulis dalam bentuk baku menurut KBBI adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "silahkan, ijazah, aktivitas, khotbah",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "silakan, sistim, diagnosis, khotbah",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "aktifitas, ijazah, hipotesis, isap",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "silakan, diagnosa, aktivitas, sistem",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "ijazah, sistem, hipotesis, isap",
+     "weight": 5
+    }
+   ],
+   "explanation": "Menurut KBBI, bentuk baku kata-kata tersebut adalah silakan, ijazah, sistem, aktivitas, diagnosis, hipotesis, isap, dan khotbah. Bentuk silahkan, sistim, aktifitas, dan diagnosa tidak baku, sehingga hanya kelompok \"ijazah, sistem, hipotesis, isap\" yang seluruhnya baku.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-27",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Koma kalimat majemuk",
+   "body": "Berikut beberapa kalimat dari laporan kegiatan seorang pegawai kelurahan. Kalimat yang penggunaan tanda komanya tepat menurut EYD V adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kami akan melanjutkan pendataan warga di dusun utara, setelah hujan deras di desa itu reda.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Tim pertama mendata warga di dusun utara, sedangkan tim kedua menyalurkan bantuan.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Karena jaringan internet di kantor kelurahan terganggu pendaftaran daring ditutup sementara.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Warga sudah berkumpul di balai desa sejak pukul delapan tetapi narasumber belum juga datang.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Rapat evaluasi program bantuan sudah dimulai, ketika kepala dinas tiba di aula kelurahan.",
+     "weight": 0
+    }
+   ],
+   "explanation": "EYD V mengatur bahwa tanda koma dipakai sebelum kata penghubung tetapi, melainkan, dan sedangkan dalam kalimat majemuk setara, serta dipakai bila anak kalimat mendahului induk kalimat. Bila induk kalimat mendahului anak kalimat (… setelah …, … ketika …), koma tidak dipakai; karena itu hanya kalimat dengan \"…, sedangkan …\" yang tepat.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-28",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Kesejajaran bentuk",
+   "body": "Dalam kalimat efektif, unsur-unsur perincian harus sejajar bentuknya. Kalimat berikut yang memenuhi kesejajaran bentuk adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Langkah perbaikan layanan mencakup penambahan loket, pelatihan petugas, dan penyederhanaan formulir.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Kegiatan pelatihan itu meliputi penyusunan modul, pelaksanaan simulasi, dan mengevaluasi hasil belajar.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Tugas tim ini adalah mendata warga, memverifikasi berkas, dan penyaluran bantuan.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Panitia bertugas menyiapkan tempat, pengaturan jadwal, dan menghubungi narasumber.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Program itu bertujuan meningkatkan literasi, pengembangan bakat, dan memperluas jejaring.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Unsur perincian dalam kalimat efektif harus sejajar, misalnya semuanya nomina berimbuhan pe-an atau semuanya verba berawalan me-. Hanya \"penambahan loket, pelatihan petugas, dan penyederhanaan formulir\" yang seluruh unsurnya nomina pe-an; kalimat lain mencampur nomina dan verba.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-29",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Ide pokok paragraf induktif",
+   "body": "Bacalah paragraf berikut.\n(1) Banyak warga tergiur tawaran pinjaman daring yang menjanjikan pencairan dana dalam hitungan menit tanpa jaminan. (2) Sebagian dari mereka langsung menyetujui perjanjian tanpa membaca ketentuan bunga dan dendanya. (3) Ada pula yang memberikan izin akses ke seluruh daftar kontak di ponselnya tanpa memahami risikonya. (4) Ketika tagihan membengkak, penagih dari aplikasi ilegal menghubungi keluarga dan rekan kerja peminjam untuk mempermalukannya. (5) Rangkaian kejadian itu menunjukkan bahwa rendahnya literasi keuangan membuat masyarakat mudah terjerat pinjaman daring ilegal.\nIde pokok dan jenis paragraf tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "rendahnya literasi keuangan membuat masyarakat mudah terjerat pinjaman daring ilegal; paragraf deduktif",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "pinjaman daring menjanjikan pencairan dana yang cepat tanpa jaminan; paragraf deduktif",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "penagih aplikasi ilegal mempermalukan peminjam di depan keluarganya; paragraf induktif",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "rendahnya literasi keuangan membuat masyarakat mudah terjerat pinjaman daring ilegal; paragraf induktif",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "peminjam sering tidak membaca ketentuan bunga dan denda; paragraf campuran",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kalimat (1)–(4) berisi rincian kejadian, sedangkan kalimat (5) menyimpulkan gagasan utamanya. Paragraf yang kalimat utamanya terletak di akhir disebut paragraf induktif, dan ide pokoknya adalah rendahnya literasi keuangan membuat masyarakat mudah terjerat pinjaman daring ilegal.",
+   "verify": null
+  },
+  {
+   "id": "P03-TWK-30",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Fungsi bahasa resmi negara",
+   "body": "UU No. 24 Tahun 2009 membedakan fungsi bahasa Indonesia sebagai bahasa nasional dan sebagai bahasa resmi negara. Kegiatan berikut yang menunjukkan fungsi bahasa Indonesia sebagai bahasa resmi negara menurut Pasal 25 ayat (3) adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Warga diaspora tetap berbahasa Indonesia di rumah sebagai penanda jati diri bangsa.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Pemuda dari berbagai suku bangsa di sebuah kota memilih berbahasa Indonesia agar tetap merasa satu bangsa.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Perguruan tinggi negeri menggunakan bahasa Indonesia sebagai bahasa pengantar perkuliahan.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Pelajar mengenakan kaus bertuliskan ungkapan bahasa Indonesia sebagai lambang kebanggaan nasional.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Pedagang di pasar tradisional melayani pembeli dari kampungnya sendiri dengan bahasa daerah.",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU No. 24 Tahun 2009 Pasal 25 ayat (3) menetapkan fungsi bahasa Indonesia sebagai bahasa resmi negara, antara lain bahasa resmi kenegaraan, pengantar pendidikan, komunikasi tingkat nasional, serta transaksi dan dokumentasi niaga. Jati diri bangsa, kebanggaan nasional, dan sarana pemersatu suku bangsa adalah fungsi bahasa nasional dalam Pasal 25 ayat (2).",
+   "verify": null
+  }
+ ]
+}

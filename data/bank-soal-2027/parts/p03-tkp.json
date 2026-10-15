@@ -1,0 +1,1760 @@
+{
+ "paket": 3,
+ "questions": [
+  {
+   "id": "P03-TKP-01",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "RSUD keluarga pasien gawat menyela antrean",
+   "body": "Anda adalah petugas pendaftaran di sebuah RSUD. Saat antrean panjang, seorang pria menerobos ke depan loket dan membentak Anda karena ayahnya sesak napas di dalam mobil dan belum ditangani. Pasien lain mulai protes karena merasa diserobot. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membalas bentakannya dengan tegas dan menyuruhnya kembali ke barisan paling belakang sebagai pelajaran.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Meminta pria itu tenang terlebih dahulu dan mengambil nomor antrean seperti pasien lain agar suasana loket tetap tertib.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Menenangkan pria itu, meminta petugas IGD menjemput ayahnya dengan brankar, dan menjelaskan kepada antrean bahwa pasien darurat didahulukan.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Mengarahkan pria tersebut agar membawa ayahnya langsung ke IGD karena pasien gawat darurat tidak perlu mendaftar terlebih dahulu melalui loket antrean umum.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Memanggil satpam agar pria yang bersikap kasar itu dibawa keluar, karena petugas tidak boleh dibentak saat bertugas.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: C (5) mendahulukan keselamatan pasien sesuai prinsip gawat darurat, meredakan emosi keluarga, dan menjaga rasa keadilan antrean; D (4) benar secara prosedur, tetapi tidak membantu penjemputan pasien dan tidak menenangkan pihak yang protes; B (3) normatif tetapi menunda penanganan pasien gawat; E (2) melempar persoalan dan mengabaikan kebutuhan pasien; A (1) membalas emosi dan menelantarkan pasien gawat sehingga melanggar etika pelayanan. Nilai yang diuji: berorientasi pelayanan dan harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-02",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "KUA calon pengantin tanpa surat rekomendasi",
+   "body": "Anda adalah staf di Kantor Urusan Agama (KUA) kecamatan. Sepasang calon pengantin datang mendaftarkan pernikahan, tetapi calon mempelai pria berdomisili di kabupaten lain dan belum membawa surat rekomendasi nikah dari KUA daerah asalnya. Mereka memohon berkas tetap diterima karena tanggal akad sudah dekat. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menerima berkas tanpa surat rekomendasi asalkan mereka membayar 'biaya pengurusan' tambahan kepada Anda.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menjelaskan dengan sopan bahwa surat rekomendasi termasuk syarat wajib dan pendaftaran baru dapat diterima setelah dilengkapi.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Meminta mereka pulang dan kembali lagi setelah semua persyaratan pendaftaran nikah lengkap.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menyarankan mereka menemui kepala KUA untuk meminta kebijakan khusus karena Anda merasa tidak berwenang memutuskan permohonan yang mendesak seperti itu.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Menjelaskan cara mengurus surat itu di KUA asal dan memeriksa kelengkapan berkas lainnya agar pendaftaran langsung diproses setelah surat ada.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) tegas pada syarat sambil memberi jalan keluar konkret dan menghemat waktu pemohon; B (4) taat aturan dan sopan, tetapi sebatas menjelaskan aturan; C (3) pelayanan seadanya tanpa informasi yang membantu; D (2) melempar tanggung jawab padahal persyaratannya sudah jelas; A (1) pungutan liar dan pelanggaran prosedur. Nilai yang diuji: berorientasi pelayanan dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-03",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "keluhan warga atas rekan loket yang ketus",
+   "body": "Anda adalah staf pelayanan di kantor kecamatan. Seorang warga mendatangi loket Anda dan mengeluh bahwa rekan Anda di loket sebelah melayaninya dengan ketus sehingga ia merasa tidak dihargai. Urusan warga itu sebenarnya belum selesai. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminta maaf atas nama kantor, menuntaskan urusannya, lalu membicarakan keluhan itu baik-baik dengan rekan secara empat mata.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Menjelaskan bahwa setiap loket punya petugasnya sendiri sehingga Anda tidak bisa ikut campur urusan loket sebelah.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Mendengarkan keluhannya dengan sabar, lalu memintanya kembali ke loket sebelah karena berkas dan antrean warga itu tercatat di sana.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Ikut membicarakan keburukan rekan tersebut di depan warga agar warga merasa didukung dan tidak kecewa.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Meminta maaf kepada warga dan mempersilakannya menulis keluhan di kotak pengaduan agar ditindaklanjuti pimpinan kecamatan.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: A (5) memulihkan kepuasan warga, menyelesaikan layanan, dan memperbaiki perilaku rekan tanpa mempermalukannya; E (4) memakai kanal pengaduan yang benar, tetapi urusan warga belum dituntaskan; C (3) sekadar menampung keluhan tanpa solusi; B (2) menghindar dari masalah layanan kantor sendiri; D (1) menjelekkan rekan di depan publik dan merusak citra layanan. Nilai yang diuji: berorientasi pelayanan dan harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-04",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "uji KIR angkot rem bermasalah",
+   "body": "Anda adalah penguji kendaraan bermotor di dinas perhubungan. Hasil uji menunjukkan rem sebuah angkot berada di bawah ambang batas. Pemiliknya memohon agar angkot tetap diluluskan karena itu satu-satunya sumber nafkah keluarganya, dan ia berjanji memperbaiki rem bulan depan. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mencatat hasil uji apa adanya dan menyerahkan lembar hasil kepada pemilik tanpa penjelasan tambahan.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Meluluskan angkot tersebut setelah pemiliknya menyelipkan uang terima kasih untuk Anda.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Menyatakan kendaraan tidak lulus sesuai hasil pemeriksaan dan memintanya mendaftar uji ulang setelah remnya diperbaiki di bengkel.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Menyatakan belum lulus, menjelaskan bahaya rem itu bagi penumpang, serta memberi tahu bagian yang harus diperbaiki dan jadwal uji ulang.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Meluluskan angkot itu karena kasihan, dengan syarat pemilik menandatangani surat pernyataan akan memperbaiki remnya paling lambat bulan depan.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: D (5) tegas menjaga keselamatan publik sekaligus membantu pemilik agar cepat lulus uji ulang; C (4) sesuai aturan, tetapi tanpa penjelasan dan bantuan yang memadai; A (3) pelayanan minimal; E (2) empati yang melanggar aturan dan membahayakan penumpang; B (1) menerima suap dan mengorbankan keselamatan publik. Nilai yang diuji: akuntabel dan berorientasi pelayanan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-05",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "posko pengungsian pembagian makanan tidak merata",
+   "body": "Anda adalah petugas posko pengungsian BPBD setelah banjir bandang. Pengungsi di tenda paling belakang mengeluh selalu kebagian makanan paling akhir, bahkan kadang tidak kebagian, sementara tenda di dekat dapur umum mendapat porsi berlebih. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mencocokkan data penghuni tiap tenda, lalu menyusun titik dan jadwal pembagian bergilir yang diumumkan kepada semua pengungsi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Menampung keluhan mereka dan berjanji membawanya ke rapat evaluasi posko pekan depan.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Meminta maaf kepada penghuni tenda belakang dan mendahulukan mereka pada pembagian makanan berikutnya.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Memprioritaskan pengungsi yang sudah dikenal petugas agar suasana posko tetap kondusif.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Menjelaskan bahwa logistik memang terbatas dan pembagian sudah sesuai stok, sehingga pengungsi diharapkan memaklumi serta bersabar menghadapi keadaan.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: A (5) menyelesaikan akar masalah secara adil dan transparan; C (4) responsif, tetapi hanya menambal satu kali tanpa memperbaiki sistem; B (3) menunda penyelesaian kebutuhan dasar; E (2) mencari alasan dan menghindari tanggung jawab; D (1) diskriminatif dan tidak adil. Nilai yang diuji: berorientasi pelayanan dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-06",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "chatbot AI layanan memberi persyaratan keliru",
+   "body": "Anda adalah pengelola layanan WhatsApp resmi sebuah dinas yang kini dilengkapi chatbot berbasis kecerdasan artifisial. Seorang warga mengadu bahwa ia bolak-balik ke kantor karena chatbot menyebutkan persyaratan izin yang sudah tidak berlaku. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menghapus percakapan warga itu agar kekeliruan tidak menjadi bahan keluhan.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menjelaskan bahwa jawaban chatbot dibuat mesin sehingga kekeliruannya bukan tanggung jawab petugas.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Meminta maaf dan memberi persyaratan yang benar, memperbaiki basis pengetahuan chatbot bersama tim pengembang, lalu memeriksa ulang jawaban untuk layanan lain.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Memberikan persyaratan yang benar kepada warga tanpa menindaklanjuti kesalahan chatbot.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Meminta maaf, menyampaikan persyaratan yang benar kepada warga, dan melaporkan kekeliruan chatbot tersebut kepada atasan untuk ditindaklanjuti oleh bagian terkait.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: C (5) menolong warga, memperbaiki sumber kesalahan, dan mencegah kasus serupa; E (4) baik, tetapi perbaikan sistem diserahkan kepada pihak lain; D (3) menyelesaikan satu kasus saja; B (2) melempar tanggung jawab kepada teknologi; A (1) menutupi kesalahan dan tidak jujur. Manusia tetap bertanggung jawab atas keluaran AI, sejalan dengan prinsip akuntabilitas dalam SE Menkominfo 9/2023 tentang Etika Kecerdasan Artifisial.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-07",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "warga kursi roda tidak bisa ke lantai 2",
+   "body": "Anda adalah petugas pelayanan di kantor kecamatan yang ruang layanannya berada di lantai 2 tanpa lift atau jalur landai. Seorang warga pengguna kursi roda datang untuk mengurus surat keterangan dan hanya bisa menunggu di teras lantai dasar. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyarankan warga meminta bantuan keluarganya untuk mengurus surat itu di lain hari agar ia tidak perlu repot naik ke lantai 2.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Turun melayaninya di lantai dasar dengan membawa perlengkapan yang diperlukan, lalu mengusulkan meja layanan permanen di lantai dasar.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Turun ke lantai dasar dan melayani warga itu sampai urusannya selesai, lalu kembali bertugas di ruang layanan lantai 2.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Meminta warga menitipkan berkas kepada petugas keamanan dan menunggu kabar selanjutnya dari kantor.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Menyampaikan bahwa layanan hanya tersedia di lantai 2 sehingga warga harus naik sendiri.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: B (5) melayani dengan bermartabat sekaligus mengusulkan perbaikan aksesibilitas; C (4) melayani dengan baik, tetapi tidak mencegah masalah serupa; D (3) pelayanan seadanya tanpa kepastian; A (2) menghindari kewajiban melayani; E (1) menolak dan diskriminatif terhadap penyandang disabilitas. Pelayanan publik wajib aksesibel bagi penyandang disabilitas (PP 42/2020); nilai yang diuji: berorientasi pelayanan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-08",
+   "subtest": "TKP",
+   "category": "Pelayanan Publik",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "lansia gagal verifikasi wajah bansos",
+   "body": "Anda adalah pendamping bantuan sosial di dinas sosial. Penyaluran kini memakai aplikasi dengan verifikasi wajah. Seorang penerima lansia berkali-kali gagal diverifikasi karena kondisi matanya, padahal batas pencairan tinggal dua hari dan ia sangat membutuhkan bantuan itu. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melakukan verifikasi memakai wajah anggota keluarga yang tinggal serumah supaya bantuan tetap cair tepat waktu dan lansia itu tidak kehilangan haknya.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menyarankan lansia tersebut mendaftar ulang pada periode penyaluran berikutnya karena batas waktu pencairan sudah terlalu dekat.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Mendampingi lansia itu mencoba verifikasi ulang berkali-kali dengan pencahayaan, jarak, dan posisi wajah yang lebih baik sampai berhasil.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Memastikan identitasnya lewat dokumen dan perangkat desa, menempuh verifikasi alternatif sesuai petunjuk teknis, dan melaporkan kendala aplikasi.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Mencatat kegagalan verifikasi itu dan menunggu instruksi tertulis dari dinas mengenai penanganan penerima yang bermasalah di aplikasi.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: D (5) menyelesaikan masalah warga tanpa melanggar prosedur dan ikut memperbaiki sistem; C (4) membantu, tetapi belum tentu tuntas bila kendalanya kondisi fisik; E (3) pasif menunggu padahal tenggat dekat; B (2) mengorbankan hak penerima; A (1) memanipulasi verifikasi biometrik dan melanggar integritas. Butir ini menguji keseimbangan kecepatan dan prosedur dalam layanan digital (SPBE); nilai: berorientasi pelayanan, adaptif, akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-09",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "memaparkan hasil tim kontribusi rekan",
+   "body": "Anda adalah pegawai teknis dalam sebuah tim kajian. Atasan meminta Anda memaparkan hasil kajian tim di depan pimpinan, padahal sebagian besar analisis dikerjakan oleh rekan yang sedang bertugas ke luar kota. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminta atasan menunda paparan sampai rekan tersebut kembali karena dialah yang paling memahami isi kajian.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Memaparkan hasil kajian sesuai bahan yang tersedia tanpa berkoordinasi lagi dengan rekan tersebut.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Mempelajari materi bersama rekan itu lewat telepon, memaparkan hasilnya, dan menyebut perannya secara terbuka di hadapan pimpinan.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Memaparkan hasil kajian sebaik mungkin dan menyampaikan kepada pimpinan bahwa kajian tersebut merupakan hasil kerja seluruh anggota tim.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Memaparkan hasil kajian seolah-olah seluruh analisis adalah hasil kerja Anda sendiri.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: C (5) berkoordinasi agar paparan akurat dan menghargai kontribusi rekan; D (4) jujur dan kolaboratif, tetapi tanpa koordinasi dengan penyusun utama; B (3) menjalankan tugas sebatas formalitas; A (2) menghindari tugas; E (1) mengklaim karya orang lain dan tidak jujur. Nilai yang diuji: kolaboratif dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-10",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "perencana butuh masukan tokoh masyarakat desa",
+   "body": "Anda adalah perencana di dinas pemberdayaan masyarakat desa yang sedang menyusun program peningkatan ekonomi desa. Agar tepat sasaran, Anda memerlukan masukan tokoh masyarakat setempat, tetapi belum mengenal satu pun dari mereka. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyusun program berdasarkan data statistik desa yang tersedia.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Mengirimkan kuesioner melalui kantor desa untuk diisi oleh para tokoh masyarakat dan mengolah jawabannya sebagai bahan perencanaan program.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Hanya mengundang tokoh yang dikenal mendukung kepala dinas agar program tidak dikritik.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Menyusun program sendiri karena menganggap tokoh masyarakat sulit diajak berdiskusi.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Meminta kepala desa memperkenalkan Anda kepada para tokoh, lalu mengadakan dialog untuk menggali kebutuhan warga.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) membangun jejaring melalui jalur yang tepat dan menggali masukan langsung; B (4) mengumpulkan masukan, tetapi tanpa membangun hubungan; A (3) kerja sebatas data, tanpa melibatkan warga; D (2) menghindari kolaborasi dan berprasangka; C (1) memanipulasi partisipasi dan tidak objektif. Nilai yang diuji: kolaboratif dan berorientasi pelayanan.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-11",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "kelompok tani ragu metode tanam baru",
+   "body": "Anda adalah penyuluh pertanian lapangan yang ditugasi memperkenalkan metode tanam padi hemat air. Sebagian besar anggota kelompok tani ragu karena khawatir hasil panen turun dan memilih bertahan dengan cara lama. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mengajak beberapa petani yang bersedia membuat petak percontohan, mendampinginya sampai panen, lalu mengajak anggota lain melihat hasilnya.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Membagikan brosur dan menyerahkan keputusan sepenuhnya kepada petani.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Mengancam mencoret kelompok itu dari daftar penerima pupuk bersubsidi bila menolak.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Menjelaskan keunggulan metode baru secara rinci dalam pertemuan kelompok tani, disertai data hasil penelitian dan pengalaman petani dari daerah lain.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Melaporkan bahwa kelompok tani itu menolak sehingga program sebaiknya dialihkan ke desa lain.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: A (5) membangun kepercayaan lewat bukti nyata dan pendampingan; D (4) informatif, tetapi belum menjawab keraguan secara langsung; B (3) sebatas formalitas; E (2) menghindari tantangan kolaborasi; C (1) menyalahgunakan wewenang dan memaksa. Nilai yang diuji: kolaboratif dan adaptif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-12",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "rekan sering minta dikerjakan tugasnya",
+   "body": "Anda adalah staf keuangan. Seorang rekan satu bagian sering meminta Anda menyelesaikan rekap pertanggungjawaban yang menjadi tugasnya dengan alasan kurang paham aplikasi keuangan. Akibatnya, pekerjaan Anda sendiri kerap terlambat. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tetap membantu bila pekerjaan Anda sedang longgar dan menolak bila sedang sibuk, tanpa membicarakan pola itu dengan rekan.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Menolak secara halus dan menyarankannya mengikuti pelatihan aplikasi yang diadakan bagian keuangan.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Menghindari rekan tersebut dengan berpura-pura sibuk setiap kali ia datang.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Mengadukan rekan itu di grup kantor agar semua orang tahu ia malas.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Menyampaikan keberatan dengan baik dan menawarkan diri mengajarinya memakai aplikasi pada waktu yang disepakati.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) jujur, menjaga hubungan, dan membuat rekan mandiri; B (4) tepat, tetapi kurang membantu secara langsung; A (3) tidak menyelesaikan masalah; C (2) menghindar dan tidak jujur; D (1) mempermalukan dan menjelekkan rekan. Nilai yang diuji: kolaboratif dan harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-13",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "koordinasi acara dengan instansi vertikal beda prosedur",
+   "body": "Anda adalah staf protokol pemerintah daerah yang menyiapkan upacara peringatan hari besar bersama sebuah instansi vertikal. Ternyata instansi tersebut memiliki tata urutan acara dan prosedur pengamanan yang berbeda dengan kebiasaan pemda. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mengusulkan rapat teknis bersama untuk mencocokkan kedua prosedur, menyepakati susunan acara, dan membagikan hasilnya secara tertulis.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Mengeluhkan sikap instansi vertikal yang dianggap kaku dan tidak mau menyesuaikan diri kepada wartawan media lokal yang meliput persiapan acara.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Melaporkan perbedaan itu kepada atasan dan meminta keputusan prosedur mana yang dipakai.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Mengikuti saja prosedur instansi vertikal itu agar tidak perlu repot berdebat dalam persiapan.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Menjalankan prosedur pemda sendiri tanpa memedulikan prosedur instansi vertikal tersebut.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: A (5) mencari titik temu secara setara dan terdokumentasi; C (4) benar, tetapi menunggu arahan padahal bisa dikoordinasikan sendiri; D (3) kerja sama sebatas formalitas; E (2) bekerja sendiri dan mengabaikan mitra; B (1) menjelekkan mitra di ruang publik. Nilai yang diuji: kolaboratif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-14",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "data sasaran stunting puskesmas dan dinsos berbeda",
+   "body": "Anda adalah anggota tim percepatan penurunan stunting lintas perangkat daerah. Saat menyusun daftar sasaran, jumlah balita berisiko stunting menurut data puskesmas berbeda cukup jauh dengan data dinas sosial. Laporan harus diserahkan dua minggu lagi. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyesuaikan angka agar kedua sumber terlihat sama supaya laporan tidak dipersoalkan.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menyampaikan perbedaan itu kepada ketua tim dan memintanya menetapkan data instansi mana yang dipakai agar laporan tetap selesai tepat waktu.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Mengajak pengelola data kedua instansi menelusuri penyebab selisih, menyepakati sumber rujukan, lalu memutakhirkan daftar sasaran bersama.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Memakai data puskesmas saja karena dinas sosial dianggap lamban menanggapi permintaan klarifikasi.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Mencantumkan kedua data dalam laporan dan menyerahkan penafsirannya kepada pembaca.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: C (5) menyelesaikan perbedaan data secara kolaboratif sesuai prinsip Satu Data; B (4) menunggu keputusan tanpa menelusuri akar masalah; E (3) formalitas tanpa solusi; D (2) bekerja sepihak dan menghindari koordinasi; A (1) memanipulasi data. Keterpaduan data lintas instansi sejalan dengan Perpres 82/2023 (Satu Data); nilai: kolaboratif, akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-15",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "rekan mitra tawarkan aplikasi buatan sendiri",
+   "body": "Anda mengelola proyek layanan bersama dengan instansi mitra. Seorang pegawai mitra yang akrab dengan Anda menawarkan aplikasi buatannya sendiri untuk proyek itu. Aplikasinya praktis dan gratis, tetapi belum melalui uji keamanan dan tidak terhubung dengan platform yang sudah ditetapkan pemerintah. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menolak tawaran itu dengan sopan karena aplikasi yang belum diuji keamanannya tidak boleh dipakai.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Menyerahkan keputusan kepada tim teknologi kedua instansi tanpa memberi pendapat apa pun.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Mengapresiasi tawarannya, menjelaskan bahwa layanan bersama wajib memakai platform yang ditetapkan, dan mengajaknya mengusulkan fiturnya ke pengelola platform.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Menerima tawaran itu demi menjaga hubungan baik dengan instansi mitra, sementara uji keamanan dan integrasinya dilakukan belakangan setelah layanan berjalan.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Memakai aplikasi itu dan langsung mengunggah data warga agar proyek cepat berjalan.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: C (5) menjaga hubungan sekaligus kepatuhan pada keterpaduan dan keamanan layanan digital; A (4) benar, tetapi tidak menyalurkan potensi kolaborasi; B (3) pasif; D (2) mengorbankan keamanan demi pertemanan; E (1) membahayakan data pribadi dan melanggar aturan. Perpres 82/2023 menekankan integrasi dan interoperabilitas layanan digital; nilai: kolaboratif dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-16",
+   "subtest": "TKP",
+   "category": "Jejaring Kerja",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "rapat daring lintas zona waktu peserta terlambat",
+   "body": "Anda adalah penyelenggara rapat koordinasi daring rutin yang diikuti perwakilan provinsi di wilayah WIB, WITA, dan WIT. Rapat selalu dimulai pukul 15.00 WIB, dan peserta dari wilayah timur sering terlambat atau keluar sebelum rapat selesai. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mengirimkan notula dan rekaman rapat kepada peserta yang terlambat atau keluar lebih awal.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Meminta peserta wilayah timur menyesuaikan diri karena sebagian besar peserta berada di wilayah WIB.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Tetap memakai jadwal yang ada karena sudah ditetapkan sejak awal tahun.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menanyakan kendala mereka, mengusulkan jam rapat yang masih dalam jam kerja ketiga zona waktu, dan membagikan bahan serta notula rapat.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Mencatat peserta yang terlambat sebagai tidak hadir dan menyebarkan daftar namanya di grup sebagai teguran terbuka bagi instansi asal mereka.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: D (5) inklusif, mencari akar masalah, dan menjaga semua peserta tetap terlibat; A (4) membantu, tetapi penyebabnya tidak diatasi; C (3) kaku dan membiarkan masalah; B (2) tidak setara dan mengabaikan kebutuhan mitra; E (1) mempermalukan mitra kerja. Pukul 15.00 WIB sama dengan 17.00 WIT, yakni akhir jam kerja. Nilai yang diuji: kolaboratif dan adaptif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-17",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "pengukuran tanah ulayat batas diperselisihkan",
+   "body": "Anda adalah petugas ukur kantor pertanahan yang sedang mengukur bidang tanah di sebuah kampung adat. Di lokasi, dua keluarga berselisih tentang batas tanah ulayat sehingga pengukuran tidak dapat dilanjutkan. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melanjutkan pengukuran sesuai patok yang ditunjukkan pemohon tanpa menghiraukan keberatan keluarga lain.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Menghentikan pengukuran, meminta musyawarah bersama tetua adat dan perangkat desa, lalu melanjutkannya setelah ada kesepakatan batas tertulis.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menyatakan bahwa hukum adat tidak berlaku dalam pengukuran oleh negara, lalu meminta aparat desa memastikan pengukuran tetap dilanjutkan hari itu juga.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Menghentikan pengukuran dan melaporkan perselisihan itu kepada atasan untuk diputuskan langkah selanjutnya.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Menghentikan pengukuran dan meminta kedua keluarga menyelesaikan perselisihannya sendiri.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: B (5) menghormati mekanisme adat dan menengahi secara bijak; D (4) berhati-hati, tetapi menunggu arahan; E (3) netral dan membiarkan; A (2) memihak dan memicu konflik; C (1) merendahkan adat dan memaksakan kehendak. Nilai yang diuji: harmonis (menghargai perbedaan dan kearifan lokal).",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-18",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "rekan dari luar daerah sulit beradaptasi",
+   "body": "Anda adalah pegawai di sebuah dinas kabupaten. Rekan baru yang berasal dari provinsi lain terus mengeluhkan makanan, bahasa, dan kebiasaan warga setempat sehingga ia jarang bergaul dengan pegawai lain. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membiarkannya karena lama-kelamaan ia akan terbiasa sendiri.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Menertawakan logat dan kebiasaannya bersama rekan lain supaya ia sadar sedang di daerah orang.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Mengajaknya makan siang dan ikut kegiatan bersama, mengenalkan kebiasaan setempat secara santai, dan mendengarkan kesulitannya.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Menjaga jarak darinya agar tidak ikut terbawa suasana negatif yang ia ciptakan, sambil tetap bersikap sopan saat bertemu di ruang kerja.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Menasihatinya dengan sopan agar lebih terbuka terhadap budaya setempat.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: C (5) merangkul dan membantu adaptasi; E (4) menghargai, tetapi tidak merangkul; A (3) netral dan pasif; D (2) menjauh dari rekan yang membutuhkan dukungan; B (1) mengejek dan diskriminatif. Nilai yang diuji: harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-19",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "jadwal kerja bentrok kerja bakti desa",
+   "body": "Anda adalah pegawai kecamatan yang tinggal di sebuah desa. Warga mengadakan kerja bakti membersihkan saluran air pada Jumat pagi, bertepatan dengan jam kerja Anda di kantor. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menghindari bertemu warga setelah kerja bakti agar tidak ditanya alasan ketidakhadiran.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Tidak ikut kerja bakti karena menganggap urusan kantor lebih penting.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Meminta maaf kepada pengurus kerja bakti karena tidak dapat hadir akibat jam kerja, dan berjanji akan ikut pada kegiatan berikutnya bila jadwalnya sesuai.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Meninggalkan kantor pada jam kerja tanpa izin atasan agar bisa ikut kerja bakti.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Memberi tahu ketua RT bahwa Anda bertugas, lalu berkontribusi dengan cara lain seperti menyumbang konsumsi atau ikut membersihkan sore harinya.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) tetap menjalankan kewajiban kantor sambil berpartisipasi di masyarakat; C (4) sopan, tetapi tanpa kontribusi; B (3) netral tanpa upaya berbaur; A (2) menjaga jarak dari masyarakat; D (1) melanggar disiplin kerja. Nilai yang diuji: harmonis dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-20",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "diajak ritual bertentangan keyakinan",
+   "body": "Anda adalah pegawai yang baru ditempatkan di sebuah daerah. Warga mengundang Anda ke acara syukuran desa yang memuat ritual yang bertentangan dengan keyakinan Anda. Mereka berharap Anda hadir sebagai wakil instansi. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyampaikan kepada warga bahwa ritual itu keliru dan sebaiknya ditinggalkan.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Tidak datang tanpa kabar karena acara itu bukan tugas kantor.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Menolak undangan secara halus, lalu menitipkan ucapan selamat dan permohonan maaf kepada panitia melalui perangkat desa.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Hadir untuk menghormati undangan dan bersilaturahmi, tetapi dengan sopan tidak ikut dalam ritual yang bertentangan dengan keyakinan.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Tidak memberi jawaban pasti dan melihat situasi pada hari pelaksanaan.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: D (5) menghormati warga tanpa mengorbankan keyakinan; C (4) santun, tetapi kehilangan kesempatan berbaur; E (3) ragu dan pasif; B (2) menjaga jarak dan kurang menghargai; A (1) memaksakan nilai sendiri. Nilai yang diuji: harmonis (menghargai perbedaan).",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-21",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "warga adat tolak keramba kearifan lokal",
+   "body": "Anda adalah penyuluh perikanan yang membawa program budi daya ikan dalam keramba di sebuah danau. Warga adat menolak karena danau tersebut memiliki aturan adat yang melarang menangkap dan memelihara ikan pada musim tertentu. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menunda pelaksanaan program tanpa batas waktu sambil menunggu warga adat berubah pikiran dan bersedia menerima keramba dengan sendirinya.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Berdialog dengan tetua adat untuk memahami aturan itu, lalu menyesuaikan jadwal tebar dan lokasi keramba agar selaras dengan kearifan lokal.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Tetap memasang keramba dengan pengawalan aparat agar target tercapai.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Memindahkan program ke desa lain tanpa membicarakannya dengan warga adat.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Menghormati penolakan warga dan melaporkan kepada dinas bahwa rancangan program di danau tersebut perlu dikaji ulang secara menyeluruh.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: B (5) adaptif dan menghormati adat sambil tetap menjalankan program; E (4) menghormati, tetapi tidak mencari titik temu; A (3) membiarkan masalah; D (2) menghindari dialog; C (1) memaksakan kehendak dan mengabaikan adat. Nilai yang diuji: harmonis dan adaptif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-22",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "video deepfake picu ketegangan warga",
+   "body": "Anda adalah pegawai yang bertugas sebagai pendamping desa binaan. Beredar video yang menampilkan seorang tokoh kampung seolah-olah menghina kelompok warga lain. Video itu tampak janggal dan diduga hasil rekayasa AI (deepfake), tetapi ketegangan antarkelompok mulai memanas. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Bersama kepala desa dan tokoh kedua kelompok menenangkan warga, meminta klarifikasi tokoh itu, dan melaporkan video ke kanal aduan konten resmi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Menunggu hasil pemeriksaan pihak berwenang sebelum bersikap.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Tidak ikut campur karena perselisihan warga bukan bagian tugas pendampingan.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Mengimbau warga di grup percakapan desa agar tidak mudah percaya dan tidak menyebarkan video itu sebelum ada klarifikasi resmi dari pihak berwenang.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Meneruskan video itu ke grup lain agar warga menilai sendiri kebenarannya.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: A (5) meredam konflik dan menempuh verifikasi resmi; D (4) tepat, tetapi belum menengahi kelompok yang bersitegang; B (3) pasif saat konflik memanas; C (2) menghindar; E (1) menyebarkan konten provokatif yang belum terverifikasi. Nilai yang diuji: harmonis; sikap kritis terhadap konten rekayasa AI dan hoaks.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-23",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "kampung moderasi warga lintas agama enggan bersama",
+   "body": "Anda adalah pegawai yang ditunjuk sebagai fasilitator kampung moderasi beragama. Warga di kampung itu menganut agama yang berbeda-beda dan selama ini berkegiatan dalam kelompok masing-masing. Ketika Anda mengusulkan kegiatan bersama, banyak warga enggan karena khawatir dianggap mencampuradukkan keyakinan. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mewajibkan semua warga mengikuti doa bersama lintas agama sebagai syarat menerima bantuan desa.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Membatalkan program dan melaporkan kepada dinas bahwa warga kampung tersebut belum siap menerima kegiatan moderasi beragama karena masih tertutup.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Membiarkan setiap kelompok berkegiatan sendiri asalkan tidak terjadi konflik.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menjelaskan kepada warga bahwa kegiatan bersama tidak berarti mencampuradukkan keyakinan.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Merancang bersama tokoh lintas agama kegiatan sosial seperti kerja bakti atau posyandu, sehingga warga bekerja sama tanpa menyentuh ranah ibadah.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) merangkul semua pihak dengan menghormati batas keyakinan; D (4) benar, tetapi belum menghadirkan kegiatan nyata; C (3) netral dan membiarkan; B (2) menghindari tantangan; A (1) memaksakan kehendak dan menyalahgunakan bantuan. Sejalan dengan Perpres 58/2023 tentang Penguatan Moderasi Beragama; nilai: harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-24",
+   "subtest": "TKP",
+   "category": "Sosial Budaya",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "sosialisasi imunisasi bahasa daerah dan isyarat",
+   "body": "Anda adalah penyuluh kesehatan yang akan menyosialisasikan program imunisasi di sebuah desa. Sebagian besar warga lansia hanya fasih berbahasa daerah, dan ada beberapa warga tuli yang juga perlu memahami informasinya. Anggaran terbatas dan materi sudah disiapkan dalam bahasa Indonesia. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menggandeng kader setempat yang fasih bahasa daerah dan juru bahasa isyarat dari komunitas disabilitas, serta menambahkan teks dan gambar sederhana pada materi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Meminta keluarga para lansia dan warga tuli menjelaskan sendiri isinya setelah acara.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Menyampaikan sosialisasi dalam bahasa Indonesia sesuai materi yang sudah ada.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Tidak mengundang warga tuli karena dianggap menghambat jalannya acara.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Meminta kader desa menerjemahkan materi ke bahasa daerah, sedangkan warga tuli cukup diberi salinan materi tertulis dan dipersilakan bertanya kepada keluarganya.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: A (5) inklusif dan memanfaatkan sumber daya lokal meski anggaran terbatas; E (4) sebagian inklusif, tetapi akses warga tuli belum setara; C (3) normatif dan mengabaikan keragaman; B (2) melempar tanggung jawab; D (1) diskriminatif. Pelayanan inklusif sejalan dengan UU 8/2016 tentang Penyandang Disabilitas; nilai: berorientasi pelayanan dan harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-25",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "rapat mendadak daring sinyal buruk",
+   "body": "Anda adalah pegawai lapangan yang sedang bertugas di daerah bersinyal lemah. Rapat evaluasi yang semula tatap muka mendadak diubah menjadi rapat daring, sedangkan Anda wajib menyampaikan laporan kegiatan. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminta rekan masuk ke rapat memakai akun Anda agar Anda tercatat hadir.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Mencoba bergabung semampunya dan pasrah bila sambungan terputus.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Tidak mengikuti rapat dengan alasan sinyal di lokasi tugas buruk, lalu menyampaikan laporan kegiatan tersebut pada rapat bulan berikutnya.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Mengirim bahan laporan kepada panitia sebelum rapat dimulai dan meminta rekan di kantor membacakannya dalam rapat.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Mencari lokasi bersinyal lebih baik, mengirim bahan laporan kepada panitia sebelum rapat, dan memakai audio saja bila video terputus.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) memanfaatkan teknologi secara cerdik agar tugas tetap terlaksana; D (4) solutif, tetapi Anda tidak terlibat langsung; B (3) seadanya; C (2) menghindar dengan alasan; A (1) memalsukan kehadiran. Nilai yang diuji: adaptif dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-26",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "presentasi multimedia sosialisasi humas",
+   "body": "Anda adalah staf humas yang diminta pimpinan membuat presentasi multimedia untuk sosialisasi program kepada masyarakat. Anda belum terbiasa membuat video dan animasi sederhana. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminta pimpinan menunggu sampai ada pelatihan multimedia dari kantor.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Belajar dari tutorial dan rekan yang lebih mahir, lalu membuat presentasi yang menarik dan mudah dipahami warga.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Membuat presentasi berupa salindia biasa dengan gambar yang sesuai kemampuan Anda saat ini, lalu menjelaskannya secara lisan.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Memakai video milik pihak lain dari internet tanpa izin dan mengakuinya sebagai karya kantor.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Meminta rekan lain mengerjakannya karena multimedia bukan keahlian Anda.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: B (5) terus belajar dan menuntaskan tugas; C (4) menyelesaikan tugas, tetapi tanpa mengembangkan kemampuan; A (3) menunda dan menunggu pelatihan; E (2) melempar tugas; D (1) melanggar hak cipta dan tidak jujur. Nilai yang diuji: kompeten dan adaptif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-27",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "data laporan hilang tanpa cadangan",
+   "body": "Anda sedang menyusun laporan triwulan ketika laptop Anda tiba-tiba rusak dan sebagian besar data laporan hilang karena tidak pernah dicadangkan. Laporan harus diserahkan tiga hari lagi. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menunggu laptop selesai diperbaiki dengan harapan datanya bisa pulih.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Menyusun ulang dari arsip surel dan data rekan, meminta teknisi mencoba memulihkan berkas, lalu membiasakan pencadangan di penyimpanan kantor.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Melaporkan kejadian kepada atasan dan meminta tambahan waktu untuk menyusun ulang laporan.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Menyampaikan kepada atasan bahwa keterlambatan laporan disebabkan kualitas laptop inventaris kantor yang sudah tua dan sering bermasalah.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Mengisi laporan dengan angka perkiraan agar tetap selesai tepat waktu.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: B (5) bertanggung jawab, solutif, dan belajar dari kesalahan; C (4) jujur, tetapi kurang berupaya memenuhi tenggat; A (3) pasif; D (2) mencari alasan; E (1) memalsukan data. Nilai yang diuji: akuntabel dan kompeten.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-28",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "hoaks pendaftaran CPNS di grup keluarga",
+   "body": "Anda adalah pegawai di sebuah instansi pemerintah. Di grup WhatsApp keluarga beredar pesan berantai berisi tautan pendaftaran CPNS 'jalur khusus' dengan biaya administrasi. Beberapa kerabat bertanya kepada Anda dan berencana mendaftar. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Memberi tahu kerabat bahwa informasi pendaftaran CPNS hanya diumumkan melalui situs resmi pemerintah, sehingga sebaiknya mereka menunggu pengumuman di sana.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Meneruskan pesan itu ke grup lain karena siapa tahu informasinya benar.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Mengecek situs dan akun resmi BKN, menjelaskan di grup bahwa pesan itu hoaks, dan melaporkan tautannya ke kanal aduan resmi.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Menyarankan kerabat bertanya langsung ke kantor BKN agar Anda tidak ikut repot.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Tidak menanggapi karena khawatir salah memberi informasi.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: C (5) memverifikasi, meluruskan, dan melapor ke kanal resmi; A (4) benar, tetapi tanpa verifikasi dan pelaporan; E (3) pasif; D (2) menghindar; B (1) menyebarkan hoaks. ASN tidak boleh menyebarkan berita palsu (SE MenPANRB 137/2018); nilai: berorientasi pelayanan dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-29",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "tawaran aplikasi lokasi palsu presensi",
+   "body": "Anda adalah pegawai yang presensinya memakai aplikasi daring berbasis lokasi. Seorang rekan menawarkan aplikasi lokasi palsu (fake GPS) agar Anda bisa presensi dari rumah ketika terlambat. Menurutnya, banyak pegawai sudah memakainya tanpa ketahuan. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Memakai aplikasi itu dan ikut menawarkannya kepada rekan lain.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menolak tawaran itu dan mengingatkan rekan bahwa memakai lokasi palsu untuk presensi melanggar disiplin pegawai.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Menolak untuk diri sendiri tanpa menanggapi lebih jauh.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menolak, mengingatkan rekan bahwa itu manipulasi presensi, dan menginformasikan celah tersebut kepada pengelola sistem presensi.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Memasang aplikasi itu di ponsel, tetapi berniat memakainya hanya dalam keadaan sangat terdesak seperti terjebak macet atau banjir.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: D (5) berintegritas dan membantu menutup celah sistem; B (4) berintegritas, tetapi celah sistem dibiarkan; C (3) pasif terhadap pelanggaran; E (2) membuka peluang pelanggaran; A (1) manipulasi presensi dan mengajak orang lain melanggar. Nilai yang diuji: akuntabel; pemanfaatan teknologi harus jujur.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-30",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "warga tertipu akun palsu catut instansi",
+   "body": "Anda adalah petugas pengaduan di sebuah dinas. Seorang warga datang panik karena telah mentransfer uang dan memberikan kode OTP kepada akun media sosial yang mengatasnamakan dinas Anda dengan iming-iming bantuan modal usaha. Akun palsu itu masih aktif menjaring korban. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membantu warga menghubungi bank untuk memblokir rekening dan menemaninya membuat laporan ke kepolisian atas penipuan yang dialaminya.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Membantu warga memblokir rekening dan melapor ke polisi, lalu meneruskan temuan akun palsu ke pengelola media sosial dinas untuk dilaporkan ke platform dan diumumkan.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menyampaikan bahwa penipuan itu bukan tanggung jawab dinas karena warga sendiri yang lalai.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Mencatat pengaduan dan menjelaskan bahwa dinas tidak pernah membuka bantuan lewat akun itu.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Meminta warga mengirim foto KTP dan nomor rekeningnya ke nomor pribadi Anda agar Anda bisa membantu mengurus pengembalian dananya ke pihak bank.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: B (5) menolong korban sekaligus menghentikan penipuan yang masih berjalan; A (4) menolong korban, tetapi akun palsu dibiarkan menjaring korban lain; D (3) normatif-minimal; C (2) menghindari tanggung jawab; E (1) meminta data pribadi lewat kanal tidak resmi. Insiden siber ditangani dengan mengamankan korban dan melapor ke kanal resmi; data pribadi warga dilindungi UU 27/2022 PDP.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-31",
+   "subtest": "TKP",
+   "category": "TIK",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "rekan ingin menonaktifkan autentikasi dua faktor",
+   "body": "Anda satu tim dengan seorang rekan senior yang ingin menonaktifkan autentikasi dua faktor pada surel dinas dan akun aplikasi kepegawaiannya karena merasa repot memasukkan kode setiap kali masuk. Ia meminta Anda membantunya mengubah pengaturan itu. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menolak membantu dan menyarankannya bertanya kepada pengelola TI kantor.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Membantu menonaktifkan autentikasi dua faktor karena sungkan menolak permintaan senior, tetapi memintanya membuat sandi yang lebih panjang.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Menolak menonaktifkannya, menjelaskan risiko pengambilalihan akun, dan menawarkan cara masuk yang lebih praktis sesuai kebijakan kantor.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Menyarankannya menyimpan sandi dan kode cadangan di grup obrolan tim agar mudah diakses.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Membiarkannya memutuskan sendiri karena akun itu tanggung jawab pribadinya.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: C (5) menjaga keamanan sambil memberi solusi atas keluhannya; A (4) aman, tetapi kurang membantu; E (3) pasif terhadap risiko keamanan; B (2) melemahkan keamanan karena sungkan; D (1) membocorkan kredensial. Nilai yang diuji: adaptif dan akuntabel dalam menjaga keamanan akun dan data.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-32",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "vendor tawarkan pekerjaan sampingan pejabat pengadaan",
+   "body": "Anda adalah pejabat pengadaan barang/jasa. Seorang penyedia yang sedang mengikuti tender di kantor Anda menawarkan pekerjaan sampingan sebagai konsultan di perusahaannya dengan honor besar dan dapat dikerjakan di luar jam kantor. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menolak tawaran tersebut secara sopan karena berpotensi menimbulkan konflik kepentingan dengan proses tender yang sedang berjalan.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Menunda jawaban sampai proses tender selesai.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Menerima tawaran tersebut dan membantu perusahaan itu memenangkan tender.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Menolak karena menimbulkan konflik kepentingan, mencatat interaksi itu, dan melaporkannya kepada atasan atau unit pengendalian gratifikasi.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Mempertimbangkan tawaran itu karena pekerjaannya di luar jam kantor.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: D (5) menolak konflik kepentingan dan transparan; A (4) berintegritas, tetapi tidak melaporkan upaya pendekatan; B (3) ragu dan membuka peluang konflik kepentingan; E (2) mencari pembenaran; C (1) korupsi dan konflik kepentingan. Nilai yang diuji: akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-33",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "jenuh pekerjaan rutin administrasi",
+   "body": "Anda sudah lima tahun mengerjakan tugas administrasi yang sama setiap hari. Belakangan Anda merasa jenuh dan semangat kerja menurun. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mencari cara kerja yang lebih efektif, misalnya mengotomatiskan rekap rutin, sambil mengikuti pengembangan kompetensi.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Sering meninggalkan kantor pada jam kerja untuk menghilangkan rasa jenuh.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Tetap bekerja seperti biasa sambil menunggu rasa jenuh hilang dengan sendirinya.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menyampaikan rasa jenuh itu kepada atasan dan meminta tambahan tugas yang lebih menantang agar semangat kerja kembali tumbuh.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Mengeluhkan pekerjaan yang monoton kepada rekan-rekan agar dipindahkan.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: A (5) mengubah kejenuhan menjadi inovasi dan pengembangan diri; D (4) baik, tetapi menunggu atasan memberi jalan; C (3) pasif; E (2) mengeluh; B (1) melanggar disiplin. Nilai yang diuji: kompeten dan adaptif.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-34",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "atasan minta data diubah demi target",
+   "body": "Anda adalah operator data di sebuah dinas. Menjelang akhir tahun, atasan meminta Anda menambah jumlah penerima layanan dalam laporan agar target kinerja terlihat tercapai, padahal data sebenarnya masih di bawah target. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menambah angka sesuai permintaan karena itu perintah atasan.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Menolak mengubah data dan menyampaikan bahwa laporan harus sesuai fakta.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Menunda penyusunan laporan sambil berharap atasan berubah pikiran.",
+     "weight": 3
+    },
+    {
+     "label": "D",
+     "body": "Menolak dengan sopan, menyajikan data sebenarnya, dan membantu atasan menyusun penjelasan penyebab capaian rendah beserta rencana perbaikan.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Menyerahkan pengisian laporan itu kepada rekan lain dengan alasan beban kerja, agar Anda tidak ikut bertanggung jawab atas angka yang dilaporkan.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: D (5) jujur sekaligus membantu atasan mencari jalan keluar yang sah; B (4) berintegritas, tetapi kurang solutif; C (3) menunda; E (2) melempar tugas dan masalah; A (1) memanipulasi data. Loyal kepada atasan tidak boleh mengalahkan akuntabilitas.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-35",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "nilai kinerja di bawah harapan",
+   "body": "Anda merasa sudah bekerja keras sepanjang tahun. Namun, hasil penilaian kinerja dari atasan menunjukkan predikat di bawah harapan Anda. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membandingkan nilai Anda dengan rekan lain dan mengeluh bahwa penilaiannya tidak adil.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Meminta waktu berdiskusi dengan atasan untuk memahami dasar penilaian, lalu menyusun rencana perbaikan bersama.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menerima hasil penilaian dan berusaha bekerja lebih baik lagi pada periode penilaian berikutnya.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Menerima hasil penilaian tanpa berusaha mencari tahu penyebabnya.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Sengaja menurunkan kinerja pada tahun berikutnya sebagai bentuk protes kepada atasan atas penilaian yang dianggap tidak adil.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: B (5) terbuka terhadap umpan balik dan berorientasi perbaikan; C (4) positif, tetapi tanpa memahami apa yang perlu diperbaiki; D (3) pasif; A (2) mengeluh; E (1) merugikan organisasi. Nilai yang diuji: kompeten dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-36",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "prosedur kendaraan dinas tidak efisien",
+   "body": "Anda adalah staf bagian umum. Permohonan kendaraan dinas harus melewati empat tanda tangan manual sehingga sering terlambat, padahal sebagian persetujuan bisa dilakukan melalui aplikasi yang sudah dimiliki kantor. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melewati sebagian tanda tangan tanpa izin agar permohonan cepat selesai.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Tetap menjalankan prosedur yang ada karena sudah menjadi ketentuan.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Mengeluhkan prosedur itu kepada rekan-rekan satu bagian tanpa pernah menyampaikannya kepada pihak yang berwenang mengubahnya.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Menyampaikan secara lisan kepada atasan bahwa prosedur itu sebaiknya disederhanakan karena sering membuat permohonan terlambat.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Menyusun usulan penyederhanaan prosedur disertai data keterlambatan dan rancangan alur baru, lalu mengajukannya kepada atasan.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) inovatif dan berbasis data melalui jalur yang benar; D (4) berinisiatif, tetapi kurang matang; B (3) patuh tetapi pasif; C (2) mengeluh; A (1) melanggar prosedur. Nilai yang diuji: adaptif (berinovasi) dan akuntabel.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-37",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "AI generatif kajian kutipan data tidak ada",
+   "body": "Anda adalah analis kebijakan yang diberi tenggat singkat untuk menyusun kajian. Anda memakai aplikasi AI generatif untuk merangkum puluhan dokumen. Hasilnya rapi, tetapi Anda menemukan satu kutipan data yang tidak ada di dokumen sumber. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membiarkan kutipan itu karena kajian tampak lebih meyakinkan dengan data tambahan.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Memeriksa ulang semua kutipan dan angka terhadap sumbernya, memperbaiki yang keliru, dan mencantumkan bahwa AI dipakai sebagai alat bantu.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menghapus kutipan yang tidak ditemukan itu, lalu menyerahkan kajian sesuai tenggat.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Menyerahkan kajian apa adanya dengan catatan bahwa sebagian isinya dihasilkan AI.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Berhenti memakai AI dan menyusun ulang seluruh kajian secara manual agar terhindar dari kesalahan serupa, meskipun tenggat akan terlewati.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: B (5) memanfaatkan AI secara bertanggung jawab dan transparan; C (4) memperbaiki satu temuan tanpa memeriksa bagian lain; E (3) jujur, tetapi menolak teknologi secara berlebihan dan menunda penyelesaian tugas; D (2) sengaja meloloskan data yang diketahui keliru dan melempar tanggung jawab akurasi kepada pembaca; A (1) sengaja memakai data palsu. SE Menkominfo 9/2023 menekankan akuntabilitas: manusia tetap bertanggung jawab atas akurasi hasil AI.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-38",
+   "subtest": "TKP",
+   "category": "Profesionalisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "dipindah ke tim kerja lintas fungsi",
+   "body": "Seiring penyederhanaan birokrasi, Anda dipindahkan dari bagian perencanaan ke tim kerja lintas fungsi yang target dan anggotanya berganti setiap beberapa bulan. Anda belum menguasai sebagian tugas baru, sementara pekerjaan lama masih sering ditanyakan kepada Anda. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mempelajari tugas baru bersama anggota tim, menyerahterimakan pekerjaan lama secara tertulis, dan tetap membantu menjawab bila diperlukan.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Meminta dikembalikan ke bagian perencanaan karena merasa tidak cocok dengan pola kerja tim yang berubah-ubah.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Fokus mempelajari tugas baru dan meminta penanya pekerjaan lama menghubungi pengganti Anda.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Mengerjakan tugas tim seadanya agar segera dikembalikan ke posisi lama.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Menjalankan tugas baru sebatas yang diperintahkan ketua tim sambil menunggu pelatihan.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: A (5) adaptif sekaligus bertanggung jawab atas transisi tugas; C (4) adaptif, tetapi serah terima kurang tuntas; E (3) menunggu arahan dan pasif; B (2) menolak perubahan; D (1) sengaja menurunkan kinerja. Nilai yang diuji: adaptif dan kolaboratif (antusias menghadapi perubahan).",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-39",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "warga hendak membubarkan ibadah kelompok lain",
+   "body": "Anda adalah pegawai kelurahan. Anda mendapat kabar bahwa sekelompok warga berkumpul untuk membubarkan kegiatan ibadah kelompok agama lain yang dilaksanakan di rumah seorang warga. Situasi mulai memanas. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Memantau dari jauh sambil menunggu perkembangan situasi.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Melaporkan kejadian itu kepada kepolisian setempat agar ditangani.",
+     "weight": 4
+    },
+    {
+     "label": "C",
+     "body": "Menyarankan pemilik rumah menghentikan ibadahnya untuk sementara waktu supaya massa tidak semakin marah dan keadaan cepat kembali tenang.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Menghubungi lurah, Bhabinkamtibmas, dan tokoh lintas agama untuk menenangkan massa, lalu mengajak semua pihak bermusyawarah tanpa kekerasan.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Ikut bergabung dengan massa karena kegiatan itu dianggap belum berizin.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: D (5) mencegah kekerasan secara damai lewat jalur berwenang; B (4) tepat, tetapi tanpa upaya meredam dan merangkul; A (3) pasif; C (2) tunduk pada sikap intoleran; E (1) mendukung tindakan main hakim sendiri. Nilai yang diuji: harmonis dan setia pada Pancasila serta hukum.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-40",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "siswa menolak menyanyikan lagu kebangsaan",
+   "body": "Anda adalah guru ASN di sebuah SMA negeri. Beberapa siswa menolak menyanyikan lagu Indonesia Raya saat upacara karena terpengaruh ajakan sebuah akun media sosial yang menyebut menyanyikan lagu kebangsaan itu terlarang. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melaporkan siswa tersebut kepada kepala sekolah dan guru BK agar mendapat pembinaan sesuai tata tertib sekolah yang berlaku.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Membiarkan siswa itu asalkan tetap berdiri tertib selama upacara.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Berdialog dengan siswa untuk meluruskan pemahamannya, melibatkan guru BK dan orang tua, dan melaporkan akun penghasut ke kanal aduan resmi.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Ikut menyimak akun media sosial tersebut untuk menilai apakah pendapatnya tentang lagu kebangsaan ada benarnya sebelum menegur siswa.",
+     "weight": 2
+    },
+    {
+     "label": "E",
+     "body": "Menghukum siswa tersebut di depan teman-temannya agar jera.",
+     "weight": 1
+    }
+   ],
+   "explanation": "Bobot: C (5) mendidik, merangkul, dan melapor ke kanal resmi; A (4) menempuh jalur resmi, tetapi tanpa dialog langsung; B (3) mengabaikan; D (2) ragu dan membuka diri pada hasutan; E (1) mempermalukan dan tidak mendidik. Nilai yang diuji: loyal pada Pancasila dan simbol negara, serta harmonis.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-41",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "ormas sewa gedung pemda narasumber provokatif",
+   "body": "Anda adalah pengelola gedung pertemuan milik pemerintah daerah. Sebuah ormas mengajukan sewa gedung untuk seminar. Dari poster yang beredar, salah satu narasumbernya dikenal sering berceramah menghasut kebencian terhadap kelompok lain. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Memproses permohonan seperti biasa karena isi acara bukan urusan pengelola gedung.",
+     "weight": 3
+    },
+    {
+     "label": "B",
+     "body": "Menyetujui permohonan dan ikut menyebarkan poster acaranya di grup pegawai.",
+     "weight": 1
+    },
+    {
+     "label": "C",
+     "body": "Menolak secara lisan tanpa alasan yang jelas agar tidak berurusan dengan ormas tersebut di kemudian hari.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Melaporkan rencana acara tersebut kepada atasan disertai poster dan rekam jejak narasumbernya, lalu menunggu keputusan atasan sebelum memproses permohonan.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Memeriksa permohonan sesuai ketentuan pemakaian gedung, berkoordinasi dengan kesbangpol dan aparat untuk menilai risikonya, lalu memutuskan secara tertulis.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) berpegang pada aturan dan koordinasi dengan pihak berwenang; D (4) berhati-hati, tetapi menunggu arahan; A (3) mengabaikan potensi bahaya; C (2) menghindar dan tidak sesuai prosedur; B (1) mendukung penyebaran ujaran kebencian. Nilai yang diuji: akuntabel dan setia pada Pancasila.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-42",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "kerabat ajak latihan semimiliter tertutup",
+   "body": "Seorang kerabat mengajak Anda, seorang pegawai pemerintah, mengikuti latihan fisik semimiliter yang diadakan sebuah kelompok secara tertutup di hutan setiap akhir pekan. Menurutnya, latihan itu persiapan 'membela agama' dan peserta dilarang bercerita kepada orang lain. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Ikut sekali untuk melihat seperti apa kegiatannya sebelum memutuskan.",
+     "weight": 2
+    },
+    {
+     "label": "B",
+     "body": "Menolak ajakan itu dan merahasiakannya sesuai permintaan kerabat.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Menolak ajakan itu dan melaporkan kegiatan kelompok tersebut kepada aparat berwenang tanpa membicarakannya lagi dengan kerabat.",
+     "weight": 4
+    },
+    {
+     "label": "D",
+     "body": "Bergabung dan mengajak rekan kantor ikut serta.",
+     "weight": 1
+    },
+    {
+     "label": "E",
+     "body": "Menolak, menasihati kerabat tentang bahaya kelompok itu, dan melaporkan kegiatan tersebut kepada aparat berwenang.",
+     "weight": 5
+    }
+   ],
+   "explanation": "Bobot: E (5) menolak, mengedukasi, dan melapor; C (4) menolak dan melapor, tetapi tanpa upaya menyelamatkan kerabat; B (3) menolak secara pasif; A (2) ragu dan membuka diri pada paparan radikal; D (1) mendukung dan menyebarkan. Nilai yang diuji: loyal pada Pancasila dan hukum.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-43",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Diskominfo rancang kontra-narasi ekstremisme",
+   "body": "Anda adalah staf Diskominfo yang ditugasi merancang konten kontra-narasi ekstremisme untuk akun media sosial resmi pemda. Sasaran utamanya anak muda yang banyak terpapar ajakan kekerasan di ruang digital. Apa yang Anda lakukan?",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membuat konten yang mengolok-olok kelompok agama tertentu sebagai contoh pelaku ekstremisme.",
+     "weight": 1
+    },
+    {
+     "label": "B",
+     "body": "Melibatkan anak muda, tokoh agama, dan penyintas terorisme dalam merancang konten positif yang faktual, lalu mengevaluasi jangkauannya secara berkala.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menunda pembuatan konten karena khawatir isu tersebut memancing banyak komentar negatif dan perdebatan panjang dari warganet di kolom komentar akun resmi pemda.",
+     "weight": 2
+    },
+    {
+     "label": "D",
+     "body": "Mengunggah ulang materi sosialisasi dari instansi pusat tanpa penyesuaian apa pun.",
+     "weight": 3
+    },
+    {
+     "label": "E",
+     "body": "Membuat konten imbauan tentang bahaya ekstremisme dengan desain yang menarik sesuai rencana kerja dan anggaran yang sudah disetujui.",
+     "weight": 4
+    }
+   ],
+   "explanation": "Bobot: B (5) partisipatif, tepat sasaran, dan terukur; E (4) menjalankan tugas, tetapi kurang melibatkan sasaran; D (3) formalitas; C (2) menghindari tugas; A (1) menstigma kelompok dan memicu kebencian. Sejalan dengan RAN PE 2026–2029 (Perpres 8/2026) yang menyoroti rekrutmen anak muda lewat ruang digital.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-44",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "penceramah tamu ajarkan intoleransi di kampung moderasi",
+   "body": "Anda adalah penyuluh agama yang menjadi fasilitator kampung moderasi beragama. Dalam pengajian rutin, seorang penceramah tamu menyampaikan bahwa warga dilarang bertetangga akrab dengan pemeluk agama lain. Sebagian jamaah mulai mengikuti pandangan itu, sementara pengurus pengajian adalah tokoh yang dihormati warga. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Berdiskusi santun dengan pengurus, mengusulkan narasumber moderat, menguatkan pemahaman kerukunan jamaah, dan melaporkan perkembangannya ke kantor Kemenag.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Ikut mempertimbangkan pandangan penceramah itu karena banyak jamaah yang setuju.",
+     "weight": 2
+    },
+    {
+     "label": "C",
+     "body": "Membubarkan pengajian saat itu juga dan mengusir penceramah tersebut di depan jamaah agar ajarannya tidak sempat menyebar lebih luas.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Menyampaikan keberatan atas isi ceramah tersebut kepada pengurus pengajian secara tertutup.",
+     "weight": 4
+    },
+    {
+     "label": "E",
+     "body": "Tidak menanggapi karena khawatir merusak hubungan baik dengan pengurus pengajian.",
+     "weight": 3
+    }
+   ],
+   "explanation": "Bobot: A (5) tegas pada nilai kerukunan, tetap santun, dan melapor ke instansi berwenang; D (4) tepat, tetapi belum memulihkan pemahaman jamaah; E (3) membiarkan; B (2) ragu dan mulai terpengaruh; C (1) tegas tetapi melampaui kewenangan dan memicu konflik. Sejalan dengan Perpres 58/2023 tentang Penguatan Moderasi Beragama; nilai: harmonis dan loyal.",
+   "verify": null
+  },
+  {
+   "id": "P03-TKP-45",
+   "subtest": "TKP",
+   "category": "Anti Radikalisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "rekan ikut kanal terenkripsi ajakan kekerasan",
+   "body": "Anda tidak sengaja melihat ponsel rekan dekat Anda dan mendapati ia bergabung dengan kanal pesan terenkripsi yang rutin membagikan ajakan melakukan kekerasan terhadap aparat. Belakangan rekan tersebut juga mulai menarik diri dari pergaulan. Sikap Anda adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Melaporkan temuan itu kepada aparat berwenang secara diam-diam tanpa membicarakannya dengan rekan agar ia tidak curiga dan menghapus jejaknya.",
+     "weight": 4
+    },
+    {
+     "label": "B",
+     "body": "Berpura-pura tidak tahu karena itu urusan pribadi rekan.",
+     "weight": 3
+    },
+    {
+     "label": "C",
+     "body": "Menyebarkan tangkapan layar ponsel rekan di grup kantor agar semua orang mengetahui dan mewaspadai paham yang ia ikuti.",
+     "weight": 1
+    },
+    {
+     "label": "D",
+     "body": "Mengajaknya bicara dari hati ke hati tentang bahaya kanal itu, serta melaporkan temuan tersebut kepada pimpinan atau aparat berwenang untuk penanganan.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Meminta rekan memperlihatkan isi kanal itu karena Anda penasaran dengan pembahasannya.",
+     "weight": 2
+    }
+   ],
+   "explanation": "Bobot: D (5) merangkul rekan sekaligus melapor ke pihak berwenang; A (4) tepat melapor, tetapi tanpa upaya merangkul; B (3) mengabaikan; E (2) ikut menyimak konten radikal; C (1) main hakim sendiri dan mempermalukan. Sejalan dengan RAN PE 2026–2029 (Perpres 8/2026) yang menyoroti paparan ekstremisme di ruang digital; nilai: loyal dan harmonis.",
+   "verify": null
+  }
+ ]
+}

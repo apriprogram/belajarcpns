@@ -1,0 +1,1103 @@
+{
+ "paket": 7,
+ "questions": [
+  {
+   "id": "P07-TIU-01",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "analogi anggota–kelas melati bunga",
+   "body": "MELATI : BUNGA = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "DAUN : POHON",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "KERTAS : BUKU",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "BENIH : TANAMAN",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "KAKAKTUA : BURUNG",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "AKUARIUM : IKAN",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi anggota–kelas: melati adalah salah satu jenis bunga, seperti kakaktua adalah salah satu jenis burung. Daun–pohon = bagian–keseluruhan, kertas–buku = bahan–produk, benih–tanaman = tahap awal–hasil tumbuh, akuarium–ikan = tempat–penghuni.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-02",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "analogi fasilitas–kegiatan lingkungan bank sampah daur ulang",
+   "body": "BANK SAMPAH : DAUR ULANG = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "RUMAH KOMPOS : PENGOMPOSAN",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "SUMUR RESAPAN : BANJIR",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "HUTAN KOTA : POHON",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "PANEL SURYA : MATAHARI",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "SAMPAH PLASTIK : PENCEMARAN",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi fasilitas–kegiatan pengelolaan lingkungan yang dilayaninya: bank sampah menjadi sarana kegiatan daur ulang, rumah kompos menjadi sarana kegiatan pengomposan. Sumur resapan–banjir = sarana–masalah yang dicegah, hutan kota–pohon = tempat–isi, panel surya–matahari = alat–sumber energi, sampah plastik–pencemaran = sebab–akibat.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-03",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "analogi sebab–akibat kemarau kekeringan",
+   "body": "KEMARAU : KEKERINGAN = … : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "MUSIM HUJAN : MUSIM KEMARAU",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "LONGSOR : PENGGUNDULAN HUTAN",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "HUJAN LEBAT : BANJIR",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "SAWAH : IRIGASI",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "TERIK : PAYUNG",
+     "weight": 0
+    }
+   ],
+   "explanation": "Relasi sebab–akibat (sebab di kiri): kemarau menyebabkan kekeringan, hujan lebat menyebabkan banjir. Longsor–penggundulan hutan urutannya terbalik (akibat–sebab), musim hujan–musim kemarau = pergantian musim, sawah–irigasi = lahan–sarana pengairan, terik–payung = keadaan–alat pelindung.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-04",
+   "subtest": "TIU",
+   "category": "Verbal – Analogi",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "analogi proses berlawanan enkripsi dekripsi unggah unduh",
+   "body": "ENKRIPSI : DEKRIPSI = UNGGAH : …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "KIRIM",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "SIMPAN",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "SALIN",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "BAGIKAN",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "UNDUH",
+     "weight": 5
+    }
+   ],
+   "explanation": "Relasi proses berlawanan arah: enkripsi mengubah data menjadi sandi, dekripsi mengembalikannya. Unggah memindahkan berkas dari perangkat ke server, kebalikannya unduh (dari server ke perangkat). Kirim dan bagikan bermakna searah dengan unggah, sedangkan simpan dan salin bukan proses kebalikannya.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-05",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "silogisme individu penerjemah dua bahasa",
+   "body": "Semua penerjemah di Lembaga X menguasai dua bahasa asing.\nRani adalah penerjemah di Lembaga X.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rani belum tentu menguasai dua bahasa asing.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rani menguasai dua bahasa asing.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Semua orang yang menguasai dua bahasa asing adalah penerjemah di Lembaga X.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rani adalah satu-satunya penerjemah di Lembaga X yang menguasai dua bahasa asing.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Sebagian penerjemah di Lembaga X tidak menguasai dua bahasa asing.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Rani termasuk himpunan penerjemah Lembaga X, dan seluruh anggota himpunan itu menguasai dua bahasa asing, maka Rani pasti menguasai dua bahasa asing. A dan E bertentangan dengan premis 1, C membalik premis 1, dan D (satu-satunya) tidak didukung premis.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-06",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "silogisme disjungtif arsip cloud server lokal izin akses",
+   "body": "Arsip digital Dinas A disimpan di layanan cloud atau di server lokal.\nJika arsip disimpan di server lokal, maka pengaksesan arsip memerlukan izin kepala dinas.\nPengaksesan arsip tersebut tidak memerlukan izin kepala dinas.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Arsip digital Dinas A disimpan di server lokal.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Arsip digital Dinas A disimpan di layanan cloud dan di server lokal.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Arsip digital Dinas A disimpan di layanan cloud.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Pengaksesan arsip di layanan cloud memerlukan izin kepala dinas.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Arsip digital Dinas A tidak disimpan di layanan cloud maupun di server lokal.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Premis 2 dan 3 (modus tollens): karena tidak memerlukan izin, arsip tidak disimpan di server lokal. Dengan premis 1 (silogisme disjungtif), arsip pasti disimpan di layanan cloud. A dan B bertentangan dengan 'bukan server lokal', E bertentangan dengan premis 1, D bertentangan dengan premis 3.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-07",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "silogisme Ferio seminar terlambat sertifikat guru",
+   "body": "Tidak ada peserta seminar yang datang terlambat mendapatkan sertifikat.\nSebagian guru adalah peserta seminar yang datang terlambat.\nKesimpulan yang tepat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Sebagian guru tidak mendapatkan sertifikat.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Semua guru tidak mendapatkan sertifikat.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Sebagian guru mendapatkan sertifikat.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Sebagian guru datang tepat waktu.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Semua yang tidak mendapatkan sertifikat adalah guru.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Guru yang termasuk peserta terlambat pasti tidak mendapatkan sertifikat, sehingga sebagian guru tidak mendapatkan sertifikat. Tentang guru lainnya tidak ada informasi, sehingga B, C, dan D tidak dapat dipastikan; E membalik hubungan.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-08",
+   "subtest": "TIU",
+   "category": "Verbal – Silogisme",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "negasi kuantor universal antrean daring kantor kelurahan",
+   "body": "Ingkaran (negasi) dari pernyataan \"Semua kantor kelurahan telah memakai sistem antrean daring\" adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Semua kantor kelurahan belum memakai sistem antrean daring.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Sebagian kantor kelurahan telah memakai sistem antrean daring.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Semua kantor kelurahan memakai sistem antrean manual.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Ada kantor kelurahan yang belum memakai sistem antrean daring.",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Kantor selain kantor kelurahan belum memakai sistem antrean daring.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Ingkaran \"semua x bersifat P\" adalah \"ada (sedikitnya satu) x yang tidak bersifat P\". A terlalu kuat (keduanya bisa sama-sama salah), B tidak bertentangan dengan pernyataan awal, C dan E membicarakan hal lain.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-09",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "urutan 6 pelari garis finis",
+   "body": "Enam pelari, yaitu Arif, Bima, Candra, Dodi, Eko, dan Fajar, mengikuti lomba lari. Keterangan urutan mereka mencapai garis finis (tidak ada yang finis bersamaan):\n1) Eko tidak finis lebih dahulu daripada pelari mana pun.\n2) Bima finis tepat sebelum Dodi.\n3) Dodi finis lebih dahulu daripada Arif.\n4) Fajar finis setelah Arif, tetapi sebelum Candra.\n5) Candra dan Fajar finis berurutan.\nPelari yang finis di urutan keempat adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Arif",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Candra",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Dodi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Bima",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Fajar",
+     "weight": 5
+    }
+   ],
+   "explanation": "Dari (1), Eko di urutan ke-6. Dari (2)–(3), Bima tepat sebelum Dodi dan keduanya sebelum Arif; dari (4)–(5), Arif sebelum Fajar dan Fajar tepat sebelum Candra. Kelima pelari lain mengisi urutan 1–5: Bima, Dodi, Arif, Fajar, Candra. Urutan keempat adalah Fajar.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-10",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "alokasi 4 ruang rapat virtual 4 bidang",
+   "body": "Sebuah dinas menyediakan empat tautan ruang rapat virtual bernomor 1, 2, 3, dan 4 untuk rapat serentak empat bidang: Perencanaan, Keuangan, Umum, serta Data dan Informasi. Setiap bidang memakai tepat satu ruang dengan ketentuan:\n1) Bidang Keuangan tidak memakai ruang 1 maupun ruang 4.\n2) Nomor ruang Bidang Perencanaan lebih kecil daripada nomor ruang Bidang Keuangan.\n3) Bidang Data dan Informasi memakai ruang bernomor genap.\n4) Nomor ruang Bidang Umum tidak berurutan (tidak berselisih 1) dengan nomor ruang Bidang Perencanaan.\nPernyataan yang pasti benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Bidang Perencanaan memakai ruang 1.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Bidang Keuangan memakai ruang 2.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Bidang Umum memakai ruang 3.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Bidang Data dan Informasi memakai ruang 4.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Bidang Umum memakai ruang 2.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Keuangan di ruang 2 atau 3. Jika Keuangan 2: Perencanaan 1, Data 4, Umum 3 (memenuhi). Jika Keuangan 3: Perencanaan 2 memaksa Data 4 dan Umum 1 (berurutan dengan 2, gugur); Perencanaan 1 dengan Data 2 dan Umum 4 memenuhi. Kedua susunan menempatkan Perencanaan di ruang 1; B, C, D hanya mungkin, E tidak mungkin.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-11",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "pencocokan 4 sahabat hobi kota asal minuman",
+   "body": "Empat sahabat, yaitu Gita, Hana, Intan, dan Joko, masing-masing memiliki satu hobi berbeda (membaca, berenang, memasak, fotografi), berasal dari satu kota berbeda (Medan, Bandung, Makassar, Ambon), dan menyukai satu minuman berbeda (kopi, teh, jus, susu).\n1) Penggemar memasak berasal dari Medan.\n2) Penyuka kopi adalah penggemar memasak.\n3) Penyuka jus berasal dari Ambon dan gemar berenang.\n4) Joko gemar membaca dan tidak menyukai teh.\n5) Gita tidak berasal dari Medan maupun Bandung, dan tidak menyukai jus.\n6) Intan tidak menyukai kopi.\nPernyataan yang benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Hana berasal dari Bandung.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Intan menyukai teh.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Gita gemar fotografi dan menyukai teh.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Joko berasal dari Makassar.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Penggemar berenang menyukai kopi.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Dari (1)–(3) terbentuk paket memasak–Medan–kopi dan berenang–Ambon–jus. Joko (membaca) bukan penyuka kopi/jus dan tidak menyukai teh, jadi menyukai susu; tersisa paket fotografi–teh. Gita bukan dari Medan/Bandung dan bukan penyuka jus (bukan Ambon), jadi dari Makassar, sehingga Gita gemar fotografi dan menyukai teh, Joko dari Bandung. Intan tidak menyukai kopi, jadi Intan berenang–Ambon–jus dan Hana memasak–Medan–kopi. Hanya C yang benar.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-12",
+   "subtest": "TIU",
+   "category": "Verbal – Analitis",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "urutan tahap SOP perizinan daring",
+   "body": "Layanan perizinan daring suatu kabupaten terdiri atas enam tahap: registrasi akun, unggah dokumen, verifikasi dokumen, pembayaran retribusi, survei lapangan, dan penerbitan izin. Tahap-tahap itu dikerjakan satu per satu dengan ketentuan:\n1) Registrasi akun selalu menjadi tahap pertama.\n2) Unggah dokumen dilakukan sebelum verifikasi dokumen.\n3) Pembayaran retribusi dilakukan setelah verifikasi dokumen, tetapi sebelum penerbitan izin.\n4) Survei lapangan dilakukan setelah unggah dokumen dan sebelum penerbitan izin.\n5) Survei lapangan tidak dilakukan tepat setelah unggah dokumen.\nPernyataan yang pasti benar adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Survei lapangan merupakan tahap keempat.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Verifikasi dokumen merupakan tahap ketiga.",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Pembayaran retribusi dilakukan tepat sebelum penerbitan izin.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Survei lapangan dilakukan sebelum verifikasi dokumen.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Pembayaran retribusi merupakan tahap keempat.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Unggah dokumen mendahului verifikasi, pembayaran, survei, dan penerbitan, sehingga menjadi tahap ke-2; penerbitan izin pasti tahap ke-6. Tahap ke-3 tidak boleh survei (syarat 5) dan tidak boleh pembayaran (harus setelah verifikasi), jadi tahap ke-3 adalah verifikasi. Tahap 4–5 bisa pembayaran–survei atau survei–pembayaran, sehingga A, C, E hanya mungkin dan D tidak mungkin.",
+   "verify": null
+  },
+  {
+   "id": "P07-TIU-13",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "desimal campuran 0,6×45 + 0,4×55",
+   "body": "Hasil dari 0,6 × 45 + 0,4 × 55 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "46",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "48",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "50",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "52",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "49",
+     "weight": 5
+    }
+   ],
+   "explanation": "0,6 × 45 = 27 dan 0,4 × 55 = 22, sehingga 27 + 22 = 49.",
+   "verify": {
+    "expr": "Fraction('0.6')*45 + Fraction('0.4')*55",
+    "expect": "49"
+   }
+  },
+  {
+   "id": "P07-TIU-14",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "akar desimal urutan operasi √0,49 + √1,69 × 10",
+   "body": "Hasil dari √(0,49) + √(1,69) × 10 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "13,7",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "20",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "8,3",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "13,07",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "2",
+     "weight": 0
+    }
+   ],
+   "explanation": "√(0,49) = 0,7 dan √(1,69) = 1,3. Perkalian didahulukan: 1,3 × 10 = 13, lalu 0,7 + 13 = 13,7.",
+   "verify": {
+    "expr": "math.sqrt(0.49) + math.sqrt(1.69) * 10",
+    "expect": "13,7"
+   }
+  },
+  {
+   "id": "P07-TIU-15",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "distributif 101 × 47 − 47",
+   "body": "Hasil dari 101 × 47 − 47 adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "4.653",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "4.747",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "4.700",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "4.600",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "4.800",
+     "weight": 0
+    }
+   ],
+   "explanation": "Sifat distributif: 101 × 47 − 1 × 47 = (101 − 1) × 47 = 100 × 47 = 4.700.",
+   "verify": {
+    "expr": "101*47 - 47",
+    "expect": "4.700"
+   }
+  },
+  {
+   "id": "P07-TIU-16",
+   "subtest": "TIU",
+   "category": "Numerik – Aritmatika",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "angka satuan 7 pangkat 2027",
+   "body": "Angka satuan dari 7²⁰²⁷ adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "1",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "7",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "9",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "3",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "5",
+     "weight": 0
+    }
+   ],
+   "explanation": "Angka satuan perpangkatan 7 berulang setiap 4 langkah: 7, 9, 3, 1. Karena 2027 = 4 × 506 + 3, angka satuannya sama dengan 7³ = 343, yaitu 3.",
+   "verify": {
+    "expr": "pow(7, 2027, 10)",
+    "expect": "3"
+   }
+  },
+  {
+   "id": "P07-TIU-17",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "deret aritmetika +11 mulai 8",
+   "body": "Bilangan berikutnya dari deret 8, 19, 30, 41, 52, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "61",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "63",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "62",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "64",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "73",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setiap suku bertambah 11, sehingga suku berikutnya 52 + 11 = 63.",
+   "verify": {
+    "expr": "8 + 11*5",
+    "expect": "63"
+   }
+  },
+  {
+   "id": "P07-TIU-18",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret n² + 2n",
+   "body": "Bilangan berikutnya dari deret 3, 8, 15, 24, 35, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "46",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "47",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "49",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "50",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "48",
+     "weight": 5
+    }
+   ],
+   "explanation": "Selisihnya 5, 7, 9, 11 (bertambah 2), berikutnya 13: 35 + 13 = 48. Rumus suku ke-n = n² + 2n; untuk n = 6: 36 + 12 = 48.",
+   "verify": {
+    "expr": "6**2 + 2*6",
+    "expect": "48"
+   }
+  },
+  {
+   "id": "P07-TIU-19",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "deret geometri rasio −2 mulai 3",
+   "body": "Bilangan berikutnya dari deret 3, −6, 12, −24, 48, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "−96",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "96",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "−72",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "72",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "−48",
+     "weight": 0
+    }
+   ],
+   "explanation": "Setiap suku dikali (−2) sehingga tandanya bergantian: 48 × (−2) = −96.",
+   "verify": {
+    "expr": "3 * (-2)**5",
+    "expect": "−96"
+   }
+  },
+  {
+   "id": "P07-TIU-20",
+   "subtest": "TIU",
+   "category": "Numerik – Deret Angka",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "tiga deret berselang +2 ×2 −3",
+   "body": "Dua bilangan berikutnya dari deret 5, 3, 20, 7, 6, 17, 9, 12, 14, …, … adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "11, 18",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "12, 24",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "11, 24",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "10, 24",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "11, 21",
+     "weight": 0
+    }
+   ],
+   "explanation": "Deret terdiri atas tiga deret berselang. Suku ke-1, 4, 7, 10: 5, 7, 9, … (+2) → 11. Suku ke-2, 5, 8, 11: 3, 6, 12, … (×2) → 24. Suku ke-3, 6, 9: 20, 17, 14 (−3). Jadi dua bilangan berikutnya adalah 11 dan 24.",
+   "verify": {
+    "expr": "str(5 + 2*3) + ', ' + str(3 * 2**3)",
+    "expect": "11, 24"
+   }
+  },
+  {
+   "id": "P07-TIU-21",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PK −2⁴ vs (−2)⁴",
+   "body": "P = −2⁴\nQ = (−2)⁴\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "−2⁴ berarti −(2⁴) = −16, sedangkan (−2)⁴ = 16. Jadi P < Q.",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q')))(-2**4, (-2)**4)",
+    "expect": "P < Q"
+   }
+  },
+  {
+   "id": "P07-TIU-22",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "PK bilangan prima antara 10 dan 20 vs 15",
+   "body": "x adalah bilangan prima yang terletak di antara 10 dan 20.\nP = x\nQ = 15\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 0
+    }
+   ],
+   "explanation": "Bilangan prima antara 10 dan 20 adalah 11, 13, 17, 19. Untuk x = 11 atau 13 berlaku P < Q, sedangkan untuk x = 17 atau 19 berlaku P > Q. Jadi hubungannya tidak dapat ditentukan.",
+   "verify": {
+    "expr": "(lambda rel: (lambda rs: rs[0] if rs.count(rs[0]) == len(rs) else 'Hubungan P dan Q tidak dapat ditentukan')([rel(x, 15) for x in range(11, 20) if x % 2 and x % 3]))((lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q'))))",
+    "expect": "Hubungan P dan Q tidak dapat ditentukan"
+   }
+  },
+  {
+   "id": "P07-TIU-23",
+   "subtest": "TIU",
+   "category": "Numerik – Perbandingan Kuantitatif",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "PK peluang dadu genap vs dua koin gambar",
+   "body": "P = peluang muncul mata dadu genap pada pelemparan sebuah dadu seimbang\nQ = peluang muncul sisi gambar pada kedua koin ketika dua koin seimbang dilempar bersamaan\nHubungan yang paling tepat antara P dan Q adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "P > Q",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "P < Q",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "P = Q",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hubungan P dan Q tidak dapat ditentukan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "P = 2Q",
+     "weight": 5
+    }
+   ],
+   "explanation": "P = 3/6 = 1/2. Ruang sampel dua koin: GG, GA, AG, AA, sehingga Q = 1/4. P = 2 × 1/4 = 2Q. Walaupun P > Q juga benar, P = 2Q adalah hubungan yang paling tepat (paling spesifik).",
+   "verify": {
+    "expr": "(lambda p, q: 'P = 2Q' if q != 0 and p == 2*q else ('P = Q' if p == q else ('P > Q' if p > q else 'P < Q')))(Fraction(3, 6), Fraction(1, 2) * Fraction(1, 2))",
+    "expect": "P = 2Q"
+   }
+  },
+  {
+   "id": "P07-TIU-24",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "upah harian 4 pekerja 12 hari",
+   "body": "Sebuah kantor kecamatan mempekerjakan 4 tukang selama 12 hari untuk merenovasi ruang pelayanan. Upah setiap tukang Rp150.000 per hari. Total upah yang harus dibayarkan adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Rp600.000",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rp1.800.000",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rp6.600.000",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Rp7.200.000",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Rp7.800.000",
+     "weight": 0
+    }
+   ],
+   "explanation": "Upah 4 tukang per hari = 4 × Rp150.000 = Rp600.000. Selama 12 hari: 12 × Rp600.000 = Rp7.200.000.",
+   "verify": {
+    "expr": "4 * 150000 * 12",
+    "expect": "Rp7.200.000"
+   }
+  },
+  {
+   "id": "P07-TIU-25",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "waktu unduh 2,4 GB kecepatan 8 Mbps",
+   "body": "Seorang pegawai mengunduh berkas data sebesar 2,4 GB melalui jaringan kantor dengan kecepatan unduh stabil 8 Mbps (megabit per detik). Jika 1 byte = 8 bit dan 1 GB = 1.000 MB, waktu yang diperlukan untuk mengunduh berkas tersebut adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "5 menit",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "30 menit",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "40 menit",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "50 menit",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "320 menit",
+     "weight": 0
+    }
+   ],
+   "explanation": "2,4 GB = 2.400 MB = 2.400 × 8 = 19.200 megabit. Waktu = 19.200 : 8 = 2.400 detik = 40 menit.",
+   "verify": {
+    "expr": "Fraction('2.4') * 1000 * 8 / 8 / 60",
+    "expect": "40 menit"
+   }
+  },
+  {
+   "id": "P07-TIU-26",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "debit bak 1,2 m³ keran 20 L/menit",
+   "body": "Sebuah bak penampungan air yang kosong bervolume 1,2 m³ diisi menggunakan keran dengan debit 20 liter per menit. Waktu yang diperlukan hingga bak penuh adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "6 menit",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "60 menit",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "24 menit",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "600 menit",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "45 menit",
+     "weight": 0
+    }
+   ],
+   "explanation": "1,2 m³ = 1.200 liter (1 m³ = 1.000 liter). Waktu = 1.200 : 20 = 60 menit.",
+   "verify": {
+    "expr": "Fraction('1.2') * 1000 / 20",
+    "expect": "60 menit"
+   }
+  },
+  {
+   "id": "P07-TIU-27",
+   "subtest": "TIU",
+   "category": "Numerik – Soal Cerita",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "rata-rata gabungan survei kepuasan layanan",
+   "body": "Survei kepuasan layanan daring suatu dinas memakai skala 1–5. Rata-rata skor 40 responden kelompok pertama adalah 3,6; 35 responden kelompok kedua 4,0; dan 25 responden kelompok ketiga x. Jika rata-rata skor seluruh responden 3,8, nilai x adalah …",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "3,60",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "3,80",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "3,92",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "4,00",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "3,84",
+     "weight": 5
+    }
+   ],
+   "explanation": "Total skor = 100 × 3,8 = 380. Kelompok 1 dan 2: 40 × 3,6 + 35 × 4,0 = 144 + 140 = 284. Maka 25x = 380 − 284 = 96, sehingga x = 3,84.",
+   "verify": {
+    "expr": "(100*Fraction('3.8') - 40*Fraction('3.6') - 35*4) / 25",
+    "expect": "3,84"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1175 @@
+{
+ "paket": 8,
+ "questions": [
+  {
+   "id": "P08-TWK-01",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "mahasiswa pertukaran memperkenalkan budaya",
+   "body": "Nadia mengikuti program pertukaran mahasiswa di luar negeri selama satu semester. Pada malam budaya kampus, ia menampilkan tari daerah asalnya dan membuka kelas singkat bahasa Indonesia bagi mahasiswa asing. Di sisi lain, ia tetap tekun mempelajari bahasa dan kebiasaan masyarakat setempat. Sikap Nadia paling mencerminkan ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "chauvinisme, yaitu menganggap budaya bangsanya paling unggul dibandingkan budaya lain",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "kosmopolitanisme, yaitu mengutamakan identitas sebagai warga dunia di atas identitas bangsa dan negaranya sendiri",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "etnosentrisme, yaitu menilai budaya lain semata-mata dengan ukuran budaya daerahnya",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "nasionalisme, yaitu mempertahankan identitas nasional sambil tetap terbuka dalam pergaulan internasional",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "asimilasi, yaitu meleburkan diri hingga meninggalkan kebiasaan bangsanya di negeri orang",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kisi-kisi TWK (KepmenPANRB 406/2026) merumuskan nasionalisme sebagai kemampuan mewujudkan kepentingan nasional dengan tetap mempertahankan identitas nasional. Memperkenalkan tari daerah dan bahasa Indonesia sambil menghormati budaya setempat menunjukkan identitas bangsa yang terjaga tanpa merendahkan budaya lain.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-02",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "perumusan teks Proklamasi",
+   "body": "Sekelompok siswa menyusun lini masa proklamasi kemerdekaan untuk pameran sekolah. Rangkaian data yang tepat untuk dimasukkan ke dalam lini masa tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "naskah dirumuskan di Rengasdengklok, diketik oleh Sayuti Melik, lalu dibacakan pada 17 Agustus 1945 di Jalan Pegangsaan Timur 56",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "naskah dirumuskan di rumah Laksamana Tadashi Maeda, diketik oleh Sayuti Melik, lalu dibacakan pada 17 Agustus 1945 di Jalan Pegangsaan Timur 56",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "naskah dirumuskan di rumah Laksamana Tadashi Maeda, diketik oleh Sayuti Melik, lalu dibacakan pada 16 Agustus 1945 di Rengasdengklok",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "naskah dirumuskan di rumah Laksamana Tadashi Maeda, diketik oleh Ahmad Soebardjo, lalu dibacakan pada 17 Agustus 1945 di rumah yang sama",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "naskah dirumuskan di Jalan Pegangsaan Timur 56, diketik oleh Sayuti Melik, lalu dibacakan pada 17 Agustus 1945 di rumah Laksamana Tadashi Maeda",
+     "weight": 0
+    }
+   ],
+   "explanation": "Naskah Proklamasi dirumuskan di rumah Laksamana Tadashi Maeda (kini Museum Perumusan Naskah Proklamasi), diketik oleh Sayuti Melik, dan dibacakan pada 17 Agustus 1945 di Jalan Pegangsaan Timur 56, Jakarta.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-03",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "menolak penyewa beda suku (antidiskriminasi)",
+   "body": "Pak Darto memiliki beberapa kamar kos. Ia menolak seorang calon penyewa yang sudah sanggup memenuhi semua syarat sewa hanya karena calon penyewa itu berasal dari suku yang berbeda dengannya. Ketika ditegur, ia berdalih bahwa kamar itu miliknya sehingga ia bebas memilih penyewa. Penilaian yang paling tepat atas sikap Pak Darto adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "keliru, karena setiap orang berhak bebas dari perlakuan yang bersifat diskriminatif atas dasar apa pun sebagaimana dijamin UUD NRI 1945",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "dapat dibenarkan, karena hak milik pribadi dijamin UUD NRI 1945 dan tidak boleh diambil alih secara sewenang-wenang oleh siapa pun, termasuk oleh negara",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "dapat dibenarkan, asalkan penolakan disampaikan secara sopan dan tidak menyinggung perasaan calon penyewa",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "keliru, karena setiap pemilik kos wajib menerima penyewa pertama yang datang tanpa syarat apa pun",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "dapat dibenarkan, karena keamanan dan ketertiban lingkungan dianggap lebih mudah dijaga bila seluruh penghuni kos berasal dari suku yang sama",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 28I ayat (2) UUD NRI 1945 menjamin setiap orang bebas dari perlakuan yang bersifat diskriminatif atas dasar apa pun. Menolak calon penyewa yang memenuhi syarat semata-mata karena sukunya adalah diskriminasi; hak atas milik pribadi tidak membenarkan perlakuan diskriminatif, dan sikap itu merusak persatuan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-04",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Bendera Negara bersama panji organisasi",
+   "body": "Panitia musyawarah nasional sebuah organisasi profesi akan memasang Bendera Negara bersama satu panji organisasi di panggung utama. Pemasangan yang sesuai dengan UU Nomor 24 Tahun 2009 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Bendera Negara di sebelah kanan panji, berukuran sama dan dipasang setinggi panji agar kedudukan organisasi dan negara tampak setara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Bendera Negara dan panji dipasang bersilang di tengah panggung sebagai lambang persatuan anggota",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Bendera Negara di sebelah kiri panji, dibuat lebih besar dan dipasang lebih tinggi daripada panji",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "panji organisasi dipasang di tengah karena acara diselenggarakan organisasi, dengan Bendera Negara di sampingnya pada tiang yang sama tingginya",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Bendera Negara di sebelah kanan panji, dibuat lebih besar dan dipasang lebih tinggi, serta tidak dipasang bersilang dengan panji",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 21 mengatur Bendera Negara yang dipasang bersama bendera atau panji organisasi: bila hanya satu panji, Bendera Negara ditempatkan di sebelah kanan, tidak dipasang bersilang, serta dibuat lebih besar dan dipasang lebih tinggi daripada panji. Ukuran dan tinggi tiang yang setara berlaku ketika Bendera Negara bersanding dengan bendera negara lain.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-05",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "KUHP nasional (UU 1/2023)",
+   "body": "Dalam diskusi kelas, seorang siswa menyebut berlakunya KUHP nasional sebagai tonggak kemandirian hukum bangsa. Pernyataan yang tepat tentang KUHP nasional tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "UU Nomor 1 Tahun 2023 berlaku sejak tanggal diundangkan dan menggantikan Wetboek van Strafrecht peninggalan Belanda",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "UU Nomor 1 Tahun 2023 berlaku mulai 2 Januari 2026 dan menggantikan Kitab Undang-Undang Hukum Perdata peninggalan Belanda",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "UU Nomor 1 Tahun 2023 berlaku mulai 2 Januari 2026, tiga tahun sejak diundangkan, dan menggantikan Wetboek van Strafrecht peninggalan Belanda",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "UU Nomor 1 Tahun 2023 berlaku mulai 2 Januari 2026, tetapi Wetboek van Strafrecht tetap berlaku berdampingan sebagai hukum pidana utama",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "UU Nomor 1 Tahun 2023 berlaku mulai 17 Agustus 2025 dan menggantikan kitab hukum pidana peninggalan pemerintahan pendudukan Jepang",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 1/2023 tentang KUHP berlaku tiga tahun sejak diundangkan (Pasal 624), yaitu mulai 2 Januari 2026, dan menggantikan Wetboek van Strafrecht warisan kolonial Belanda. KUHP buatan bangsa sendiri mencerminkan kemandirian dan identitas hukum nasional.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-06",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "tugas ASN mempererat persatuan",
+   "body": "Yusuf, ASN penyuluh pertanian di sebuah kecamatan, mendapati dua kelompok warga berselisih soal batas lahan garapan dan mulai saling mengancam. Kedua kelompok sama-sama mengenal Yusuf sebagai pegawai yang netral. Sesuai tugas ASN dalam UU Nomor 20 Tahun 2023, tindakan Yusuf yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "menghindari perselisihan itu karena urusan lahan bukan bagian dari tugas penyuluhan yang menjadi tanggung jawabnya sebagai penyuluh pertanian",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "memfasilitasi pertemuan kedua kelompok bersama aparat desa untuk mencari penyelesaian damai sehingga persatuan warga tetap terjaga",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "berpihak kepada kelompok yang anggotanya lebih banyak agar perselisihan cepat berakhir dan suasana kembali tenang",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "mengunggah perselisihan itu ke media sosial agar segera mendapat perhatian pemerintah pusat",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "memutuskan sendiri batas lahan yang menurutnya adil, lalu meminta kedua kelompok menerima keputusannya",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 20/2023 Pasal 11 huruf c menetapkan salah satu tugas pegawai ASN adalah mempererat persatuan dan kesatuan NKRI. Menjadi penengah yang netral dan melibatkan aparat desa menjaga persatuan tanpa melampaui kewenangan, berbeda dengan memutus sendiri sengketa, berpihak, atau membiarkan konflik.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-07",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "perjalanan dinas fiktif",
+   "body": "Tiara, staf baru di sebuah dinas, diminta bendahara menandatangani daftar hadir dan laporan perjalanan dinas ke luar kota yang tidak pernah ia lakukan. Bendahara menyebut hal itu \"sudah biasa\" agar anggaran terserap, dan Tiara akan menerima bagian uang harian. Sikap Tiara yang paling mencerminkan integritas adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "menandatangani dokumen tersebut, tetapi menyerahkan seluruh uang harian yang diterimanya ke kas kantor agar dirinya tidak ikut menikmati uang negara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "menandatangani dokumen tersebut karena sebagai staf baru ia wajib menaati arahan bendahara",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "menandatangani dokumen tersebut dengan syarat namanya tidak dicantumkan lagi pada laporan perjalanan dinas berikutnya yang disusun oleh bendahara dinas",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "meminta bendahara mencari staf lain yang bersedia menandatangani dokumen tersebut",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "menolak dengan santun menandatangani dokumen itu karena kegiatannya tidak pernah dilaksanakan, dan tidak menerima uang harian yang ditawarkan",
+     "weight": 5
+    }
+   ],
+   "explanation": "Integritas menuntut kejujuran dan konsistensi. Menandatangani daftar hadir atau laporan perjalanan dinas untuk kegiatan yang tidak dilakukan berarti memalsukan pertanggungjawaban keuangan negara, apa pun alasannya dan ke mana pun uangnya disalurkan; sikap yang tepat adalah menolak dan tidak menerima uangnya.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-08",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "nilai berani (whistleblowing)",
+   "body": "Gilang menemukan bukti bahwa sejumlah tagihan pengadaan di kantornya digelembungkan. Ia khawatir dikucilkan rekan kerja jika melapor, tetapi akhirnya menyampaikan temuan beserta buktinya melalui saluran pengaduan resmi instansi. Dari sembilan nilai antikorupsi KPK, nilai yang paling menonjol pada tindakan Gilang adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "disiplin, karena ia menaati jam kerja dan prosedur administrasi kantornya",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "mandiri, karena ia menyelesaikan pekerjaannya sendiri tanpa bantuan rekan kerja",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "berani, karena ia tetap menyuarakan kebenaran meskipun menghadapi risiko dikucilkan",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "sederhana, karena ia tidak tergiur memperoleh bagian dari tagihan yang digelembungkan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "adil, karena ia memperlakukan semua rekan kerjanya secara sama tanpa membeda-bedakan",
+     "weight": 0
+    }
+   ],
+   "explanation": "Nilai berani dalam sembilan nilai antikorupsi KPK tampak ketika seseorang tetap menyuarakan kebenaran dan menolak kecurangan meskipun berisiko. Gilang melapor melalui saluran resmi disertai bukti walaupun takut dikucilkan; inti tindakannya bukan kedisiplinan, kemandirian, kesederhanaan, atau keadilan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-09",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "larangan sewenang-wenang terhadap bawahan",
+   "body": "Seorang kepala bidang mengancam akan mengusulkan mutasi ke daerah terpencil bagi staf yang menolak mengubah data penerima bantuan sesuai keinginannya. Ditinjau dari PP Nomor 94 Tahun 2021 tentang Disiplin PNS, penilaian yang tepat atas perbuatan kepala bidang tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "sah, karena kepala bidang berwenang mengusulkan mutasi bawahannya kapan saja dan dengan alasan apa pun",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "belum merupakan pelanggaran selama usulan mutasi itu belum disetujui oleh pejabat yang berwenang",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "hanya pelanggaran etika pergaulan, bukan disiplin, karena tidak menimbulkan kerugian keuangan negara",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "melanggar larangan bagi PNS untuk bertindak sewenang-wenang terhadap bawahannya",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "merupakan pelanggaran oleh staf karena tidak menaati perintah atasan langsungnya",
+     "weight": 0
+    }
+   ],
+   "explanation": "PP 94/2021 Pasal 5 huruf i melarang PNS bertindak sewenang-wenang terhadap bawahan. Mengancam mutasi sebagai hukuman bagi staf yang menolak memanipulasi data adalah penyalahgunaan kedudukan; staf justru bersikap benar karena menolak perintah yang melanggar aturan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-10",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "peran ASN bersih dari KKN dan intervensi politik",
+   "body": "Sebagai pengawas proyek irigasi, Wulan menemukan kontraktor memakai material di bawah spesifikasi. Kontraktor menawarinya \"uang lelah\", sementara seorang pengurus partai politik setempat memintanya meloloskan proyek tersebut. Sesuai peran pegawai ASN dalam UU Nomor 20 Tahun 2023, tindakan Wulan yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "menolak uang dan tekanan tersebut, lalu mencatat ketidaksesuaian material dalam laporan pengawasan secara profesional",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "meloloskan proyek tersebut, tetapi menolak uang lelah agar dirinya tidak terlibat dalam praktik korupsi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "menerima uang lelah, lalu menyerahkannya ke kas desa agar dapat dimanfaatkan untuk kepentingan warga",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "meminta kontraktor mengganti material secara diam-diam tanpa dicatat agar hubungan dengan semua pihak tetap baik",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "mengundurkan diri dari tugas pengawasan agar tidak terlibat konflik dengan pihak mana pun",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 20/2023 Pasal 12 menempatkan pegawai ASN sebagai perencana, pelaksana, dan pengawas yang bekerja secara profesional, bebas dari intervensi politik, dan bersih dari praktik KKN. Karena itu, Wulan harus menolak imbalan maupun tekanan politik dan melaporkan temuan apa adanya; memperbaiki diam-diam atau mundur tetap mengabaikan fungsi pengawasan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-11",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "asas keterbukaan (UU 28/1999)",
+   "body": "Pemerintah kabupaten mengumumkan rincian anggaran pembangunan jembatan melalui laman resmi dan papan informasi di lokasi proyek, sehingga warga dapat mengetahui sumber dana, besar biaya, pelaksana, dan jadwal pengerjaan. Tindakan tersebut paling mencerminkan asas umum penyelenggaraan negara dalam UU Nomor 28 Tahun 1999, yaitu asas ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "kepastian hukum",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "keterbukaan",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "proporsionalitas",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "profesionalitas",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "tertib penyelenggaraan negara",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 28/1999 Pasal 3 memuat asas umum penyelenggaraan negara: kepastian hukum, tertib penyelenggaraan negara, kepentingan umum, keterbukaan, proporsionalitas, profesionalitas, dan akuntabilitas. Membuka rincian anggaran agar dapat diakses masyarakat paling mencerminkan asas keterbukaan.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-12",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "larangan pelaksana pelayanan publik (UU 25/2009 Ps. 17)",
+   "body": "Doni, petugas loket perizinan di dinas penanaman modal, menerima tawaran menjadi komisaris di perusahaan konsultan perizinan milik kenalannya. Ia juga kerap meninggalkan loket pada jam layanan untuk mengurus perusahaan itu tanpa alasan yang sah. Menurut UU Nomor 25 Tahun 2009 tentang Pelayanan Publik, penilaian yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Doni boleh menjadi komisaris selama perusahaan itu tidak mengurus izin di dinasnya, tetapi tidak boleh meninggalkan loket",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Doni boleh menjadi komisaris dan meninggalkan loket asalkan ada rekan kerja yang menggantikan tugasnya",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "larangan rangkap komisaris hanya berlaku bagi pelaksana dari BUMN dan BUMD, sehingga Doni hanya salah karena meninggalkan loket",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Doni baru dianggap melanggar apabila ia menerima gaji atau honorarium dari perusahaan tersebut",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Doni dilarang merangkap sebagai komisaris organisasi usaha dan dilarang meninggalkan tugas tanpa alasan yang jelas, rasional, dan sah",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 25/2009 Pasal 17 melarang pelaksana pelayanan publik yang berasal dari instansi pemerintah, BUMN, dan BUMD merangkap sebagai komisaris atau pengurus organisasi usaha, serta melarang pelaksana meninggalkan tugas dan kewajiban kecuali dengan alasan yang jelas, rasional, dan sah. Kedua perbuatan Doni melanggar larangan tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-13",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "pengabdian sesuai profesi (UU 23/2019 Ps. 15)",
+   "body": "Seorang dokter, seorang insinyur jaringan, dan seorang ahli logistik bertanya bagaimana keahlian mereka dapat berkontribusi pada pertahanan negara. Menurut UU Nomor 23 Tahun 2019, pernyataan yang tepat tentang pengabdian sesuai profesi adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "pengabdian sesuai profesi hanya berlaku ketika negara menghadapi ancaman militer dan diwujudkan dengan menjadi prajurit TNI",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "pengabdian sesuai profesi hanya disiapkan untuk menghadapi ancaman nonmiliter seperti wabah penyakit dan bencana alam, sehingga sama sekali tidak berkaitan dengan keanggotaan Komponen Cadangan maupun Komponen Pendukung",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "pengabdian sesuai profesi disiapkan sejak dini menghadapi ancaman militer, nonmiliter, dan hibrida; untuk ancaman militer dan hibrida melalui keanggotaan Komponen Cadangan dan/atau Komponen Pendukung",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "pengabdian sesuai profesi dilakukan melalui keanggotaan Komponen Utama untuk menghadapi semua jenis ancaman",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "pengabdian sesuai profesi wajib diwujudkan dengan mengikuti pelatihan dasar kemiliteran bagi seluruh tenaga profesional",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 15 ayat (1)–(3): pengabdian sesuai profesi disiapkan secara dini untuk menghadapi ancaman militer, ancaman nonmiliter, dan ancaman hibrida; dalam menghadapi ancaman militer dan hibrida, pengabdian itu dilakukan melalui keanggotaan Komponen Cadangan dan/atau Komponen Pendukung.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-14",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Presiden dan kekuasaan atas angkatan perang",
+   "body": "Dalam simulasi sidang kabinet, seorang siswa memerankan Presiden yang hendak menyatakan perang terhadap negara yang menyerang wilayah Indonesia. Menurut UUD NRI 1945, langkah konstitusional yang harus ditempuh adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Presiden, pemegang kekuasaan tertinggi atas Angkatan Darat, Angkatan Laut, dan Angkatan Udara, menyatakan perang dengan persetujuan DPR",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Presiden menyatakan perang setelah mendapat pertimbangan Mahkamah Agung",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Presiden, pemegang kekuasaan tertinggi atas ketiga angkatan, menyatakan perang setelah mendapat persetujuan MPR melalui sidang istimewa",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Panglima TNI menyatakan perang karena memegang kekuasaan tertinggi atas ketiga angkatan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Presiden menyatakan perang dengan persetujuan DPD karena menyangkut kepentingan daerah",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 10 UUD NRI 1945 menyatakan Presiden memegang kekuasaan yang tertinggi atas Angkatan Darat, Angkatan Laut, dan Angkatan Udara, dan Pasal 11 ayat (1) menyatakan Presiden dengan persetujuan DPR menyatakan perang, membuat perdamaian, dan perjanjian dengan negara lain.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-15",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Pasal 25A negara kepulauan",
+   "body": "Seorang mahasiswa berpendapat bahwa batas wilayah Indonesia cukup ditetapkan dengan keputusan presiden agar cepat menyesuaikan diri dengan hasil perundingan internasional. Pendapat itu tidak sesuai dengan UUD NRI 1945 Pasal 25A yang menyatakan bahwa ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "NKRI adalah negara kepulauan yang berciri Nusantara dengan wilayah yang batas-batasnya ditetapkan dengan peraturan pemerintah",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "NKRI adalah negara maritim yang berciri Nusantara dengan wilayah yang batas-batasnya ditetapkan oleh MPR",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "NKRI adalah negara kesatuan berbentuk republik dengan wilayah yang batas-batasnya ditetapkan melalui perjanjian internasional",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "NKRI adalah negara kepulauan yang berciri Nusantara dengan wilayah yang batas-batas dan hak-haknya ditetapkan dengan undang-undang",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "NKRI adalah negara kepulauan dengan wilayah yang batas-batas dan hak-haknya ditetapkan dengan keputusan presiden atas persetujuan DPR",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 25A UUD NRI 1945: Negara Kesatuan Republik Indonesia adalah sebuah negara kepulauan yang berciri Nusantara dengan wilayah yang batas-batas dan hak-haknya ditetapkan dengan undang-undang. Jadi, batas wilayah harus ditetapkan dengan undang-undang, bukan keputusan presiden atau peraturan lain.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-16",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Persetujuan Renville",
+   "body": "Persetujuan Renville yang ditandatangani pada 17 Januari 1948 kerap disebut merugikan Republik Indonesia. Alasan yang paling tepat untuk pernyataan tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "RI harus membubarkan seluruh angkatan perangnya dan menyerahkan persenjataannya kepada Belanda",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "RI harus mengakui garis Van Mook sehingga wilayah kekuasaannya menjadi semakin sempit",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Belanda untuk pertama kalinya hanya mengakui wilayah RI secara de facto atas Jawa, Sumatra, dan Madura",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "garis Van Mook dihapus sehingga RI kehilangan perlindungan atas wilayah yang sebelumnya diakui",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "persetujuan itu ditandatangani sebelum Persetujuan Linggarjati sehingga RI terikat dua perjanjian yang bertentangan",
+     "weight": 0
+    }
+   ],
+   "explanation": "Persetujuan Renville (17 Januari 1948) mengharuskan RI mengakui garis Van Mook (batas wilayah yang diduduki Belanda) sehingga wilayah RI menyempit. Pengakuan de facto atas Jawa, Sumatra, dan Madura sudah lebih dahulu dimuat dalam Persetujuan Linggarjati (25 Maret 1947).",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-17",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "meluruskan hoaks wajib militer (Komcad)",
+   "body": "Beredar pesan berantai: \"Berdasarkan UU PSDN, semua warga negara berusia dewasa wajib mengikuti wajib militer.\" Seorang ASN ingin meluruskan informasi itu di grup warga. Penjelasan yang sesuai dengan UU Nomor 23 Tahun 2019 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "pelatihan dasar kemiliteran selama 3 bulan wajib diikuti seluruh warga negara berusia dewasa yang sehat jasmani dan rohani, kecuali mereka yang berstatus ASN atau anggota Polri",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "pelatihan dasar kemiliteran hanya wajib bagi warga yang ditunjuk langsung oleh Panglima TNI tanpa melalui seleksi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "UU PSDN sama sekali tidak mengenal pelatihan dasar kemiliteran, sehingga seluruh isi pesan itu tidak berdasar",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "pelatihan dasar kemiliteran wajib diikuti seluruh lulusan perguruan tinggi sebelum mereka diterima bekerja",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "pelatihan dasar kemiliteran secara wajib hanya bagi calon Komponen Cadangan yang memenuhi persyaratan; calon yang lulus seleksi wajib mengikutinya selama 3 bulan",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 6 ayat (5) dan Pasal 13 ayat (1) menegaskan pelatihan dasar kemiliteran secara wajib hanya diberlakukan bagi warga negara sebagai calon Komponen Cadangan yang memenuhi persyaratan, dan Pasal 35 ayat (1) mewajibkan calon Komponen Cadangan yang lulus seleksi mengikuti pelatihan dasar kemiliteran selama 3 bulan. Jadi, tidak ada wajib militer bagi semua warga.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-18",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "mobilisasi dan demobilisasi",
+   "body": "Negara menghadapi ancaman militer. Pemerintah mengerahkan dan menggunakan secara serentak Komponen Cadangan serta sumber daya, sarana, dan prasarana nasional yang telah disiapkan sebelumnya. Setelah tugas itu selesai, pengerahan dihentikan dan sumber daya dikembalikan ke kegiatan semula. Menurut UU Nomor 23 Tahun 2019, kedua tahap tersebut berturut-turut disebut ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "demobilisasi dan mobilisasi",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "mobilisasi dan rehabilitasi",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "mobilisasi dan demobilisasi",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "pembinaan kesadaran bela negara dan demobilisasi",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "penataan Komponen Pendukung dan pembubaran Komponen Cadangan",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 1 angka 13 mendefinisikan mobilisasi sebagai pengerahan dan penggunaan secara serentak sumber daya nasional serta sarana dan prasarana nasional yang telah disiapkan untuk menanggulangi ancaman, dan Pasal 1 angka 14 mendefinisikan demobilisasi sebagai penghentian pengerahan dan penggunaan tersebut setelah tugas mobilisasi selesai.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-19",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "kewenangan Mahkamah Agung dan pengisian hakim agung",
+   "body": "Sekelompok warga menilai sebuah peraturan daerah kabupaten bertentangan dengan undang-undang tentang lingkungan hidup. Menurut UUD NRI 1945, lembaga yang berwenang menguji peraturan tersebut serta cara pengisian hakim pada lembaga itu adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mahkamah Agung; calon hakim agung diusulkan Komisi Yudisial kepada DPR untuk mendapat persetujuan, lalu ditetapkan oleh Presiden",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Mahkamah Konstitusi; hakimnya diajukan masing-masing tiga orang oleh MA, DPR, dan Presiden, lalu ditetapkan oleh Presiden",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mahkamah Agung; calon hakim agung diusulkan DPR kepada Komisi Yudisial untuk mendapat persetujuan, lalu ditetapkan oleh Presiden",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mahkamah Konstitusi; calon hakimnya diusulkan Komisi Yudisial kepada DPR, lalu ditetapkan oleh Presiden",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mahkamah Agung; calon hakim agung dipilih langsung oleh Presiden tanpa memerlukan persetujuan DPR",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 24A ayat (1) UUD NRI 1945 memberi MA wewenang menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang, dan Pasal 24A ayat (3) menyatakan calon hakim agung diusulkan KY kepada DPR untuk mendapat persetujuan, lalu ditetapkan sebagai hakim agung oleh Presiden. MK menguji undang-undang terhadap UUD, bukan peraturan daerah terhadap undang-undang.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-20",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Komisi Yudisial",
+   "body": "Seorang warga menduga hakim yang menangani perkaranya melanggar kode etik karena kerap bertemu pihak lawan di luar sidang. Menurut UUD NRI 1945, lembaga negara yang berwenang menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim, beserta cara pengangkatan anggotanya, adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Komisi Yudisial, yang anggotanya dipilih oleh Mahkamah Agung dari kalangan hakim agung",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mahkamah Agung, yang hakim agungnya diusulkan Komisi Yudisial kepada DPR",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mahkamah Konstitusi, yang hakimnya ditetapkan Presiden atas usul MA, DPR, dan Presiden",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Komisi Yudisial, yang anggotanya diangkat dan diberhentikan oleh Presiden dengan persetujuan DPR",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Komisi Yudisial, yang anggotanya diangkat oleh DPR dengan pertimbangan DPD",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 24B ayat (1) UUD NRI 1945: Komisi Yudisial bersifat mandiri, berwenang mengusulkan pengangkatan hakim agung dan mempunyai wewenang lain dalam rangka menjaga dan menegakkan kehormatan, keluhuran martabat, serta perilaku hakim. Pasal 24B ayat (3): anggota KY diangkat dan diberhentikan oleh Presiden dengan persetujuan DPR.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-21",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Badan Pemeriksa Keuangan",
+   "body": "Dalam kuis kewarganegaraan, peserta diminta memilih pernyataan tentang Badan Pemeriksa Keuangan (BPK) yang sesuai dengan UUD NRI 1945. Pernyataan yang benar adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "anggota BPK dipilih DPD dengan memperhatikan pertimbangan DPR dan diresmikan Presiden, dan hasil pemeriksaannya diserahkan kepada DPR dan DPD saja tanpa DPRD",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "hasil pemeriksaan BPK hanya diserahkan kepada Presiden selaku kepala pemerintahan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "BPK berkedudukan di ibu kota negara dan wajib memiliki perwakilan di setiap kabupaten dan kota",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "BPK berada di bawah kementerian yang membidangi keuangan agar pemeriksaan sejalan dengan kebijakan fiskal",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "anggota BPK dipilih DPR dengan memperhatikan pertimbangan DPD dan diresmikan Presiden, dan hasil pemeriksaannya diserahkan kepada DPR, DPD, dan DPRD",
+     "weight": 5
+    }
+   ],
+   "explanation": "Pasal 23E–23G UUD NRI 1945: BPK bebas dan mandiri; hasil pemeriksaannya diserahkan kepada DPR, DPD, dan DPRD sesuai kewenangannya; anggotanya dipilih DPR dengan memperhatikan pertimbangan DPD dan diresmikan Presiden; BPK berkedudukan di ibu kota negara dan memiliki perwakilan di setiap provinsi.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-22",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "amendemen UUD NRI 1945",
+   "body": "Pernyataan yang tepat tentang perubahan (amendemen) UUD NRI 1945 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "MPR mengubah UUD sebanyak empat kali pada 1999–2002, dan Penjelasan tetap menjadi bagian resmi UUD bersama Pembukaan dan pasal-pasal",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "MPR mengubah UUD sebanyak empat kali pada 1999–2002, dan menurut Aturan Tambahan Pasal II, UUD terdiri atas Pembukaan dan pasal-pasal",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "DPR mengubah UUD sebanyak tiga kali pada 1999–2001, dan UUD terdiri atas Pembukaan dan pasal-pasal",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "perubahan pertama UUD ditetapkan pada 10 Agustus 2002, sedangkan perubahan keempat pada 19 Oktober 1999",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "MPR mengubah UUD sebanyak empat kali, termasuk mengubah rumusan Pembukaan pada perubahan kedua tahun 2000",
+     "weight": 0
+    }
+   ],
+   "explanation": "MPR mengubah UUD 1945 sebanyak empat kali: 19 Oktober 1999, 18 Agustus 2000, 9 November 2001, dan 10 Agustus 2002. Aturan Tambahan Pasal II menegaskan bahwa UUD NRI 1945 terdiri atas Pembukaan dan pasal-pasal, sehingga Penjelasan tidak lagi menjadi bagian UUD.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-23",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "kebebasan berserikat dan berpendapat",
+   "body": "Para pedagang pasar yang keberatan atas rencana relokasi membentuk paguyuban, lalu menyampaikan aspirasi kepada DPRD melalui audiensi dan aksi damai yang tertib. Penilaian yang paling tepat atas tindakan para pedagang adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "tidak dibenarkan, karena kebijakan pemerintah daerah yang telah direncanakan tidak boleh dikritik oleh warga yang terdampak sebelum kebijakan itu dijalankan",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "dibenarkan sepenuhnya, sehingga para pedagang juga boleh menutup jalan umum di sekitar pasar selama berhari-hari agar aspirasinya segera didengar",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "sesuai dengan jaminan UUD NRI 1945 atas kebebasan berserikat, berkumpul, dan mengeluarkan pendapat karena dilakukan secara tertib dan damai",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "hanya dibenarkan apabila paguyuban itu terlebih dahulu berubah menjadi partai politik",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "tidak diperlukan, karena aspirasi warga cukup disampaikan melalui kepala pasar tanpa membentuk organisasi",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 28 dan Pasal 28E ayat (3) UUD NRI 1945 menjamin kemerdekaan berserikat, berkumpul, dan mengeluarkan pendapat. Membentuk paguyuban serta menyampaikan aspirasi melalui audiensi dan aksi damai adalah penggunaan hak itu secara tertib, sedangkan menutup jalan berhari-hari mengganggu hak orang lain.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-24",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "pembatasan HAM Pasal 28J",
+   "body": "Seorang pengguna media sosial mengunggah tuduhan tanpa bukti yang menyerang kehormatan tetangganya. Ketika ditegur, ia berdalih bahwa UUD menjamin kebebasan berekspresi tanpa batas. Tanggapan yang paling tepat berdasarkan UUD NRI 1945 Pasal 28J adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "kebebasan berekspresi wajib menghormati hak asasi orang lain dan dapat dibatasi dengan undang-undang untuk menjamin hak dan kebebasan orang lain",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "kebebasan berekspresi di media sosial tidak dapat dibatasi karena termasuk hak yang tidak dapat dikurangi dalam keadaan apa pun sebagaimana hak hidup dan hak beragama",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "kebebasan berekspresi dapat dibatasi oleh siapa saja yang merasa dirugikan tanpa perlu dasar undang-undang",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "kebebasan berekspresi hanya berlaku bagi unggahan yang telah disetujui aparat pemerintah sebelum dipublikasikan di media sosial atau platform digital mana pun",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "kebebasan berekspresi hanya dibatasi apabila unggahan menyangkut pejabat negara, bukan sesama warga",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 28J ayat (1) UUD NRI 1945 mewajibkan setiap orang menghormati hak asasi manusia orang lain, dan ayat (2) menyatakan setiap orang wajib tunduk pada pembatasan yang ditetapkan dengan undang-undang untuk menjamin pengakuan serta penghormatan atas hak dan kebebasan orang lain dan memenuhi tuntutan yang adil sesuai pertimbangan moral, nilai-nilai agama, keamanan, dan ketertiban umum.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-25",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Lambang Negara, Bendera Negara, dan gambar resmi Presiden",
+   "body": "Bagian umum sebuah kantor kecamatan menata ruang rapat dengan memasang Lambang Negara, Bendera Negara, serta gambar resmi Presiden dan Wakil Presiden. Penataan yang sesuai dengan UU Nomor 24 Tahun 2009 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Lambang Negara di sebelah kanan dan lebih rendah daripada Bendera Negara, sedangkan gambar resmi Presiden dan Wakil Presiden lebih tinggi daripada Lambang Negara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Lambang Negara di sebelah kiri dan lebih tinggi daripada Bendera Negara, sedangkan gambar resmi Presiden dipasang lebih tinggi daripada gambar resmi Wakil Presiden",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Lambang Negara sejajar dengan gambar resmi Presiden dan Wakil Presiden, sedangkan Bendera Negara dipasang di atas ketiganya",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Lambang Negara di sebelah kiri dan lebih tinggi daripada Bendera Negara, sedangkan gambar resmi Presiden dan Wakil Presiden sejajar dan lebih rendah daripada Lambang Negara",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "gambar resmi Presiden diletakkan di tengah atas, diapit Lambang Negara dan gambar resmi Wakil Presiden yang lebih rendah",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 55: bila Lambang Negara dipasang bersama Bendera Negara dan gambar Presiden dan/atau Wakil Presiden, Lambang Negara ditempatkan di sebelah kiri dan lebih tinggi daripada Bendera Negara, sedangkan gambar resmi Presiden dan Wakil Presiden ditempatkan sejajar dan lebih rendah daripada Lambang Negara. Bila Bendera Negara dipasang di dinding, Lambang Negara diletakkan di tengah atas antara gambar resmi Presiden dan Wakil Presiden.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-26",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "kata baku: jenderal, Februari, November, provinsi, respons, saraf, survei",
+   "body": "Seorang pegawai dinas kesehatan memeriksa ejaan laporan kegiatan sebelum dikirim ke pimpinan. Kalimat yang seluruh katanya baku sesuai KBBI adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Jendral itu meresmikan rumah sakit saraf pada bulan November.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Dokter spesialis syaraf memaparkan hasil survei di depan para pejabat provinsi.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Hasil survei bulan Februari menunjukkan respons warga provinsi itu sangat positif.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Pada bulan Nopember, warga propinsi itu menggelar pameran kesehatan.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Tim survey menerima respon cepat dari warga pada bulan Februari.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Menurut KBBI, bentuk baku adalah survei, Februari, respons, provinsi, jenderal, saraf, dan November. Hanya kalimat kunci yang seluruh katanya baku; kalimat lain memuat jendral, syaraf, Nopember, propinsi, survey, atau respon.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-27",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "penulisan maha- untuk Tuhan (EYD V)",
+   "body": "Panitia menyusun teks doa pembuka upacara. Kalimat yang penulisannya sesuai dengan kaidah EYD Edisi V adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Kami memohon perlindungan kepada Tuhan Yang Mahaesa, Yang Maha Pengasih.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Kami memohon perlindungan kepada Tuhan Yang Mahaesa, Yang Mahapengasih.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Kami memohon perlindungan kepada Tuhan Yang Maha Esa, Yang Mahapengasih.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kami memohon perlindungan kepada Tuhan Yang Maha-Esa, Yang Maha-Pengasih.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Kami memohon perlindungan kepada Tuhan Yang Maha Esa, Yang Maha Pengasih.",
+     "weight": 5
+    }
+   ],
+   "explanation": "EYD V (Kata Turunan) mengatur bahwa bentuk terikat maha- yang diikuti kata yang mengacu pada nama atau sifat Tuhan ditulis terpisah dengan huruf awal kapital, misalnya Yang Maha Esa dan Yang Maha Pengasih; kaidah ini berlaku untuk kata dasar maupun kata berimbuhan (Tuhan Yang Maha Kuasa), berbeda dengan PUEBI yang menulis Mahakuasa serangkai. Penulisan serangkai (Mahaesa, Mahapengasih) atau bertanda hubung (Maha-Esa, Maha-Pengasih) tidak sesuai kaidah tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-28",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "\"daripada\" untuk perbandingan",
+   "body": "Penggunaan kata daripada yang tepat terdapat dalam kalimat ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Layanan daring ternyata lebih cepat daripada layanan tatap muka.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Tujuan daripada kegiatan ini adalah meningkatkan literasi warga.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Peran daripada pemuda sangat penting dalam pembangunan desa.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Hasil daripada rapat itu akan diumumkan besok pagi.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Kami menerima laporan daripada kepala seksi pelayanan.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Menurut KBBI, daripada adalah kata depan penanda perbandingan, seperti pada \"lebih cepat daripada\". Pada kalimat lain, daripada tidak diperlukan (tujuan kegiatan ini, peran pemuda, hasil rapat) atau seharusnya diganti dengan dari (laporan dari kepala seksi).",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-29",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "judul teks: perpustakaan keliling",
+   "body": "Bacalah teks berikut.\n\nSetiap Sabtu pagi, sebuah mobil bak terbuka berisi ratusan buku berhenti di lapangan Desa Waru. Mobil itu adalah perpustakaan keliling yang dikelola pemerintah kabupaten bersama para relawan. Anak-anak berebut memilih buku cerita, sementara orang tua membaca buku pertanian dan kerajinan. Sebelum layanan ini ada, warga harus menempuh perjalanan dua jam ke perpustakaan kota. Kini minat baca warga meningkat; beberapa ibu bahkan membentuk kelompok membaca dan mempraktikkan cara membuat keripik dari buku yang mereka pinjam. Para relawan berharap jadwal kunjungan dapat ditambah agar lebih banyak desa terlayani.\n\nJudul yang paling tepat untuk teks tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Cara Membuat Keripik dari Buku Pinjaman",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Perpustakaan Keliling Menumbuhkan Minat Baca Warga Desa",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Sulitnya Perjalanan ke Perpustakaan Kota",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Relawan Meminta Tambahan Jadwal Kunjungan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mobil Bak Terbuka sebagai Sarana Angkutan Desa",
+     "weight": 0
+    }
+   ],
+   "explanation": "Judul harus mewakili gagasan utama seluruh teks, yaitu kehadiran perpustakaan keliling yang meningkatkan minat baca warga desa. Judul lain hanya mengangkat rincian kecil (resep keripik, jarak ke kota, harapan relawan) atau melenceng dari isi teks.",
+   "verify": null
+  },
+  {
+   "id": "P08-TWK-30",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "bahasa Indonesia bahasa resmi Konferensi Umum UNESCO",
+   "body": "Melalui Resolusi 42 C/28, Konferensi Umum UNESCO ke-42 pada 20 November 2023 menetapkan bahasa Indonesia sebagai bahasa resmi Konferensi Umum UNESCO. Pernyataan yang tepat mengenai peristiwa tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "bahasa Indonesia menjadi bahasa resmi ke-10 Perserikatan Bangsa-Bangsa sehingga wajib dipakai dalam seluruh sidang Majelis Umum PBB dan seluruh badan khusus yang berada di bawahnya",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "bahasa Indonesia menjadi bahasa resmi ke-6 Konferensi Umum UNESCO dengan menggantikan salah satu bahasa resmi sebelumnya",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "penetapan itu mewajibkan seluruh negara anggota UNESCO mengajarkan bahasa Indonesia di sekolah-sekolah mereka",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "bahasa Indonesia menjadi bahasa resmi ke-10 Konferensi Umum UNESCO, selaras dengan amanat UU Nomor 24 Tahun 2009 untuk meningkatkan fungsinya menjadi bahasa internasional",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "penetapan itu bertentangan dengan UU Nomor 24 Tahun 2009 yang hanya menempatkan bahasa Indonesia sebagai bahasa persatuan dan bahasa resmi negara di dalam negeri, bukan sebagai bahasa internasional",
+     "weight": 0
+    }
+   ],
+   "explanation": "Resolusi 42 C/28 Konferensi Umum UNESCO ke-42 (20 November 2023) menetapkan bahasa Indonesia sebagai bahasa resmi ke-10 Konferensi Umum UNESCO. Hal ini sejalan dengan UU 24/2009 Pasal 44 yang mengamanatkan peningkatan fungsi bahasa Indonesia menjadi bahasa internasional secara bertahap.",
+   "verify": null
+  }
+ ]
+}

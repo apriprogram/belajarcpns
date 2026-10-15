@@ -1,0 +1,1175 @@
+{
+ "paket": 9,
+ "questions": [
+  {
+   "id": "P09-TWK-01",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Nasionalisme ekonomi (kasus pengusaha memilih bahan baku & tenaga kerja lokal)",
+   "body": "Bu Ratna mengelola usaha makanan ringan yang mulai menembus pasar ekspor. Pemasok luar negeri menawarkan bahan baku yang sedikit lebih murah, tetapi ia tetap membeli singkong dan rempah dari kelompok tani dalam negeri dengan harga yang adil. Ia juga merekrut pekerja dari desa-desa di sekitar pabrik melalui seleksi terbuka dan pelatihan, sambil tetap menjalin kerja sama dengan pembeli dari berbagai negara.\nPenilaian yang paling tepat terhadap sikap Bu Ratna adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mencerminkan chauvinisme karena menganggap produk dalam negeri paling unggul sehingga memandang rendah produk dan bangsa lain dalam perdagangan",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mencerminkan nasionalisme ekonomi karena mengutamakan kepentingan nasional dan kesejahteraan rakyat sesuai sila kelima tanpa menutup diri dari dunia",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Mencerminkan primordialisme karena lebih mengutamakan warga di sekitar pabrik daripada kepentingan bangsa Indonesia yang lebih luas",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Kurang mencerminkan nasionalisme karena mengabaikan efisiensi biaya yang justru dapat meningkatkan daya saing ekspor produk Indonesia di pasar dunia",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Semata-mata keputusan bisnis yang tidak berkaitan dengan wawasan kebangsaan karena dilakukan oleh pelaku usaha swasta",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kisi-kisi TWK (KepmenPANRB 406/2026) merumuskan nasionalisme sebagai kemampuan mewujudkan kepentingan nasional dengan tetap mempertahankan identitas nasional. Memberdayakan petani dan tenaga kerja dalam negeri secara adil adalah nasionalisme ekonomi yang selaras dengan sila kelima (keadilan sosial bagi seluruh rakyat Indonesia); karena Bu Ratna tetap bekerja sama dengan pembeli asing dan merekrut secara terbuka, sikapnya bukan chauvinisme ataupun primordialisme.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-02",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "KAA 1955",
+   "body": "Dalam sebuah forum internasional, delegasi Indonesia menolak usulan untuk ikut menekan pemerintahan sah sebuah negara sahabat terkait persoalan politik dalam negerinya. Sikap itu berakar pada hasil konferensi yang diselenggarakan di Gedung Merdeka, Bandung, pada 18–24 April 1955 dan dihadiri 29 negara.\nPernyataan yang tepat mengenai konferensi tersebut dan prinsip yang dijunjung delegasi adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Konferensi Meja Bundar; hasilnya menegaskan bahwa negara-negara peserta tidak boleh mencampuri urusan dalam negeri Kerajaan Belanda",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Konferensi Asia Afrika; Dasasila Bandung membenarkan campur tangan negara yang lebih kuat terhadap urusan dalam negeri negara lain demi menjaga stabilitas kawasan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Konferensi Asia Afrika; hasil utamanya adalah pembentukan pakta pertahanan bersama yang wajib diikuti oleh seluruh negara peserta konferensi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Konferensi Asia Afrika; Dasasila Bandung antara lain memuat penghormatan atas kedaulatan dan integritas wilayah serta tidak campur tangan urusan dalam negeri negara lain",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Konferensi Asia Afrika; Dasasila Bandung mewajibkan seluruh negara peserta bergabung dalam satu federasi Asia-Afrika yang dipimpin satu pemerintahan bersama",
+     "weight": 0
+    }
+   ],
+   "explanation": "KAA berlangsung pada 18–24 April 1955 di Gedung Merdeka, Bandung, dihadiri 29 negara, dan menghasilkan Dasasila Bandung yang antara lain memuat penghormatan atas kedaulatan dan integritas wilayah semua bangsa serta prinsip tidak campur tangan dalam urusan dalam negeri negara lain. Menolak menekan urusan politik dalam negeri negara sahabat sejalan dengan prinsip itu.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-03",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Kelompok kerja lintas daerah di pelatihan dasar CPNS (kasus)",
+   "body": "Anda ditunjuk sebagai ketua angkatan dalam pelatihan dasar CPNS. Panitia membagi peserta ke dalam kelompok kerja yang sengaja dicampur lintas daerah dan suku. Beberapa peserta meminta dipindahkan ke kelompok yang berisi rekan sedaerah dengan alasan lebih nyaman dan lebih mudah berkomunikasi.\nSikap Anda yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menjelaskan bahwa pembauran lintas daerah melatih kebersamaan, lalu mengajak tiap kelompok saling mengenal dan membagi peran sesuai kemampuan",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Meminta panitia memindahkan peserta yang keberatan ke kelompok sedaerah agar suasana pelatihan tetap nyaman dan kondusif bagi semua peserta",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Membiarkan permintaan tersebut karena kenyamanan dalam berkelompok merupakan urusan pribadi setiap peserta",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Melaporkan peserta yang keberatan kepada panitia agar diberi sanksi karena dianggap tidak memiliki jiwa nasionalis",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengusulkan agar setiap kelompok diisi peserta sedaerah, tetapi ketua kelompoknya dipilih secara bergiliran dari daerah yang berbeda-beda",
+     "weight": 0
+    }
+   ],
+   "explanation": "Nasionalisme menuntut kemampuan mewujudkan tujuan bersama dengan tetap mempertahankan identitas nasional (KepmenPANRB 406/2026). Membangun kebersamaan lintas suku melalui penjelasan dan pembagian peran adalah tindakan paling konstruktif; pengelompokan sedaerah memperkuat sekat primordial, sedangkan langsung meminta sanksi tidak menyelesaikan akar persoalan.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-04",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Bendera Pusaka",
+   "body": "Menurut UU Nomor 24 Tahun 2009, Bendera Negara yang dikibarkan pada Proklamasi Kemerdekaan Bangsa Indonesia tanggal 17 Agustus 1945 di Jalan Pegangsaan Timur Nomor 56 Jakarta disebut ... dan disimpan serta dipelihara di ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Bendera Pusaka Sang Saka Merah Putih; Museum Perumusan Naskah Proklamasi",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Bendera Proklamasi Sang Merah Putih; Istana Merdeka Jakarta",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Bendera Pusaka Sang Saka Merah Putih; Monumen Nasional Jakarta",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Bendera Pusaka Sang Saka Merah Putih; Gedung Arsip Nasional Republik Indonesia",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Bendera Duplikat Sang Saka Merah Putih; Monumen Nasional Jakarta",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 5 ayat (1) menyebut bendera yang dikibarkan pada Proklamasi 17 Agustus 1945 di Jalan Pegangsaan Timur Nomor 56 Jakarta sebagai Bendera Pusaka Sang Saka Merah Putih, dan ayat (2) menyatakan bendera itu disimpan dan dipelihara di Monumen Nasional Jakarta.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-05",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Pencak silat & pinisi",
+   "body": "Sebuah kabupaten pesisir memiliki banyak perajin kapal pinisi dan beberapa perguruan pencak silat. Seni pembuatan kapal pinisi masuk Daftar Representatif Warisan Budaya Takbenda UNESCO pada 2017, sedangkan tradisi pencak silat pada 2019. Belakangan, jumlah pemuda yang mau belajar membuat pinisi maupun berlatih silat terus berkurang.\nLangkah pemerintah daerah yang paling tepat untuk melestarikan kedua warisan budaya tersebut adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mengusulkan kembali pinisi dan pencak silat kepada UNESCO agar pengakuan internasional atas kedua warisan budaya itu menjadi semakin kuat",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menggelar festival budaya berskala besar setiap tahun yang berfokus pada peningkatan kunjungan wisatawan mancanegara ke kabupaten tersebut",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mengganti proses pembuatan pinisi secara tradisional dengan mesin pabrik agar produksinya lebih cepat, lebih banyak, dan biayanya lebih murah",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Membatasi pengajaran pencak silat hanya bagi keturunan keluarga pendiri perguruan agar keaslian tradisinya tetap terjaga",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mengajak perajin dan guru silat mewariskan keahliannya kepada generasi muda melalui magang di galangan dan latihan di sekolah, disertai dokumentasi",
+     "weight": 5
+    }
+   ],
+   "explanation": "Pinisi (2017) dan pencak silat (2019) sudah tercatat dalam Daftar Representatif UNESCO, sehingga tidak perlu diusulkan ulang; masalah yang dihadapi adalah putusnya regenerasi. Pewarisan langsung dari perajin dan guru silat kepada generasi muda disertai dokumentasi menjawab masalah itu dan menjaga identitas nasional, sedangkan festival wisata tidak menyentuh regenerasi dan mesin pabrik atau pembatasan keturunan justru mengikis tradisi.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-06",
+   "subtest": "TWK",
+   "category": "Nasionalisme",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "Visi IKN",
+   "body": "Dalam materi orientasi bagi pegawai yang akan bertugas di Ibu Kota Nusantara, narasumber mengutip visi ibu kota baru sebagaimana tercantum dalam undang-undang. Menurut Pasal 2 UU Nomor 3 Tahun 2022 tentang Ibu Kota Negara, Ibu Kota Nusantara memiliki visi sebagai ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "kota pemerintahan khusus bagi aparatur negara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "kota dunia untuk semua",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "kota industri pusat pertumbuhan Asia Tenggara",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "kota pusaka warisan Nusantara",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "kota cerdas bagi investor global",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 3/2022 Pasal 2 menyatakan bahwa Ibu Kota Nusantara memiliki visi sebagai kota dunia untuk semua. Rumusan pada opsi lain bukan visi yang tercantum dalam undang-undang tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-07",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Selisih hitung yang menguntungkan unit (kasus audit internal)",
+   "body": "Menjelang audit internal, Dimas menemukan kesalahan rumus pada lembar rekapitulasi yang membuat realisasi kinerja unitnya tercatat lebih tinggi daripada yang sebenarnya. Angka itu sudah telanjur dilaporkan dan berpotensi menaikkan peringkat unit. Seorang rekan menyarankan agar kesalahan itu dibiarkan karena kecil kemungkinan auditor memeriksa rumus tersebut.\nTindakan Dimas yang paling mencerminkan integritas adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Membiarkan angka tersebut karena kesalahan terjadi tanpa sengaja dan tidak menimbulkan kerugian keuangan negara",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Memperbaiki rumus secara diam-diam agar laporan berikutnya benar tanpa perlu mengungkit laporan yang sudah telanjur dikirim",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menunggu hingga auditor menemukan kesalahan itu, kemudian memberikan penjelasan secukupnya kepada auditor",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Melaporkan temuan itu kepada atasan dan tim audit, lalu mengoreksi data sesuai prosedur meskipun peringkat unit dapat turun",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Menyebarkan temuan itu di grup pegawai agar semua orang mengetahui bahwa data kinerja unit tidak akurat",
+     "weight": 0
+    }
+   ],
+   "explanation": "Integritas dalam kisi-kisi TWK mencakup kejujuran, ketangguhan, komitmen, dan konsistensi sebagai satu kesatuan sikap (KepmenPANRB 406/2026). Kesalahan yang menguntungkan unit tetap harus dilaporkan dan dikoreksi secara terbuka; memperbaiki diam-diam atau menunggu auditor berarti membiarkan laporan yang salah tetap berlaku.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-08",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Nilai \"adil\"",
+   "body": "Sebagai ketua tim, Anda harus membagi insentif kegiatan dan beban kerja tahap berikutnya kepada enam anggota. Dua anggota adalah sahabat dekat Anda, sementara seorang anggota lain paling banyak menyelesaikan pekerjaan meskipun jarang berinteraksi dengan Anda.\nCara membagi yang paling mencerminkan nilai antikorupsi \"adil\" adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menetapkan kriteria kontribusi dan beban kerja yang objektif, mengumumkannya kepada tim, lalu membagi insentif dan tugas sesuai kriteria itu",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Membagi insentif dan beban kerja sama rata kepada semua anggota agar tidak ada yang merasa dibedakan, apa pun kontribusi masing-masing",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Memberikan bagian yang lebih besar kepada anggota yang paling senior karena pengalaman kerjanya paling panjang",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Memberikan bagian yang lebih besar kepada anggota yang sedang mengalami kesulitan ekonomi agar bebannya berkurang",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Memberikan bagian yang lebih besar kepada dua sahabat Anda karena mereka paling mudah diajak berkoordinasi dan selalu mendukung Anda",
+     "weight": 0
+    }
+   ],
+   "explanation": "Adil termasuk sembilan nilai antikorupsi KPK (jujur, peduli, mandiri, disiplin, tanggung jawab, kerja keras, sederhana, berani, adil). Adil berarti tidak berat sebelah: bagian diberikan sesuai hak dan kontribusi berdasarkan kriteria yang objektif dan terbuka; pembagian sama rata mengabaikan kontribusi, sedangkan dasar senioritas, belas kasihan, atau kedekatan bersifat memihak.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-09",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "BMN dipinjamkan tidak sah",
+   "body": "Seorang rekan meminta Anda, selaku pengelola perlengkapan kantor, meminjamkan proyektor dan pengeras suara milik kantor untuk acara pernikahan adiknya pada akhir pekan. Ia berjanji mengembalikan barang itu dalam keadaan utuh pada hari Senin karena kantor tidak memakainya selama akhir pekan.\nSikap Anda yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Meminjamkan barang tersebut karena sedang tidak dipakai kantor selama akhir pekan dan akan dikembalikan tepat waktu dalam keadaan utuh",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Meminjamkan barang tersebut dengan memungut uang sewa dari rekan, yang kemudian seluruhnya disetorkan ke kas kantor sebagai pemasukan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Meminjamkan barang tersebut setelah rekan menandatangani surat pernyataan sanggup mengganti seluruh kerugian apabila terjadi kerusakan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Meminjamkan barang tersebut tanpa mencatatnya dalam buku inventaris agar tidak menimbulkan pertanyaan dari atasan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menolak dengan santun karena PNS dilarang meminjamkan barang milik negara secara tidak sah, lalu menyarankan rekan menyewa dari penyedia jasa",
+     "weight": 5
+    }
+   ],
+   "explanation": "PP 94/2021 Pasal 5 melarang PNS memiliki, menjual, atau meminjamkan barang milik negara secara tidak sah. Acara keluarga bukan keperluan dinas, sehingga peminjaman tetap tidak sah meskipun barang sedang tidak dipakai, ada jaminan ganti rugi, atau dipungut uang sewa.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-10",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Penegakan disiplin",
+   "body": "Seorang pegawai di unit Pak Hendra berulang kali tidak masuk kerja tanpa keterangan dan tidak menyelesaikan tugas yang menjadi kewajibannya. Pak Hendra, selaku atasan langsung, memilih diam dan tidak memproses pelanggaran itu karena merasa kasihan dan khawatir hubungan kerja menjadi tidak harmonis.\nBerdasarkan UU Nomor 20 Tahun 2023 tentang ASN, penilaian yang tepat terhadap sikap Pak Hendra adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tepat, karena atasan langsung berwenang penuh memaafkan setiap pelanggaran bawahannya demi menjaga keharmonisan unit kerja",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Tepat, karena disiplin merupakan tanggung jawab pribadi setiap pegawai dan bukan tanggung jawab instansi pemerintah",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Tidak tepat, karena ASN yang tidak menaati kewajiban dijatuhi hukuman disiplin dan instansi pemerintah wajib menegakkan disiplin",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Tidak tepat, karena atasan seharusnya langsung memberhentikan pegawai tersebut tanpa perlu melalui proses pemeriksaan disiplin",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Tidak tepat, karena setiap pelanggaran disiplin pegawai wajib dilaporkan lebih dahulu kepada pihak kepolisian untuk diselidiki",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 20/2023 Pasal 24 ayat (2)–(3) menentukan bahwa ASN yang tidak menaati kewajibannya dijatuhi hukuman disiplin dan instansi pemerintah wajib menegakkan disiplin. Membiarkan pelanggaran bertentangan dengan ketentuan itu, sedangkan memberhentikan tanpa pemeriksaan atau melapor ke kepolisian melompati proses penegakan disiplin.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-11",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Menolak pemberian",
+   "body": "Setelah Anda membantu menyelesaikan pengurusan dokumen kependudukannya, seorang warga lanjut usia menyelipkan amplop berisi uang ke tangan Anda sebagai \"uang terima kasih\". Ia menegaskan bahwa pemberian itu ikhlas, nilainya tidak besar, dan ia akan tersinggung bila Anda menolak.\nSikap Anda yang paling tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menerima amplop itu agar warga tidak tersinggung, lalu melaporkannya kepada KPK sebagai gratifikasi pada kemudian hari",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menolak dengan santun dan menjelaskan bahwa layanan itu tugas Anda, sedangkan pegawai wajib menolak pemberian terkait tugasnya",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Menerima amplop itu lalu memasukkannya ke kotak amal kantor agar uang tersebut tidak dinikmati secara pribadi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menerima amplop itu karena diberikan setelah layanan selesai sehingga tidak mungkin memengaruhi keputusan Anda",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menolak amplop itu, tetapi menyarankan warga memberikan bingkisan makanan saja untuk dinikmati seluruh pegawai kantor",
+     "weight": 0
+    }
+   ],
+   "explanation": "PP 94/2021 Pasal 4 mewajibkan PNS menolak segala bentuk pemberian yang berkaitan dengan tugas dan fungsinya, kecuali penghasilan sesuai ketentuan. Karena penolakan secara santun masih dapat dilakukan, menerima lalu menyalurkan atau melaporkannya bukan sikap yang paling tepat, dan bingkisan pengganti tetap merupakan pemberian terkait tugas.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-12",
+   "subtest": "TWK",
+   "category": "Integritas",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Kelompok rentan",
+   "body": "Antrean di loket pelayanan perizinan sedang panjang. Seorang lansia yang tampak lemah dan seorang pengguna kursi roda baru tiba. Ketika petugas hendak mendahulukan keduanya, beberapa warga di antrean memprotes karena merasa sudah menunggu lama.\nTindakan petugas yang paling sesuai dengan asas penyelenggaraan pelayanan publik adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Tetap mendahulukan keduanya melalui layanan prioritas sambil menjelaskan bahwa kelompok rentan berhak atas perlakuan khusus",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Meminta keduanya mengambil nomor antrean biasa karena semua warga harus diperlakukan sama sesuai asas tidak diskriminatif",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Menyarankan keduanya datang kembali keesokan hari pada saat antrean di loket pelayanan lebih sepi",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mendahulukan keduanya hanya apabila seluruh warga di antrean menyatakan setuju secara bersama-sama",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Meminta keluarga keduanya menggantikan mengantre, sementara keduanya menunggu di luar gedung pelayanan",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 25/2009 Pasal 4 memuat asas fasilitas dan perlakuan khusus bagi kelompok rentan dalam penyelenggaraan pelayanan publik. Mendahulukan lansia dan penyandang disabilitas sambil menjelaskan dasarnya kepada warga lain adalah tindakan paling tepat; perlakuan khusus ini bukan diskriminasi, melainkan bagian dari asas pelayanan publik.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-13",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Persiapan dini menghadapi ancaman",
+   "body": "Pemerintah sebuah desa di wilayah perbatasan menyusun rencana siaga sebelum ada ancaman apa pun. Mereka mendata relawan, kendaraan, lumbung pangan, dan bangunan yang dapat dijadikan posko, menetapkan jalur evakuasi, serta melatih warga secara berkala.\nLangkah desa tersebut paling sejalan dengan ketentuan UU Nomor 23 Tahun 2019 bahwa pengelolaan sumber daya nasional untuk pertahanan negara ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "baru dikerahkan setelah ancaman benar-benar terjadi",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "diserahkan sepenuhnya kepada TNI sebagai komponen utama",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "dilaksanakan secara sukarela tanpa memerlukan perencanaan",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "dipersiapkan secara dini untuk menghadapi ancaman",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "ditetapkan oleh pemerintah desa tanpa melibatkan warga",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 4 ayat (1) menyatakan pengelolaan sumber daya nasional untuk pertahanan negara dipersiapkan secara dini untuk menghadapi ancaman. Mendata sumber daya, menetapkan jalur evakuasi, dan berlatih sebelum ancaman muncul merupakan wujud persiapan dini tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-14",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Serangan Umum 1 Maret 1949",
+   "body": "Sebuah sekolah di Yogyakarta mengadakan napak tilas untuk memperingati Serangan Umum 1 Maret 1949.\nPernyataan yang tepat mengenai peristiwa tersebut dan peringatannya adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Serangan itu menunjukkan kepada dunia bahwa Republik Indonesia dan TNI masih ada; 1 Maret kini ditetapkan sebagai hari libur nasional untuk mengenang perjuangan tersebut",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Serangan itu bertujuan memaksa Belanda menandatangani Persetujuan Renville; 1 Maret kini diperingati sebagai Hari Penegakan Kedaulatan Negara, bukan hari libur",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Serangan itu menunjukkan kepada dunia bahwa Republik Indonesia dan TNI masih ada; 1 Maret kini diperingati sebagai Hari Bela Negara, bukan hari libur nasional",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Serangan itu dilancarkan untuk merebut kembali Kota Bandung dari tangan Sekutu; 1 Maret kini diperingati sebagai Hari Penegakan Kedaulatan Negara, bukan hari libur",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Serangan itu menunjukkan kepada dunia bahwa Republik Indonesia dan TNI masih ada; 1 Maret kini diperingati sebagai Hari Penegakan Kedaulatan Negara, bukan hari libur",
+     "weight": 5
+    }
+   ],
+   "explanation": "Serangan Umum 1 Maret 1949 di Yogyakarta menunjukkan kepada dunia bahwa Republik Indonesia dan TNI masih ada. Keppres 2/2022 menetapkan 1 Maret sebagai Hari Penegakan Kedaulatan Negara yang bukan hari libur.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-15",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Resolusi Jihad",
+   "body": "Para santri sebuah pesantren menggelar upacara dan bakti sosial setiap 22 Oktober untuk memperingati Hari Santri. Peringatan tersebut berakar pada Resolusi Jihad.\nPernyataan yang tepat mengenai Resolusi Jihad dan Hari Santri adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Dicetuskan NU di Surabaya pada 22 Oktober 1945 atas prakarsa K.H. Hasyim Asy'ari, berisi seruan kewajiban membela tanah air; Hari Santri kemudian ditetapkan sebagai hari libur nasional",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Dicetuskan di Yogyakarta pada 22 Oktober 1945 atas prakarsa K.H. Ahmad Dahlan, berisi seruan memperluas pendidikan pesantren; tanggalnya kini diperingati sebagai Hari Santri, bukan hari libur",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Dicetuskan NU di Surabaya pada 22 Oktober 1945 atas prakarsa K.H. Hasyim Asy'ari, berisi seruan kewajiban membela tanah air; tanggalnya kini diperingati sebagai Hari Santri, bukan hari libur",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Dicetuskan NU di Surabaya pada 10 November 1945 atas prakarsa K.H. Hasyim Asy'ari, berisi seruan kewajiban membela tanah air; tanggalnya kini diperingati sebagai Hari Pahlawan",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Dicetuskan NU di Surabaya pada 22 Oktober 1945 atas prakarsa K.H. Hasyim Asy'ari, berisi seruan agar rakyat menunggu hasil perundingan; tanggalnya kini diperingati sebagai Hari Santri",
+     "weight": 0
+    }
+   ],
+   "explanation": "Resolusi Jihad dicetuskan NU pada 22 Oktober 1945 di Surabaya, dipelopori K.H. Hasyim Asy'ari, dan menyerukan kewajiban membela tanah air. Keppres 22/2015 menetapkan 22 Oktober sebagai Hari Santri, tetapi bukan hari libur.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-16",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Roem-Royen",
+   "body": "Seorang guru sejarah menjelaskan bahwa perjuangan mempertahankan kemerdekaan juga ditempuh melalui meja perundingan. Salah satunya adalah perundingan yang berlangsung pada 14 April–7 Mei 1949 di Hotel Des Indes, Jakarta.\nNama perundingan itu dan arti pentingnya yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Perundingan Roem-Royen, yang membuka jalan menuju Konferensi Meja Bundar",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Perundingan Renville, yang membuka jalan menuju Konferensi Meja Bundar",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Perundingan Roem-Royen, yang menandai penyerahan kedaulatan kepada Republik Indonesia Serikat",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Perundingan Linggarjati, yang menghasilkan pengakuan de facto atas wilayah Republik Indonesia",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Perundingan Roem-Royen, yang menetapkan garis demarkasi Van Mook sebagai batas wilayah",
+     "weight": 0
+    }
+   ],
+   "explanation": "Perundingan Roem-Royen berlangsung pada 14 April–7 Mei 1949 di Hotel Des Indes, Jakarta, dan membuka jalan menuju KMB. Penyerahan kedaulatan baru terjadi setelah KMB, sedangkan garis Van Mook berkaitan dengan Persetujuan Renville.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-17",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Terorisme & separatisme",
+   "body": "Rangga, seorang mahasiswa, dimasukkan ke sebuah grup percakapan daring oleh kenalan barunya. Di grup itu beredar ajakan bergabung dengan gerakan yang ingin memisahkan suatu wilayah dari NKRI, disertai rencana aksi kekerasan terhadap fasilitas umum.\nTindakan Rangga yang paling tepat sebagai wujud bela negara adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Keluar dari grup tanpa melakukan apa pun lagi agar dirinya tidak ikut terseret dalam persoalan hukum kelak",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Menolak ajakan, tidak menyebarkan isinya, menyimpan bukti percakapan, lalu melaporkannya kepada aparat berwenang",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Tetap berada di grup secara diam-diam untuk menyelidiki sendiri rencana kelompok tersebut sebelum melapor",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Menyebarkan tangkapan layar percakapan ke media sosial agar masyarakat luas segera mengetahui dan waspada",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Membalas ajakan itu dengan ancaman agar para anggota grup takut dan membubarkan diri",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 4 ayat (3) menyebut terorisme dan separatisme sebagai wujud ancaman. Bela negara diwujudkan dengan menolak ajakan, tidak menyebarluaskan konten, mengamankan bukti, dan melapor kepada aparat berwenang; keluar diam-diam membiarkan ancaman, sedangkan menyelidiki sendiri atau memviralkan dapat membahayakan diri dan proses penanganan.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-18",
+   "subtest": "TWK",
+   "category": "Bela Negara",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Tujuan PSDN",
+   "body": "Menurut Pasal 3 UU Nomor 23 Tahun 2019 tentang Pengelolaan Sumber Daya Nasional untuk Pertahanan Negara, pengelolaan sumber daya nasional untuk pertahanan negara bertujuan ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "mentransformasikan sumber daya manusia, sumber daya alam, sumber daya buatan, serta sarana dan prasarana nasional menjadi kekuatan ekonomi nasional yang mandiri dan berdaya saing",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "mewajibkan setiap warga negara mengikuti pelatihan dasar kemiliteran agar seluruhnya siap menjadi prajurit cadangan",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "mengalihkan pengelolaan seluruh sumber daya alam strategis dari kementerian teknis kepada Tentara Nasional Indonesia",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "menempatkan Tentara Nasional Indonesia sebagai satu-satunya kekuatan yang bertanggung jawab atas pertahanan negara",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "mentransformasikan sumber daya manusia, sumber daya alam, sumber daya buatan, serta sarana dan prasarana nasional menjadi kekuatan pertahanan negara yang siap digunakan",
+     "weight": 5
+    }
+   ],
+   "explanation": "UU 23/2019 Pasal 3 menyatakan bahwa pengelolaan sumber daya nasional bertujuan mentransformasikan sumber daya manusia, sumber daya alam, sumber daya buatan, serta sarana dan prasarana nasional menjadi kekuatan pertahanan negara yang siap digunakan untuk kepentingan pertahanan negara. Opsi lain bukan rumusan tujuan dalam pasal tersebut.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-19",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "pola-2024",
+   "topic": "Perubahan UUD",
+   "body": "Misalkan jumlah anggota MPR adalah 600 orang dan terdapat usul untuk mengubah pasal-pasal UUD NRI 1945. Berdasarkan Pasal 37 ayat (1)–(4) UUD NRI 1945, ketentuan yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Usul diajukan secara tertulis oleh sekurang-kurangnya 200 anggota; sidang dihadiri sekurang-kurangnya 400 anggota; putusan disetujui lebih dari separuh anggota yang hadir",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Usul diajukan secara tertulis oleh sekurang-kurangnya 300 anggota; sidang dihadiri sekurang-kurangnya 400 anggota; putusan disetujui sekurang-kurangnya 301 anggota",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Usul diajukan secara lisan oleh sekurang-kurangnya 200 anggota; sidang dihadiri sekurang-kurangnya 450 anggota; putusan disetujui sekurang-kurangnya 400 anggota",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Usul diajukan secara tertulis oleh sekurang-kurangnya 200 anggota; sidang dihadiri sekurang-kurangnya 400 anggota; putusan disetujui sekurang-kurangnya 301 anggota",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Usul diajukan secara tertulis oleh sekurang-kurangnya 200 anggota; sidang dihadiri sekurang-kurangnya 301 anggota; putusan disetujui sekurang-kurangnya 400 anggota",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 37: usul perubahan diagendakan bila diajukan sekurang-kurangnya 1/3 jumlah anggota MPR (200) secara tertulis dengan menunjukkan bagian yang diusulkan diubah beserta alasannya; sidang dihadiri sekurang-kurangnya 2/3 anggota (400); putusan disetujui sekurang-kurangnya 50% ditambah satu dari seluruh anggota MPR (300 + 1 = 301), bukan dari anggota yang hadir.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-20",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Agama",
+   "body": "Pasal 29 UUD NRI 1945 terdiri atas dua ayat yang menjadi dasar kehidupan beragama di Indonesia.\nPasangan isi ayat (1) dan ayat (2) yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Ayat (1): negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan beribadat menurut agamanya; ayat (2): negara berdasar atas Ketuhanan Yang Maha Esa",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Ayat (1): negara berdasar atas Ketuhanan Yang Maha Esa; ayat (2): negara mewajibkan setiap penduduk memeluk agama dan beribadat menurut tata cara yang ditetapkan oleh pemerintah",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Ayat (1): negara berdasar atas Ketuhanan Yang Maha Esa; ayat (2): negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Ayat (1): negara berdasar atas agama yang dianut mayoritas penduduk; ayat (2): negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Ayat (1): negara berdasar atas Ketuhanan Yang Maha Esa; ayat (2): kemerdekaan tiap-tiap penduduk untuk beribadat hanya dijamin di tempat ibadah yang telah memperoleh izin dari pemerintah",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 29 ayat (1) UUD NRI 1945 berbunyi \"Negara berdasar atas Ketuhanan Yang Maha Esa\", dan ayat (2) menyatakan negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-21",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Perekonomian nasional",
+   "body": "Sebuah kabupaten kaya akan sumber air dan bahan tambang. Pemerintah daerah sedang menyusun arah kebijakan ekonomi daerahnya.\nKebijakan yang paling sejalan dengan Pasal 33 ayat (1)–(3) UUD NRI 1945 adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Menyerahkan pengelolaan sumber air minum utama sepenuhnya kepada mekanisme pasar bebas tanpa kendali negara agar pengelolaannya lebih efisien",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mengembangkan usaha bersama warga berdasar asas kekeluargaan, sementara air dan tambang dikuasai negara untuk sebesar-besar kemakmuran rakyat",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "Memberikan hak eksklusif atas tambang kepada satu kelompok usaha tertentu yang keuntungannya hanya dinikmati oleh kelompok usaha itu sendiri",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mengutamakan penerimaan daerah dari tambang meskipun masyarakat di sekitar tambang tidak memperoleh manfaat apa pun",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Menetapkan bahwa sumber air dan bahan tambang menjadi milik pribadi pemilik lahan tempat kekayaan alam itu berada",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 33 ayat (1) menyatakan perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan; ayat (2) menempatkan cabang produksi penting yang menguasai hajat hidup orang banyak di bawah penguasaan negara; ayat (3) menyatakan bumi, air, dan kekayaan alam dikuasai negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat. Opsi lain menyerahkan kekayaan alam kepada pasar, kelompok, atau perorangan tanpa menjamin kemakmuran rakyat.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-22",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Mosi Integral Natsir",
+   "body": "Pada 3 April 1950, Mohammad Natsir menyampaikan sebuah mosi di parlemen Republik Indonesia Serikat (RIS) yang berpengaruh besar terhadap bentuk negara Indonesia.\nNama mosi dan dampaknya yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Mosi Integral, yang membubarkan Konstituante dan memberlakukan kembali UUD 1945 sebagai konstitusi",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Mosi Integral, yang membentuk Republik Indonesia Serikat sebagai pelaksanaan hasil Konferensi Meja Bundar",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Mosi Tidak Percaya, yang menjatuhkan kabinet dan membubarkan parlemen RIS",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Mosi Integral, yang menetapkan Pancasila sebagai dasar negara untuk pertama kalinya",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Mosi Integral, yang membuka jalan kembali ke negara kesatuan dengan berlakunya UUDS 1950",
+     "weight": 5
+    }
+   ],
+   "explanation": "Mosi Integral Natsir disampaikan pada 3 April 1950 di parlemen RIS dan membuka jalan bagi kembalinya Indonesia ke negara kesatuan dengan UUDS 1950. Pembubaran Konstituante dan berlakunya kembali UUD 1945 merupakan isi Dekrit Presiden 5 Juli 1959.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-23",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "HAM yang tidak dapat dikurangi",
+   "body": "Sebuah pemerintah kota menerbitkan aturan baru yang melarang kegiatan tertentu. Petugas kemudian hendak menjatuhkan sanksi kepada sejumlah warga atas kegiatan yang mereka lakukan beberapa bulan sebelum aturan itu ditetapkan.\nHak warga yang terancam dilanggar oleh tindakan petugas dan, menurut Pasal 28I ayat (1) UUD NRI 1945, tidak dapat dikurangi dalam keadaan apa pun adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "hak untuk tidak dituntut atas dasar hukum yang berlaku surut",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "hak untuk diakui sebagai pribadi di hadapan hukum",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "hak kemerdekaan pikiran dan hati nurani",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "hak untuk berserikat, berkumpul, dan mengeluarkan pendapat",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "hak untuk memperoleh informasi melalui segala jenis saluran yang tersedia",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 28I ayat (1) menyebut hak hidup, hak untuk tidak disiksa, hak kemerdekaan pikiran dan hati nurani, hak beragama, hak untuk tidak diperbudak, hak untuk diakui sebagai pribadi di hadapan hukum, dan hak untuk tidak dituntut atas dasar hukum yang berlaku surut sebagai hak yang tidak dapat dikurangi dalam keadaan apa pun. Menjatuhkan sanksi atas perbuatan yang dilakukan sebelum aturannya ada berarti menuntut atas dasar hukum yang berlaku surut.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-24",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "Anggaran pendidikan",
+   "body": "Sebuah provinsi menyusun APBD sebesar Rp10 triliun. Agar sejalan dengan Pasal 31 ayat (4) UUD NRI 1945, anggaran pendidikan dalam APBD tersebut diprioritaskan ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "sekurang-kurangnya Rp1 triliun, karena daerah cukup menyediakan 10% dari APBD",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "tanpa batas minimal, karena ketentuan 20% dalam UUD hanya berlaku untuk APBN",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "paling banyak Rp2 triliun, karena 20% merupakan batas tertinggi anggaran pendidikan daerah",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "sekurang-kurangnya Rp2 triliun, karena ketentuan 20% berlaku untuk APBN dan juga APBD",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "sekurang-kurangnya Rp2,5 triliun, karena daerah wajib menyediakan 25% dari APBD",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 31 ayat (4) UUD NRI 1945 mewajibkan negara memprioritaskan anggaran pendidikan sekurang-kurangnya 20% dari APBN serta dari APBD. Dua puluh persen dari Rp10 triliun adalah Rp2 triliun, dan angka itu merupakan batas minimal, bukan batas maksimal.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-25",
+   "subtest": "TWK",
+   "category": "Pilar Negara",
+   "difficulty": "mudah",
+   "basis": "prediksi-2027",
+   "topic": "Persidangan MPR",
+   "body": "Menurut Pasal 2 ayat (2) dan ayat (3) UUD NRI 1945, ketentuan mengenai persidangan dan putusan Majelis Permusyawaratan Rakyat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "MPR bersidang sedikitnya sekali dalam setahun di ibu kota negara, dan segala putusannya wajib diambil secara mufakat",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "MPR bersidang sedikitnya sekali dalam lima tahun di gedung DPR, dan segala putusannya disetujui dua pertiga anggota",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "MPR bersidang sedikitnya sekali dalam lima tahun di ibu kota negara, dan segala putusannya ditetapkan dengan suara yang terbanyak",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "MPR bersidang sedikitnya dua kali dalam lima tahun di ibu kota negara, dan segala putusannya ditetapkan oleh pimpinan MPR",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "MPR bersidang sedikitnya sekali dalam lima tahun di ibu kota negara, dan segala putusannya harus disetujui oleh seluruh anggota MPR",
+     "weight": 0
+    }
+   ],
+   "explanation": "Pasal 2 ayat (2) UUD NRI 1945 menyatakan MPR bersidang sedikitnya sekali dalam lima tahun di ibu kota negara, dan ayat (3) menyatakan segala putusan MPR ditetapkan dengan suara yang terbanyak.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-26",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Kata baku set 9",
+   "body": "Seorang pegawai menyunting naskah warta kepegawaian sebelum diterbitkan dan memeriksa ketepatan ejaan setiap kata.\nKalimat yang seluruh katanya baku menurut KBBI adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Manajemen tim menyiapkan latihan khusus agar atlet siap bertanding dalam cuaca ekstrem.",
+     "weight": 5
+    },
+    {
+     "label": "B",
+     "body": "Pengurus koperasi berupaya melunasi hutang kepada para anggotanya secara bertahap tahun ini.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Peserta pelatihan diminta menulis essai tentang pelayanan publik yang ideal di daerahnya.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Persoalan sampah di kota itu sangat komplek sehingga perlu penanganan terpadu.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Kepala dinas meminta setiap bidang mengajukan usulan program yang konkrit.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Bentuk baku menurut KBBI: manajemen, atlet, ekstrem, utang (bukan hutang), esai (bukan essai/essay), kompleks (bukan komplek), dan konkret (bukan konkrit). Hanya kalimat A yang seluruh katanya baku.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-27",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "pola-2024",
+   "topic": "Gabungan kata",
+   "body": "Petugas humas memeriksa naskah siaran pers sebelum dikirim ke media.\nKalimat yang penulisan gabungan katanya sesuai dengan EYD V adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Penerima bea siswa itu bertepuk tangan ketika duta besar memasuki aula pertemuan.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Rumahsakit daerah menyediakan ruang olahraga bagi seluruh pegawainya.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Ia selalu memakai kaca mata saat membaca laporan dari ibu kota.",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Panitia meminta seluruh peserta menggaris bawahi kata kunci dalam modul pelatihan.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Wali kota meminta rumah sakit daerah menggarisbawahi pertanggungjawaban layanan.",
+     "weight": 5
+    }
+   ],
+   "explanation": "EYD V: gabungan kata ditulis terpisah (wali kota, rumah sakit, duta besar, ibu kota); ditulis serangkai bila mendapat awalan dan akhiran sekaligus (menggarisbawahi, pertanggungjawaban); tetap terpisah bila hanya mendapat awalan atau akhiran (bertepuk tangan); dan gabungan kata yang sudah padu ditulis serangkai (beasiswa, kacamata, olahraga). Hanya kalimat E yang seluruhnya tepat.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-28",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "mudah",
+   "basis": "pola-2024",
+   "topic": "Jamak ganda",
+   "body": "Dalam lomba menulis berita, juri menandai kalimat yang boros kata.\nKalimat yang efektif karena tidak mengandung bentuk jamak ganda adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Para siswa-siswa baru mengikuti masa orientasi selama tiga hari.",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Banyak rumah-rumah di pesisir itu dibangun di atas tiang kayu.",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Rumah-rumah di pesisir itu dibangun di atas tiang kayu.",
+     "weight": 5
+    },
+    {
+     "label": "D",
+     "body": "Semua guru-guru menerima jadwal mengajar semester depan.",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "Panitia membagikan semua berkas-berkas kepada peserta.",
+     "weight": 0
+    }
+   ],
+   "explanation": "Penanda jamak seperti para, banyak, dan semua sudah menyatakan makna jamak sehingga tidak perlu diikuti kata ulang (para siswa-siswa, banyak rumah-rumah, semua guru-guru tidak hemat). Kalimat C hanya memakai kata ulang rumah-rumah tanpa penanda jamak lain sehingga efektif.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-29",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sulit",
+   "basis": "prediksi-2027",
+   "topic": "Hubungan sebab-akibat",
+   "body": "Bacalah teks berikut.\n(1) Banjir rob kini semakin sering menggenangi permukiman di pesisir utara sebuah kota. (2) Pengambilan air tanah secara berlebihan oleh industri dan rumah tangga membuat permukaan tanah di kawasan itu terus turun dari tahun ke tahun. (3) Pada saat yang sama, hutan mangrove yang dahulu meredam gelombang banyak beralih fungsi menjadi tambak. (4) Akibatnya, air laut pasang semakin mudah masuk ke daratan. (5) Genangan yang bertahan berhari-hari membuat jalan cepat rusak dan memaksa sebagian warga meninggikan lantai rumahnya.\nBerdasarkan teks, penyebab air laut pasang semakin mudah masuk ke daratan adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "naiknya permukaan air laut akibat perubahan iklim global yang kini terjadi di seluruh dunia",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "turunnya permukaan tanah akibat pengambilan air tanah berlebihan dan beralih fungsinya hutan mangrove",
+     "weight": 5
+    },
+    {
+     "label": "C",
+     "body": "kerusakan jalan dan lantai rumah warga yang dibangun terlalu rendah di kawasan pesisir",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "curah hujan tinggi yang membuat sungai-sungai di kota itu meluap dan menggenangi permukiman warga",
+     "weight": 0
+    },
+    {
+     "label": "E",
+     "body": "pembangunan tambak di pesisir yang menyebabkan genangan air bertahan berhari-hari di permukiman",
+     "weight": 0
+    }
+   ],
+   "explanation": "Kalimat (4) diawali kata \"Akibatnya\" yang merujuk pada dua sebab dalam kalimat (2) dan (3): turunnya permukaan tanah karena pengambilan air tanah berlebihan dan beralih fungsinya hutan mangrove. Kenaikan muka laut dan curah hujan tidak disebut dalam teks, sedangkan kerusakan jalan dan peninggian lantai merupakan akibat, bukan sebab.",
+   "verify": null
+  },
+  {
+   "id": "P09-TWK-30",
+   "subtest": "TWK",
+   "category": "Bahasa Indonesia",
+   "difficulty": "sedang",
+   "basis": "prediksi-2027",
+   "topic": "Rambu & fasilitas umum",
+   "body": "Pengelola sebuah kawasan wisata yang ramai dikunjungi turis mancanegara berencana memasang papan penunjuk arah dan papan informasi fasilitas umum hanya dalam bahasa Inggris agar terkesan bertaraf internasional.\nMenurut Pasal 38 UU Nomor 24 Tahun 2009, ketentuan yang tepat adalah ...",
+   "image": null,
+   "options": [
+    {
+     "label": "A",
+     "body": "Papan boleh hanya menggunakan bahasa Inggris karena sasaran utamanya adalah wisatawan asing",
+     "weight": 0
+    },
+    {
+     "label": "B",
+     "body": "Papan wajib hanya menggunakan bahasa Indonesia dan tidak boleh disertai bahasa lain apa pun",
+     "weight": 0
+    },
+    {
+     "label": "C",
+     "body": "Papan wajib menggunakan bahasa daerah setempat sebagai pengganti bahasa Indonesia",
+     "weight": 0
+    },
+    {
+     "label": "D",
+     "body": "Papan wajib menggunakan bahasa Indonesia dan dapat disertai bahasa daerah dan/atau bahasa asing",
+     "weight": 5
+    },
+    {
+     "label": "E",
+     "body": "Pemilihan bahasa pada papan sepenuhnya diserahkan kepada kebijakan pengelola kawasan wisata tersebut",
+     "weight": 0
+    }
+   ],
+   "explanation": "UU 24/2009 Pasal 38 mewajibkan bahasa Indonesia dalam rambu umum, penunjuk jalan, fasilitas umum, spanduk, dan alat informasi lain yang merupakan pelayanan umum, dan penggunaannya dapat disertai bahasa daerah dan/atau bahasa asing. Jadi, bahasa Inggris boleh ditambahkan, tetapi tidak menggantikan bahasa Indonesia.",
+   "verify": null
+  }
+ ]
+}
