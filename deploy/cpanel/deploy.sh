@@ -59,7 +59,9 @@ echo "API terbangun."
 
 # ---------- Web Next.js (standalone) ----------
 # shellcheck disable=SC1091
+set +u
 source "$NODEVENV/bin/activate"
+set -u
 mkdir -p "$BUILD/web"
 # Salin sumber (pertahankan node_modules & cache .next/cache agar build berikutnya cepat).
 ( cd "$REPO/apps/web" && tar --exclude=node_modules --exclude=.next -cf - . ) | ( cd "$BUILD/web" && tar -xf - )
@@ -76,7 +78,7 @@ mkdir -p "$BUILD/web"
   cp -r .next/static "$APP/_app/web.new/.next/static"
   cp -r public "$APP/_app/web.new/public"
 )
-deactivate || true
+set +u; deactivate || true; set -u
 echo "Web terbangun."
 
 # ---------- Pasang ----------
