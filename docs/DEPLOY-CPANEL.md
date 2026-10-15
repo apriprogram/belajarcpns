@@ -38,6 +38,13 @@ jadi paket dibangun **GitHub Actions** (`.github/workflows/cpanel-build.yml`, ri
    (Atau Terminal: `cd ~/repositories/belajarcpns && git pull && bash deploy/cpanel/deploy.sh`.)
 3. Pantau `~/belajarcpns-deploy.log`. Migrasi database berjalan otomatis saat API start.
 
+## Memindahkan data dari lokal
+1. Lokal: `pg_dump --clean --if-exists --no-owner --no-acl --exclude-table-data=site_visits` → `db.sql` (hapus baris
+   `CREATE/DROP/COMMENT ... EXTENSION pgcrypto`), ditambah folder `uploads/`, dikemas `belajarcpns-data.tar.gz`.
+2. Upload arsip ke home (`~/`) lewat File Manager, lalu Terminal:
+   `bash ~/repositories/belajarcpns/deploy/cpanel/restore-data.sh ~/belajarcpns-data.tar.gz` (menimpa DB produksi).
+3. Hapus arsip setelahnya; **ganti password akun admin/demo** yang memakai password bawaan.
+
 ## Catatan
 - `API_URL` dibaku saat build (`http://127.0.0.1:47391`, `env.API_PORT` di workflow). Ubah port → ubah workflow & `_app/.env` bersamaan.
 - deploy.sh menunggu paket yang cocok dengan commit HEAD maksimal 20 menit (`DEPLOY_WAIT_MIN`).
