@@ -42,6 +42,7 @@ import {
   ThinProgress,
 } from '@/components/admin/AdminUI';
 import { SUBTESTS, SUBTEST_BG, SUBTEST_NAME, useResource } from '@/components/admin/shared';
+import { VisitorStats } from '@/components/admin/VisitorStats';
 
 const sum = (arr, k) => arr.reduce((a, d) => a + (Number(d[k]) || 0), 0);
 
@@ -90,6 +91,7 @@ export function DashboardView() {
         </Panel>
       ) : (
         <div className="space-y-4">
+          <VisitorStats />
           <div className="grid gap-4 xl:grid-cols-12">
             {/* Kartu statistik 2×2 */}
             <section aria-label="Statistik utama" className="grid gap-4 sm:grid-cols-2 xl:col-span-7">

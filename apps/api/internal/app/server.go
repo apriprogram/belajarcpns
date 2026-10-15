@@ -68,6 +68,10 @@ func (s *Server) Router() *gin.Engine {
 	// Testimoni yang ditampilkan di halaman utama (publik)
 	api.GET("/testimonials", s.publicTestimonials)
 
+	// Statistik pengunjung (publik, anonim; dibatasi 120 hit / menit per IP)
+	trackLimit := httpx.NewRateLimiter(120, time.Minute)
+	api.POST("/track", trackLimit.Middleware(), s.trackVisit)
+
 	authed := api.Group("", s.Auth.RequireAuth(), s.touchLastSeen())
 	authed.GET("/auth/me", s.me)
 	authed.PUT("/me", s.updateProfile)
@@ -117,6 +121,7 @@ func (s *Server) Router() *gin.Engine {
 
 	ad := authed.Group("/admin", auth.RequireRole("admin"))
 	ad.GET("/dashboard", s.adminDashboard)
+	ad.GET("/visits/stats", s.adminVisitStats)
 	ad.GET("/categories", s.listCategories)
 	ad.POST("/categories", s.createCategory)
 	ad.PUT("/categories/:id", s.updateCategory)
