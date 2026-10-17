@@ -568,12 +568,12 @@ function EmptyInvite({ className }) {
   return (
     <div className={cn('container-wide', className)}>
       <Reveal variant="scale">
-        <div className="card-flat relative mx-auto flex max-w-2xl flex-col items-center overflow-hidden px-6 py-12 text-center sm:px-12 sm:py-14">
+        <div className="card-flat relative mx-auto flex max-w-2xl flex-col items-center overflow-hidden px-5 py-10 text-center sm:px-12 sm:py-14">
           <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-cobalt-50 text-cobalt">
             <MessageSquareQuote className="h-6 w-6" strokeWidth={1.75} aria-hidden />
           </span>
           <Stars rating={0} decorative className="mt-5" />
-          <h3 className="mt-4 text-2xl font-semibold tracking-[-0.025em] sm:text-[28px]">Jadilah yang pertama berbagi cerita</h3>
+          <h3 className="mt-4 text-[22px] font-semibold leading-tight tracking-[-0.025em] sm:text-[28px] sm:leading-8">Jadilah yang pertama berbagi cerita</h3>
           <p className="mt-3 max-w-md text-[15px] leading-relaxed text-mist-700">
             Sudah berlatih atau ikut tryout di {brand.name}? Ceritakan pengalaman Anda — testimoni terpilih akan tampil di sini dan membantu peserta lain.
           </p>

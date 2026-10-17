@@ -16,6 +16,8 @@ Kamu adalah senior full-stack engineer sekaligus product designer. Bangun aplika
   /docker-compose.yml, /README.md, /.env.example
 
 ## KONSEP DESAIN: "Order. Balance. Clarity."
+> Panduan desain yang berlaku sekarang (token, skala font HP vs desktop, aturan mobile, checklist): [`design.md`](design.md). Baca sebelum mengubah tampilan.
+
 Tampilan rapi, proporsi seimbang, banyak ruang kosong, satu fokus per kartu, warna dikontrol ketat.
 
 ### Palet (jadikan design token di tailwind.config.js DAN CSS variables)

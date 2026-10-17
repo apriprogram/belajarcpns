@@ -69,11 +69,11 @@ export function StepsBento() {
             <span className="h-2 w-2 rounded-full bg-mist" />
           </span>
         </div>
-        <div className="relative z-10 flex flex-col items-center px-7 pt-7 text-center">
+        <div className="relative z-10 flex flex-col items-center px-6 pt-6 text-center sm:px-7 sm:pt-7">
           <span className="inline-flex h-7 items-center gap-1.5 rounded-full bg-white px-3 text-xs font-medium ring-1 ring-inset ring-mist-100">
             Langkah <span className="flex h-4 w-4 items-center justify-center rounded-full bg-obsidian font-mono text-[10px] text-white">3</span>
           </span>
-          <h3 className="mt-4 text-[30px] font-semibold leading-tight tracking-[-0.03em] xl:text-[34px]">{tryout.title}</h3>
+          <h3 className="mt-4 text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{tryout.title}</h3>
           <p className="mt-2 max-w-[300px] text-[15px] leading-relaxed text-mist-700">
             <RichText text={tryout.text} boldClassName="font-semibold text-obsidian" />
           </p>
@@ -95,10 +95,10 @@ export function StepsBento() {
       {/* Lalu · Hasil (lebar) */}
       <Reveal delay={150} className="glow-cobalt-dark relative flex overflow-hidden rounded-card bg-obsidian sm:min-h-[380px] lg:col-span-8 lg:min-h-0">
         <div className="pointer-events-none absolute -bottom-24 left-[30%] h-64 w-64 rounded-full bg-mint/15 blur-3xl" aria-hidden />
-        <div className="relative z-10 flex max-w-[440px] flex-col justify-between p-8 xl:p-10">
+        <div className="relative z-10 flex max-w-[440px] flex-col justify-between p-6 sm:p-8 xl:p-10">
           <div>
             {hasil.eyebrow && <span className="font-mono text-xs font-semibold text-mint">{hasil.eyebrow}</span>}
-            <h3 className="mt-3 text-[30px] font-semibold leading-[1.1] tracking-[-0.03em] text-white xl:text-[36px]">{hasil.title}</h3>
+            <h3 className="mt-3 text-[24px] font-semibold leading-[1.15] tracking-[-0.025em] text-white sm:text-[30px] sm:leading-[1.1] sm:tracking-[-0.03em] xl:text-[36px]">{hasil.title}</h3>
             <p className="mt-3 max-w-[340px] text-[15px] leading-relaxed text-white/60">
               <RichText text={hasil.text} boldClassName="font-semibold text-white" />
             </p>
@@ -120,9 +120,9 @@ export function StepsBento() {
 
 function StepHead({ n, title, children }) {
   return (
-    <div className="px-7 pt-7 xl:px-8 xl:pt-8">
+    <div className="px-6 pt-6 sm:px-7 sm:pt-7 xl:px-8 xl:pt-8">
       <div className="flex items-start justify-between gap-4">
-        <h3 className="text-[30px] font-semibold leading-tight tracking-[-0.03em] xl:text-[34px]">{title}</h3>
+        <h3 className="text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{title}</h3>
         <span className="mt-2 font-mono text-sm font-semibold text-mist-500">{n}</span>
       </div>
       <p className="mt-2 max-w-[300px] text-[15px] leading-relaxed text-mist-700 [&_b]:font-semibold [&_b]:text-obsidian">{children}</p>

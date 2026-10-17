@@ -53,7 +53,8 @@ export function ScrollToTop({ className }) {
       tabIndex={show ? 0 : -1}
       aria-hidden={!show}
       className={cn(
-        'group fixed bottom-5 right-5 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-white text-obsidian shadow-float ring-1 ring-mist-100 transition-all duration-300 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:bottom-6 sm:right-6',
+        // Mobile: 44px, menghormati safe-area (home indicator iOS / gesture bar Android).
+        'group fixed bottom-[max(1rem,calc(env(safe-area-inset-bottom)+0.5rem))] right-[max(1rem,env(safe-area-inset-right))] z-40 flex h-11 w-11 items-center justify-center rounded-full bg-white text-obsidian shadow-float ring-1 ring-mist-100 transition-all duration-300 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:bottom-6 sm:right-6 sm:h-12 sm:w-12',
         show ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-4 opacity-0',
         className,
       )}

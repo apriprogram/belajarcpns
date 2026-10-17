@@ -38,12 +38,13 @@ export function LandingContent() {
       {show('hero') && (
         <ScrollProgress className="relative -mt-16 overflow-hidden">
           <HeroBackground className="absolute inset-0" />
-          <section id="beranda" className="container-wide relative grid min-h-[100svh] items-center gap-12 pb-16 pt-28 lg:grid-cols-2 lg:gap-16 lg:pb-20 lg:pt-24 2xl:gap-24">
-            <div className="lg:pl-[4%]" style={{ opacity: 'calc(1 - var(--p) * 1.2)', transform: 'translate3d(0, calc(var(--p) * -70px), 0)' }}>
+          {/* Mobile: tinggi mengikuti isi (tanpa min-h layar penuh); efek scroll (--p) dimatikan lewat .hero-parallax di globals.css */}
+          <section id="beranda" className="container-wide relative grid items-center gap-10 pb-14 pt-24 sm:min-h-[100svh] sm:gap-12 sm:pb-16 sm:pt-28 lg:grid-cols-2 lg:gap-16 lg:pb-20 lg:pt-24 2xl:gap-24">
+            <div className="hero-parallax lg:pl-[4%]" style={{ opacity: 'calc(1 - var(--p) * 1.2)', transform: 'translate3d(0, calc(var(--p) * -70px), 0)' }}>
               <HeroIntro />
             </div>
             <Reveal variant="scale" delay={250}>
-              <div className="relative" style={{ transform: 'perspective(1800px) rotateX(calc(var(--p) * 8deg)) scale(calc(1 - var(--p) * 0.08))', transformOrigin: 'center top' }}>
+              <div className="hero-parallax relative" style={{ transform: 'perspective(1800px) rotateX(calc(var(--p) * 8deg)) scale(calc(1 - var(--p) * 0.08))', transformOrigin: 'center top' }}>
                 <HeroVideo />
                 {hero.mascot?.visible !== false && <HeroMascot image={hero.mascot?.image_url} bubble={hero.mascot?.bubble} />}
                 {hero.emblem?.visible !== false && <HeroEmblem image={hero.emblem?.image_url} />}
@@ -58,10 +59,10 @@ export function LandingContent() {
         <section id="fitur" className="section-screen">
           <div className="container-wide">
             <SectionHeading {...head('fitur')} />
-            <div className="mt-10 space-y-5 xl:mt-12 xl:space-y-6">
+            <div className="mt-8 space-y-4 sm:mt-10 sm:space-y-5 xl:mt-12 xl:space-y-6">
               {features.hero && <FeatureHero {...features.hero} />}
               {features.items?.length > 0 && (
-                <div className={cn('grid gap-5 xl:gap-6', featureCols(features.items.length))}>
+                <div className={cn('grid gap-4 sm:gap-5 xl:gap-6', featureCols(features.items.length))}>
                   {features.items.map((f, i) => (
                     <FeaturePost key={`${i}-${f.title}`} {...f} delay={i * 110} />
                   ))}
@@ -78,7 +79,7 @@ export function LandingContent() {
           <div className="container-wide">
             <SectionHeading {...head('testimoni')} />
           </div>
-          <TestimonialMarquee className="mt-10 xl:mt-12" />
+          <TestimonialMarquee className="mt-8 sm:mt-10 xl:mt-12" />
         </section>
       )}
 
@@ -87,7 +88,7 @@ export function LandingContent() {
         <section id="skd" className="section-screen">
           <div className="container-wide">
             <SectionHeading {...head('skd')} />
-            <div className="mt-10 xl:mt-12">
+            <div className="mt-8 sm:mt-10 xl:mt-12">
               <SkdExplorer />
             </div>
           </div>
@@ -99,7 +100,7 @@ export function LandingContent() {
         <section id="langkah" className="section-screen">
           <div className="container-wide">
             <SectionHeading {...head('langkah')} />
-            <div className="mt-10">
+            <div className="mt-8 sm:mt-10">
               <StepsBento />
             </div>
           </div>
@@ -119,7 +120,7 @@ export function LandingContent() {
       {/* ============ FAQ ============ */}
       {show('faq') && (
         <section id="faq" className="section-screen">
-          <div className="container-wide grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-20">
+          <div className="container-wide grid gap-8 sm:gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-20">
             <div className="relative z-10 lg:sticky lg:top-28 lg:self-start">
               <SectionHeading align="left" {...head('faq')} />
             </div>
@@ -131,7 +132,7 @@ export function LandingContent() {
       {/* ============ KONTAK ============ */}
       {show('kontak') && (
         <section id="kontak" className="section-screen">
-          <div className="container-wide grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-20">
+          <div className="container-wide grid gap-8 sm:gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-20">
             <div className="relative z-10 lg:sticky lg:top-28 lg:self-start">
               <SectionHeading align="left" {...head('kontak')} />
               <ContactAside />
@@ -145,10 +146,10 @@ export function LandingContent() {
 
       {/* ============ CTA ============ */}
       {show('cta') && (
-        <section className="pb-20 pt-4 lg:pb-28">
+        <section className="pb-14 pt-2 sm:pb-20 sm:pt-4 lg:pb-28">
           <div className="container-wide">
             <Reveal variant="scale">
-              <div className="relative overflow-hidden rounded-[28px] bg-obsidian px-6 py-20 text-center text-white sm:px-12 lg:py-28">
+              <div className="relative overflow-hidden rounded-[24px] bg-obsidian px-5 py-14 text-center text-white sm:rounded-[28px] sm:px-12 sm:py-20 lg:py-28">
                 <span className="cta-orb cta-orb--a" aria-hidden />
                 <span className="cta-orb cta-orb--b" aria-hidden />
                 <div className="grid-dots-light pointer-events-none absolute inset-0 [mask-image:radial-gradient(70%_70%_at_50%_50%,#000,transparent)]" aria-hidden />
@@ -160,22 +161,22 @@ export function LandingContent() {
                 <div className="relative">
                   <SplitText
                     as="h2"
-                    className="mx-auto block max-w-3xl text-4xl font-semibold tracking-[-0.035em] text-white sm:text-6xl"
+                    className="mx-auto block max-w-3xl text-[28px] font-semibold leading-[1.15] tracking-[-0.03em] text-white sm:text-6xl sm:leading-none sm:tracking-[-0.035em]"
                     parts={[cta.title && { text: cta.title }, cta.accent && { text: cta.accent, className: 'text-mint' }].filter(Boolean)}
                   />
                   {cta.subtitle && (
-                    <Reveal as="p" delay={250} className="mx-auto mt-5 max-w-md text-lg text-white/60">
+                    <Reveal as="p" delay={250} className="mx-auto mt-4 max-w-md text-base leading-relaxed text-white/60 sm:mt-5 sm:text-lg sm:leading-relaxed">
                       {cta.subtitle}
                     </Reveal>
                   )}
-                  <Reveal delay={350} className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+                  <Reveal delay={350} className="mt-8 flex flex-col items-stretch justify-center gap-2.5 sm:mt-10 sm:flex-row sm:items-center sm:gap-3">
                     {cta.primary_label && (
-                      <Button shape="pill" href={cta.primary_href || '/daftar'} size="xl" variant="mint" iconRight={<ArrowRight />}>
+                      <Button shape="pill" href={cta.primary_href || '/daftar'} size="xl" variant="mint" iconRight={<ArrowRight />} className="max-sm:h-12 max-sm:text-[15px]">
                         {cta.primary_label}
                       </Button>
                     )}
                     {cta.secondary_label && (
-                      <Button shape="pill" href={cta.secondary_href || '/login'} size="xl" variant="ghost" className="text-white hover:bg-white/10">
+                      <Button shape="pill" href={cta.secondary_href || '/login'} size="xl" variant="ghost" className="text-white hover:bg-white/10 max-sm:h-12 max-sm:text-[15px]">
                         {cta.secondary_label}
                       </Button>
                     )}
@@ -239,12 +240,12 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
   const heading = (
     <div>
       <Reveal>
-        <span className="inline-flex h-8 items-center gap-2 rounded-full bg-white pl-1 pr-3.5 text-[13px] font-medium text-obsidian-600 ring-1 ring-inset ring-mist-100">
-          <span className="flex h-6 items-center rounded-full bg-obsidian px-2 font-mono text-[11px] font-semibold text-white">{index}</span>
+        <span className="inline-flex h-7 items-center gap-2 rounded-full bg-white pl-1 pr-3 text-xs font-medium sm:h-8 sm:pr-3.5 sm:text-[13px] text-obsidian-600 ring-1 ring-inset ring-mist-100">
+          <span className="flex h-5 items-center rounded-full bg-obsidian px-2 font-mono text-[11px] font-semibold text-white sm:h-6">{index}</span>
           {label}
         </span>
       </Reveal>
-      <SplitText as="h2" delay={120} className="mt-5 block text-4xl font-semibold leading-[1.08] tracking-[-0.035em] sm:text-5xl xl:text-[56px]">
+      <SplitText as="h2" delay={120} className="mt-4 block text-[28px] font-semibold leading-[1.15] tracking-[-0.03em] sm:mt-5 sm:text-5xl sm:leading-none sm:tracking-[-0.035em] xl:text-[56px]">
         {title}
       </SplitText>
     </div>
@@ -261,7 +262,7 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
           heading
         )}
         {description && (
-          <Reveal as="p" delay={250} className="mt-5 text-lg leading-relaxed text-mist-700">
+          <Reveal as="p" delay={250} className="mt-3 text-base leading-relaxed text-mist-700 sm:mt-5 sm:text-lg sm:leading-relaxed">
             {description}
           </Reveal>
         )}
@@ -269,7 +270,7 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
     );
   }
   return (
-    <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
+    <div className="flex flex-col gap-3 sm:gap-5 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
       <div className="flex items-end justify-between gap-4">
         {heading}
         {buddy && <div className="lg:hidden">{buddy}</div>}
@@ -277,7 +278,7 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
       {(description || buddy) && (
         <div className="flex items-end gap-6 lg:pb-1">
           {description && (
-            <Reveal as="p" delay={250} className="max-w-sm text-lg leading-relaxed text-mist-700 lg:pb-2 lg:text-right">
+            <Reveal as="p" delay={250} className="max-w-sm text-base leading-relaxed text-mist-700 sm:text-lg sm:leading-relaxed lg:pb-2 lg:text-right">
               {description}
             </Reveal>
           )}
@@ -294,15 +295,15 @@ function FeatureHero({ tag, image, title, description, meta }) {
   return (
     <Reveal variant="scale">
       <article className="card-flat lift group grid overflow-hidden p-1.5 md:grid-cols-2">
-        <div className="relative h-56 overflow-hidden rounded-[19px] bg-ghost md:h-[clamp(240px,34svh,340px)]">
+        <div className="relative h-44 overflow-hidden rounded-[19px] bg-ghost sm:h-56 md:h-[clamp(240px,34svh,340px)]">
           {image && <img src={image} alt="" className="h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]" />}
           <div className="absolute inset-y-0 right-0 hidden w-1/4 bg-gradient-to-r from-transparent to-white md:block" />
         </div>
-        <div className="flex flex-col p-7 sm:p-9 lg:p-11">
+        <div className="flex flex-col p-5 sm:p-9 lg:p-11">
           {tag && <Tag>{tag}</Tag>}
-          <h3 className="mt-5 text-3xl font-semibold leading-[1.1] tracking-[-0.03em] lg:text-[40px]">{title}</h3>
-          {description && <p className="mt-4 max-w-lg text-[17px] leading-relaxed text-mist-700">{description}</p>}
-          <div className="mt-auto flex items-center justify-between pt-8 text-sm">
+          <h3 className="mt-4 text-[22px] font-semibold leading-[1.2] tracking-[-0.025em] sm:mt-5 sm:text-3xl sm:leading-[1.1] sm:tracking-[-0.03em] lg:text-[40px]">{title}</h3>
+          {description && <p className="mt-3 max-w-lg text-base leading-relaxed text-mist-700 sm:mt-4 sm:text-[17px]">{description}</p>}
+          <div className="mt-auto flex items-center justify-between pt-6 max-sm:flex-wrap max-sm:gap-2 text-[13px] sm:pt-8 sm:text-sm">
             <span className="flex items-center gap-2 font-medium">
               <span className="h-2 w-2 rounded-full bg-obsidian" />
               {meta}
@@ -322,14 +323,14 @@ function FeaturePost({ tag, image, title, description, delay }) {
   return (
     <Reveal delay={delay} className="h-full">
       <article className="card-flat lift group flex h-full flex-col overflow-hidden p-1.5">
-        <div className="relative h-44 overflow-hidden rounded-[19px] bg-ghost lg:h-[clamp(150px,21svh,220px)]">
+        <div className="relative h-40 overflow-hidden rounded-[19px] bg-ghost sm:h-44 lg:h-[clamp(150px,21svh,220px)]">
           {image && <img src={image} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.06]" />}
           <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-b from-transparent to-white" />
           {tag && <Tag className="absolute right-3 top-3">{tag}</Tag>}
         </div>
-        <div className="px-5 pb-6 pt-3 lg:px-6">
-          <h3 className="text-xl font-semibold leading-snug tracking-tight">{title}</h3>
-          <p className="mt-2 text-[15px] leading-relaxed text-mist-700">{description}</p>
+        <div className="px-4 pb-5 pt-3 sm:px-5 sm:pb-6 lg:px-6">
+          <h3 className="text-[17px] font-semibold leading-snug tracking-tight sm:text-xl sm:leading-snug">{title}</h3>
+          <p className="mt-1.5 text-[15px] leading-relaxed text-mist-700 sm:mt-2">{description}</p>
         </div>
       </article>
     </Reveal>
@@ -337,7 +338,7 @@ function FeaturePost({ tag, image, title, description, delay }) {
 }
 
 function Tag({ className, children }) {
-  return <span className={cn('inline-flex h-7 w-fit items-center rounded-full bg-white/90 px-3 text-[13px] font-medium text-obsidian ring-1 ring-inset ring-mist-100', className)}>{children}</span>;
+  return <span className={cn('inline-flex h-6 w-fit items-center rounded-full bg-white/90 px-2.5 text-xs font-medium sm:h-7 sm:px-3 sm:text-[13px] text-obsidian ring-1 ring-inset ring-mist-100', className)}>{children}</span>;
 }
 
 export default LandingContent;

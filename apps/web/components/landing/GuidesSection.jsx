@@ -21,7 +21,7 @@ export function GuidesSection({ limit = 6 }) {
   const updated = [PANDUAN_PUBLISHED, ...ARTICLES.map((a) => a.dateModified || a.datePublished)].filter(Boolean).sort().pop();
 
   return (
-    <div className="mt-10 xl:mt-12">
+    <div className="mt-8 sm:mt-10 xl:mt-12">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 xl:gap-6">
         {list.map((a, i) => (
           <Reveal key={a.slug} delay={i * 80} className="h-full">
@@ -29,8 +29,8 @@ export function GuidesSection({ limit = 6 }) {
           </Reveal>
         ))}
       </div>
-      <Reveal delay={200} className="mt-8 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-        <p className="text-sm text-mist-700">
+      <Reveal delay={200} className="mt-6 flex flex-col items-stretch justify-between gap-3 sm:mt-8 sm:flex-row sm:items-center sm:gap-4">
+        <p className="text-[13px] text-mist-700 sm:text-sm">
           {ARTICLES.length} panduan gratis · diperbarui {formatDateId(updated)}
         </p>
         <Button shape="pill" href="/panduan" variant="secondary" size="lg" iconRight={<ArrowRight />}>

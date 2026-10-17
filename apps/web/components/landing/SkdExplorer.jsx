@@ -72,16 +72,16 @@ export function SkdExplorer() {
   if (!cur) return null;
 
   return (
-    <div ref={rootRef} className="grid gap-5 lg:grid-cols-12 xl:gap-6" onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
+    <div ref={rootRef} className="grid gap-4 sm:gap-5 lg:grid-cols-12 xl:gap-6" onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
       {/* ---------- Donat komposisi ---------- */}
       <Reveal variant="scale" className="lg:col-span-5">
-        <div className="card-flat flex h-full flex-col p-6 sm:p-8">
+        <div className="card-flat flex h-full flex-col p-5 sm:p-8">
           <div className="flex items-center justify-between">
             <p className="text-[15px] font-semibold">Komposisi soal</p>
             <span className="rounded-full bg-ghost px-3 py-1 font-mono text-xs font-semibold">{TOTAL} soal</span>
           </div>
 
-          <div className="relative mx-auto my-6 aspect-square w-full max-w-[240px] sm:max-w-[280px] lg:my-auto lg:py-6">
+          <div className="relative mx-auto my-5 aspect-square w-full max-w-[220px] sm:my-6 sm:max-w-[280px] lg:my-auto lg:py-6">
             <svg viewBox="0 0 240 240" className="h-full w-full -rotate-90" role="img" aria-label={`Komposisi soal: ${SUBTESTS.map((s) => `${s.code} ${s.count}`).join(', ')}`}>
               <circle cx="120" cy="120" r={R} fill="none" stroke="#E7ECF0" strokeWidth="22" />
               {SUBTESTS.map((s, i) => {
@@ -109,10 +109,10 @@ export function SkdExplorer() {
               })}
             </svg>
             <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-              <span key={`n-${active}`} className="animate-fade-up text-[56px] font-semibold leading-none tracking-tightest tabular-nums">
+              <span key={`n-${active}`} className="animate-fade-up text-[32px] font-semibold leading-none sm:text-[56px] tracking-tightest tabular-nums">
                 {cur.count}
               </span>
-              <span key={`l-${active}`} className="mt-2 animate-fade-up text-sm text-mist-700">
+              <span key={`l-${active}`} className="mt-1.5 animate-fade-up text-[13px] text-mist-700 sm:mt-2 sm:text-sm">
                 soal <span className="font-semibold text-obsidian">{cur.code}</span> · {Math.round((cur.count / DIV) * 100)}%
               </span>
             </div>
@@ -124,10 +124,10 @@ export function SkdExplorer() {
               [Trophy, String(MAX_SCORE), 'skor maks'],
               [ShieldCheck, String(SUBTESTS.length), 'subtes wajib lulus'],
             ].map(([Icon, v, l]) => (
-              <div key={l} className="rounded-2xl bg-ghost px-3 py-3 sm:px-4">
-                <Icon className="h-4 w-4 text-mist-700" strokeWidth={1.75} aria-hidden />
-                <dd className="mt-2 text-xl font-semibold tabular-nums tracking-tight">{v}</dd>
-                <dt className="text-xs text-mist-700">{l}</dt>
+              <div key={l} className="flex min-w-0 flex-col items-center rounded-2xl bg-ghost px-2 py-2.5 text-center sm:block sm:px-4 sm:py-3 sm:text-left">
+                <Icon className="hidden h-4 w-4 text-mist-700 sm:block" strokeWidth={1.75} aria-hidden />
+                <dd className="text-lg font-semibold leading-tight tabular-nums tracking-tight sm:mt-2 sm:text-xl sm:leading-7">{v}</dd>
+                <dt className="mt-0.5 text-xs leading-tight text-mist-700 sm:mt-0 sm:leading-4">{l}</dt>
               </div>
             ))}
           </dl>
@@ -154,11 +154,11 @@ export function SkdExplorer() {
                   role="tab"
                   aria-selected={on}
                   onClick={() => pick(i)}
-                  className="flex w-full items-center gap-4 rounded-[24px] p-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:p-6"
+                  className="flex w-full items-center gap-3 rounded-[24px] p-4 text-left sm:gap-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:p-6"
                 >
-                  <span className={cn('flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl font-mono text-[13px] font-bold', s.tint)}>{s.code}</span>
+                  <span className={cn('flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs font-bold sm:h-12 sm:w-12 sm:rounded-2xl sm:text-[13px]', s.tint)}>{s.code}</span>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-lg font-semibold tracking-tight sm:text-xl">{s.name}</span>
+                    <span className="block truncate text-base font-semibold tracking-tight sm:text-xl">{s.name}</span>
                     <span className="mt-0.5 block text-[13px] text-mist-700">{s.scoring}</span>
                   </span>
                   <span className="hidden text-right sm:block">
@@ -167,7 +167,7 @@ export function SkdExplorer() {
                   </span>
                   <span className="hidden h-10 w-px bg-mist-100 sm:block" aria-hidden />
                   <span className="text-right">
-                    <span className="block text-2xl font-semibold leading-none tabular-nums tracking-tight">{s.max}</span>
+                    <span className="block text-[22px] font-semibold leading-none tabular-nums tracking-tight sm:text-2xl sm:leading-none">{s.max}</span>
                     <span className="text-xs text-mist-700">skor maks</span>
                   </span>
                 </button>
@@ -175,7 +175,7 @@ export function SkdExplorer() {
                 {/* Detail: membuka dengan animasi tinggi */}
                 <div className="grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(.2,.8,.2,1)]" style={{ gridTemplateRows: on ? '1fr' : '0fr' }}>
                   <div className="overflow-hidden" inert={!on}>
-                    <div className={cn('px-5 pb-6 transition-opacity duration-500 sm:px-6', on ? 'opacity-100' : 'opacity-0')}>
+                    <div className={cn('px-4 pb-5 transition-opacity duration-500 sm:px-6 sm:pb-6', on ? 'opacity-100' : 'opacity-0')}>
                       <div className="flex items-center justify-between text-sm">
                         <span className="text-mist-700">Passing grade</span>
                         <span className="font-semibold tabular-nums">
@@ -188,7 +188,7 @@ export function SkdExplorer() {
                         <div className={cn('h-full rounded-full transition-[width] duration-1000 ease-[cubic-bezier(.2,.8,.2,1)]', s.bar)} style={{ width: on ? `${pct}%` : '0%' }} />
                         <span className="absolute -top-1 h-[18px] w-0.5 rounded-full bg-obsidian transition-[left] duration-1000" style={{ left: on ? `${pct}%` : '0%' }} aria-hidden />
                       </div>
-                      <ul className="mt-5 flex flex-wrap gap-1.5" aria-label={`Materi ${s.code}`}>
+                      <ul className="mt-4 flex flex-wrap gap-1.5 sm:mt-5" aria-label={`Materi ${s.code}`}>
                         {s.topics.map((t, ti) => (
                           <li
                             key={`${ti}-${t}`}

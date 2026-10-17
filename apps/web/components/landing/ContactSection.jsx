@@ -52,11 +52,11 @@ export function ContactForm() {
 
   if (sent) {
     return (
-      <div className="flex min-h-[460px] animate-scale-in flex-col items-center justify-center rounded-[24px] bg-white p-8 text-center ring-1 ring-inset ring-mist-100">
+      <div className="flex min-h-[380px] animate-scale-in flex-col items-center justify-center rounded-[24px] bg-white p-6 text-center ring-1 ring-inset ring-mist-100 sm:min-h-[460px] sm:p-8">
         <span className="flex h-16 w-16 items-center justify-center rounded-full bg-mint-50 text-mint-700">
           <CheckCircle2 className="h-8 w-8" />
         </span>
-        <h3 className="mt-6 text-2xl font-semibold tracking-tight">Terima kasih, {sent.name}!</h3>
+        <h3 className="mt-5 text-[22px] font-semibold tracking-tight sm:mt-6 sm:text-2xl">Terima kasih, {sent.name}!</h3>
         <p className="mt-2 max-w-sm text-[15px] leading-relaxed text-mist-700">
           Pesan Anda sudah diterima {sent.recipient === 'developer' ? 'tim developer' : 'admin'}. Kami akan membacanya secepatnya.
         </p>
@@ -71,7 +71,7 @@ export function ContactForm() {
   const len = form.values.body.length;
 
   return (
-    <form onSubmit={onSubmit} noValidate className="rounded-[24px] bg-white p-6 ring-1 ring-inset ring-mist-100 sm:p-8">
+    <form onSubmit={onSubmit} noValidate className="rounded-[24px] bg-white p-5 ring-1 ring-inset ring-mist-100 sm:p-8">
       {form.formError && <p className="mb-5 rounded-xl bg-danger-50 px-4 py-3 text-sm text-danger-700">{form.formError}</p>}
 
       {/* Tujuan */}
@@ -89,16 +89,16 @@ export function ContactForm() {
                 aria-checked={on}
                 onClick={() => form.setValue('recipient', r.value)}
                 className={cn(
-                  'flex items-center gap-3 rounded-2xl px-4 py-3 text-left ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+                  'flex min-h-14 items-center gap-2.5 rounded-2xl px-3 py-2.5 text-left ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:gap-3 sm:px-4 sm:py-3',
                   on ? 'bg-cobalt-50 ring-cobalt/40' : 'bg-white ring-mist-100 hover:bg-mist-50',
                 )}
               >
-                <span className={cn('flex h-9 w-9 shrink-0 items-center justify-center rounded-xl', on ? 'bg-cobalt text-white' : 'bg-ghost text-obsidian-600')}>
+                <span className={cn('flex h-8 w-8 shrink-0 items-center justify-center rounded-xl sm:h-9 sm:w-9', on ? 'bg-cobalt text-white' : 'bg-ghost text-obsidian-600')}>
                   <Icon className="h-[18px] w-[18px]" />
                 </span>
                 <span className="min-w-0">
                   <span className="block text-sm font-semibold">{r.label}</span>
-                  <span className="block truncate text-xs text-mist-700">{r.desc}</span>
+                  <span className="block text-xs leading-snug text-mist-700 sm:truncate sm:leading-4">{r.desc}</span>
                 </span>
               </button>
             );
@@ -108,10 +108,10 @@ export function ContactForm() {
 
       <div className="mt-5 grid gap-5 sm:grid-cols-2">
         <Field label="Nama lengkap" required {...form.field('name')}>
-          <Input autoComplete="name" placeholder="Nama Anda" {...form.bind('name')} />
+          <Input autoComplete="name" autoCapitalize="words" enterKeyHint="next" placeholder="Nama Anda" {...form.bind('name')} />
         </Field>
         <Field label="Email / No. HP" optional {...form.field('contact')} hint="Agar kami bisa membalas.">
-          <Input autoComplete="email" placeholder="nama@email.com" maxLength={160} {...form.bind('contact')} />
+          <Input autoComplete="email" autoCapitalize="none" autoCorrect="off" spellCheck={false} enterKeyHint="next" placeholder="nama@email.com" maxLength={160} {...form.bind('contact')} />
         </Field>
       </div>
 
@@ -133,7 +133,7 @@ export function ContactForm() {
                 name="occupation"
                 onClick={() => form.setValue('occupation', o.value)}
                 className={cn(
-                  'inline-flex h-10 items-center gap-2 rounded-full px-4 text-sm font-medium ring-1 ring-inset transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+                  'inline-flex h-11 items-center gap-2 rounded-full px-4 text-sm font-medium ring-1 ring-inset transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:h-10',
                   on ? 'bg-obsidian text-white ring-obsidian' : 'bg-white text-obsidian-600 ring-mist-100 hover:bg-mist-50 hover:text-obsidian',
                 )}
               >
@@ -173,7 +173,7 @@ export function ContactAside() {
   const items = kontak.aside || [];
   if (!items.length) return null;
   return (
-    <Reveal delay={250} className="mt-8 space-y-3">
+    <Reveal delay={250} className="mt-6 space-y-3 sm:mt-8">
       {items.map(({ title: t, text: d }, i) => {
         const Icon = ASIDE_ICONS[i] || Headset;
         return (

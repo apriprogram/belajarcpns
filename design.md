@@ -1,0 +1,130 @@
+# design.md — Panduan desain BELAJAR CPNS
+
+Sumber kebenaran tampilan web `apps/web` (Next.js 15 + Tailwind 3.4). Rinciannya: token di
+`apps/web/tailwind.config.js`, kelas global di `apps/web/app/globals.css`, gaya komponen di
+`docs/STYLE-UI-V2.md`, kontrak halaman di `docs/SPEC.md`. **Jangan ganti palet atau font.**
+
+Konsep: **"Order. Balance. Clarity."**, yaitu gaya **"Calm Workspace"**. Tampilannya datar dan hampir tanpa shadow, ruangnya lega,
+dan setiap kartu punya satu fokus.
+
+---
+
+## 1. Warna (token Tailwind)
+
+| Token | Hex | Peran |
+|---|---|---|
+| `obsidian` | #181D25 (`800` #252B35, `600` #4A5260) | Teks utama, tombol primer, latar gelap |
+| `cobalt` | #3765F6 (`50` #EEF2FF, `100` #DCE5FE, `600` #2A52D6, `700` #1F3FB0) | Aksi utama, tautan, ring fokus, garis grafik |
+| `mint` | #70FC8E (`50` #ECFFF0, `100` #D4FEDC, `700` #14833A) | Sukses/lulus, highlight kecil; teks di atasnya **selalu obsidian** |
+| `mist` | #C3CED7 (`50` #F5F7F9, `100` #E7ECF0, `500` #8A99A6, `700` #5B6875) | Garis, divider, placeholder, teks sekunder (`mist-700`) |
+| `ghost` | #F2F3F6 | Latar halaman, permukaan sekunder |
+| `danger` | #E5484D (`50`, `700`) | Error, waktu hampir habis, hapus |
+| `warning` | #F5B301 (`50`, `700`) | Ragu-ragu, menunggu |
+
+- Komposisi ±80% netral, ±15% cobalt, ±5% mint. Tidak ada gradien warna-warni. Satu-satunya gradien adalah glow cobalt lembut di header/hero.
+- Kontras teks minimal WCAG AA. Teks sekunder memakai `text-mist-700`, bukan `mist-500` (mist-500 hanya untuk placeholder dan ikon).
+
+## 2. Tipografi
+
+- **Inter** (variabel, self-host `next/font/local` → `font-sans`) untuk semua teks.
+- **JetBrains Mono** (`font-mono`) untuk timer, nomor soal, kode, dan badge nomor section.
+- Judul 600 dengan tracking rapat. Body 400–500. Angka statistik memakai `tabular-nums`.
+
+### Skala per layar
+Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop.
+
+| Elemen | HP (< 640) | ≥ 640 / desktop |
+|---|---|---|
+| H1 hero landing | 32px, lh 1.1, tracking -0.03em | `sm:` 60px → `xl:` 72px, lh 1.06, -0.045em |
+| H2 judul section landing | 28px, lh 1.15 | `sm:` 48px → `xl:` 56px |
+| H2 CTA gelap | 28px | `sm:` 60px |
+| Judul kartu fitur besar | 22px | `sm:` 30px → `lg:` 40px |
+| Judul kartu biasa | 17px | `sm:` 20px |
+| Body / deskripsi landing (checklist hero, deskripsi section, kartu fitur utama, subjudul CTA) | 16px, lh 1.6 | 17–18px |
+| Teks kartu landing (kartu fitur, langkah, FAQ) | 15px | 15px |
+| H1 halaman panel (admin & peserta) | 24px, lh 1.25 | 28px |
+| Judul panel/kartu panel | 15px semibold | 15px |
+| Body panel | 14px | 14–15px |
+| Caption / label / header tabel | 12–13px (header tabel 11px uppercase) | sama |
+| Angka statistik (StatTile, kit) | 26px | 30–32px |
+| Skor besar hasil ujian | 40px | 56px |
+| Input / textarea / select | **16px** (anti auto-zoom iOS) | 15px |
+| Minimum teks fungsional | 11px | 11px (10px hanya untuk ilustrasi dekoratif) |
+
+## 3. Spacing, radius, shadow
+
+- Kelipatan 4/8px.
+- Gutter `container-wide`: `px-5 sm:px-8 lg:px-12 2xl:px-16`. Main panel memakai `px-4 sm:px-6 lg:px-8`.
+- Section landing (`.section-screen`): `py-14 sm:py-20`, dan setinggi satu layar (`min-h-[100svh]`) hanya di `lg:`.
+- Padding kartu: HP 16–20px, desktop 24–32px. Gap grid: HP 12–16px, desktop 20–24px.
+- Radius:
+  - panel/kartu `rounded-[20px]`
+  - kartu landing `rounded-[24px]` (token `card` 28px)
+  - kontrol `rounded-xl`
+  - pill `rounded-full`
+  - modal `rounded-[24px]` (bottom-sheet di HP: `rounded-t-[24px]`)
+- Shadow: tanpa shadow untuk permukaan biasa (pakai `ring-1 ring-inset ring-mist-100`). `shadow-float` HANYA untuk lapisan melayang (modal, dropdown, popover, toast).
+
+## 4. Komponen (`components/ui`)
+
+| Komponen | Aturan |
+|---|---|
+| Button | `primary` obsidian, `accent` cobalt, `mint`, `secondary` putih + ring, `soft` ghost, `ghost`, `danger`. Ukuran: sm 36 · md 44 (HP teks 15px) · lg 48 · xl 56. Landing & nav memakai `shape="pill"`. Tombol hero/CTA di HP diperkecil: `max-sm:h-12 max-sm:text-[15px]`. |
+| IconButton | xs 28 · sm 32 · md 40 · lg 48. Di HP sm/md diberi **area sentuh tak terlihat** +4px tiap sisi (`max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']`). Label (aria) wajib. |
+| Input/Select/Textarea | h-11 (md), `rounded-xl`, ring mist-100, fokus ring cobalt, error ring danger + pesan. Teks 16px di HP. Pakai `type`/`inputMode`/`autoComplete`/`enterKeyHint` yang tepat. |
+| Switch | track 36×20 (sm 28×16); di HP area sentuh diperluas `before:-inset-3`. |
+| SegmentedControl | kontainer `bg-ghost p-1 rounded-xl`, item aktif putih + ring. Di HP sm = 36px dan digulir horizontal sendiri (`max-sm:overflow-x-auto no-scrollbar`), tidak melebarkan halaman. |
+| Modal | header + divider + body + footer kanan. Di HP berbentuk bottom-sheet, padding 20px, `pb-[env(safe-area-inset-bottom)]`, dan tombol footer bertumpuk (`flex-col-reverse`). Latar tanpa blur (`bg-obsidian/30`). |
+| Tabel | dibungkus kartu; header `bg-ghost text-[11px] uppercase`. **Di HP (< 768px) tampil sebagai kartu bertumpuk** (contoh: Riwayat), atau tabel dibungkus `overflow-x-auto` di dalam kartu. Halaman tidak boleh ikut melebar. |
+| Pagination | tombol 32px (HP 40px). |
+| Gauge | angka tengah 32px di HP, 40px di desktop. |
+| BarChart | label sumbu-x dijarangkan otomatis, dan label terakhir selalu tampil tanpa bertumpuk. |
+
+Pola kartu statistik (StatTile/kit): kotak ikon + angka besar `tabular-nums` + pill delta mint + keterangan kecil. Di HP bisa 2 kolom `compact` (ikon disembunyikan), dengan angka total selebar penuh.
+
+## 5. Layout per area
+
+- **Website publik (`/`)**:
+  - Navbar sticky transparan → putih. Tombol CTA 36px di HP (area sentuh 44px lewat `max-sm:after:-inset-y-1`), menu hamburger 44px, dan item menu HP 48px.
+  - Urutan section: Hero (toggle mode + judul + checklist + CTA | video/mockup + maskot + emblem) → Fitur → Testimoni (marquee) → SKD (explorer donat) → Langkah (bento) → Panduan → FAQ (accordion) → Kontak (form) → CTA gelap → Footer (2 kolom tautan di HP).
+  - Indikator titik section hanya `xl:`. Latar section crossfade.
+- **Auth** (login/daftar/lupa/reset): layar terbagi. Kiri panel media besar, kanan form max-w 380px. Di HP hanya form, judul 28px, tombol 48px, dan safe-area atas/bawah.
+- **Panel peserta**:
+  - Topbar: logo + nav pill, cari ⌘K, lonceng, profil. Di HP: hamburger berisi nav + Profil/Testimoni/Putar tutorial.
+  - Header halaman bertema biru-putih bermaskot.
+  - Dashboard: kalender minggu. Di HP berupa strip 7 hari + agenda hari terpilih; ≥640 berupa grid.
+- **Ruang ujian CBT (`/ujian`)**:
+  - Tanpa sidebar. Soal di kiri, panel nomor di kanan, timer monospace di header.
+  - Di HP: bar bawah fixed `[←] [Ragu] [Lanjut →]` + safe-area, daftar soal di bottom-sheet 6 kolom × 44px.
+  - Status nomor: belum (mist), dijawab (cobalt), ragu (kuning), aktif (outline obsidian).
+- **Panel super admin**:
+  - Sidebar putih rounded terpisah. Di HP berupa drawer dengan item 44px + safe-area. Topbar memuat breadcrumb + ikon 44px + menu profil kanan.
+  - `AdminPageHeader`: judul 24px (HP); tombol aksi wrap 2 per baris dan tombol utama full-width di HP.
+- **Elemen melayang**:
+  - Tombol GroupChat (56px) memakai safe-area dan otomatis bersembunyi saat scroll ke bawah di HP.
+  - Konten/footer diberi ruang bawah ±88px + safe-area agar tidak tertutup.
+  - Tombol ke-atas 44px.
+
+## 6. Aturan mobile (wajib untuk perubahan baru)
+
+1. **Mobile-first tanpa merusak desktop.** `cn()` (`lib/cn.js`) **tidak** memakai tailwind-merge, jadi menimpa kelas lewat `className` tidak andal. Gunakan:
+   - pola **base = nilai HP + `sm:` = nilai desktop**, atau
+   - varian **`max-sm:`** (berlaku < 640px, selalu menang atas kelas base).
+   Ingat ikut mengunci `sm:leading-*`/`sm:tracking-*` bila mengubah line-height/tracking base, agar desktop tidak bergeser.
+2. **Target sentuh ≥ 44×44px**, jarak antar target ≥ 8px. Kalau ukuran visual harus kecil, perluas area sentuh dengan pseudo-element `before:`/`after:` (lihat IconButton/Switch, tombol navbar, tab hero). Tailwind otomatis memberi `content: ''`.
+3. **Input 16px di HP.** Lebih kecil dari itu memicu auto-zoom di iOS.
+4. **Tanpa scroll horizontal di 360 & 390px.** Tabel, grafik, dan tab boleh digulir di dalam kontainernya sendiri, asal terlihat bisa digeser.
+5. **Safe-area iPhone:** `viewport.viewportFit = 'cover'` sudah aktif (`app/layout.jsx`). Elemen fixed di tepi layar pakai `env(safe-area-inset-*)`, mis. `pb-[max(12px,env(safe-area-inset-bottom))]`.
+6. **Gerak lebih ringan di HP:** parallax/rotasi scroll dimatikan (`.hero-parallax`), reveal tanpa blur, hover-lift mati, dan `prefers-reduced-motion` selalu dihormati.
+7. **Hero tidak dipaksa setinggi layar** di HP. Pastikan konten penting dan CTA terlihat di layar pertama.
+8. **Tombol aksi di header halaman** di HP rata lebar/terbungkus rapi, tidak berdesakan dalam satu baris.
+
+## 7. Checklist sebelum selesai
+
+- [ ] Cek di **360×740**, **390×844**, dan **1366×900**: `document.documentElement.scrollWidth <= innerWidth`.
+- [ ] Tampilan ≥ 640px tidak berubah (kecuali memang disengaja).
+- [ ] Target sentuh ≥ 44px, teks fungsional ≥ 11px, input 16px di HP.
+- [ ] Semua state ada: default, hover, focus (ring cobalt), disabled, loading, error, empty.
+- [ ] Elemen melayang tidak menutupi konten atau tombol, dan safe-area dipakai.
+- [ ] Teks UI berbahasa Indonesia, nada ramah dan ringkas.
+- [ ] `npx next lint --dir app --dir components --dir lib` bersih.

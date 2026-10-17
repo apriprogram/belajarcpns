@@ -29,6 +29,7 @@ export function HeroBackground({ className }) {
     let visible = true;
     let hasPointer = false;
     let lastMove = 0;
+    let lastDraw = 0;
     const pointer = { x: -9999, y: -9999 }; // target
     const cur = { x: -9999, y: -9999 }; // posisi sorotan (di-lerp)
     const t0 = performance.now();
@@ -61,6 +62,12 @@ export function HeroBackground({ className }) {
     const frame = (now) => {
       raf = 0;
       if (!visible) return;
+      // Layar sempit (ponsel): cukup ±30 fps — hemat baterai, gerak tetap halus.
+      if (w < 640 && now - lastDraw < 32) {
+        raf = requestAnimationFrame(frame);
+        return;
+      }
+      lastDraw = now;
       // Idle (tanpa kursor >2.5s): sorotan berkelana di jalur Lissajous.
       const idle = !hasPointer || now - lastMove > 2500;
       let tx = pointer.x;

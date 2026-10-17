@@ -126,9 +126,9 @@ export function PublicNavbar() {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-1 sm:gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           {user ? (
-            <Button shape="pill" href={homeFor(user)} size="md" iconRight={<ArrowRight />}>
+            <Button shape="pill" href={homeFor(user)} size="md" iconRight={<ArrowRight />} className="max-sm:h-9 max-sm:gap-1.5 max-sm:px-3.5 max-sm:text-[13px] max-sm:after:absolute max-sm:after:inset-x-0 max-sm:after:-inset-y-1">
               {user.role === 'admin' ? 'Panel admin' : 'Dashboard'}
             </Button>
           ) : (
@@ -136,14 +136,14 @@ export function PublicNavbar() {
               <Link href="/login" className="hidden h-10 items-center rounded-full px-4 text-[14px] font-medium text-obsidian-600 transition-colors hover:bg-obsidian/[0.06] hover:text-obsidian sm:inline-flex">
                 {navbar.login_label}
               </Link>
-              <Button shape="pill" href="/daftar" size="md" iconRight={<ArrowRight />}>
+              <Button shape="pill" href="/daftar" size="md" iconRight={<ArrowRight />} className="max-sm:h-9 max-sm:gap-1.5 max-sm:px-3.5 max-sm:text-[13px] max-sm:after:absolute max-sm:after:inset-x-0 max-sm:after:-inset-y-1">
                 {navbar.cta_label}
               </Button>
             </>
           )}
           <button
             type="button"
-            className="flex h-10 w-10 items-center justify-center rounded-full text-obsidian transition-colors hover:bg-obsidian/[0.06] lg:hidden"
+            className="-mr-1.5 flex h-11 w-11 items-center justify-center rounded-full text-obsidian transition-colors hover:bg-obsidian/[0.06] sm:mr-0 sm:h-10 sm:w-10 lg:hidden"
             aria-label={open ? 'Tutup menu' : 'Buka menu'}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
@@ -161,13 +161,13 @@ export function PublicNavbar() {
         )}
       >
         <nav aria-label="Navigasi publik" className="overflow-hidden" inert={!open}>
-          <ul className="container-wide space-y-1 pb-4 pt-1">
+          <ul className="container-wide max-h-[calc(100svh-4rem)] space-y-1 overflow-y-auto overscroll-contain pb-[max(1rem,env(safe-area-inset-bottom))] pt-1 sm:max-h-none sm:overflow-visible sm:pb-4">
             {links.map((l, i) => (
               <li key={l.id} className={cn('transition-all duration-300', open ? 'translate-y-0 opacity-100' : '-translate-y-2 opacity-0')} style={{ transitionDelay: open ? `${i * 40}ms` : '0ms' }}>
                 <Link
                   href={`/#${l.id}`}
                   onClick={(e) => go(e, l.id)}
-                  className={cn('flex items-center justify-between rounded-xl px-4 py-3 text-[15px] font-medium hover:bg-ghost', active === i && 'bg-ghost')}
+                  className={cn('flex min-h-12 items-center justify-between rounded-xl px-4 py-3 text-[15px] font-medium hover:bg-ghost sm:min-h-0', active === i && 'bg-ghost')}
                 >
                   {l.label}
                   <ArrowRight className="h-4 w-4 text-mist-500" />
@@ -176,7 +176,7 @@ export function PublicNavbar() {
             ))}
             {!user && (
               <li>
-                <Link href="/login" onClick={() => setOpen(false)} className="block rounded-xl px-4 py-3 text-[15px] font-semibold text-cobalt hover:bg-ghost">
+                <Link href="/login" onClick={() => setOpen(false)} className="flex min-h-12 items-center rounded-xl px-4 py-3 text-[15px] font-semibold text-cobalt hover:bg-ghost sm:block sm:min-h-0">
                   {navbar.login_label}
                 </Link>
               </li>

@@ -94,7 +94,7 @@ export function HeroVideo({ className }) {
             openModal();
           }
         }}
-        className="group relative cursor-zoom-in overflow-hidden rounded-[28px] bg-ghost ring-1 ring-inset ring-mist-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+        className="group relative cursor-zoom-in overflow-hidden rounded-[20px] bg-ghost sm:rounded-[28px] ring-1 ring-inset ring-mist-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
       >
         <video
           ref={videoRef}
@@ -124,7 +124,7 @@ export function HeroVideo({ className }) {
         <button
           type="button"
           onClick={toggle}
-          className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-obsidian backdrop-blur transition-colors hover:bg-white"
+          className="absolute right-2.5 top-2.5 flex h-10 w-10 sm:right-3 sm:top-3 sm:h-9 sm:w-9 items-center justify-center rounded-full bg-white/90 text-obsidian backdrop-blur transition-colors hover:bg-white"
           aria-label={playing ? 'Jeda video' : 'Putar video'}
         >
           {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
@@ -136,7 +136,7 @@ export function HeroVideo({ className }) {
 
       {/* ---------- Rail langkah (di bawah video) ---------- */}
       {STEPS.length > 0 && (
-      <div className="mt-4 flex items-center gap-2.5">
+      <div className="mt-3 flex items-center gap-2.5 sm:mt-4">
         <span className={cn('hidden shrink-0 items-center sm:flex', emblemSpace && 'lg:hidden')}>
           <LogoMark className="!h-10 !w-10 !rounded-full" />
         </span>
@@ -153,7 +153,7 @@ export function HeroVideo({ className }) {
                   onClick={() => seek(s.start)}
                   aria-current={on ? 'step' : undefined}
                   className={cn(
-                    'group/step relative flex h-11 w-full items-center overflow-hidden rounded-full px-4 text-left ring-1 lg:px-3 min-[1440px]:px-4 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+                    'group/step relative flex h-11 w-full items-center overflow-hidden rounded-full px-3 text-left ring-1 sm:px-4 lg:px-3 min-[1440px]:px-4 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
                     on ? 'bg-white ring-mist-100' : 'bg-ghost ring-transparent hover:bg-mist-50',
                   )}
                 >

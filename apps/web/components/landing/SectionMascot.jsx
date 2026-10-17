@@ -11,7 +11,7 @@ import { cn } from '@/lib/cn';
  * image · say (teks) · side: 'left' | 'right' (arah ekor gelembung; gelembung muncul di sisi lain)
  * tone: 'light' | 'dark' (latar section) · size: kelas lebar gambar
  */
-export function SectionMascot({ image, say, side = 'right', tone = 'light', className, size = 'w-[112px] sm:w-[128px] xl:w-[144px]' }) {
+export function SectionMascot({ image, say, side = 'right', tone = 'light', className, size = 'w-[88px] sm:w-[128px] xl:w-[144px]' }) {
   const [open, setOpen] = useState(false);
   const [typed, setTyped] = useState('');
   const timer = useRef(null);
