@@ -73,8 +73,8 @@ export function StepsBento() {
           <span className="inline-flex h-7 items-center gap-1.5 rounded-full bg-white px-3 text-xs font-medium ring-1 ring-inset ring-mist-100">
             Langkah <span className="flex h-4 w-4 items-center justify-center rounded-full bg-obsidian font-mono text-[10px] text-white">3</span>
           </span>
-          <h3 className="mt-4 text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{tryout.title}</h3>
-          <p className="mt-2 max-w-[300px] text-[15px] leading-relaxed text-mist-700">
+          <h3 className="mt-4 text-xl font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{tryout.title}</h3>
+          <p className="mt-2 max-w-[300px] text-sm leading-relaxed sm:text-[15px] text-mist-700">
             <RichText text={tryout.text} boldClassName="font-semibold text-obsidian" />
           </p>
           {tryout.cta && (
@@ -98,8 +98,8 @@ export function StepsBento() {
         <div className="relative z-10 flex max-w-[440px] flex-col justify-between p-6 sm:p-8 xl:p-10">
           <div>
             {hasil.eyebrow && <span className="font-mono text-xs font-semibold text-mint">{hasil.eyebrow}</span>}
-            <h3 className="mt-3 text-[24px] font-semibold leading-[1.15] tracking-[-0.025em] text-white sm:text-[30px] sm:leading-[1.1] sm:tracking-[-0.03em] xl:text-[36px]">{hasil.title}</h3>
-            <p className="mt-3 max-w-[340px] text-[15px] leading-relaxed text-white/60">
+            <h3 className="mt-3 text-xl font-semibold leading-[1.2] tracking-[-0.025em] text-white sm:text-[30px] sm:leading-[1.1] sm:tracking-[-0.03em] xl:text-[36px]">{hasil.title}</h3>
+            <p className="mt-3 max-w-[340px] text-sm leading-relaxed sm:text-[15px] text-white/60">
               <RichText text={hasil.text} boldClassName="font-semibold text-white" />
             </p>
           </div>
@@ -122,10 +122,10 @@ function StepHead({ n, title, children }) {
   return (
     <div className="px-6 pt-6 sm:px-7 sm:pt-7 xl:px-8 xl:pt-8">
       <div className="flex items-start justify-between gap-4">
-        <h3 className="text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{title}</h3>
+        <h3 className="text-xl font-semibold leading-tight tracking-[-0.025em] sm:text-[30px] sm:tracking-[-0.03em] xl:text-[34px]">{title}</h3>
         <span className="mt-2 font-mono text-sm font-semibold text-mist-500">{n}</span>
       </div>
-      <p className="mt-2 max-w-[300px] text-[15px] leading-relaxed text-mist-700 [&_b]:font-semibold [&_b]:text-obsidian">{children}</p>
+      <p className="mt-2 max-w-[300px] text-sm leading-relaxed sm:text-[15px] text-mist-700 [&_b]:font-semibold [&_b]:text-obsidian">{children}</p>
     </div>
   );
 }

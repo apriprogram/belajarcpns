@@ -178,7 +178,7 @@ function StudyTimeCard({ study }) {
       <PanelHeader title="Total waktu belajar" info="Menit belajar per hari selama 7 hari terakhir." action={<DetailLink href="/latihan">Mulai latihan</DetailLink>} />
       <div className="flex flex-wrap items-center gap-3">
         <IconBox icon={Clock3} />
-        <p className="text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatDurasi(study?.week_minutes || 0, { unit: 'minutes' })}</p>
+        <p className="text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums sm:text-[32px] sm:tracking-[-0.03em]">{formatDurasi(study?.week_minutes || 0, { unit: 'minutes' })}</p>
         <DeltaPill value={study?.change_pct} suffix="%" />
         <span className="text-[13px] text-mist-700">hari ini vs kemarin</span>
       </div>
@@ -197,7 +197,7 @@ function StudyTimeCard({ study }) {
             ))}
             {avg > 0 && (
               <div className="pointer-events-none absolute inset-x-0 z-10 flex items-center" style={{ bottom: (avg / top) * H }} aria-hidden>
-                <span className="rounded-md bg-obsidian px-1.5 py-0.5 text-[10px] font-semibold text-white">Rata²</span>
+                <span className="rounded-md bg-obsidian px-1.5 py-0.5 text-[11px] font-semibold text-white">Rata²</span>
                 <span className="h-px flex-1 border-t-2 border-dotted border-obsidian/60" />
               </div>
             )}
@@ -314,7 +314,7 @@ function LatestResultCard({ result, packages }) {
         <div className="flex min-w-0 items-center gap-3">
           <IconBox icon={Trophy} />
           <div className="min-w-0">
-            <p className="truncate text-[15px] font-semibold">{result.package_title}</p>
+            <p className="truncate text-[14px] font-semibold sm:text-[15px]">{result.package_title}</p>
             <p className="text-[13px] text-mist-700">
               {formatTanggal(result.created_at)} · {formatDurasi(result.duration_seconds)}
             </p>
@@ -322,7 +322,7 @@ function LatestResultCard({ result, packages }) {
         </div>
         <div className="flex items-center gap-3">
           <Badge status={result.passed ? 'lulus' : 'gagal'} />
-          <p className="text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(result.score_total)}</p>
+          <p className="text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums sm:text-[32px] sm:tracking-[-0.03em]">{formatAngka(result.score_total)}</p>
         </div>
       </div>
       <div className={cn('grid gap-2.5', rows.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2')}>
@@ -334,7 +334,7 @@ function LatestResultCard({ result, packages }) {
                 <span className="text-sm font-semibold">{r.code}</span>
                 {ok != null && <span className={cn('text-xs font-semibold', ok ? 'text-mint-700' : 'text-danger-700')}>{ok ? 'Memenuhi' : 'Di bawah PG'}</span>}
               </div>
-              <p className="mb-3 text-2xl font-semibold tabular-nums">
+              <p className="mb-3 text-lg font-semibold tabular-nums sm:text-2xl">
                 {formatAngka(r.score)}
                 <span className="text-sm font-medium text-mist-500">/{r.max}</span>
               </p>
@@ -345,7 +345,7 @@ function LatestResultCard({ result, packages }) {
         })}
       </div>
       <AnswerSummary correct={result.correct_count} wrong={result.wrong_count} empty={result.empty_count} />
-      <div className="mt-auto flex flex-wrap justify-end gap-2 pt-4">
+      <div className="mt-auto flex flex-wrap justify-end gap-2 pt-4 max-sm:[&>*]:flex-1">
         <Button variant="secondary" size="sm" href="/riwayat" className="!shadow-none">
           Semua riwayat
         </Button>
@@ -409,7 +409,7 @@ function AnnouncementsCard({ items: initial }) {
                 <div className="min-w-0">
                   <p className="text-sm font-semibold leading-snug">{a.title}</p>
                   <p className="mt-0.5 line-clamp-2 text-[13px] leading-relaxed text-mist-700">{a.body}</p>
-                  <p className="mt-1 text-[11px] font-medium leading-7 text-mist-500">{formatRelatif(a.created_at)}</p>
+                  <p className="mt-1 text-xs font-medium leading-9 text-mist-500 sm:text-[11px] sm:leading-7">{formatRelatif(a.created_at)}</p>
                 </div>
               </button>
               <AnnouncementLike item={a} className="absolute bottom-2.5 right-1" />

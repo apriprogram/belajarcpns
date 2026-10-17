@@ -100,7 +100,7 @@ export function HasilView({ attemptId }) {
           </>
         }
         actions={
-          <div className="flex gap-2 print:hidden [&_a]:!shadow-none [&_button]:!shadow-none">
+          <div className="flex gap-2 print:hidden max-sm:w-full max-sm:[&>*]:flex-1 [&_a]:!shadow-none [&_button]:!shadow-none">
             <Button variant="secondary" icon={<Printer />} onClick={() => window.print()}>
               Cetak
             </Button>
@@ -115,7 +115,7 @@ export function HasilView({ attemptId }) {
       <div className="grid gap-4 lg:grid-cols-12 [&>*]:min-w-0">
         <Panel className="lg:col-span-8">
           <PanelHeader title="Skor total" info="Lulus bila setiap subtes ≥ passing grade dan total ≥ passing grade total." />
-          <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+          <div className="flex flex-col gap-6 sm:gap-8 md:flex-row md:items-center md:justify-between">
             <div className="min-w-0">
               <span
                 className={cn(
@@ -126,11 +126,11 @@ export function HasilView({ attemptId }) {
                 {r.passed ? <CheckCircle2 className="h-[18px] w-[18px]" aria-hidden /> : <XCircle className="h-[18px] w-[18px]" aria-hidden />}
                 {r.passed ? 'Lulus' : 'Tidak lulus'}
               </span>
-              <p className="mt-5 text-[56px] font-semibold leading-none tracking-tightest tabular-nums">
+              <p className="mt-4 text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums sm:mt-5 sm:text-[56px] sm:tracking-tightest">
                 {formatAngka(r.score_total)}
-                <span className="ml-1 text-2xl font-medium text-mist-500">/{maxTotal}</span>
+                <span className="ml-1 text-lg font-medium text-mist-500 sm:text-2xl">/{maxTotal}</span>
               </p>
-              <p className="mt-4 max-w-md text-[15px] leading-relaxed text-obsidian-600">
+              <p className="mt-3 max-w-md text-[14px] leading-relaxed text-obsidian-600 sm:mt-4 sm:text-[15px]">
                 {r.passed
                   ? 'Selamat! Anda memenuhi passing grade di semua subtes. Pertahankan dengan latihan rutin.'
                   : failed.length
@@ -156,7 +156,7 @@ export function HasilView({ attemptId }) {
           <PanelHeader title="Peringkat" info="Peringkat skor total di antara peserta paket ini." />
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-[48px] font-semibold leading-none tracking-tightest tabular-nums">
+              <p className="text-[26px] font-semibold leading-none tracking-[-0.03em] tabular-nums sm:text-[48px] sm:tracking-tightest">
                 <span className="text-mist-500">#</span>
                 {r.rank}
               </p>
@@ -164,7 +164,7 @@ export function HasilView({ attemptId }) {
             </div>
             <IconBox icon={Medal} tone="obsidian" size="lg" />
           </div>
-          <div className="mt-auto pt-8">
+          <div className="mt-auto pt-6 sm:pt-8">
             <div className="mb-3 flex h-2.5 w-full gap-1" role="img" aria-label={`${r.correct_count} benar, ${r.wrong_count} salah, ${r.empty_count} kosong`}>
               {[
                 [r.correct_count, 'bg-mint-700'],
@@ -204,9 +204,9 @@ export function HasilView({ attemptId }) {
               {s.tested ? <Badge status={s.ok ? 'lulus' : 'gagal'} size="sm">{s.ok ? 'Memenuhi' : 'Di bawah PG'}</Badge> : <Badge status="kosong" size="sm">Tidak diujikan</Badge>}
             </div>
             <p className="mt-3 text-sm text-mist-700">{s.name}</p>
-            <p className="mt-3 text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums">
+            <p className="mt-3 text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums sm:text-[32px] sm:tracking-[-0.03em]">
               {s.tested ? formatAngka(s.score) : '—'}
-              {s.tested && <span className="ml-1 text-lg font-medium text-mist-500">/{s.max}</span>}
+              {s.tested && <span className="ml-1 text-base font-medium text-mist-500 sm:text-lg">/{s.max}</span>}
             </p>
             <ProgressBar value={s.tested ? s.score : 0} max={s.max || 1} marker={s.tested && s.pass ? s.pass : null} color={!s.tested ? 'cobalt' : s.ok ? 'mint-dark' : 'danger'} size="md" className="mt-5" />
             <div className="mt-3 flex items-center justify-between text-xs text-mist-700">
@@ -247,7 +247,7 @@ function Review({ review }) {
     <Panel padding="none" className="mt-4 scroll-mt-24" id="pembahasan">
       <div className="flex flex-col gap-4 border-b border-mist-100 p-5 sm:p-6 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <h2 className="text-xl font-semibold tracking-[-0.02em]">Pembahasan</h2>
+          <h2 className="text-lg font-semibold tracking-[-0.01em] sm:text-xl sm:tracking-[-0.02em]">Pembahasan</h2>
           <p className="mt-1 text-sm text-mist-700">Bandingkan jawaban Anda dengan kunci dan pelajari penjelasannya.</p>
         </div>
         <div className="flex flex-col gap-2 print:hidden sm:flex-row sm:flex-wrap sm:items-center">
@@ -272,7 +272,7 @@ function Review({ review }) {
         />
         </div>
       </div>
-      <div className="p-5 sm:p-6">
+      <div className="p-4 sm:p-6">
 
       {!pageItems.length ? (
         <EmptyState size="sm" title="Tidak ada soal" description="Tidak ada soal yang cocok dengan filter ini." variant="dashed" />
@@ -306,7 +306,7 @@ function ReviewItem({ x }) {
   const isTKP = x.subtest === 'TKP';
   const maxW = Math.max(...x.options.map((o) => Number(o.weight) || 0));
   return (
-    <li className="rounded-2xl p-5 ring-1 ring-inset ring-mist-100 sm:p-6">
+    <li className="rounded-2xl p-4 ring-1 ring-inset ring-mist-100 sm:p-6">
       <div className="flex flex-wrap items-center gap-2">
         <span className="flex h-9 min-w-9 items-center justify-center rounded-xl bg-ghost px-2 font-mono text-sm font-semibold tabular-nums text-obsidian ring-1 ring-inset ring-mist-100">{String(x.position).padStart(2, '0')}</span>
         <Chip color={SUBTEST_COLOR[x.subtest]} size="sm">
@@ -324,7 +324,7 @@ function ReviewItem({ x }) {
           <Badge status={x.status} size="sm" />
         </span>
       </div>
-      <p className="mt-4 whitespace-pre-line text-[16px] leading-relaxed">{x.body}</p>
+      <p className="mt-4 whitespace-pre-line text-[14px] leading-relaxed sm:text-[16px]">{x.body}</p>
       {x.image_url && <img src={x.image_url} alt={`Gambar soal ${x.position}`} className="mt-4 max-h-72 rounded-2xl bg-ghost object-contain" />}
       <div className="mt-5 space-y-2.5">
         {x.options.map((o) => {
@@ -355,7 +355,7 @@ function ReviewItem({ x }) {
             <Lightbulb className="h-4 w-4 text-warning-700" aria-hidden />
             Pembahasan
           </p>
-          <p className="whitespace-pre-line text-[15px] leading-relaxed text-obsidian-600">{x.explanation}</p>
+          <p className="whitespace-pre-line text-[14px] leading-relaxed text-obsidian-600 sm:text-[15px]">{x.explanation}</p>
         </div>
       )}
     </li>

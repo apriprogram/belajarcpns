@@ -38,16 +38,16 @@ export function GenderPicker({ value, onChange, invalid, size = 'md', id, name =
             onClick={() => pick(g.value)}
             onKeyDown={(e) => onKey(e, i)}
             className={cn(
-              'flex items-center gap-3 rounded-xl px-4 text-left text-sm font-medium ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
-              size === 'lg' ? 'h-12' : 'h-11',
+              'flex min-w-0 items-center gap-1.5 whitespace-nowrap rounded-xl px-3 text-left text-[13px] font-medium sm:gap-3 sm:px-4 sm:text-sm ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+              size === 'lg' ? 'h-12 max-sm:h-11' : 'h-11 max-sm:h-10',
               on ? 'bg-cobalt-50 text-obsidian ring-cobalt' : invalid ? 'bg-white text-obsidian-600 ring-danger' : 'bg-white text-obsidian-600 ring-mist-100 hover:bg-mist-50',
             )}
           >
-            <span className={cn('flex h-7 w-7 shrink-0 items-center justify-center rounded-lg', g.tone)} aria-hidden>
+            <span className={cn('flex h-7 w-7 shrink-0 items-center justify-center rounded-lg max-[380px]:hidden', g.tone)} aria-hidden>
               <g.icon className="h-4 w-4" strokeWidth={2.25} />
             </span>
-            {g.label}
-            <span className={cn('ml-auto flex h-4 w-4 items-center justify-center rounded-full ring-1 ring-inset', on ? 'bg-cobalt ring-cobalt' : 'ring-mist')} aria-hidden>
+            <span className="min-w-0 truncate">{g.label}</span>
+            <span className={cn('ml-auto flex h-4 w-4 shrink-0 items-center justify-center rounded-full ring-1 ring-inset', on ? 'bg-cobalt ring-cobalt' : 'ring-mist')} aria-hidden>
               {on && <span className="h-1.5 w-1.5 rounded-full bg-white" />}
             </span>
           </button>

@@ -81,14 +81,14 @@ export function CardHeader({ title, subtitle, action, icon, iconTone = 'cobalt',
         {icon && <IconBox icon={icon} tone={iconTone} variant={iconVariant} />}
         <div className="min-w-0">
           <div className="flex items-center gap-1.5">
-            <T className={cn('font-semibold tracking-tight', size === 'lg' ? 'text-lg' : size === 'sm' ? 'text-sm' : 'text-[15px]')}>{title}</T>
+            <T className={cn('font-semibold tracking-tight', size === 'lg' ? 'text-lg' : size === 'sm' ? 'text-sm' : 'text-[14px] sm:text-[15px]')}>{title}</T>
             {info && (
               <span title={typeof info === 'string' ? info : undefined} aria-label={typeof info === 'string' ? info : 'Info'} role="img" className="inline-flex text-mist-500">
                 <Info className="h-4 w-4" aria-hidden />
               </span>
             )}
           </div>
-          {subtitle && <p className="mt-0.5 text-[13px] text-mist-700">{subtitle}</p>}
+          {subtitle && <p className="mt-0.5 text-xs text-mist-700 sm:text-[13px]">{subtitle}</p>}
         </div>
       </div>
       {action && <div className="-my-1 flex shrink-0 items-center gap-2">{action}</div>}

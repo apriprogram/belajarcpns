@@ -170,7 +170,7 @@ export function SiteEditorView() {
       <AdminPageHeader title="Atur Website" description="Ubah branding dan seluruh isi halaman utama tanpa menyentuh kode." actions={actions} meta={meta} />
 
       {state.loading && (
-        <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] xl:grid-cols-[200px_minmax(0,1fr)_320px]">
+        <div className="grid gap-3 sm:gap-4 lg:grid-cols-[minmax(0,1fr)_300px] xl:grid-cols-[200px_minmax(0,1fr)_320px]">
           <Skeleton className="h-11 rounded-[20px] lg:col-span-2 xl:col-span-1 xl:h-72" />
           <Skeleton className="h-[480px] rounded-[20px]" />
           <Skeleton className="hidden h-72 rounded-[20px] lg:block" />
@@ -184,7 +184,7 @@ export function SiteEditorView() {
       )}
 
       {!state.loading && !state.error && draft && (
-        <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] xl:grid-cols-[200px_minmax(0,1fr)_320px]">
+        <div className="grid gap-3 sm:gap-4 lg:grid-cols-[minmax(0,1fr)_300px] xl:grid-cols-[200px_minmax(0,1fr)_320px]">
           {/* Daftar grup: vertikal di desktop, pill bar gulir horizontal di mobile */}
           <nav aria-label="Bagian website" className="min-w-0 lg:col-span-2 xl:sticky xl:top-4 xl:col-span-1 xl:self-start">
             <ul className="-mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 [scrollbar-width:none] xl:mx-0 xl:flex-col xl:gap-0.5 xl:overflow-visible xl:rounded-[20px] xl:bg-white xl:p-1.5 xl:ring-1 xl:ring-inset xl:ring-mist-100">

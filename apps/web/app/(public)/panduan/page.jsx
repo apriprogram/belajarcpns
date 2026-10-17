@@ -99,18 +99,18 @@ export default async function PanduanHubPage() {
   return (
     <>
       <JsonLd data={hubGraph(site)} />
-      <div className="container-wide pb-20 pt-6 lg:pb-28 lg:pt-10">
+      <div className="container-wide pb-14 pt-4 sm:pb-20 sm:pt-6 lg:pb-28 lg:pt-10">
         <div className="mx-auto max-w-[1200px]">
           <Breadcrumbs items={[{ label: 'Beranda', href: '/' }, { label: 'Panduan' }]} />
 
-          <header className="mt-8 flex items-end justify-between gap-8">
+          <header className="mt-6 flex items-end justify-between gap-8 sm:mt-8">
             <div className="max-w-3xl">
-              <span className="inline-flex h-8 items-center gap-2 rounded-full bg-white pl-1 pr-3.5 text-[13px] font-medium text-obsidian-600 ring-1 ring-inset ring-mist-100">
-                <span className="flex h-6 items-center rounded-full bg-obsidian px-2 font-mono text-[11px] font-semibold text-white">{String(ARTICLES.length).padStart(2, '0')}</span>
+              <span className="inline-flex h-7 items-center gap-2 rounded-full bg-white pl-1 pr-3 text-xs font-medium text-obsidian-600 ring-1 ring-inset ring-mist-100 sm:h-8 sm:pr-3.5 sm:text-[13px]">
+                <span className="flex h-5 items-center rounded-full bg-obsidian px-2 font-mono text-[11px] font-semibold text-white sm:h-6">{String(ARTICLES.length).padStart(2, '0')}</span>
                 Panduan CPNS
               </span>
-              <h1 className="mt-5 text-[40px] font-semibold leading-[1.05] tracking-[-0.04em] sm:text-[56px]">Panduan Belajar CPNS</h1>
-              <p className="mt-5 max-w-2xl text-lg leading-relaxed text-mist-700">
+              <h1 className="mt-4 text-[32px] font-semibold leading-[1.1] tracking-[-0.03em] sm:mt-5 sm:text-[56px] sm:leading-[1.05] sm:tracking-[-0.04em]">Panduan Belajar CPNS</h1>
+              <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-mist-700 sm:mt-5 sm:text-lg sm:leading-relaxed">
                 <Inline text={INTRO} />
               </p>
             </div>
@@ -124,12 +124,12 @@ export default async function PanduanHubPage() {
           <Callout
             tone="info"
             flush
-            className="mt-8"
+            className="mt-6 sm:mt-8"
             title="Status CPNS 2027"
             text="Per Oktober 2026, jadwal dan formasi CPNS 2027 belum diumumkan resmi. Panduan ini memakai acuan seleksi terakhir (CPNS 2024) dan akan diperbarui begitu ada pengumuman dari [SSCASN BKN](https://sscasn.bkn.go.id) atau [KemenPANRB](https://www.menpan.go.id)."
           />
 
-          <section aria-labelledby="semua-panduan" className="mt-10">
+          <section aria-labelledby="semua-panduan" className="mt-8 sm:mt-10">
             <h2 id="semua-panduan" className="sr-only">
               Semua panduan
             </h2>
@@ -138,12 +138,12 @@ export default async function PanduanHubPage() {
               {rest.map((a) => (
                 <ArticleCard key={a.slug} article={a} />
               ))}
-              <div className="flex flex-col rounded-[24px] bg-mint-50 p-6 ring-1 ring-inset ring-mint-100 sm:col-span-2 sm:p-7 lg:col-span-1">
+              <div className="flex flex-col rounded-[24px] bg-mint-50 p-5 ring-1 ring-inset ring-mint-100 sm:col-span-2 sm:p-7 lg:col-span-1">
                 <p className="text-xs font-semibold uppercase tracking-[0.08em] text-mint-700">Gratis · tanpa iklan</p>
-                <p className="mt-3 text-xl font-semibold leading-snug tracking-[-0.02em]">Latihan &amp; tryout gratis</p>
+                <p className="mt-3 text-lg font-semibold leading-snug tracking-[-0.02em] sm:text-xl sm:leading-snug">Latihan &amp; tryout gratis</p>
                 <p className="mt-2.5 text-[15px] leading-relaxed text-obsidian-600">Latihan TWK, TIU, TKP dengan pembahasan, lalu tryout 110 soal dalam 100 menit seperti CAT BKN.</p>
                 <div className="mt-auto pt-6">
-                  <Button shape="pill" href="/daftar" iconRight={<ArrowRight />}>
+                  <Button shape="pill" href="/daftar" iconRight={<ArrowRight />} className="max-sm:w-full">
                     Daftar gratis
                   </Button>
                 </div>
@@ -151,10 +151,10 @@ export default async function PanduanHubPage() {
             </div>
           </section>
 
-          <section aria-labelledby="sumber-resmi" className="mt-14 rounded-[24px] bg-white p-6 ring-1 ring-inset ring-mist-100 sm:p-8">
+          <section aria-labelledby="sumber-resmi" className="mt-10 rounded-[24px] bg-white p-5 ring-1 ring-inset ring-mist-100 sm:mt-14 sm:p-8">
             <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between lg:gap-12">
               <div className="max-w-md">
-                <h2 id="sumber-resmi" className="text-xl font-semibold tracking-[-0.02em]">
+                <h2 id="sumber-resmi" className="text-lg font-semibold tracking-[-0.02em] sm:text-xl">
                   Selalu cek sumber resmi
                 </h2>
                 <p className="mt-2 text-[15px] leading-relaxed text-mist-700">

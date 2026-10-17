@@ -183,7 +183,7 @@ export function ParticipantsView() {
                           <Avatar name={u.name} src={u.avatar_url} size="md" status={isOnline(u.last_seen_at) ? 'online' : undefined} />
                           <span className="min-w-0 flex-1">
                             <span className="flex items-center gap-2">
-                              <span className="truncate font-semibold">{u.name}</span>
+                              <span className="truncate text-sm font-semibold">{u.name}</span>
                               <StatusPill status={u.status} />
                             </span>
                             <span className="block truncate text-xs text-mist-700">{u.email}</span>

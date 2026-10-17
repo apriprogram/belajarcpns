@@ -74,7 +74,7 @@ export function NavGrid({ questions, answers, current, onJump, counts }) {
                 {g.items.filter((x) => statusOf(answers[x.q.id]) !== 'belum').length}/{g.items.length}
               </span>
             </p>
-            <div className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-5">
+            <div className="grid grid-cols-6 gap-2 sm:grid-cols-8 lg:grid-cols-5">
               {g.items.map(({ q, i }) => {
                 const a = answers[q.id];
                 const st = statusOf(a);
@@ -87,7 +87,7 @@ export function NavGrid({ questions, answers, current, onJump, counts }) {
                     aria-current={isCur ? 'step' : undefined}
                     aria-label={`Soal ${i + 1}, ${st === 'belum' ? 'belum dijawab' : st === 'ragu' ? `ragu-ragu${a?.option_id ? ', sudah dijawab' : ''}` : 'dijawab'}`}
                     className={cn(
-                      'relative flex h-10 items-center justify-center rounded-xl font-mono text-[13px] font-semibold tabular-nums transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/30',
+                      'relative flex h-11 items-center justify-center rounded-xl font-mono text-sm sm:h-10 sm:text-[13px] font-semibold tabular-nums transition-all focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/30',
                       st === 'dijawab' && 'bg-cobalt text-white hover:bg-cobalt-600',
                       st === 'ragu' && 'bg-warning text-obsidian hover:brightness-95',
                       st === 'belum' && 'bg-mist-50 text-obsidian-600 ring-1 ring-inset ring-mist hover:bg-white hover:text-obsidian',

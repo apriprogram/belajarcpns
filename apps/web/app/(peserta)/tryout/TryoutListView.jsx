@@ -120,7 +120,7 @@ function PackageCard({ p }) {
         </div>
         <Badge status={status} size="sm" />
       </div>
-      <h2 className="mt-4 line-clamp-2 text-[17px] font-semibold leading-snug tracking-[-0.01em] md:min-h-[46px]">{p.title}</h2>
+      <h2 className="mt-4 line-clamp-2 text-[15px] font-semibold leading-snug sm:text-[17px] tracking-[-0.01em] md:min-h-[46px]">{p.title}</h2>
       <p className="mt-1.5 line-clamp-2 min-h-[40px] text-sm leading-relaxed text-mist-700">{p.description || 'Paket tryout SKD.'}</p>
       <div className="mt-4 flex flex-wrap gap-1.5">
         <Chip color="white" size="sm" icon={<Clock3 />} mono>

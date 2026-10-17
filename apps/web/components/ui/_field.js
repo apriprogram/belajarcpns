@@ -1,8 +1,8 @@
 // Kelas bersama untuk kontrol form (Input, Select, Textarea, DatePicker, SearchInput) — Style UI v2.
 
-/** Permukaan kontrol: putih, garis 1px mist-100, transisi halus. */
+/** Permukaan kontrol: putih, garis 1px mist-100, transisi halus. Di HP (<640px) teks 16px agar iOS tidak auto-zoom saat fokus. */
 export const CONTROL_BASE =
-  'w-full bg-white text-[15px] text-obsidian placeholder:text-mist-500 border outline-none focus-visible:outline-none ' +
+  'w-full bg-white text-[15px] max-sm:text-[16px] text-obsidian placeholder:text-mist-500 border outline-none focus-visible:outline-none ' +
   'transition-[border-color,box-shadow,background-color] duration-150 ' +
   'disabled:cursor-not-allowed disabled:border-mist-100 disabled:bg-mist-50 disabled:text-mist-500 disabled:placeholder:text-mist';
 
@@ -21,4 +21,4 @@ export const BOX_STATE = {
 };
 
 /** Tinggi kontrol: sm 36 · md 44 · lg 48. */
-export const CONTROL_SIZES = { sm: 'h-9 rounded-xl text-sm', md: 'h-11 rounded-xl', lg: 'h-12 rounded-xl text-base' };
+export const CONTROL_SIZES = { sm: 'h-9 rounded-xl text-sm', md: 'h-11 rounded-xl', lg: 'h-12 rounded-xl text-base max-sm:h-11' };

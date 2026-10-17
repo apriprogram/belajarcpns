@@ -24,7 +24,7 @@ export function TraktirKopi({ className }) {
         title="Traktir kopi developer"
         variant="white"
         onClick={() => setOpen(true)}
-        className={cn('group !h-11 !w-11 !shadow-none', className)}
+        className={cn('group !h-11 !w-11 !shadow-none max-sm:!h-9 max-sm:!w-9', className)}
       />
       <TraktirKopiModal open={open} onClose={() => setOpen(false)} />
     </>
@@ -49,7 +49,7 @@ export function TraktirKopiModal({ open, onClose }) {
   };
 
   return (
-    <Modal open={open} onClose={onClose} size="md" blur={false} hideClose={false} divider={false} title="Traktir kopi developer" bodyClassName="!pt-0">
+    <Modal open={open} onClose={onClose} size="md" blur={false} hideClose={false} divider={false} title="Traktir kopi developer" bodyClassName="!pt-0" className="max-sm:pb-[env(safe-area-inset-bottom)]">
       {/* Ilustrasi: developer + gelembung pikiran "butuh kopi" */}
       <div className="relative -mx-1 overflow-hidden rounded-[20px] bg-gradient-to-br from-cobalt-50 via-white to-white ring-1 ring-inset ring-cobalt-100">
         <div aria-hidden className="pointer-events-none absolute inset-0 opacity-70 [background-image:radial-gradient(#DCE5FE_1px,transparent_1px)] [background-size:16px_16px]" />

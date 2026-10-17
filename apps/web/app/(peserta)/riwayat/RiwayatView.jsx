@@ -199,7 +199,7 @@ export function RiwayatView() {
           <Panel padding="none" className="mt-4 overflow-hidden">
             <div className="flex flex-col gap-3 border-b border-mist-100 p-4 sm:p-5 lg:flex-row lg:items-center lg:justify-between">
               <div className="flex min-w-0 items-center gap-2">
-                <h2 className="text-[15px] font-semibold">Daftar hasil</h2>
+                <h2 className="text-[14px] font-semibold sm:text-[15px]">Daftar hasil</h2>
                 {res.data && <span className="rounded-md bg-ghost px-1.5 py-0.5 font-mono text-[11px] tabular-nums text-mist-700">{filtered.length}</span>}
               </div>
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
@@ -289,7 +289,7 @@ export function RiwayatView() {
             </div>
 
             {/* Mobile: daftar kartu */}
-            <div className="space-y-3 p-4 md:hidden">
+            <div className="space-y-3 p-3 sm:p-4 md:hidden">
               {res.loading && !res.data ? (
                 [0, 1, 2].map((i) => <Skeleton key={i} className="h-36 w-full" rounded="rounded-2xl" />)
               ) : !rows.length ? (
@@ -301,7 +301,7 @@ export function RiwayatView() {
                       <div className="min-w-0">
                         <p className="flex items-center gap-1.5 truncate font-semibold">
                           {r.saved && <Bookmark className="h-3.5 w-3.5 shrink-0 fill-cobalt text-cobalt" aria-label="Disimpan" />}
-                          <span className="truncate">{r.package_title}</span>
+                          <span className="truncate text-sm sm:text-base">{r.package_title}</span>
                         </p>
                         <p className="mt-0.5 text-xs text-mist-700">
                           {formatTanggal(r.created_at)} · {formatDurasi(r.duration_seconds)}
@@ -322,7 +322,7 @@ export function RiwayatView() {
                         </div>
                       ))}
                     </div>
-                    <div className="mt-3 flex items-center justify-between border-t border-mist-100 pt-3">
+                    <div className="mt-3 grid grid-cols-3 gap-1.5 border-t border-mist-100 pt-3 sm:flex sm:items-center sm:justify-between">
                       <RowActions r={r} busy={busy === r.attempt_id} onSave={() => toggleSave(r)} onDelete={() => setToDelete(r)} labels />
                     </div>
                   </div>
@@ -362,14 +362,14 @@ function RowActions({ r, busy, onSave, onDelete, labels }) {
   if (labels) {
     return (
       <>
-        <Button size="sm" variant="ghost" icon={<Eye />} href={`/hasil/${r.attempt_id}`}>
+        <Button size="sm" variant="ghost" icon={<Eye />} href={`/hasil/${r.attempt_id}`} className="max-sm:px-2">
           Lihat
         </Button>
-        <div className="flex items-center gap-1">
-          <Button size="sm" variant={r.saved ? 'soft' : 'ghost'} icon={<Bookmark className={cn(r.saved && 'fill-cobalt text-cobalt')} />} onClick={onSave} disabled={busy} aria-pressed={r.saved}>
+        <div className="contents sm:flex sm:items-center sm:gap-1">
+          <Button size="sm" variant={r.saved ? 'soft' : 'ghost'} icon={<Bookmark className={cn(r.saved && 'fill-cobalt text-cobalt')} />} onClick={onSave} disabled={busy} aria-pressed={r.saved} className="max-sm:px-2">
             {r.saved ? 'Disimpan' : 'Simpan'}
           </Button>
-          <Button size="sm" variant="ghost" icon={<Trash2 />} onClick={onDelete} className="text-danger-700">
+          <Button size="sm" variant="ghost" icon={<Trash2 />} onClick={onDelete} className="text-danger-700 max-sm:px-2">
             Hapus
           </Button>
         </div>

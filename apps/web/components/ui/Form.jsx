@@ -48,7 +48,7 @@ export function Input({ state, invalid, size = 'md', leftIcon, rightIcon, rightS
             ref={ref}
             aria-invalid={st === 'error' || undefined}
             className={cn(
-              'peer w-full bg-transparent p-0 text-[15px] font-medium leading-6 text-obsidian outline-none placeholder:font-normal placeholder:text-mist-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:text-mist-500',
+              'peer w-full bg-transparent p-0 text-[15px] max-sm:text-[16px] font-medium leading-6 text-obsidian outline-none placeholder:font-normal placeholder:text-mist-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:text-mist-500',
               mono && 'font-mono tracking-wide',
               className,
             )}
@@ -110,7 +110,7 @@ export function PasswordInput({ ref, ...props }) {
           type="button"
           onClick={() => setShow((s) => !s)}
           disabled={props.disabled}
-          className="flex h-8 w-8 items-center justify-center rounded-lg text-mist-700 transition-colors hover:bg-ghost hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:opacity-40"
+          className="relative flex h-8 w-8 items-center justify-center rounded-lg text-mist-700 transition-colors max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-[''] hover:bg-ghost hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:opacity-40"
           aria-label={show ? 'Sembunyikan kata sandi' : 'Tampilkan kata sandi'}
           aria-pressed={show}
         >
@@ -226,6 +226,8 @@ export function Switch({ checked = false, onChange, label, description, disabled
       className={cn(
         'relative inline-flex shrink-0 items-center rounded-full p-0.5 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
         dims.track,
+        // HP: area sentuh tak terlihat ±12px di sekitar track (28×16 → 52×40).
+        "max-sm:before:absolute max-sm:before:-inset-3 max-sm:before:content-['']",
         checked ? 'bg-cobalt' : 'bg-mist hover:bg-mist-500',
       )}
       {...props}

@@ -79,7 +79,7 @@ export function TargetsCard({ targets, setTargets, loading }) {
           <span className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-ghost text-obsidian-600">
             <ListChecks className="h-5 w-5" aria-hidden />
           </span>
-          <p className="font-semibold">Belum ada target hari ini</p>
+          <p className="text-sm font-semibold sm:text-base">Belum ada target hari ini</p>
           <p className="mt-1 max-w-xs text-sm text-mist-700">Tambahkan target kecil, mis. &ldquo;20 soal TIU deret angka&rdquo;, agar belajar lebih terarah.</p>
           <Button variant="secondary" size="sm" icon={<Plus />} className="mt-4 !shadow-none" onClick={() => setAdding(true)}>
             Tambah target
@@ -105,7 +105,7 @@ export function TargetsCard({ targets, setTargets, loading }) {
                     disabled={busy[t.id]}
                     onClick={() => toggle(t)}
                     className={cn(
-                      'mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-lg ring-2 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-cobalt',
+                      'relative mt-0.5 flex h-6 w-6 shrink-0 items-center before:absolute before:-inset-2.5 sm:before:hidden justify-center rounded-lg ring-2 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-cobalt',
                       t.done ? 'bg-mint-700 text-white ring-mint-700' : 'bg-white ring-mist hover:ring-obsidian-600',
                     )}
                   >
@@ -185,6 +185,7 @@ function AddTargetModal({ open, onClose, onCreated }) {
     <Modal
       open={open}
       onClose={close}
+      className="max-sm:pb-[env(safe-area-inset-bottom)]"
       eyebrow="Target harian"
       title="Tambah target baru"
       description="Target berlaku untuk hari ini dan tampil di timeline dashboard."

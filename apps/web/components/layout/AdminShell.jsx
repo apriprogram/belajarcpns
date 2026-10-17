@@ -256,14 +256,14 @@ export function AdminShell({ children }) {
       {drawer && (
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu admin">
           <div className="absolute inset-0 animate-fade-in bg-obsidian/30" onClick={() => setDrawer(false)} aria-hidden />
-          <div className="absolute inset-y-2 left-2 w-[272px] max-w-[85vw] animate-slide-in-left rounded-[20px] shadow-float">
+          <div className="absolute bottom-[max(8px,env(safe-area-inset-bottom))] left-[max(8px,env(safe-area-inset-left))] top-[max(8px,env(safe-area-inset-top))] w-[272px] max-w-[85vw] animate-slide-in-left rounded-[20px] shadow-float">
             <SidebarContent pathname={pathname} onClose={() => setDrawer(false)} onNavigate={() => setDrawer(false)} />
           </div>
         </div>
       )}
 
       <div className="flex min-h-screen min-w-0 flex-1 flex-col bg-white lg:min-h-[calc(100vh-16px)] lg:rounded-[20px] lg:ring-1 lg:ring-inset lg:ring-mist-100">
-        <header className="sticky top-0 z-20 flex h-14 shrink-0 items-center justify-between gap-3 border-b border-mist-100 bg-white/95 px-3 backdrop-blur-xl sm:px-6 lg:top-2 lg:rounded-t-[20px]">
+        <header className="sticky top-0 z-20 flex h-14 shrink-0 items-center justify-between gap-3 border-b border-mist-100 bg-white/95 px-3 backdrop-blur-xl max-lg:h-[calc(3.5rem+env(safe-area-inset-top))] max-lg:pt-[env(safe-area-inset-top)] sm:px-6 lg:top-2 lg:rounded-t-[20px]">
           <div className="flex min-w-0 items-center gap-2">
             <IconButton icon={<MenuIcon />} label="Buka menu" variant="ghost" size="md" className="!rounded-xl lg:hidden" onClick={() => setDrawer(true)} aria-expanded={drawer} />
             <nav aria-label="Breadcrumb" className="min-w-0 text-[13px]">
@@ -278,12 +278,12 @@ export function AdminShell({ children }) {
                 </li>
                 {sub ? (
                   <>
-                    <li className="truncate text-mist-700">
+                    <li className="hidden truncate text-mist-700 sm:block">
                       <Link href={current.href} className={cn('rounded-md hover:text-obsidian', focusRing)}>
                         {current.label}
                       </Link>
                     </li>
-                    <li className="text-mist" aria-hidden>
+                    <li className="hidden text-mist sm:block" aria-hidden>
                       <ChevronRight className="h-3.5 w-3.5" />
                     </li>
                     <li className="truncate font-medium text-obsidian" aria-current="page">
@@ -308,7 +308,7 @@ export function AdminShell({ children }) {
               <span className="h-1.5 w-1.5 rounded-full bg-mint-700" aria-hidden />
               Sistem aktif
             </span>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2 sm:gap-1">
               <IconButton
                 icon={<Settings2 strokeWidth={1.75} />}
                 label="Pengaturan"
@@ -326,10 +326,11 @@ export function AdminShell({ children }) {
             </div>
           </div>
         </header>
-        <main id="konten" className="mx-auto w-full max-w-[1480px] flex-1 px-4 pb-8 pt-6 sm:px-6 sm:pt-8 lg:px-8">
+        <main id="konten" className="mx-auto w-full max-w-[1480px] flex-1 px-4 pb-6 pt-5 sm:px-6 sm:pb-8 sm:pt-8 lg:px-8">
           {children}
         </main>
-        <div className="mx-auto w-full max-w-[1480px] px-4 pb-4 sm:px-6 lg:px-8">
+        {/* Mobile: ruang bawah agar footer tidak tertutup tombol chat melayang (56px + offset + safe-area). */}
+        <div className="mx-auto w-full max-w-[1480px] px-4 pb-4 max-sm:pb-[calc(88px+env(safe-area-inset-bottom))] sm:px-6 lg:px-8">
           <PanelFooter admin />
         </div>
       </div>

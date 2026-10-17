@@ -94,7 +94,7 @@ export function MessagesView() {
       />
 
       <Panel padding="none" className="overflow-hidden">
-        <div className="grid min-h-[620px] lg:grid-cols-[400px_minmax(0,1fr)]">
+        <div className="grid min-h-[360px] sm:min-h-[620px] lg:grid-cols-[400px_minmax(0,1fr)]">
           {/* ---------- Daftar ---------- */}
           <section aria-label="Daftar pesan" className={cn('flex min-w-0 flex-col border-mist-100 lg:border-r', selected && 'hidden lg:flex')}>
             <div className="space-y-2.5 border-b border-mist-100 p-4">
@@ -197,7 +197,7 @@ export function MessagesView() {
                 <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-ghost text-mist-700">
                   <MailOpen className="h-6 w-6" />
                 </span>
-                <p className="mt-4 text-[15px] font-semibold">Pilih pesan</p>
+                <p className="mt-4 text-[14px] font-semibold sm:text-[15px]">Pilih pesan</p>
                 <p className="mt-1 max-w-xs text-sm text-mist-700">Klik salah satu pesan di kiri untuk membaca isinya.</p>
               </div>
             )}
@@ -227,27 +227,27 @@ function MessageDetail({ m, onBack, onToggleRead, onDelete, onCopy }) {
       <div className="flex items-center gap-2 border-b border-mist-100 px-4 py-3 sm:px-6">
         <IconButton icon={<ArrowLeft />} label="Kembali ke daftar" variant="ghost" size="sm" className="lg:hidden" onClick={onBack} />
         <StatusPill tone={m.recipient === 'developer' ? 'warning' : 'cobalt'}>Untuk {m.recipient === 'developer' ? 'developer' : 'admin'}</StatusPill>
-        <div className="ml-auto flex items-center gap-1">
-          <Button variant="ghost" size="sm" icon={m.is_read ? <Mail /> : <MailOpen />} onClick={onToggleRead}>
+        <div className="ml-auto flex items-center gap-1 max-sm:gap-2">
+          <Button variant="ghost" size="sm" icon={m.is_read ? <Mail /> : <MailOpen />} onClick={onToggleRead} aria-label={m.is_read ? 'Tandai belum dibaca' : 'Tandai dibaca'} title={m.is_read ? 'Tandai belum dibaca' : 'Tandai dibaca'} className="max-sm:!px-0">
             <span className="hidden sm:inline">{m.is_read ? 'Tandai belum dibaca' : 'Tandai dibaca'}</span>
           </Button>
           <IconButton icon={<Trash2 />} label="Hapus pesan" variant="ghost" size="sm" className="text-danger-700" onClick={onDelete} />
         </div>
       </div>
 
-      <article className="flex-1 overflow-y-auto px-4 py-6 sm:px-8 sm:py-8">
-        <header className="flex items-start gap-4">
+      <article className="flex-1 overflow-y-auto px-4 py-5 sm:px-8 sm:py-8">
+        <header className="flex items-start gap-3 sm:gap-4">
           <Avatar name={m.name} size="lg" />
           <div className="min-w-0">
-            <h2 className="text-xl font-semibold tracking-tight">{m.name}</h2>
+            <h2 className="break-words text-lg font-semibold tracking-tight sm:text-xl">{m.name}</h2>
             <p className="mt-0.5 text-sm text-mist-700">
               {OCCUPATION[m.occupation] || m.occupation} · {formatTanggalJam(m.created_at)}
             </p>
           </div>
         </header>
 
-        <div className="mt-6 rounded-2xl bg-ghost px-5 py-5">
-          <p className="whitespace-pre-line break-words text-[15px] leading-relaxed text-obsidian">{m.body}</p>
+        <div className="mt-5 rounded-2xl bg-ghost p-4 sm:mt-6 sm:px-5 sm:py-5">
+          <p className="whitespace-pre-line break-words text-[14px] leading-relaxed text-obsidian sm:text-[15px]">{m.body}</p>
         </div>
 
         <dl className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -275,6 +275,7 @@ function MessageDetail({ m, onBack, onToggleRead, onDelete, onCopy }) {
             <Button
               href={email ? `mailto:${m.contact}?subject=${encodeURIComponent('Balasan pesan BISA-PNS')}` : `https://wa.me/${m.contact.replace(/\D/g, '').replace(/^0/, '62')}`}
               icon={email ? <Mail /> : <Phone />}
+              className="max-sm:w-full"
             >
               {email ? 'Balas lewat email' : 'Balas lewat WhatsApp'}
             </Button>

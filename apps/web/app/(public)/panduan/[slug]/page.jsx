@@ -108,22 +108,22 @@ export default async function PanduanArticlePage({ params }) {
   return (
     <>
       <JsonLd data={articleGraph(site, meta, body)} />
-      <div className="container-wide pb-20 pt-6 lg:pb-28 lg:pt-10">
+      <div className="container-wide pb-14 pt-4 sm:pb-20 sm:pt-6 lg:pb-28 lg:pt-10">
         <div className="mx-auto max-w-[1200px]">
           <Breadcrumbs items={[{ label: 'Beranda', href: '/' }, { label: 'Panduan', href: '/panduan' }, { label: meta.title }]} />
 
-          <div className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1fr)_288px] lg:gap-10 xl:gap-12">
-            <article className="min-w-0 rounded-[24px] bg-white px-5 py-8 ring-1 ring-inset ring-mist-100 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
+          <div className="mt-4 grid gap-8 sm:mt-6 lg:grid-cols-[minmax(0,1fr)_288px] lg:gap-10 xl:gap-12">
+            <article className="min-w-0 rounded-[24px] bg-white px-4 py-6 ring-1 ring-inset ring-mist-100 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
               <div className="mx-auto max-w-[720px]">
                 <header>
                   <ArticleMeta category={meta.category} dateModified={meta.dateModified || meta.datePublished} minutes={minutes} />
-                  <h1 className="mt-5 text-[32px] font-semibold leading-[1.1] tracking-[-0.035em] sm:text-[44px]">{meta.title}</h1>
+                  <h1 className="mt-4 text-[28px] font-semibold leading-[1.15] tracking-[-0.025em] sm:mt-5 sm:text-[44px] sm:leading-[1.1] sm:tracking-[-0.035em]">{meta.title}</h1>
                   {!body && <p className="mt-4 text-lg leading-relaxed text-mist-700">{meta.description}</p>}
                 </header>
 
                 {body ? (
                   <>
-                    <div className="mt-8">
+                    <div className="mt-6 sm:mt-8">
                       <ArticleIntro text={body.intro} />
                     </div>
                     <TocInline body={body} className="mt-5 lg:hidden" />

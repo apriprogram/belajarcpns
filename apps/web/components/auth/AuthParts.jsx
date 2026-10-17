@@ -5,9 +5,9 @@ import { cn } from '@/lib/cn';
 /** Judul + deskripsi di atas form auth (rata tengah, ala Magnific). icon: opsional, untuk layar status. */
 export function AuthHeading({ title, description, icon }) {
   return (
-    <div className="mb-8 text-center">
-      {icon && <span className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-ghost text-obsidian">{icon}</span>}
-      <h1 className="text-[30px] font-semibold leading-[1.15] tracking-[-0.03em] sm:text-[32px]">{title}</h1>
+    <div className="mb-6 text-center sm:mb-8">
+      {icon && <span className="mx-auto mb-4 flex h-12 w-12 sm:mb-5 items-center justify-center rounded-xl bg-ghost text-obsidian">{icon}</span>}
+      <h1 className="text-[28px] font-semibold leading-[1.15] tracking-[-0.025em] sm:text-[32px] sm:tracking-[-0.03em]">{title}</h1>
       {description && <p className="mx-auto mt-2 max-w-[340px] text-[15px] leading-relaxed text-mist-700">{description}</p>}
     </div>
   );
@@ -16,9 +16,9 @@ export function AuthHeading({ title, description, icon }) {
 /** Baris tautan kecil di bawah form: "Belum punya akun? Daftar". */
 export function AuthSwitch({ text, href, children }) {
   return (
-    <p className="mt-8 text-center text-sm text-mist-700">
+    <p className="mt-6 text-center text-[15px] text-mist-700 sm:mt-8 sm:text-sm">
       {text}{' '}
-      <Link href={href} className="rounded font-semibold text-obsidian underline-offset-4 hover:underline">
+      <Link href={href} className="-my-3 inline-flex min-h-11 items-center rounded px-1 font-semibold text-obsidian underline-offset-4 hover:underline sm:my-0 sm:inline sm:min-h-0 sm:px-0">
         {children}
       </Link>
     </p>

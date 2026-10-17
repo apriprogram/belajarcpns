@@ -57,7 +57,7 @@ export default function LupaPasswordPage() {
       <form onSubmit={onSubmit} noValidate className="space-y-4">
         {form.formError && <FormAlert>{form.formError}</FormAlert>}
         <Field label="Email" required {...form.field('email')}>
-          <Input type="email" autoComplete="email" inputMode="email" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
+          <Input type="email" autoComplete="email" inputMode="email" autoCapitalize="none" autoCorrect="off" spellCheck={false} enterKeyHint="send" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
         </Field>
         <div className="pt-2">
           <Button type="submit" size="md" fullWidth loading={form.submitting}>

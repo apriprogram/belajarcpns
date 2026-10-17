@@ -86,13 +86,13 @@ export function Modal({ open, onClose, title, icon, eyebrow, description, size =
         aria-describedby={description ? descId : undefined}
         tabIndex={-1}
         className={cn(
-          'relative flex max-h-[92vh] w-full animate-scale-in flex-col overflow-hidden rounded-t-[24px] bg-white shadow-float outline-none ring-1 ring-mist-100 sm:max-h-[88vh] sm:rounded-[24px]',
+          'relative flex max-h-[92vh] w-full animate-scale-in flex-col overflow-hidden rounded-t-[24px] bg-white shadow-float outline-none ring-1 ring-mist-100 max-sm:pb-[env(safe-area-inset-bottom)] sm:max-h-[88vh] sm:rounded-[24px]',
           SIZES[size] || SIZES.md,
           className,
         )}
       >
         {hasHead ? (
-          <div className={cn('flex items-start justify-between gap-4 px-6 py-4', divider && 'border-b border-mist-100')}>
+          <div className={cn('flex items-start justify-between gap-4 px-5 py-4 sm:px-6', divider && 'border-b border-mist-100')}>
             <div className="flex min-w-0 items-start gap-3">
               {icon && <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-obsidian-600 ring-1 ring-inset ring-mist-100">{renderIcon(icon, 'h-[18px] w-[18px]')}</span>}
               <div className={cn('min-w-0', icon && !description && !eyebrow && 'flex min-h-9 flex-col justify-center')}>
@@ -127,8 +127,8 @@ export function Modal({ open, onClose, title, icon, eyebrow, description, size =
             {description}
           </p>
         )}
-        <div className={cn('min-h-0 flex-1 overflow-y-auto px-6 py-5', !hasHead && !hideClose && 'pt-1', bodyClassName)}>{children}</div>
-        {footer && <div className="flex flex-col-reverse gap-2 border-t border-mist-100 px-6 py-4 sm:flex-row sm:items-center sm:justify-end">{footer}</div>}
+        <div className={cn('min-h-0 flex-1 overflow-y-auto px-5 py-5 sm:px-6', !hasHead && !hideClose && 'pt-1', bodyClassName)}>{children}</div>
+        {footer && <div className="flex flex-col-reverse gap-2 border-t border-mist-100 px-5 py-4 sm:flex-row sm:px-6 sm:items-center sm:justify-end">{footer}</div>}
       </div>
     </div>,
     document.body,

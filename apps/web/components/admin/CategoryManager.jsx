@@ -176,6 +176,7 @@ export function CategoryManager({ open, onClose, categories = [], loading, onCha
                       label={`Ubah ${c.name}`}
                       variant="ghost"
                       size="sm"
+                     
                       onClick={() => {
                         setEditId(c.id);
                         setEditName(c.name);

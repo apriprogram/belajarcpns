@@ -64,13 +64,13 @@ export function RegisterForm() {
       <form onSubmit={onSubmit} noValidate className="space-y-4">
         {form.formError && <FormAlert>{form.formError}</FormAlert>}
         <Field label="Nama lengkap" required hint="Sesuai KTP." {...form.field('name', { success: true })}>
-          <Input autoComplete="name" placeholder="Nama lengkap" leftIcon={<UserRound />} {...form.bind('name')} />
+          <Input autoComplete="name" autoCapitalize="words" enterKeyHint="next" placeholder="Nama lengkap" leftIcon={<UserRound />} {...form.bind('name')} />
         </Field>
         <Field label="Email" required hint="Dipakai untuk masuk." {...form.field('email', { success: true })}>
-          <Input type="email" autoComplete="email" inputMode="email" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
+          <Input type="email" autoComplete="email" inputMode="email" autoCapitalize="none" autoCorrect="off" spellCheck={false} enterKeyHint="next" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
         </Field>
         <Field label="Nomor HP" required hint="Contoh: 081234567890." {...form.field('phone', { success: true })}>
-          <Input type="tel" autoComplete="tel" inputMode="tel" placeholder="08xxxxxxxxxx" leftIcon={<Phone />} {...form.bind('phone')} />
+          <Input type="tel" autoComplete="tel" inputMode="tel" enterKeyHint="next" placeholder="08xxxxxxxxxx" leftIcon={<Phone />} {...form.bind('phone')} />
         </Field>
         <Field label="Jenis kelamin" required hint="Pilih salah satu." {...form.field('gender')}>
           <GenderPicker value={form.values.gender} onChange={(g) => form.setValue('gender', g)} invalid={!!form.errorOf('gender')} />

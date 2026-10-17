@@ -26,11 +26,11 @@ function icon(node, cls = 'h-[18px] w-[18px]') {
  */
 export function AdminPageHeader({ title, description, actions, back, meta, eyebrow, className, children }) {
   return (
-    <header className={cn('mb-6 sm:mb-8', className)}>
+    <header className={cn('mb-5 sm:mb-8', className)}>
       {back && (
         <Link
           href={back.href}
-          className="mb-3 inline-flex items-center gap-1.5 rounded-lg text-[13px] font-medium text-mist-700 transition-colors hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+          className="mb-3 inline-flex items-center gap-1.5 rounded-lg text-xs font-medium text-mist-700 transition-colors sm:text-[13px] hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
         >
           <ArrowLeft className="h-4 w-4" strokeWidth={1.75} aria-hidden />
           {back.label || 'Kembali'}
@@ -38,12 +38,12 @@ export function AdminPageHeader({ title, description, actions, back, meta, eyebr
       )}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div className="min-w-0">
-          {eyebrow && <p className="mb-1.5 text-[13px] font-medium text-mist-700">{eyebrow}</p>}
-          <h1 className="text-[26px] font-semibold leading-tight tracking-[-0.02em] text-obsidian sm:text-[28px]">{title}</h1>
-          {description && <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-mist-700">{description}</p>}
+          {eyebrow && <p className="mb-1.5 text-xs font-medium text-mist-700 sm:text-[13px]">{eyebrow}</p>}
+          <h1 className="text-[20px] font-semibold leading-[1.3] tracking-[-0.01em] text-obsidian sm:text-[28px] sm:leading-tight sm:tracking-[-0.02em]">{title}</h1>
+          {description && <p className="mt-1.5 max-w-2xl text-sm leading-normal text-mist-700 sm:leading-relaxed">{description}</p>}
           {meta && <div className="mt-3 flex flex-wrap items-center gap-2">{meta}</div>}
         </div>
-        {actions && <div className="flex shrink-0 flex-wrap items-center gap-2">{actions}</div>}
+        {actions && <div className="flex shrink-0 flex-wrap items-center gap-2 max-sm:[&>*]:min-w-[calc(50%-4px)] max-sm:[&>*]:grow">{actions}</div>}
       </div>
       {children && <div className="mt-5">{children}</div>}
     </header>
@@ -54,7 +54,7 @@ export function AdminPageHeader({ title, description, actions, back, meta, eyebr
 /* Panel / kartu                                                        */
 /* ------------------------------------------------------------------ */
 
-const PAD = { none: '', sm: 'p-4', md: 'p-5', lg: 'p-5 sm:p-6' };
+const PAD = { none: '', sm: 'p-4', md: 'p-4 sm:p-5', lg: 'p-4 sm:p-6' };
 
 /** Kartu datar putih rounded-[20px] dengan garis mist-100. tone: 'white' | 'ghost' */
 export function Panel({ as: Tag = 'div', padding = 'md', tone = 'white', className, children, ...props }) {
@@ -85,18 +85,18 @@ export function InfoTip({ text, className }) {
  */
 export function PanelHeader({ title, subtitle, info, action, icon: ic, titleAs: T = 'h2', className }) {
   return (
-    <div className={cn('mb-4 flex items-start justify-between gap-3', className)}>
-      <div className="flex min-w-0 items-start gap-3">
+    <div className={cn('mb-4 flex items-start justify-between gap-3 max-sm:flex-wrap', className)}>
+      <div className="flex min-w-0 items-start gap-3 max-sm:grow">
         {ic && <IconBox icon={ic} />}
         <div className="min-w-0">
-          <T className="flex items-center gap-1.5 text-[15px] font-semibold leading-6 tracking-[-0.01em] text-obsidian">
+          <T className="flex items-center gap-1.5 text-[14px] font-semibold leading-6 tracking-[-0.01em] text-obsidian sm:text-[15px]">
             <span className="truncate">{title}</span>
             <InfoTip text={info} />
           </T>
-          {subtitle && <p className="mt-0.5 text-[13px] leading-relaxed text-mist-700">{subtitle}</p>}
+          {subtitle && <p className="mt-0.5 text-xs leading-relaxed text-mist-700 sm:text-[13px]">{subtitle}</p>}
         </div>
       </div>
-      {action && <div className="flex shrink-0 items-center gap-2">{action}</div>}
+      {action && <div className="flex shrink-0 items-center gap-2 max-sm:max-w-full">{action}</div>}
     </div>
   );
 }
@@ -158,23 +158,24 @@ export function DeltaPill({ children, tone = 'mint', className }) {
 
 /**
  * Kartu statistik: judul + info + tombol Detail; kotak ikon + angka besar + pill delta; keterangan + mini chart.
+ * compact: kotak ikon disembunyikan di mobile (< 640px) agar muat di grid 2 kolom.
  */
-export function StatTile({ title, info, href, detailLabel = 'Detail', icon: ic, tone, value, suffix, delta, deltaTone, caption, chart, loading, className }) {
+export function StatTile({ title, info, href, detailLabel = 'Detail', icon: ic, tone, value, suffix, delta, deltaTone, caption, chart, loading, compact, className }) {
   return (
     <Panel className={cn('flex flex-col', className)}>
       <div className="flex items-center justify-between gap-3">
-        <h3 className="flex min-w-0 items-center gap-1.5 text-[14px] font-semibold text-obsidian">
+        <h3 className="flex min-w-0 items-center gap-1.5 text-[13px] font-semibold text-obsidian sm:text-[14px]">
           <span className="truncate">{title}</span>
           <InfoTip text={info} />
         </h3>
         {href && <DetailButton href={href} label={`${detailLabel} ${title}`}>{detailLabel}</DetailButton>}
       </div>
-      <div className="mt-4 flex items-center gap-3">
-        <IconBox icon={ic} tone={tone} />
+      <div className="mt-3 flex items-center gap-3 sm:mt-4">
+        <IconBox icon={ic} tone={tone} className={compact ? 'max-sm:hidden' : undefined} />
         {loading ? (
           <span className="h-8 w-24 animate-pulse rounded-lg bg-mist-100" />
         ) : (
-          <p className="flex min-w-0 items-baseline gap-1 text-[30px] font-semibold leading-none tracking-[-0.03em] tabular-nums text-obsidian">
+          <p className="flex min-w-0 items-baseline gap-1 text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums text-obsidian sm:text-[30px] sm:tracking-[-0.03em]">
             {value ?? '—'}
             {suffix && <span className="text-sm font-medium tracking-normal text-mist-500">{suffix}</span>}
           </p>
@@ -182,7 +183,7 @@ export function StatTile({ title, info, href, detailLabel = 'Detail', icon: ic, 
         {!loading && <DeltaPill tone={deltaTone}>{delta}</DeltaPill>}
       </div>
       {(chart || caption) && (
-        <div className="mt-4 flex min-h-[40px] items-end gap-4">
+        <div className="mt-3 flex min-h-[40px] items-end gap-3 sm:mt-4 sm:gap-4">
           {chart && <div className="w-[46%] shrink-0">{loading ? <span className="block h-8 animate-pulse rounded-lg bg-mist-50" /> : chart}</div>}
           {caption && <p className="min-w-0 flex-1 text-xs leading-relaxed text-mist-700">{caption}</p>}
         </div>

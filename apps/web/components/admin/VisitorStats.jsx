@@ -56,10 +56,10 @@ export function VisitorStats() {
   }
 
   return (
-    <section aria-label="Statistik pengunjung" className="space-y-4">
-      <div className="flex flex-wrap items-end justify-between gap-3">
+    <section aria-label="Statistik pengunjung" className="space-y-3 sm:space-y-4">
+      <div className="flex flex-wrap items-end justify-between gap-3 max-sm:pt-2">
         <div>
-          <h2 className="text-lg font-semibold tracking-tight text-obsidian">Statistik pengunjung</h2>
+          <h2 className="text-[15px] font-semibold tracking-tight text-obsidian sm:text-lg">Statistik pengunjung</h2>
           <p className="text-sm text-mist-700">Kunjungan website (halaman publik & peserta). Zona waktu WIB.</p>
         </div>
         <span className="inline-flex h-8 items-center gap-2 rounded-full bg-mint-50 px-3 text-xs font-semibold text-mint-700 ring-1 ring-inset ring-mint-100">
@@ -68,12 +68,12 @@ export function VisitorStats() {
       </div>
 
       {/* Ringkasan periode */}
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-5">
         {tiles.map((x) => {
           const v = t[x.key] || {};
           const Icon = x.icon;
           return (
-            <Panel key={x.key} className={cn('flex flex-col', x.key === 'all' && '!bg-obsidian !ring-obsidian text-white sm:col-span-2 lg:col-span-1')}>
+            <Panel key={x.key} className={cn('flex flex-col', x.key === 'all' && '!bg-obsidian !ring-obsidian text-white col-span-2 lg:col-span-1')}>
               <div className="flex items-center justify-between">
                 <p className={cn('text-[14px] font-semibold', x.key === 'all' ? 'text-white' : 'text-obsidian')}>{x.title}</p>
                 {x.key === 'today' && !loading && delta != null && (
@@ -83,12 +83,12 @@ export function VisitorStats() {
                   </DeltaPill>
                 )}
               </div>
-              <div className="mt-3 flex items-center gap-3">
+              <div className="mt-3 flex items-center gap-2.5 sm:gap-3">
                 <IconBox icon={<Icon />} tone={x.key === 'all' ? 'dark' : undefined} />
                 {loading ? (
                   <Skeleton className="h-8 w-20" />
                 ) : (
-                  <p className="text-[30px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(v.visitors || 0)}</p>
+                  <p className="min-w-0 text-[20px] font-semibold leading-none tracking-[-0.02em] tabular-nums sm:text-[30px] sm:tracking-[-0.03em]">{formatAngka(v.visitors || 0)}</p>
                 )}
               </div>
               <p className={cn('mt-2 text-xs', x.key === 'all' ? 'text-white/70' : 'text-mist-700')}>
@@ -99,7 +99,7 @@ export function VisitorStats() {
         })}
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-12 [&>*]:min-w-0">
+      <div className="grid gap-3 sm:gap-4 xl:grid-cols-12 [&>*]:min-w-0">
         {/* Tren */}
         <Panel className="flex flex-col xl:col-span-8">
           <PanelHeader
@@ -134,7 +134,7 @@ export function VisitorStats() {
         </Panel>
 
         {/* Perangkat + halaman */}
-        <div className="flex flex-col gap-4 xl:col-span-4">
+        <div className="flex flex-col gap-3 sm:gap-4 xl:col-span-4">
           <Panel>
             <PanelHeader title="Perangkat" info="Pembagian pengunjung unik per jenis perangkat." />
             <div className="space-y-3">

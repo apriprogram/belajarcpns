@@ -89,8 +89,8 @@ function aboutGraph(site) {
 
 function Panel({ id, title, children }) {
   return (
-    <section aria-labelledby={`${id}-title`} className="rounded-[24px] bg-white p-6 ring-1 ring-inset ring-mist-100 sm:p-8">
-      <h2 id={`${id}-title`} className="text-[22px] font-semibold tracking-[-0.025em] sm:text-2xl">
+    <section aria-labelledby={`${id}-title`} className="rounded-[24px] bg-white p-5 ring-1 ring-inset ring-mist-100 sm:p-8">
+      <h2 id={`${id}-title`} className="text-[20px] font-semibold tracking-[-0.02em] sm:text-2xl sm:tracking-[-0.025em]">
         {title}
       </h2>
       {children}
@@ -98,7 +98,7 @@ function Panel({ id, title, children }) {
   );
 }
 
-const P = ({ children }) => <p className="mt-3 text-[16px] leading-[1.75] text-obsidian-800">{children}</p>;
+const P = ({ children }) => <p className="mt-3 text-[15px] leading-[1.7] text-obsidian-800 sm:text-[16px] sm:leading-[1.75]">{children}</p>;
 
 export default async function TentangPage() {
   const site = await getSite();
@@ -108,18 +108,18 @@ export default async function TentangPage() {
   return (
     <>
       <JsonLd data={aboutGraph(site)} />
-      <div className="container-wide pb-20 pt-6 lg:pb-28 lg:pt-10">
+      <div className="container-wide pb-14 pt-4 sm:pb-20 sm:pt-6 lg:pb-28 lg:pt-10">
         <div className="mx-auto max-w-[1200px]">
           <Breadcrumbs items={[{ label: 'Beranda', href: '/' }, { label: 'Tentang' }]} />
 
-          <header className="mt-8 max-w-3xl">
-            <span className="inline-flex h-8 items-center rounded-full bg-white px-3.5 text-[13px] font-medium text-obsidian-600 ring-1 ring-inset ring-mist-100">Tentang kami</span>
-            <h1 className="mt-5 text-[40px] font-semibold leading-[1.05] tracking-[-0.04em] sm:text-[56px]">Tentang {brand}</h1>
-            <p className="mt-5 text-lg leading-relaxed text-mist-700">
+          <header className="mt-6 max-w-3xl sm:mt-8">
+            <span className="inline-flex h-7 items-center rounded-full bg-white px-3 text-xs font-medium text-obsidian-600 ring-1 ring-inset ring-mist-100 sm:h-8 sm:px-3.5 sm:text-[13px]">Tentang kami</span>
+            <h1 className="mt-4 text-[32px] font-semibold leading-[1.1] tracking-[-0.03em] sm:mt-5 sm:text-[56px] sm:leading-[1.05] sm:tracking-[-0.04em]">Tentang {brand}</h1>
+            <p className="mt-3 text-[15px] leading-relaxed text-mist-700 sm:mt-5 sm:text-lg sm:leading-relaxed">
               {brand} adalah platform latihan mandiri untuk persiapan Seleksi Kompetensi Dasar (SKD) CPNS. Kamu bisa berlatih soal TWK, TIU, dan TKP per sub-materi, lalu mengikuti tryout CBT 110 soal
               dalam 100 menit yang meniru alur CAT BKN, gratis dan tanpa iklan.
             </p>
-            <div className="mt-7 flex flex-col gap-2.5 sm:flex-row">
+            <div className="mt-6 flex flex-col gap-2.5 sm:mt-7 sm:flex-row">
               <Button shape="pill" href="/daftar" size="lg" iconRight={<ArrowRight />}>
                 Daftar gratis
               </Button>
@@ -129,20 +129,20 @@ export default async function TentangPage() {
             </div>
           </header>
 
-          <dl className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+          <dl className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-4">
             {STATS.map((s) => (
-              <div key={s.label} className="rounded-[24px] bg-white p-5 ring-1 ring-inset ring-mist-100 sm:p-6">
+              <div key={s.label} className="rounded-[20px] bg-white p-4 ring-1 ring-inset ring-mist-100 sm:rounded-[24px] sm:p-6">
                 <dt className="sr-only">{s.label}</dt>
                 <dd>
-                  <span className="block text-[32px] font-semibold tabular-nums tracking-[-0.03em] sm:text-[40px]">{s.value}</span>
-                  <span className="mt-1 block text-sm text-mist-700">{s.label}</span>
+                  <span className="block text-[28px] font-semibold leading-tight tabular-nums tracking-[-0.03em] sm:text-[40px] sm:leading-normal">{s.value}</span>
+                  <span className="mt-1 block text-[13px] leading-snug text-mist-700 sm:text-sm sm:leading-5">{s.label}</span>
                 </dd>
               </div>
             ))}
           </dl>
 
-          <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-8">
-            <div className="min-w-0 space-y-6">
+          <div className="mt-6 grid gap-4 sm:mt-8 sm:gap-6 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-8">
+            <div className="min-w-0 space-y-4 sm:space-y-6">
               <Panel id="untuk-siapa" title="Untuk siapa platform ini?">
                 <ul className="mt-4 space-y-3">
                   {[
@@ -150,7 +150,7 @@ export default async function TentangPage() {
                     'Peserta yang pernah ikut seleksi dan ingin menutup kelemahan di subtes tertentu.',
                     'Siapa pun yang ingin terbiasa dengan ritme ujian berbasis komputer (CAT) sebelum hari ujian.',
                   ].map((t) => (
-                    <li key={t} className="relative pl-6 text-[16px] leading-[1.7] text-obsidian-800">
+                    <li key={t} className="relative pl-6 text-[15px] leading-[1.65] text-obsidian-800 sm:text-[16px] sm:leading-[1.7]">
                       <span aria-hidden className="absolute left-1 top-[0.7em] h-1.5 w-1.5 rounded-full bg-cobalt" />
                       {t}
                     </li>
@@ -198,10 +198,10 @@ export default async function TentangPage() {
               />
             </div>
 
-            <aside className="space-y-6" aria-label="Kontak dan panduan">
-              <div className="rounded-[24px] bg-obsidian p-6 text-white sm:p-7">
+            <aside className="space-y-4 sm:space-y-6" aria-label="Kontak dan panduan">
+              <div className="rounded-[24px] bg-obsidian p-5 text-white sm:p-7">
                 <p className="text-xs font-semibold uppercase tracking-[0.08em] text-mint">Hubungi kami</p>
-                <p className="mt-2 text-xl font-semibold tracking-[-0.02em] text-white">Ada pertanyaan atau saran?</p>
+                <p className="mt-2 text-lg font-semibold tracking-[-0.02em] text-white sm:text-xl">Ada pertanyaan atau saran?</p>
                 <p className="mt-2 text-[15px] leading-relaxed text-white/65">Tanyakan soal akun dan tryout, laporkan soal yang keliru, atau usulkan fitur baru lewat formulir pesan untuk admin dan developer.</p>
                 <div className="mt-5">
                   <Button shape="pill" href="/#kontak" variant="mint" iconRight={<ArrowRight />}>
@@ -217,7 +217,7 @@ export default async function TentangPage() {
                 <ul className="mt-3 space-y-0.5">
                   {ARTICLES.map((a) => (
                     <li key={a.slug}>
-                      <Link href={`/panduan/${a.slug}`} className="group flex items-start gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-ghost">
+                      <Link href={`/panduan/${a.slug}`} className="group flex min-h-11 items-start gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-ghost sm:min-h-0">
                         <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-ghost ring-1 ring-inset ring-mist-100 group-hover:bg-white">
                           <CategoryIcon category={a.category} className="h-3.5 w-3.5" />
                         </span>
@@ -226,7 +226,7 @@ export default async function TentangPage() {
                     </li>
                   ))}
                 </ul>
-                <Link href="/panduan" className="mt-3 inline-flex items-center gap-1.5 px-2 text-sm font-semibold text-cobalt hover:text-cobalt-700">
+                <Link href="/panduan" className="mt-3 inline-flex min-h-11 items-center gap-1.5 px-2 text-sm font-semibold text-cobalt hover:text-cobalt-700 sm:min-h-0">
                   Semua panduan
                   <ArrowRight className="h-4 w-4" aria-hidden />
                 </Link>

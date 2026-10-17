@@ -9,10 +9,10 @@ import { useSite } from '@/components/providers/SiteProvider';
 export function LogoMark({ className, inverted }) {
   const { brand } = useSite();
   if (brand.logo_url) {
-    return <img src={brand.logo_url} alt="" aria-hidden className={cn('relative inline-flex h-9 w-9 shrink-0 object-contain', className)} />;
+    return <img src={brand.logo_url} alt="" aria-hidden className={cn('relative inline-flex h-9 w-9 shrink-0 object-contain max-sm:h-8 max-sm:w-8', className)} />;
   }
   return (
-    <span className={cn('relative inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px]', inverted ? 'bg-white text-obsidian' : 'bg-obsidian text-white', className)} aria-hidden>
+    <span className={cn('relative inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-[12px] max-sm:h-8 max-sm:w-8 max-sm:rounded-[10px]', inverted ? 'bg-white text-obsidian' : 'bg-obsidian text-white', className)} aria-hidden>
       <span className="text-[17px] font-bold tracking-tighter">{brand.logo_letter || (brand.name || 'B').charAt(0)}</span>
       <span className="absolute right-[7px] top-[7px] h-[7px] w-[7px] rounded-full bg-mint" />
     </span>
@@ -41,7 +41,7 @@ export function Logo({ href = '/', inverted, compact, className, pill }) {
     <>
       <LogoMark inverted={inverted} />
       {!compact && (
-        <span className={cn('text-[17px] font-bold tracking-[-0.03em]', inverted ? 'text-white' : 'text-obsidian')}>
+        <span className={cn('text-[17px] font-bold tracking-[-0.03em] max-sm:text-[15px]', inverted ? 'text-white' : 'text-obsidian')}>
           <BrandText name={brand.name} accent={brand.accent_char} inverted={inverted} />
         </span>
       )}

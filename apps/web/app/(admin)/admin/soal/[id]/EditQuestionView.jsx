@@ -36,7 +36,7 @@ export function EditQuestionView() {
         }
       />
       {loading && !data ? (
-        <div className="grid gap-4 lg:grid-cols-12">
+        <div className="grid gap-3 sm:gap-4 lg:grid-cols-12">
           <Skeleton className="h-64 lg:col-span-7" rounded="rounded-[20px]" />
           <Skeleton className="h-64 lg:col-span-5" rounded="rounded-[20px]" />
         </div>

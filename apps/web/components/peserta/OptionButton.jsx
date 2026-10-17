@@ -33,7 +33,7 @@ export function OptionButton({ label, body, state = 'default', onClick, disabled
       disabled={onClick ? disabled : undefined}
       aria-pressed={onClick ? state === 'selected' : undefined}
       className={cn(
-        'group flex w-full items-start gap-4 rounded-[20px] p-3.5 text-left transition-all duration-150 sm:p-4',
+        'group flex w-full items-start gap-3 rounded-[20px] p-3.5 text-left sm:gap-4 transition-all duration-150 sm:p-4',
         shell,
         interactive && state === 'default' && 'hover:bg-mist-50 hover:ring-mist',
         interactive && 'cursor-pointer focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/25 active:scale-[0.995]',
@@ -57,7 +57,7 @@ export function OptionButton({ label, body, state = 'default', onClick, disabled
       </span>
       <span className="min-w-0 flex-1 pt-1.5">
         <span className="sr-only">Opsi {label}: </span>
-        <span className={cn('block whitespace-pre-line text-[15px] leading-relaxed', state === 'muted' ? 'text-obsidian-600' : 'text-obsidian')}>{body}</span>
+        <span className={cn('block whitespace-pre-line text-[14px] leading-relaxed sm:text-[15px]', state === 'muted' ? 'text-obsidian-600' : 'text-obsidian')}>{body}</span>
         {note && <span className="mt-1.5 block text-xs font-semibold">{note}</span>}
       </span>
       {trailing && <span className="shrink-0 self-center">{trailing}</span>}

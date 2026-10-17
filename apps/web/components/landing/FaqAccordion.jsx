@@ -28,13 +28,13 @@ export function FaqAccordion({ items = [] }) {
                   aria-expanded={isOpen}
                   aria-controls={`${id}-a`}
                   onClick={() => setOpen(isOpen ? -1 : i)}
-                  className="flex min-h-14 w-full items-center gap-3 rounded-[20px] px-4 py-4 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:gap-4 sm:px-6 sm:py-5"
+                  className="flex min-h-12 w-full items-center gap-3 rounded-[20px] px-4 py-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:gap-4 sm:px-6 sm:py-5"
                 >
                   <span className={cn('w-4 shrink-0 font-mono text-xs font-semibold transition-colors sm:w-auto', isOpen ? 'text-cobalt' : 'text-mist-500')}>{String(i + 1).padStart(2, '0')}</span>
-                  <span className="flex-1 text-[15px] font-semibold sm:text-base">{q}</span>
+                  <span className="flex-1 text-[14px] font-semibold sm:text-base">{q}</span>
                   <span
                     className={cn(
-                      'flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition-all duration-300',
+                      'flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-all duration-300 sm:h-8 sm:w-8',
                       isOpen ? 'rotate-45 bg-obsidian text-white' : 'bg-white text-obsidian ring-1 ring-inset ring-mist-100',
                     )}
                   >
@@ -50,7 +50,7 @@ export function FaqAccordion({ items = [] }) {
                 style={{ gridTemplateRows: isOpen ? '1fr' : '0fr' }}
               >
                 <div className="overflow-hidden" inert={!isOpen}>
-                  <p className={cn('pb-5 pl-11 pr-4 text-[15px] leading-relaxed text-mist-700 transition-opacity duration-500 sm:pb-6 sm:pl-[60px] sm:pr-6', isOpen ? 'opacity-100' : 'opacity-0')}>{a}</p>
+                  <p className={cn('pb-5 pl-11 pr-4 text-sm leading-relaxed text-mist-700 sm:text-[15px] transition-opacity duration-500 sm:pb-6 sm:pl-[60px] sm:pr-6', isOpen ? 'opacity-100' : 'opacity-0')}>{a}</p>
                 </div>
               </div>
             </div>

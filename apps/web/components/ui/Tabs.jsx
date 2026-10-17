@@ -66,12 +66,12 @@ export function Tabs({ items = [], value, defaultValue, onChange, variant = 'pil
             className={cn(
               'inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:cursor-not-allowed disabled:opacity-40',
               fullWidth && 'flex-1',
-              v === 'pill' && (size === 'sm' ? 'h-8 rounded-full px-3.5 text-[13px]' : 'h-9 rounded-full px-4 text-sm'),
-              v === 'soft' && (size === 'sm' ? 'h-8 rounded-lg px-3 text-[13px]' : 'h-9 rounded-lg px-3.5 text-sm'),
+              v === 'pill' && (size === 'sm' ? 'h-8 rounded-full px-3.5 text-[13px] max-sm:px-3 max-sm:text-xs' : 'h-9 rounded-full px-4 text-sm max-sm:h-8 max-sm:px-3.5 max-sm:text-xs'),
+              v === 'soft' && (size === 'sm' ? 'h-8 rounded-lg px-3 text-[13px] max-sm:px-2.5 max-sm:text-xs' : 'h-9 rounded-lg px-3.5 text-sm max-sm:h-8 max-sm:px-3 max-sm:text-xs'),
               v === 'pill' && (active ? 'bg-obsidian text-white' : 'text-obsidian-600 hover:bg-ghost hover:text-obsidian'),
               v === 'soft' && (active ? 'bg-white text-obsidian ring-1 ring-inset ring-mist-100' : 'text-mist-700 hover:text-obsidian'),
               v === 'underline' &&
-                cn('relative -mb-px h-11 border-b-2 px-0.5 text-sm', active ? 'border-obsidian text-obsidian' : 'border-transparent text-mist-700 hover:text-obsidian'),
+                cn('relative -mb-px h-11 border-b-2 px-0.5 text-sm max-sm:h-10', active ? 'border-obsidian text-obsidian' : 'border-transparent text-mist-700 hover:text-obsidian'),
               v === 'display' &&
                 cn(
                   'rounded-lg font-semibold tracking-[-0.02em]',

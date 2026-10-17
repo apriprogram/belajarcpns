@@ -479,7 +479,7 @@ function TestimonialCard({ t, onOpen, hidden }) {
         <Stars rating={t.rating} />
         <Quote aria-hidden className="h-5 w-5 fill-mist-100 text-mist-100" />
       </div>
-      <blockquote className="mt-3.5 line-clamp-5 whitespace-pre-line break-words text-[15px] leading-relaxed text-obsidian-600">{t.content}</blockquote>
+      <blockquote className="mt-3.5 line-clamp-5 whitespace-pre-line break-words text-sm leading-relaxed text-obsidian-600 sm:text-[15px]">{t.content}</blockquote>
       <figcaption className="mt-auto flex items-center gap-3 pt-5">
         <PersonAvatar user={t.user} />
         <span className="min-w-0">
@@ -573,8 +573,8 @@ function EmptyInvite({ className }) {
             <MessageSquareQuote className="h-6 w-6" strokeWidth={1.75} aria-hidden />
           </span>
           <Stars rating={0} decorative className="mt-5" />
-          <h3 className="mt-4 text-[22px] font-semibold leading-tight tracking-[-0.025em] sm:text-[28px] sm:leading-8">Jadilah yang pertama berbagi cerita</h3>
-          <p className="mt-3 max-w-md text-[15px] leading-relaxed text-mist-700">
+          <h3 className="mt-4 text-xl font-semibold leading-tight tracking-[-0.025em] sm:text-[28px] sm:leading-8">Jadilah yang pertama berbagi cerita</h3>
+          <p className="mt-3 max-w-md text-sm leading-relaxed text-mist-700 sm:text-[15px]">
             Sudah berlatih atau ikut tryout di {brand.name}? Ceritakan pengalaman Anda — testimoni terpilih akan tampil di sini dan membantu peserta lain.
           </p>
           <div className="mt-8 flex w-full flex-col justify-center gap-2 sm:w-auto sm:flex-row">

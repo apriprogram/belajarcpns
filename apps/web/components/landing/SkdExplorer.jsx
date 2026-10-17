@@ -77,7 +77,7 @@ export function SkdExplorer() {
       <Reveal variant="scale" className="lg:col-span-5">
         <div className="card-flat flex h-full flex-col p-5 sm:p-8">
           <div className="flex items-center justify-between">
-            <p className="text-[15px] font-semibold">Komposisi soal</p>
+            <p className="text-[14px] font-semibold sm:text-[15px]">Komposisi soal</p>
             <span className="rounded-full bg-ghost px-3 py-1 font-mono text-xs font-semibold">{TOTAL} soal</span>
           </div>
 
@@ -109,7 +109,7 @@ export function SkdExplorer() {
               })}
             </svg>
             <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center text-center">
-              <span key={`n-${active}`} className="animate-fade-up text-[32px] font-semibold leading-none sm:text-[56px] tracking-tightest tabular-nums">
+              <span key={`n-${active}`} className="animate-fade-up text-[28px] font-semibold leading-none sm:text-[56px] tracking-tightest tabular-nums">
                 {cur.count}
               </span>
               <span key={`l-${active}`} className="mt-1.5 animate-fade-up text-[13px] text-mist-700 sm:mt-2 sm:text-sm">
@@ -158,7 +158,7 @@ export function SkdExplorer() {
                 >
                   <span className={cn('flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-mono text-xs font-bold sm:h-12 sm:w-12 sm:rounded-2xl sm:text-[13px]', s.tint)}>{s.code}</span>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-base font-semibold tracking-tight sm:text-xl">{s.name}</span>
+                    <span className="block truncate text-[14px] font-semibold tracking-tight sm:text-xl">{s.name}</span>
                     <span className="mt-0.5 block text-[13px] text-mist-700">{s.scoring}</span>
                   </span>
                   <span className="hidden text-right sm:block">
@@ -167,7 +167,7 @@ export function SkdExplorer() {
                   </span>
                   <span className="hidden h-10 w-px bg-mist-100 sm:block" aria-hidden />
                   <span className="text-right">
-                    <span className="block text-[22px] font-semibold leading-none tabular-nums tracking-tight sm:text-2xl sm:leading-none">{s.max}</span>
+                    <span className="block text-[20px] font-semibold leading-none tabular-nums tracking-tight sm:text-2xl sm:leading-none">{s.max}</span>
                     <span className="text-xs text-mist-700">skor maks</span>
                   </span>
                 </button>

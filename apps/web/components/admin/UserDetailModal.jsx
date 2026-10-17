@@ -185,7 +185,8 @@ export function UserDetailModal({ userId, open, onClose, onChanged, onDeleted })
         size="xl"
         footer={
           u && (
-            <>
+            /* Mobile: tombol 2×2 agar isi modal tidak terdesak; ≥ 640px `contents` → tata letak footer bawaan. */
+            <div className="grid w-full grid-cols-2 gap-2 sm:contents max-sm:[&>*]:!px-2.5">
               <Button variant="secondary" icon={<KeyRound />} onClick={() => setAction({ type: 'reset', user: u })}>
                 Reset password
               </Button>
@@ -202,7 +203,7 @@ export function UserDetailModal({ userId, open, onClose, onChanged, onDeleted })
                 </Button>
               )}
               <Button onClick={onClose}>Tutup</Button>
-            </>
+            </div>
           )
         }
       >
@@ -210,7 +211,7 @@ export function UserDetailModal({ userId, open, onClose, onChanged, onDeleted })
           <ErrorState error={res.error} onRetry={() => res.reload()} />
         ) : !d ? (
           <div className="space-y-5" aria-busy="true">
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-3 sm:gap-4 md:grid-cols-2">
               <Skeleton className="h-44" rounded="rounded-[20px]" />
               <Skeleton className="h-44" rounded="rounded-[20px]" />
             </div>
@@ -219,8 +220,8 @@ export function UserDetailModal({ userId, open, onClose, onChanged, onDeleted })
           </div>
         ) : (
           <>
-            <div className="grid gap-4 rounded-[20px] p-2 ring-1 ring-inset ring-mist-100 md:grid-cols-2">
-              <div className="relative overflow-hidden rounded-[14px] bg-ghost p-5">
+            <div className="grid grid-cols-1 gap-3 sm:gap-4 rounded-[20px] p-2 ring-1 ring-inset ring-mist-100 md:grid-cols-2">
+              <div className="relative overflow-hidden rounded-[14px] bg-ghost p-4 sm:p-5">
                 <Avatar name={u.name} src={u.avatar_url} size="xl" status={online ? 'online' : undefined} className="[&>img]:!h-20 [&>img]:!w-20 [&>span:first-child]:!h-20 [&>span:first-child]:!w-20 [&>span:first-child]:!text-2xl" />
                 <p className="mt-4 flex items-center gap-1.5 font-mono text-xs text-mist-700">
                   {shortCode(u.id, 'PST')}

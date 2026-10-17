@@ -117,19 +117,19 @@ export function ReportView() {
         <EmptyState variant="dashed" icon={<FileStack />} title="Belum ada paket ujian" description="Buat paket dan terbitkan agar peserta dapat mengerjakannya." action={<Button href="/admin/paket?baru=1">Buat paket</Button>} />
       ) : !r ? (
         <div className="space-y-4">
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-5">
             {Array.from({ length: 5 }).map((_, i) => (
-              <StatTile key={i} title="Memuat…" icon={<BarChart3 />} loading />
+              <StatTile key={i} title="Memuat…" icon={<BarChart3 />} loading compact className={i === 4 ? 'max-sm:col-span-2' : undefined} />
             ))}
           </div>
           <Skeleton className="h-64" rounded="rounded-[20px]" />
         </div>
       ) : (
-        <div className={cn('space-y-4 transition-opacity', rep.loading && 'opacity-60')}>
+        <div className={cn('space-y-3 sm:space-y-4 transition-opacity', rep.loading && 'opacity-60')}>
           <Panel padding="sm" tone="ghost" className="flex flex-col gap-4 sm:flex-row sm:items-center">
-            <IconBox icon={<FileStack />} size="lg" className="!bg-white" />
+            <IconBox icon={<FileStack />} size="lg" className="!bg-white max-sm:hidden" />
             <div className="min-w-0 flex-1">
-              <p className="flex flex-wrap items-center gap-2 text-[16px] font-semibold tracking-[-0.01em]">
+              <p className="flex flex-wrap items-center gap-2 text-[14px] font-semibold tracking-[-0.01em] sm:text-[16px]">
                 {p.title} <StatusPill status={p.status} />
               </p>
               <div className="mt-2 flex flex-wrap gap-2">
@@ -150,27 +150,33 @@ export function ReportView() {
             </Button>
           </Panel>
 
-          <section aria-label="Ringkasan" className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
-            <StatTile title="Peserta" info="Jumlah ujian selesai untuk paket ini" icon={<Users />} value={formatAngka(s.participants)} caption="Ujian selesai" />
-            <StatTile title="Rata-rata" info="Rata-rata skor total" icon={<BarChart3 />} value={formatAngka(s.avg_total, { maxDecimals: 1 })} suffix="/550" chart={<ThinProgress value={s.avg_total || 0} max={550} label="Rata-rata dari 550" className="mb-1" />} />
-            <StatTile title="Tertinggi" info="Skor total tertinggi" icon={<ArrowUpWideNarrow />} tone="mint" value={formatAngka(s.max_total)} caption="Skor total terbaik" />
-            <StatTile title="Terendah" info="Skor total terendah" icon={<ArrowDownWideNarrow />} tone="warning" value={formatAngka(s.min_total)} caption="Skor total terendah" />
+          <section aria-label="Ringkasan" className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-5">
+            <StatTile compact title="Peserta" info="Jumlah ujian selesai untuk paket ini" icon={<Users />} value={formatAngka(s.participants)} caption="Ujian selesai" />
+            <StatTile compact title="Rata-rata" info="Rata-rata skor total" icon={<BarChart3 />} value={formatAngka(s.avg_total, { maxDecimals: 1 })} suffix="/550" chart={<ThinProgress value={s.avg_total || 0} max={550} label="Rata-rata dari 550" className="mb-1" />} />
+            <StatTile compact title="Tertinggi" info="Skor total tertinggi" icon={<ArrowUpWideNarrow />} tone="mint" value={formatAngka(s.max_total)} caption="Skor total terbaik" />
+            <StatTile compact title="Terendah" info="Skor total terendah" icon={<ArrowDownWideNarrow />} tone="warning" value={formatAngka(s.min_total)} caption="Skor total terendah" />
             <StatTile
               title="Tingkat lulus"
               info="Persentase peserta yang lulus semua ambang"
               icon={<Trophy />}
               tone="mint"
+              compact
               value={formatPersen(s.pass_rate, { decimals: 1 })}
               caption={`${(r.ranking || []).filter((x) => x.passed).length} dari ${s.participants} peserta`}
-              className="sm:col-span-2 xl:col-span-1"
+              className="col-span-2 xl:col-span-1"
             />
           </section>
 
-          <div className="grid gap-4 lg:grid-cols-12">
+          <div className="grid gap-3 sm:gap-4 lg:grid-cols-12">
             <Panel padding="lg" className="lg:col-span-7">
               <PanelHeader title="Distribusi skor total" info="Jumlah peserta per rentang skor" subtitle="Jumlah peserta per rentang skor" />
               {s.participants ? (
-                <BarChart data={r.distribution || []} xKey="range" series={[{ key: 'count', label: 'Peserta' }]} height={260} ariaLabel="Distribusi skor" formatY={(v) => (Number.isInteger(v) ? v : '')} formatValue={(v) => `${v} peserta`} />
+                /* Mobile: label rentang skor tidak muat di 6 kolom → grafik digulir horizontal di dalam kartu. */
+                <div className="max-sm:-mx-4 max-sm:overflow-x-auto max-sm:px-4 max-sm:pb-2">
+                  <div className="max-sm:min-w-[420px]">
+                    <BarChart data={r.distribution || []} xKey="range" series={[{ key: 'count', label: 'Peserta' }]} height={260} ariaLabel="Distribusi skor" formatY={(v) => (Number.isInteger(v) ? v : '')} formatValue={(v) => `${v} peserta`} />
+                  </div>
+                </div>
               ) : (
                 <EmptyState size="sm" icon={<BarChart3 />} title="Belum ada hasil" description="Distribusi tampil setelah peserta menyelesaikan paket ini." />
               )}
@@ -204,9 +210,9 @@ export function ReportView() {
           </div>
 
           <Panel padding="none" className="overflow-hidden">
-            <div className="flex flex-col gap-3 p-5 pb-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-3 p-4 sm:p-5 sm:pb-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <h2 className="text-[15px] font-semibold tracking-[-0.01em]">Peringkat peserta</h2>
+                <h2 className="text-[14px] font-semibold tracking-[-0.01em] sm:text-[15px]">Peringkat peserta</h2>
                 <p className="mt-0.5 text-[13px] text-mist-700">Diurutkan dari skor total tertinggi.</p>
               </div>
               <Segmented
@@ -267,7 +273,7 @@ export function ReportView() {
                               {x[k]}
                             </Td>
                           ))}
-                          <Td align="right" className="text-base font-semibold tabular-nums">
+                          <Td align="right" className="text-sm font-semibold tabular-nums sm:text-base">
                             {formatAngka(x.score_total)}
                           </Td>
                           <Td>
@@ -286,9 +292,9 @@ export function ReportView() {
           </Panel>
 
           <Panel padding="none" className="overflow-hidden">
-            <div className="flex flex-col gap-3 p-5 pb-4 xl:flex-row xl:items-center xl:justify-between">
+            <div className="flex flex-col gap-3 p-4 sm:p-5 sm:pb-4 xl:flex-row xl:items-center xl:justify-between">
               <div>
-                <h2 className="text-[15px] font-semibold tracking-[-0.01em]">Analisis butir soal</h2>
+                <h2 className="text-[14px] font-semibold tracking-[-0.01em] sm:text-[15px]">Analisis butir soal</h2>
                 <p className="mt-0.5 text-[13px] text-mist-700">Persentase peserta yang menjawab benar. ≥ 90% terlalu mudah, ≤ 20% terlalu sulit.</p>
               </div>
               <div className="flex flex-wrap items-center gap-2">

@@ -204,7 +204,7 @@ export function PackageDetailView() {
     return (
       <div>
         <AdminPageHeader back={{ href: '/admin/paket', label: 'Paket ujian' }} title="Memuat paket…" />
-        <div className="grid gap-4 lg:grid-cols-12">
+        <div className="grid gap-3 sm:gap-4 lg:grid-cols-12">
           <Skeleton className="h-96 min-w-0 lg:col-span-5" rounded="rounded-[20px]" />
           <Skeleton className="h-96 min-w-0 lg:col-span-7" rounded="rounded-[20px]" />
         </div>
@@ -273,7 +273,7 @@ export function PackageDetailView() {
         </FormAlert>
       )}
 
-      <div className="grid gap-4 lg:grid-cols-12">
+      <div className="grid gap-3 sm:gap-4 lg:grid-cols-12">
         {/* Pengaturan */}
         <Panel padding="lg" className="h-fit lg:col-span-5">
           <PanelHeader title="Pengaturan paket" subtitle="Judul, jadwal, dan passing grade." />
@@ -326,7 +326,7 @@ export function PackageDetailView() {
         </Panel>
 
         {/* Soal */}
-        <div className="space-y-4 min-w-0 lg:col-span-7">
+        <div className="space-y-3 sm:space-y-4 min-w-0 lg:col-span-7">
           <Panel padding="lg">
             <PanelHeader title="Komposisi vs target SKD" info="Komposisi standar SKD" subtitle="Target standar 30 TWK · 35 TIU · 45 TKP (110 soal)." />
             <CompositionBar counts={counts} total={110} showLegend={false} />
@@ -355,9 +355,9 @@ export function PackageDetailView() {
           </Panel>
 
           <Panel padding="none" className="overflow-hidden">
-            <div className="flex flex-col gap-4 p-5 sm:p-6 sm:pb-4 xl:flex-row xl:items-start xl:justify-between">
+            <div className="flex flex-col gap-3 p-4 sm:gap-4 sm:p-6 sm:pb-4 xl:flex-row xl:items-start xl:justify-between">
               <div>
-                <h2 className="text-[15px] font-semibold tracking-[-0.01em]">Soal dalam paket</h2>
+                <h2 className="text-[14px] font-semibold tracking-[-0.01em] sm:text-[15px]">Soal dalam paket</h2>
                 <p className="mt-0.5 text-[13px] text-mist-700">
                   {formatAngka(items.length)} soal · urutan menentukan nomor soal{p.shuffle_questions ? ' (diacak saat ujian)' : ''}.
                 </p>
@@ -412,21 +412,22 @@ export function PackageDetailView() {
                 />
               </div>
             ) : (
-              <ol className="max-h-[720px] divide-y divide-mist-100 overflow-y-auto border-t border-mist-100" aria-label="Urutan soal paket">
+              <ol className="max-h-[720px] divide-y divide-mist-100 overflow-y-auto border-t border-mist-100 max-sm:max-h-[65vh]" aria-label="Urutan soal paket">
                 {items.map((q, i) => (
-                  <li key={q.id} className="group flex items-center gap-3 px-4 py-3 hover:bg-mist-50 sm:px-6">
-                    <span className="w-8 shrink-0 text-right font-mono text-xs font-semibold tabular-nums text-mist-700">{i + 1}</span>
-                    <SubtestChip code={q.subtest} />
+                  <li key={q.id} className="group flex items-center gap-2 px-4 py-3 hover:bg-mist-50 sm:gap-3 sm:px-6">
+                    <span className="w-6 shrink-0 text-right font-mono text-xs font-semibold tabular-nums text-mist-700 sm:w-8">{i + 1}</span>
+                    <SubtestChip code={q.subtest} className="max-sm:hidden" />
                     <div className="min-w-0 flex-1">
                       <p className="truncate text-sm font-medium" title={q.body}>
                         {q.body}
                       </p>
                       <p className="truncate text-xs text-mist-700">
+                        <span className="font-mono font-semibold text-obsidian-600 sm:hidden">{q.subtest} · </span>
                         {q.category_name || 'Tanpa sub-kategori'} · {q.difficulty}
                         {q.status !== 'terbit' && <span className="font-semibold text-warning-700"> · draf</span>}
                       </p>
                     </div>
-                    <div className="flex shrink-0 items-center gap-0.5 sm:opacity-60 sm:transition-opacity sm:group-hover:opacity-100 sm:group-focus-within:opacity-100">
+                    <div className="flex shrink-0 items-center gap-0.5 max-sm:gap-2 sm:opacity-60 sm:transition-opacity sm:group-hover:opacity-100 sm:group-focus-within:opacity-100">
                       <IconButton icon={<ArrowUp />} label={`Naikkan soal ${i + 1}`} variant="ghost" size="sm" disabled={i === 0} onClick={() => move(i, -1)} />
                       <IconButton icon={<ArrowDown />} label={`Turunkan soal ${i + 1}`} variant="ghost" size="sm" disabled={i === items.length - 1} onClick={() => move(i, 1)} />
                       <IconButton icon={<X />} label={`Keluarkan soal ${i + 1} dari paket`} variant="ghost" size="sm" className="hover:!bg-danger-50 hover:!text-danger" onClick={() => setToRemove(q)} />
@@ -564,7 +565,7 @@ function AutoFillModal({ open, onClose, onDone, packageId, hasItems }) {
           Isi paket saat ini akan <strong>diganti</strong> seluruhnya.
         </FormAlert>
       )}
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-3 sm:gap-4 sm:grid-cols-3">
         {SUBTESTS.map((s) => {
           const k = s.toLowerCase();
           return (

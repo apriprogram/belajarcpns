@@ -105,7 +105,8 @@ export function BarChart({
                       />
                     );
                   })}
-                  {(i % labelEvery === 0 || i === n - 1) && (
+                  {/* Label terakhir selalu tampil; label reguler yang terlalu dekat dengannya dilewati agar tidak bertumpuk. */}
+                  {(i === n - 1 || (i % labelEvery === 0 && n - 1 - i >= labelEvery)) && (
                     <text x={pad.left + band * i + band / 2} y={height - 8} textAnchor="middle" className={cn('text-[11px]', isHover ? 'fill-obsidian font-semibold' : 'fill-mist-700')}>
                       {d[xKey]}
                     </text>

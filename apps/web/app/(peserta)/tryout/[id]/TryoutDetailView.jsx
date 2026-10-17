@@ -125,7 +125,7 @@ export function TryoutDetailView({ id }) {
             />
             <div className="grid gap-3 sm:grid-cols-3">
               {rows.map((r) => (
-                <div key={r.code} className={cn('rounded-2xl p-5 ring-1 ring-inset ring-mist-100', !r.n && 'bg-mist-50 opacity-70')}>
+                <div key={r.code} className={cn('rounded-2xl p-4 ring-1 sm:p-5 ring-inset ring-mist-100', !r.n && 'bg-mist-50 opacity-70')}>
                   <div className="flex items-center justify-between">
                     <Chip color={SUBTEST_COLOR[r.code]} size="sm">
                       {r.code}
@@ -135,7 +135,7 @@ export function TryoutDetailView({ id }) {
                   <p className="mt-3 text-sm text-mist-700">{r.short}</p>
                   {r.n ? (
                     <>
-                      <p className="mt-3 text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums">
+                      <p className="mt-3 text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums sm:text-[32px] sm:tracking-[-0.03em]">
                         {r.pass}
                         <span className="text-sm font-medium text-mist-500">/{r.max}</span>
                       </p>
@@ -167,12 +167,12 @@ export function TryoutDetailView({ id }) {
           </Panel>
         </div>
 
-        <section aria-label="Mulai ujian" className="rounded-[20px] bg-obsidian p-6 text-white sm:p-7 lg:sticky lg:top-24 lg:col-span-4 [&_a]:!shadow-none [&_button]:!shadow-none">
+        <section aria-label="Mulai ujian" className="rounded-[20px] bg-obsidian p-5 text-white sm:p-7 lg:sticky lg:top-24 lg:col-span-4 [&_a]:!shadow-none [&_button]:!shadow-none">
           <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-mint">
             <Timer className="h-5 w-5" strokeWidth={1.75} aria-hidden />
           </span>
           <p className="mt-5 text-sm text-white/60">Durasi pengerjaan</p>
-          <p className="mt-1 font-mono text-[44px] font-semibold leading-none tracking-tight tabular-nums">{formatTimer(p.duration_minutes * 60)}</p>
+          <p className="mt-1 font-mono text-[28px] font-semibold sm:text-[44px] leading-none tracking-tight tabular-nums">{formatTimer(p.duration_minutes * 60)}</p>
           <div className="mt-6 grid grid-cols-2 gap-px overflow-hidden rounded-xl bg-white/10">
             <div className="bg-obsidian p-4">
               <p className="text-xs text-white/55">Jumlah soal</p>

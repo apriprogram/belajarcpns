@@ -64,7 +64,7 @@ export function AvatarUploader({ user }) {
   const src = preview || user.avatar_url;
 
   return (
-    <section aria-labelledby="judul-foto" className="px-6 py-8 sm:px-10">
+    <section aria-labelledby="judul-foto" className="px-5 py-6 sm:px-10 sm:py-8">
       <div
         onDragOver={(e) => {
           e.preventDefault();
@@ -79,7 +79,7 @@ export function AvatarUploader({ user }) {
         className={`flex flex-col-reverse items-start gap-6 rounded-2xl transition-colors sm:flex-row sm:items-center sm:justify-between ${drag ? 'bg-cobalt-50 outline-dashed outline-2 outline-offset-8 outline-cobalt/40' : ''}`}
       >
         <div>
-          <h3 id="judul-foto" className="text-xl font-semibold tracking-[-0.02em]">
+          <h3 id="judul-foto" className="text-lg font-semibold tracking-[-0.01em] sm:text-xl sm:tracking-[-0.02em]">
             Foto profil
           </h3>
           <p className="mt-1 text-sm text-mist-700">Disarankan persegi, minimal 300 × 300. PNG, JPG, atau WEBP maks 2 MB.</p>

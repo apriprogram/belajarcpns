@@ -128,9 +128,9 @@ export function LatihanView() {
         <PageHead crumbs={CRUMBS} mascot="/maskot/latihan.webp" title="Latihan soal" description="Pilih subtes dan sub-materi, jawab 10 soal, dan lihat pembahasan langsung setelah setiap jawaban." />
         <div className="grid gap-4 lg:grid-cols-12 [&>*]:min-w-0">
           <Panel padding="lg" className="lg:col-span-8">
-            <h2 className="text-xl font-semibold tracking-[-0.02em]">Atur sesi latihan</h2>
+            <h2 className="text-lg font-semibold tracking-[-0.01em] sm:text-xl sm:tracking-[-0.02em]">Atur sesi latihan</h2>
             <p className="mt-1 text-sm text-mist-700">Setiap sesi berisi {SESSION_SIZE} soal acak dari bank soal terbit.</p>
-            <div className="my-6 border-t border-mist-100" />
+            <div className="my-5 border-t border-mist-100 sm:my-6" />
 
             <p className="mb-3 text-sm font-semibold">1 · Subtes</p>
             <Segmented
@@ -143,7 +143,7 @@ export function LatihanView() {
               items={SUBTESTS.map((s) => ({ value: s.code, label: s.code }))}
             />
             <div className="mt-3 rounded-xl bg-ghost p-4">
-              <p className="font-semibold">{SUBTESTS.find((s) => s.code === subtest)?.name}</p>
+              <p className="text-sm font-semibold sm:text-base">{SUBTESTS.find((s) => s.code === subtest)?.name}</p>
               <p className="mt-1 text-sm leading-relaxed text-mist-700">{SUBTEST_INFO[subtest]}</p>
             </div>
 
@@ -184,7 +184,7 @@ export function LatihanView() {
                   Pembahasan langsung
                 </Chip>
               </div>
-              <Button size="lg" icon={<Play />} loading={starting} onClick={start}>
+              <Button size="lg" icon={<Play />} loading={starting} onClick={start} className="max-sm:w-full">
                 Mulai sesi
               </Button>
             </div>
@@ -229,9 +229,9 @@ export function LatihanView() {
                 ['Tidak tepat', answered - correct, 'text-danger-700'],
                 ['Skor', `${formatAngka(score)}/${formatAngka(maxScore)}`, 'text-obsidian'],
               ].map(([l, v, c]) => (
-                <div key={l} className="rounded-xl bg-ghost p-4 text-center">
+                <div key={l} className="rounded-xl bg-ghost px-2 py-3 text-center sm:p-4">
                   <p className="text-xs text-mist-700">{l}</p>
-                  <p className={cn('mt-1 text-xl font-semibold tabular-nums', c)}>{v}</p>
+                  <p className={cn('mt-1 text-lg font-semibold tabular-nums sm:text-xl', c)}>{v}</p>
                 </div>
               ))}
             </div>
@@ -310,7 +310,7 @@ export function LatihanView() {
             </Chip>
             {q.difficulty && <Badge status={q.difficulty} size="sm" dot={false} />}
           </div>
-          <p className="whitespace-pre-line text-[17px] leading-relaxed text-obsidian">{q.body}</p>
+          <p className="whitespace-pre-line text-base leading-relaxed text-obsidian sm:text-[17px]">{q.body}</p>
           {q.image_url && <img src={q.image_url} alt="Gambar soal" className="mt-5 max-h-80 rounded-2xl bg-ghost object-contain" />}
 
           <div className="mt-6 space-y-3" role="group" aria-label="Pilihan jawaban">
@@ -371,7 +371,7 @@ export function LatihanView() {
                     <Lightbulb className="h-4 w-4 text-warning-700" aria-hidden />
                     Pembahasan
                   </p>
-                  <p className="whitespace-pre-line text-[15px] leading-relaxed text-obsidian-600">{res.explanation}</p>
+                  <p className="whitespace-pre-line text-[14px] leading-relaxed text-obsidian-600 sm:text-[15px]">{res.explanation}</p>
                 </div>
               )}
             </div>

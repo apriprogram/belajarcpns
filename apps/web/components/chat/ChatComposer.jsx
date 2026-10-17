@@ -267,7 +267,7 @@ export function ChatComposer({ inputRef, visible, perms, meId, replyTo, onCancel
   const canAttach = perms.accept.length > 0;
 
   return (
-    <div className="relative border-t border-mist-100 bg-white p-3">
+    <div className="relative border-t border-mist-100 bg-white p-3 max-sm:pb-[max(12px,env(safe-area-inset-bottom))]">
       {emojiOpen && <EmojiPicker onPick={insertEmoji} className="absolute inset-x-3 bottom-full mb-2" />}
 
       {mentionOpen && (
@@ -379,7 +379,7 @@ export function ChatComposer({ inputRef, visible, perms, meId, replyTo, onCancel
           aria-autocomplete={perms.mention ? 'list' : undefined}
           aria-controls={mentionOpen ? listId : undefined}
           aria-activedescendant={mentionOpen ? `${listId}-${act}` : undefined}
-          className="min-h-10 flex-1 resize-none rounded-2xl bg-ghost px-4 py-2.5 text-sm leading-5 outline-none ring-1 ring-inset ring-transparent transition-shadow placeholder:text-mist-500 focus:bg-white focus:ring-cobalt"
+          className="min-h-10 min-w-0 flex-1 resize-none rounded-2xl bg-ghost px-4 py-2.5 text-sm leading-5 max-sm:text-[16px] max-sm:leading-6 outline-none ring-1 ring-inset ring-transparent transition-shadow placeholder:text-mist-500 focus:bg-white focus:ring-cobalt"
         />
         <button
           type="button"

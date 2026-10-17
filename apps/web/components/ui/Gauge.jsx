@@ -55,7 +55,7 @@ export function Gauge({ value = 0, max = 100, color = 'cobalt', size = 240, thic
           {markerEl}
         </svg>
         <div className="absolute inset-x-0 bottom-0 flex flex-col items-center">
-          <span className="text-[40px] font-semibold leading-none tracking-tightest tabular-nums text-obsidian">
+          <span className="text-[26px] sm:text-[40px] font-semibold leading-none tracking-tightest tabular-nums text-obsidian">
             {shown}
             {suffix && <span className="ml-0.5 text-xl font-medium text-mist-500">{suffix}</span>}
           </span>

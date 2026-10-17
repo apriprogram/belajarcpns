@@ -215,9 +215,10 @@ export function QuestionForm({ question, onSaved }) {
   const preview = { ...v, category_name: catName, options: v.options.map((o, i) => ({ ...o, label: LABELS[i] })) };
 
   const actions = (
-    <div className="flex flex-col gap-2 sm:flex-row lg:flex-col xl:flex-row">
-      <Button variant="secondary" fullWidth icon={<Save />} loading={saving === 'stay'} disabled={!!saving} onClick={() => submit('stay')}>
-        Simpan &amp; tetap
+    <div className="flex gap-2 sm:flex-row lg:flex-col xl:flex-row">
+      <Button variant="secondary" fullWidth icon={<Save />} loading={saving === 'stay'} disabled={!!saving} onClick={() => submit('stay')} className="max-sm:!w-auto max-sm:shrink-0">
+        <span className="sm:hidden">Simpan</span>
+        <span className="max-sm:hidden">Simpan &amp; tetap</span>
       </Button>
       <Button fullWidth icon={<Check />} loading={saving === 'back'} disabled={!!saving} onClick={() => submit('back')}>
         Simpan &amp; kembali
@@ -232,9 +233,9 @@ export function QuestionForm({ question, onSaved }) {
         e.preventDefault();
         submit('stay');
       }}
-      className="grid gap-4 lg:grid-cols-12"
+      className="grid gap-3 sm:gap-4 lg:grid-cols-12"
     >
-      <div className="space-y-4 min-w-0 lg:col-span-7">
+      <div className="space-y-3 sm:space-y-4 min-w-0 lg:col-span-7">
         {formError && <FormAlert title="Soal belum dapat disimpan">{formError}</FormAlert>}
 
         <Panel padding="lg">
@@ -459,7 +460,7 @@ export function QuestionForm({ question, onSaved }) {
               <QuestionPreview question={preview} number={1} compact />
             </div>
           </Panel>
-          <Panel padding="sm" className="sticky bottom-3 z-10 shadow-float lg:static lg:shadow-none">
+          <Panel padding="sm" className="sticky bottom-3 z-10 shadow-float max-sm:bottom-[calc(80px+env(safe-area-inset-bottom))] lg:static lg:shadow-none">
             <div className="mb-3 flex items-center justify-between gap-3 text-sm">
               <span className="text-mist-700">{dirty ? 'Ada perubahan belum disimpan' : isEdit ? 'Semua perubahan tersimpan' : 'Soal baru'}</span>
               {dirty && isEdit && (

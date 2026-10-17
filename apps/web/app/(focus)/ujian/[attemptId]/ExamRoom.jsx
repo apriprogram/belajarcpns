@@ -470,7 +470,7 @@ export function ExamRoom({ attemptId: id }) {
           <span className="hidden h-8 w-px bg-mist-100 sm:block" aria-hidden />
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2">
-              <h1 className="truncate text-[15px] font-semibold tracking-tight sm:text-lg">{attempt.package?.title}</h1>
+              <h1 className="truncate text-[14px] font-semibold tracking-tight sm:text-lg">{attempt.package?.title}</h1>
               <Chip color={SUBTEST_COLOR[q.subtest]} size="sm" className="hidden md:inline-flex">
                 {q.subtest}
               </Chip>
@@ -512,10 +512,10 @@ export function ExamRoom({ attemptId: id }) {
               </div>
             </div>
 
-            <div className="mt-6 whitespace-pre-line border-t border-mist-100 pt-6 text-[17px] leading-[1.75] text-obsidian sm:text-lg">{q.body}</div>
+            <div className="mt-5 whitespace-pre-line border-t border-mist-100 pt-5 text-[15px] leading-[1.7] text-obsidian sm:mt-6 sm:pt-6 sm:text-lg sm:leading-[1.75]">{q.body}</div>
             {q.image_url && <img src={q.image_url} alt={`Gambar soal nomor ${idx + 1}`} className="mt-5 max-h-96 w-auto max-w-full rounded-2xl bg-ghost object-contain" />}
 
-            <div className="mt-7 space-y-3" role="radiogroup" aria-label="Pilihan jawaban">
+            <div className="mt-6 space-y-3 sm:mt-7" role="radiogroup" aria-label="Pilihan jawaban">
               {q.options.map((o) => (
                 <OptionButton
                   key={o.id}
@@ -542,10 +542,9 @@ export function ExamRoom({ attemptId: id }) {
               )}
             </div>
 
-            <div className="mt-4 grid grid-cols-3 gap-2 border-t border-mist-100 pt-5 sm:flex sm:items-center sm:justify-between sm:gap-3 [&_button]:!shadow-none">
-              <Button variant="secondary" icon={<ArrowLeft />} onClick={() => go(idx - 1)} disabled={idx === 0} className="px-3 sm:px-5">
+            <div className="mt-4 grid grid-cols-[52px_minmax(0,1fr)_minmax(0,1fr)] gap-2 border-t border-mist-100 pt-5 sm:flex sm:items-center sm:justify-between sm:gap-3 [&_button]:!shadow-none">
+              <Button variant="secondary" icon={<ArrowLeft />} onClick={() => go(idx - 1)} disabled={idx === 0} aria-label="Soal sebelumnya" className="max-sm:px-0 sm:px-5">
                 <span className="hidden sm:inline">Sebelumnya</span>
-                <span className="sm:hidden">Prev</span>
               </Button>
               <Button
                 variant={flagged ? 'mint' : 'secondary'}
@@ -564,7 +563,7 @@ export function ExamRoom({ attemptId: id }) {
               ) : (
                 <Button iconRight={<ArrowRight />} onClick={() => go(idx + 1)} className="px-3 sm:px-5">
                   <span className="hidden sm:inline">Berikutnya</span>
-                  <span className="sm:hidden">Next</span>
+                  <span className="sm:hidden">Lanjut</span>
                 </Button>
               )}
             </div>
@@ -575,7 +574,7 @@ export function ExamRoom({ attemptId: id }) {
         <aside className="hidden lg:block" aria-label="Navigasi soal">
           <div className={cn(SURFACE, 'sticky top-[100px] flex max-h-[calc(100vh-124px)] flex-col p-5')}>
             <div className="flex items-baseline justify-between">
-              <h2 className="text-[15px] font-semibold">Navigasi soal</h2>
+              <h2 className="text-[14px] font-semibold sm:text-[15px]">Navigasi soal</h2>
               <span className="font-mono text-sm font-semibold tabular-nums">
                 {counts.answered}/{questions.length}
               </span>
@@ -595,7 +594,7 @@ export function ExamRoom({ attemptId: id }) {
       </main>
 
       {/* ---------------------------- BAR MOBILE ---------------------------- */}
-      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-mist-100 bg-white/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur-xl lg:hidden">
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-mist-100 bg-white/95 pb-[max(12px,env(safe-area-inset-bottom))] pl-[max(16px,env(safe-area-inset-left))] pr-[max(16px,env(safe-area-inset-right))] pt-3 backdrop-blur-xl lg:hidden">
         <div className="mx-auto flex max-w-2xl items-center gap-2 [&_button]:!shadow-none">
           <Button variant="secondary" icon={<LayoutGrid />} onClick={() => setNavOpen(true)} className="flex-1" aria-haspopup="dialog">
             Daftar soal
@@ -609,7 +608,7 @@ export function ExamRoom({ attemptId: id }) {
         </div>
       </div>
 
-      <Modal open={navOpen} onClose={() => setNavOpen(false)} title="Daftar soal" description={`${counts.answered} dari ${questions.length} soal dijawab`} size="md">
+      <Modal open={navOpen} onClose={() => setNavOpen(false)} title="Daftar soal" description={`${counts.answered} dari ${questions.length} soal dijawab`} size="md" className="max-sm:pb-[env(safe-area-inset-bottom)]">
         <NavGrid questions={questions} answers={answers} current={idx} onJump={go} counts={counts} />
       </Modal>
 
@@ -670,14 +669,14 @@ function JumpList({ label, items, onJump, warn }) {
   return (
     <div>
       <p className="mb-2 text-xs font-medium text-mist-700">{label}</p>
-      <div className="flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap gap-2 sm:gap-1.5">
         {items.slice(0, max).map((n) => (
           <button
             key={n}
             type="button"
             onClick={() => onJump(n)}
             className={cn(
-              'h-8 min-w-8 rounded-lg px-2 font-mono text-xs font-semibold tabular-nums transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+              'h-10 min-w-10 rounded-lg px-2 font-mono text-[13px] font-semibold sm:h-8 sm:min-w-8 sm:text-xs tabular-nums transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
               warn ? 'bg-warning-50 text-warning-700 hover:bg-warning/20' : 'bg-ghost text-obsidian-600 hover:bg-mist-100',
             )}
             aria-label={`Ke soal ${n}`}

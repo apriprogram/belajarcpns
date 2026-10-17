@@ -18,19 +18,22 @@ const VARIANTS = {
   link: 'bg-transparent text-cobalt hover:text-cobalt-700 underline-offset-4 hover:underline !px-0 !h-auto focus-visible:ring-offset-0',
 };
 
+// HP (< 640px): tombol lebih ringkas (sm 32 · md/lg/xl 40px, teks 12–13px); area sentuh diperluas dengan
+// pseudo-element tak terlihat (HIT) sehingga tetap ±44–48px.
+const HIT = 'max-sm:after:absolute max-sm:after:inset-x-0';
 const SIZES = {
-  sm: 'h-9 px-3.5 text-[13px] gap-1.5',
-  md: 'h-11 px-4 text-sm gap-2',
-  lg: 'h-12 px-5 text-[15px] gap-2',
-  xl: 'h-14 px-7 text-base gap-2.5',
+  sm: 'h-9 px-3.5 text-[13px] gap-1.5 max-sm:h-8 max-sm:px-3 max-sm:text-xs max-sm:after:-inset-y-1.5',
+  md: 'h-11 px-4 text-sm gap-2 max-sm:h-10 max-sm:px-3.5 max-sm:gap-1.5 max-sm:after:-inset-y-1',
+  lg: 'h-12 px-5 text-[15px] gap-2 max-sm:h-10 max-sm:px-4 max-sm:gap-1.5 max-sm:text-sm max-sm:after:-inset-y-1',
+  xl: 'h-14 px-7 text-base gap-2.5 max-sm:h-10 max-sm:px-5 max-sm:gap-2 max-sm:text-sm max-sm:after:-inset-y-1',
 };
-const ICON_SIZES = { sm: 'h-4 w-4', md: 'h-[18px] w-[18px]', lg: 'h-5 w-5', xl: 'h-5 w-5' };
+const ICON_SIZES = { sm: 'h-4 w-4 max-sm:h-3.5 max-sm:w-3.5', md: 'h-[18px] w-[18px] max-sm:h-4 max-sm:w-4', lg: 'h-5 w-5 max-sm:h-4 max-sm:w-4', xl: 'h-5 w-5 max-sm:h-4 max-sm:w-4' };
 const SHAPES = { rounded: 'rounded-xl', pill: 'rounded-full' };
 
 /**
  * Tombol.
  * variant: primary (obsidian) | accent (cobalt) | mint | secondary (putih + garis) | soft (latar ghost) | ghost | danger | danger-soft | link
- * size: sm (36) | md (44) | lg (48) | xl (56) · shape: 'rounded' (default, rounded-xl) | 'pill' (rounded-full)
+ * size: sm (36) | md (44) | lg (48) | xl (56) — di HP: sm 32, md/lg/xl 40 · shape: 'rounded' (default, rounded-xl) | 'pill' (rounded-full)
  * loading · icon (kiri) · iconRight · fullWidth · href (jadi <Link>)
  */
 export function Button({
@@ -57,6 +60,7 @@ export function Button({
     SHAPES[shape] || SHAPES.rounded,
     VARIANTS[variant] || VARIANTS.primary,
     SIZES[size] || SIZES.md,
+    HIT,
     fullWidth && 'w-full',
     loading && 'disabled:opacity-80',
     className,
@@ -94,6 +98,8 @@ const ICON_VARIANTS = {
   danger: 'bg-danger-50 text-danger hover:bg-danger/15',
 };
 const ICON_BTN_SIZES = { xs: 'h-7 w-7', sm: 'h-8 w-8', md: 'h-10 w-10', lg: 'h-12 w-12' };
+// HP: area sentuh tak terlihat +4px tiap sisi (sm 32→40, md 40→48) tanpa mengubah ukuran visual/layout.
+const ICON_HIT = { xs: "max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']", sm: "max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']", md: "max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']" };
 const ICON_INNER = { xs: 'h-3.5 w-3.5', sm: 'h-4 w-4', md: 'h-[18px] w-[18px]', lg: 'h-5 w-5' };
 const ICON_SHAPES = { round: 'rounded-full', pill: 'rounded-full', rounded: { xs: 'rounded-lg', sm: 'rounded-lg', md: 'rounded-xl', lg: 'rounded-xl' } };
 
@@ -111,6 +117,7 @@ export function IconButton({ icon, label, variant = 'white', size = 'md', shape 
     shapeCls,
     ICON_VARIANTS[variant] || ICON_VARIANTS.white,
     ICON_BTN_SIZES[size] || ICON_BTN_SIZES.md,
+    ICON_HIT[size],
     className,
   );
   const inner = (

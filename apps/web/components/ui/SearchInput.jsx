@@ -98,7 +98,7 @@ export function SearchInput({ value: valueProp, defaultValue = '', onChange, onS
         </button>
       ) : (
         hint && (
-          <kbd className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 rounded-md bg-ghost px-1.5 py-0.5 font-sans text-[11px] font-semibold text-obsidian-600 ring-1 ring-inset ring-mist-100">{hint}</kbd>
+          <kbd className="pointer-events-none absolute right-2.5 max-sm:hidden top-1/2 -translate-y-1/2 rounded-md bg-ghost px-1.5 py-0.5 font-sans text-[11px] font-semibold text-obsidian-600 ring-1 ring-inset ring-mist-100">{hint}</kbd>
         )
       )}
     </div>

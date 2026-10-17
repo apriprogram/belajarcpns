@@ -12,7 +12,7 @@ import { cn } from '@/lib/cn';
 
 /** Permukaan kartu datar. */
 export function Panel({ as: Tag = 'div', padding = 'md', className, children, ...props }) {
-  const pad = { none: '', sm: 'p-4 sm:p-5', md: 'p-5 sm:p-6', lg: 'p-6 sm:p-8' }[padding] ?? 'p-5 sm:p-6';
+  const pad = { none: '', sm: 'p-4 sm:p-5', md: 'p-5 sm:p-6', lg: 'p-5 sm:p-8' }[padding] ?? 'p-5 sm:p-6';
   return (
     <Tag className={cn('rounded-[20px] bg-white ring-1 ring-inset ring-mist-100', pad, className)} {...props}>
       {children}
@@ -52,7 +52,7 @@ export function InfoHint({ text }) {
 /** Tombol/tautan kecil sekunder ("Detail") ala dashboard medis. */
 export function DetailLink({ href, children = 'Detail', className, ...props }) {
   const cls = cn(
-    'inline-flex h-9 shrink-0 items-center gap-1 rounded-xl bg-white px-3.5 text-[13px] font-semibold text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 hover:ring-mist focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+    'inline-flex h-9 shrink-0 items-center gap-1 rounded-xl bg-white px-3.5 text-[13px] font-semibold max-sm:h-8 max-sm:px-3 max-sm:text-xs text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 hover:ring-mist focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
     className,
   );
   if (href)
@@ -74,10 +74,10 @@ export function PanelHeader({ title, info, subtitle, action, as: T = 'h2', class
     <div className={cn('mb-4 flex items-start justify-between gap-3', className)}>
       <div className="min-w-0">
         <div className="flex items-center gap-1.5">
-          <T className="text-[15px] font-semibold tracking-[-0.01em] text-obsidian">{title}</T>
+          <T className="text-[14px] font-semibold tracking-[-0.01em] text-obsidian sm:text-[15px]">{title}</T>
           <InfoHint text={info} />
         </div>
-        {subtitle && <p className="mt-0.5 text-[13px] text-mist-700">{subtitle}</p>}
+        {subtitle && <p className="mt-0.5 text-xs text-mist-700 sm:text-[13px]">{subtitle}</p>}
       </div>
       {action && <div className="flex shrink-0 items-center gap-2">{action}</div>}
     </div>
@@ -171,9 +171,9 @@ export function StatTile({ title, info, action, icon, iconTone, value, suffix, p
         {loading ? (
           <span className="h-8 w-24 animate-pulse rounded-lg bg-mist-100" />
         ) : (
-          <p className="flex items-baseline gap-1 text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums text-obsidian">
+          <p className="flex items-baseline gap-1 text-[22px] font-semibold leading-none tracking-[-0.02em] tabular-nums text-obsidian sm:text-[32px] sm:tracking-[-0.03em]">
             {value ?? '—'}
-            {suffix && <span className="text-base font-medium tracking-normal text-mist-500">{suffix}</span>}
+            {suffix && <span className="text-sm font-medium tracking-normal text-mist-500 sm:text-base">{suffix}</span>}
           </p>
         )}
         {!loading && pill}
@@ -181,7 +181,7 @@ export function StatTile({ title, info, action, icon, iconTone, value, suffix, p
       {(chart || caption) && (
         <div className="mt-4 flex items-end justify-between gap-4">
           {chart && <div className="min-w-0 flex-1">{chart}</div>}
-          {caption && <p className={cn('text-[13px] leading-snug text-mist-700', chart ? 'max-w-[54%] text-right sm:text-left' : '')}>{caption}</p>}
+          {caption && <p className={cn('text-xs leading-snug text-mist-700 sm:text-[13px]', chart ? 'max-w-[54%] text-right sm:text-left' : '')}>{caption}</p>}
         </div>
       )}
     </Panel>
@@ -214,12 +214,12 @@ export function PageHead({ title, description, actions, crumbs, meta, mascot, cl
           <div className={cn('min-w-0', mascot && 'pb-5 sm:pb-6')}>
             {crumbs && crumbs.length > 0 && (
               <nav aria-label="Breadcrumb" className="mb-2">
-                <ol className="flex flex-wrap items-center gap-1 text-[13px] text-mist-700">
+                <ol className="flex flex-wrap items-center gap-1 text-xs text-mist-700 sm:text-[13px]">
                   {crumbs.map((c, i) => (
                     <li key={i} className="inline-flex items-center gap-1">
                       {i > 0 && <ChevronRight className="h-3.5 w-3.5 text-cobalt/50" aria-hidden />}
                       {c.href ? (
-                        <Link href={c.href} className="rounded-md font-medium transition-colors hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
+                        <Link href={c.href} className="rounded-md font-medium transition-colors max-sm:inline-flex max-sm:min-h-9 max-sm:items-center hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
                           {c.label}
                         </Link>
                       ) : i === crumbs.length - 1 ? (
@@ -234,12 +234,12 @@ export function PageHead({ title, description, actions, crumbs, meta, mascot, cl
                 </ol>
               </nav>
             )}
-            <h1 className="text-[24px] font-semibold leading-tight tracking-[-0.02em] text-obsidian sm:text-[30px]">{title}</h1>
+            <h1 className="text-[20px] font-semibold leading-tight tracking-[-0.015em] text-obsidian sm:text-[30px] sm:tracking-[-0.02em]">{title}</h1>
             {description && <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-mist-700">{description}</p>}
             {meta && <div className="mt-3 flex flex-wrap items-center gap-2">{meta}</div>}
-            {mascot && actions && <div className="mt-4 flex flex-wrap items-center gap-2 [&_a]:!shadow-none [&_button]:!shadow-none">{actions}</div>}
+            {mascot && actions && <div className="mt-4 flex flex-wrap items-center gap-2 [&_a]:!shadow-none [&_button]:!shadow-none max-sm:[&>*]:flex-1">{actions}</div>}
           </div>
-          {!mascot && actions && <div className="flex shrink-0 flex-wrap items-center gap-2 [&_a]:!shadow-none [&_button]:!shadow-none">{actions}</div>}
+          {!mascot && actions && <div className="flex shrink-0 flex-wrap items-center gap-2 [&_a]:!shadow-none [&_button]:!shadow-none max-sm:[&>*]:flex-1">{actions}</div>}
         </div>
 
         {mascot && (
@@ -277,7 +277,7 @@ export function Segmented({ items = [], value, onChange, ariaLabel = 'Filter', s
     onChange?.(items[n].value);
   };
   return (
-    <div role="tablist" aria-label={ariaLabel} className={cn('inline-flex max-w-full items-center gap-0.5 overflow-x-auto rounded-xl bg-ghost p-1 no-scrollbar', className)}>
+    <div role="tablist" aria-label={ariaLabel} className={cn('inline-flex max-w-full items-center gap-0.5 overflow-x-auto rounded-xl bg-ghost p-1 no-scrollbar max-sm:flex max-sm:w-full', className)}>
       {items.map((it, i) => {
         const active = it.value === value;
         return (
@@ -292,8 +292,8 @@ export function Segmented({ items = [], value, onChange, ariaLabel = 'Filter', s
             onClick={() => onChange?.(it.value)}
             onKeyDown={(e) => onKeyDown(e, i)}
             className={cn(
-              'inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-[10px] font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
-              size === 'sm' ? 'h-8 px-3 text-[13px]' : 'h-9 px-3.5 text-sm',
+              'inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-[10px] font-medium max-sm:flex-1 max-sm:justify-center transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+              size === 'sm' ? 'h-8 px-2.5 text-xs sm:px-3 sm:text-[13px]' : 'h-8 px-3 text-xs sm:h-9 sm:px-3.5 sm:text-sm',
               active ? 'bg-white text-obsidian ring-1 ring-inset ring-mist-100' : 'text-mist-700 hover:text-obsidian',
             )}
           >
@@ -319,13 +319,13 @@ export function SearchField({ value, onChange, placeholder = 'Cari…', ariaLabe
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         aria-label={ariaLabel || placeholder}
-        className="h-10 w-full rounded-xl bg-white pl-10 pr-9 text-sm text-obsidian ring-1 ring-inset ring-mist-100 transition-shadow placeholder:text-mist-500 hover:ring-mist focus:outline-none focus:ring-2 focus:ring-cobalt [&::-webkit-search-cancel-button]:hidden"
+        className="h-10 w-full rounded-xl bg-white pl-10 pr-11 text-[16px] text-obsidian sm:h-10 sm:pr-9 sm:text-sm ring-1 ring-inset ring-mist-100 transition-shadow placeholder:text-mist-500 hover:ring-mist focus:outline-none focus:ring-2 focus:ring-cobalt [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (
         <button
           type="button"
           onClick={() => onChange('')}
-          className="absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-mist-700 hover:bg-ghost hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
+          className="absolute right-1 top-1/2 flex h-9 w-9 -translate-y-1/2 sm:right-2 sm:h-6 sm:w-6 items-center justify-center rounded-full text-mist-700 hover:bg-ghost hover:text-obsidian focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt"
           aria-label="Hapus pencarian"
         >
           <X className="h-3.5 w-3.5" aria-hidden />

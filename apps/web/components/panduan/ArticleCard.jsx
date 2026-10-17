@@ -33,7 +33,7 @@ export function ArticleCard({ article, variant = 'default', as: Heading = 'h3', 
   return (
     <article
       className={cn(
-        'group relative flex h-full flex-col rounded-[24px] p-6 ring-1 ring-inset transition-[transform,box-shadow] duration-300 ease-[cubic-bezier(.2,.8,.2,1)] focus-within:ring-2 focus-within:ring-cobalt hover:-translate-y-1 sm:p-7',
+        'group relative flex h-full flex-col rounded-[24px] p-5 ring-1 ring-inset transition-[transform,box-shadow] duration-300 ease-[cubic-bezier(.2,.8,.2,1)] focus-within:ring-2 focus-within:ring-cobalt sm:p-7 sm:hover:-translate-y-1',
         dark ? 'bg-obsidian text-white ring-obsidian' : 'bg-white ring-mist-100 hover:shadow-[inset_0_0_0_1px_rgba(55,101,246,.35)]',
         className,
       )}
@@ -47,14 +47,14 @@ export function ArticleCard({ article, variant = 'default', as: Heading = 'h3', 
         </span>
         {mins ? <span className={cn('shrink-0 font-mono text-xs tabular-nums', dark ? 'text-white/60' : 'text-mist-700')}>{mins} mnt baca</span> : null}
       </div>
-      {eyebrow && <p className={cn('mt-6 text-xs font-semibold uppercase tracking-[0.08em]', dark ? 'text-mint' : 'text-cobalt')}>{eyebrow}</p>}
-      <Heading className={cn('font-semibold leading-snug tracking-[-0.02em]', eyebrow ? 'mt-2' : 'mt-6', dark ? 'text-2xl text-white sm:text-[28px] sm:leading-tight' : 'text-xl')}>
+      {eyebrow && <p className={cn('mt-5 text-xs font-semibold uppercase tracking-[0.08em] sm:mt-6', dark ? 'text-mint' : 'text-cobalt')}>{eyebrow}</p>}
+      <Heading className={cn('font-semibold leading-snug tracking-[-0.02em]', eyebrow ? 'mt-2' : 'mt-4 sm:mt-6', dark ? 'text-xl text-white sm:text-[28px] sm:leading-tight' : 'text-base sm:text-xl sm:leading-snug')}>
         <Link href={`/panduan/${article.slug}`} className="outline-none after:absolute after:inset-0 after:rounded-[24px] after:content-['']">
           {article.title}
         </Link>
       </Heading>
-      <p className={cn('mt-3 text-[15px] leading-relaxed', dark ? 'max-w-xl text-white/65' : 'line-clamp-3 text-mist-700')}>{article.description}</p>
-      <span className={cn('mt-auto inline-flex items-center gap-1.5 pt-6 text-sm font-semibold transition-colors', dark ? 'text-mint' : 'text-obsidian group-hover:text-cobalt')} aria-hidden>
+      <p className={cn('mt-2 text-sm leading-relaxed sm:mt-3 sm:text-[15px]', dark ? 'max-w-xl text-white/65' : 'line-clamp-3 text-mist-700')}>{article.description}</p>
+      <span className={cn('mt-auto inline-flex items-center gap-1.5 pt-5 text-sm font-semibold transition-colors sm:pt-6', dark ? 'text-mint' : 'text-obsidian group-hover:text-cobalt')} aria-hidden>
         Baca panduan
         <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
       </span>

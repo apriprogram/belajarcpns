@@ -31,6 +31,13 @@ const QUICK_LINKS = [
   { href: '/testimoni', label: 'Tulis testimoni', desc: 'Bagikan pengalaman belajar Anda (bintang + ulasan)', icon: MessageSquareQuote, keywords: 'testimoni ulasan review rating bintang kesan pengalaman' },
 ];
 
+/** Tautan tambahan di menu HP (di bawah navigasi utama). Tanpa href = putar tutorial. */
+const MOBILE_EXTRA = [
+  { href: '/profil', label: 'Profil saya', icon: UserRound },
+  { href: '/testimoni', label: 'Tulis testimoni', icon: MessageSquareQuote },
+  { label: 'Putar tutorial', icon: CirclePlay },
+];
+
 const isActive = (path, item) => (item.match || [item.href]).some((p) => path === p || path.startsWith(`${p}/`));
 
 /** Kerangka panel peserta: topbar ala dashboard medis (logo, nav pill, cari ⌘K, lonceng, profil). */
@@ -115,7 +122,7 @@ export function PesertaShell({ children }) {
               aria-label="Cari halaman"
               title="Cari halaman"
               data-tour="search"
-              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt lg:hidden"
+              className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full max-sm:h-9 max-sm:w-9 max-sm:after:absolute max-sm:after:-inset-1 bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt lg:hidden"
             >
               <Search className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
             </button>
@@ -125,7 +132,7 @@ export function PesertaShell({ children }) {
               data-tour="tour-btn"
               aria-label="Putar tutorial dashboard"
               title="Putar tutorial"
-              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-cobalt-50 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt max-[380px]:hidden"
+              className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full max-sm:h-9 max-sm:w-9 max-sm:after:absolute max-sm:after:-inset-1 bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-colors hover:bg-cobalt-50 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt max-sm:hidden"
             >
               <CirclePlay className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
             </button>
@@ -145,7 +152,7 @@ export function PesertaShell({ children }) {
               aria-controls="menu-mobile"
               data-tour="menu"
               aria-label={mobileOpen ? 'Tutup menu' : 'Buka menu'}
-              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-obsidian text-white transition-colors hover:bg-obsidian-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 md:hidden"
+              className="relative flex h-11 w-11 shrink-0 items-center justify-center rounded-full max-sm:h-9 max-sm:w-9 max-sm:after:absolute max-sm:after:-inset-1 bg-obsidian text-white transition-colors hover:bg-obsidian-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt focus-visible:ring-offset-2 md:hidden"
             >
               {mobileOpen ? <X className="h-[18px] w-[18px]" aria-hidden /> : <MenuIcon className="h-[18px] w-[18px]" aria-hidden />}
             </button>
@@ -162,7 +169,7 @@ export function PesertaShell({ children }) {
                   href={item.href}
                   aria-current={active ? 'page' : undefined}
                   className={cn(
-                    'flex h-12 items-center gap-3 rounded-xl px-3.5 text-[15px] font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+                    'flex h-11 items-center gap-3 rounded-xl px-3.5 text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
                     active ? 'bg-cobalt text-white' : 'text-obsidian hover:bg-ghost',
                   )}
                 >
@@ -171,13 +178,44 @@ export function PesertaShell({ children }) {
                 </Link>
               );
             })}
+            {/* Menu sekunder (HP): tombol tutorial disembunyikan dari topbar agar tidak sesak */}
+            <div className="mx-2 my-1.5 border-t border-mist-100 sm:hidden" aria-hidden />
+            <div className="sm:hidden">
+            {MOBILE_EXTRA.map((item) => {
+              const Icon = item.icon;
+              const cls = 'flex h-11 w-full items-center gap-3 rounded-xl px-3.5 text-left text-sm font-medium text-obsidian-600 hover:bg-ghost focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt';
+              if (!item.href)
+                return (
+                  <button
+                    key={item.label}
+                    type="button"
+                    onClick={() => {
+                      setMobileOpen(false);
+                      startTour(router);
+                    }}
+                    className={cls}
+                  >
+                    <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
+                    {item.label}
+                  </button>
+                );
+              const active = isActive(pathname, item);
+              return (
+                <Link key={item.href} href={item.href} aria-current={active ? 'page' : undefined} className={cn(cls, active && 'bg-ghost text-obsidian')}>
+                  <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} aria-hidden />
+                  {item.label}
+                </Link>
+              );
+            })}
+            </div>
           </nav>
         )}
       </header>
       <main id="konten" className="relative mx-auto max-w-[1440px] px-4 pb-8 pt-2 sm:px-6 sm:pt-3 lg:px-8">
         {children}
       </main>
-      <div className="mx-auto max-w-[1440px] px-4 pb-6 sm:px-6 lg:px-8">
+      {/* HP: ruang bawah ekstra agar tombol GroupChat melayang tidak menutupi footer */}
+      <div className="mx-auto max-w-[1440px] px-4 pb-24 sm:px-6 sm:pb-6 lg:px-8">
         <PanelFooter />
       </div>
       <QuickSearch open={paletteOpen} onClose={() => setPaletteOpen(false)} />

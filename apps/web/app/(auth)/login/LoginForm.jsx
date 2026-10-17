@@ -61,19 +61,19 @@ export function LoginForm() {
       <form onSubmit={onSubmit} noValidate className="space-y-4">
         {form.formError && <FormAlert>{form.formError}</FormAlert>}
         <Field label="Email" required {...form.field('email')}>
-          <Input type="email" autoComplete="email" inputMode="email" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
+          <Input type="email" autoComplete="username" inputMode="email" autoCapitalize="none" autoCorrect="off" spellCheck={false} enterKeyHint="next" placeholder="nama@email.com" leftIcon={<Mail />} {...form.bind('email')} />
         </Field>
         <Field
           label="Kata sandi"
           required
           {...form.field('password')}
           labelAction={
-            <Link href="/lupa-password" className="rounded text-[13px] font-medium text-cobalt hover:text-cobalt-700">
+            <Link href="/lupa-password" className="-my-2 inline-flex min-h-9 items-center rounded px-1 text-[13px] font-medium text-cobalt hover:text-cobalt-700 sm:my-0 sm:inline sm:min-h-0 sm:px-0">
               Lupa kata sandi?
             </Link>
           }
         >
-          <PasswordInput placeholder="Kata sandi Anda" {...form.bind('password')} />
+          <PasswordInput autoComplete="current-password" enterKeyHint="go" placeholder="Kata sandi Anda" {...form.bind('password')} />
         </Field>
         <div className="pt-2">
           <Button type="submit" size="md" fullWidth loading={form.submitting}>

@@ -62,7 +62,7 @@ export function AnnouncementLike({ item, size = 'sm', className }) {
       title={state.liked ? 'Batal suka' : 'Suka'}
       className={cn(
         'inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-full font-semibold tabular-nums transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
-        md ? 'h-10 px-4 text-sm' : 'h-7 px-2.5 text-xs',
+        md ? 'h-11 px-4 text-sm sm:h-10' : 'h-9 px-3 text-xs sm:h-7 sm:px-2.5',
         state.liked ? 'bg-danger-50 text-danger-700 ring-1 ring-inset ring-danger/30' : 'bg-ghost text-obsidian-600 ring-1 ring-inset ring-mist-100 hover:bg-danger-50 hover:text-danger-700',
         className,
       )}
@@ -88,6 +88,7 @@ export function AnnouncementModal({ item, onClose, engage = true }) {
       open={!!item}
       onClose={onClose}
       size="md"
+      className="max-sm:pb-[env(safe-area-inset-bottom)]"
       icon={<Megaphone />}
       eyebrow="Pengumuman"
       title={item?.title || ''}

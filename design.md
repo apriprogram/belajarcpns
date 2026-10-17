@@ -30,24 +30,47 @@ dan setiap kartu punya satu fokus.
 - **JetBrains Mono** (`font-mono`) untuk timer, nomor soal, kode, dan badge nomor section.
 - Judul 600 dengan tracking rapat. Body 400–500. Angka statistik memakai `tabular-nums`.
 
+### Token font (HP lebih ringkas)
+Ukuran bernama Tailwind (`text-xs` … `text-4xl`) memakai CSS variable (`tailwind.config.js` → `fontSize`, nilai di
+`app/globals.css`). Desktop = default Tailwind; **di HP (< 640px) otomatis lebih kecil** tanpa kelas tambahan:
+
+| Kelas | Desktop | HP |
+|---|---|---|
+| `text-xs` | 12px | 12px |
+| `text-sm` | 14px | **13px** |
+| `text-base` | 16px | **15px** |
+| `text-lg` | 18px | **16px** |
+| `text-xl` | 20px | **18px** |
+| `text-2xl` | 24px | **20px** |
+| `text-3xl` | 30px | **24px** |
+| `text-4xl` | 36px | **28px** |
+
+Ukuran px tertulis langsung (`text-[15px]` dll.) tidak ikut berubah, jadi beri nilai HP sendiri (base = HP, `sm:` = desktop).
+**Input/textarea wajib `max-sm:text-[16px]`** (bukan `text-base`, karena di HP `text-base` = 15px → iOS auto-zoom).
+
 ### Skala per layar
-Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop.
+Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop. Preferensi pengguna: **tampilan HP ringkas**.
 
 | Elemen | HP (< 640) | ≥ 640 / desktop |
 |---|---|---|
-| H1 hero landing | 32px, lh 1.1, tracking -0.03em | `sm:` 60px → `xl:` 72px, lh 1.06, -0.045em |
-| H2 judul section landing | 28px, lh 1.15 | `sm:` 48px → `xl:` 56px |
-| H2 CTA gelap | 28px | `sm:` 60px |
-| Judul kartu fitur besar | 22px | `sm:` 30px → `lg:` 40px |
-| Judul kartu biasa | 17px | `sm:` 20px |
-| Body / deskripsi landing (checklist hero, deskripsi section, kartu fitur utama, subjudul CTA) | 16px, lh 1.6 | 17–18px |
-| Teks kartu landing (kartu fitur, langkah, FAQ) | 15px | 15px |
-| H1 halaman panel (admin & peserta) | 24px, lh 1.25 | 28px |
-| Judul panel/kartu panel | 15px semibold | 15px |
-| Body panel | 14px | 14–15px |
-| Caption / label / header tabel | 12–13px (header tabel 11px uppercase) | sama |
-| Angka statistik (StatTile, kit) | 26px | 30–32px |
-| Skor besar hasil ujian | 40px | 56px |
+| H1 hero landing | 24px, lh 1.2, tracking -0.02em | `sm:` 60px → `xl:` 72px |
+| H2 judul section & CTA gelap | 20px (`text-2xl`), lh 1.2 | `sm:` 48–60px → `xl:` 56px |
+| Judul kartu fitur besar / kartu langkah | 18px (`text-xl`) | `sm:` 30px → `lg:` 40px |
+| Judul kartu biasa / kartu artikel | 15px (`text-base`) | `sm:` 20px |
+| Deskripsi landing (checklist hero, deskripsi section, kartu fitur utama, subjudul CTA) | 14px, lh 1.6 | 17–18px |
+| Teks kartu landing (fitur, langkah, testimoni, jawaban FAQ) | 13px (`text-sm`) | 15px |
+| Tombol (semua ukuran md/lg/xl) | **40px, teks 13px** (area sentuh ±48px) | 44 / 48 / 56px |
+| Tombol kecil (sm), tombol navbar landing | 32px, teks 12px (area sentuh ±44px) | 36 / 44px |
+| Tab / segmen / tab TRYOUT-LATIHAN | 32px, teks 11–12px | 36px |
+| Ikon bulat topbar panel | 36px (area sentuh 44px) | 44px |
+| Logo | tanda 32px, nama 15px | 36px, 17px |
+| H1 halaman panel (admin & peserta) | 20px | 28–30px |
+| Judul panel/kartu panel | 14px semibold | 15px |
+| Body panel | 13px (`text-sm`) | 14px |
+| Caption / label / header tabel | 12px (header tabel 11px uppercase) | 12–13px |
+| Angka statistik (StatTile, kit, dashboard) | 22px | 30–32px |
+| Skor besar hasil ujian / timer | 32px / 28px | 56px / 44px |
+| Teks soal & pembahasan | 14–15px | 15–18px |
 | Input / textarea / select | **16px** (anti auto-zoom iOS) | 15px |
 | Minimum teks fungsional | 11px | 11px (10px hanya untuk ilustrasi dekoratif) |
 
@@ -55,7 +78,7 @@ Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop.
 
 - Kelipatan 4/8px.
 - Gutter `container-wide`: `px-5 sm:px-8 lg:px-12 2xl:px-16`. Main panel memakai `px-4 sm:px-6 lg:px-8`.
-- Section landing (`.section-screen`): `py-14 sm:py-20`, dan setinggi satu layar (`min-h-[100svh]`) hanya di `lg:`.
+- Section landing (`.section-screen`): `py-12 sm:py-20`, dan setinggi satu layar (`min-h-[100svh]`) hanya di `lg:`.
 - Padding kartu: HP 16–20px, desktop 24–32px. Gap grid: HP 12–16px, desktop 20–24px.
 - Radius:
   - panel/kartu `rounded-[20px]`
@@ -69,11 +92,11 @@ Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop.
 
 | Komponen | Aturan |
 |---|---|
-| Button | `primary` obsidian, `accent` cobalt, `mint`, `secondary` putih + ring, `soft` ghost, `ghost`, `danger`. Ukuran: sm 36 · md 44 (HP teks 15px) · lg 48 · xl 56. Landing & nav memakai `shape="pill"`. Tombol hero/CTA di HP diperkecil: `max-sm:h-12 max-sm:text-[15px]`. |
+| Button | `primary` obsidian, `accent` cobalt, `mint`, `secondary` putih + ring, `soft` ghost, `ghost`, `danger`. Ukuran desktop: sm 36 · md 44 · lg 48 · xl 56. **Di HP otomatis**: sm 32 (teks 12px) · md/lg/xl 40 (teks 13px), plus area sentuh tak terlihat (`after:`) ±44–48px. Landing & nav memakai `shape="pill"`. Jangan menimpa tinggi di HP lewat `className` biasa (bentrok dengan kelas `max-sm:` bawaan); kalau terpaksa pakai `max-sm:!h-8` dsb. |
 | IconButton | xs 28 · sm 32 · md 40 · lg 48. Di HP sm/md diberi **area sentuh tak terlihat** +4px tiap sisi (`max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']`). Label (aria) wajib. |
 | Input/Select/Textarea | h-11 (md), `rounded-xl`, ring mist-100, fokus ring cobalt, error ring danger + pesan. Teks 16px di HP. Pakai `type`/`inputMode`/`autoComplete`/`enterKeyHint` yang tepat. |
 | Switch | track 36×20 (sm 28×16); di HP area sentuh diperluas `before:-inset-3`. |
-| SegmentedControl | kontainer `bg-ghost p-1 rounded-xl`, item aktif putih + ring. Di HP sm = 36px dan digulir horizontal sendiri (`max-sm:overflow-x-auto no-scrollbar`), tidak melebarkan halaman. |
+| SegmentedControl / Segmented / Tabs | kontainer `bg-ghost p-1 rounded-xl`, item aktif putih + ring. **Di HP item 32px, teks 12px** + area sentuh vertikal (`after:-inset-y-1.5`), digulir horizontal di kontainernya sendiri (`max-sm:overflow-x-auto no-scrollbar`). |
 | Modal | header + divider + body + footer kanan. Di HP berbentuk bottom-sheet, padding 20px, `pb-[env(safe-area-inset-bottom)]`, dan tombol footer bertumpuk (`flex-col-reverse`). Latar tanpa blur (`bg-obsidian/30`). |
 | Tabel | dibungkus kartu; header `bg-ghost text-[11px] uppercase`. **Di HP (< 768px) tampil sebagai kartu bertumpuk** (contoh: Riwayat), atau tabel dibungkus `overflow-x-auto` di dalam kartu. Halaman tidak boleh ikut melebar. |
 | Pagination | tombol 32px (HP 40px). |

@@ -50,6 +50,40 @@ function useTitleCount(n) {
     };
   }, [n]);
 }
+/**
+ * HP (< 640px): sembunyikan tombol bulat saat halaman digulir ke bawah agar tidak menutupi konten/tombol;
+ * muncul lagi saat digulir ke atas atau sudah di dekat dasar halaman (ada ruang kosong di bawah footer).
+ */
+function useHideOnScrollDown() {
+  const [hide, setHide] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 639.98px)');
+    let last = window.scrollY;
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const y = window.scrollY;
+      const nearBottom = window.innerHeight + y >= document.documentElement.scrollHeight - 120;
+      const touring = !!document.querySelector('[role="dialog"][aria-label^="Tur dashboard"]'); // tur onboarding menyorot tombol ini
+      if (!mq.matches || y < 80 || nearBottom || touring) setHide(false);
+      else if (y > last + 6) setHide(true);
+      else if (y < last - 6) setHide(false);
+      last = y;
+    };
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(update);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    mq.addEventListener('change', update);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      mq.removeEventListener('change', update);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
+  return hide;
+}
+
 function useIsDesktop() {
   const [d, setD] = useState(false);
   useEffect(() => {
@@ -72,6 +106,7 @@ export function GroupChat() {
   const { user } = useAuth();
   const toast = useToast();
   const isDesktop = useIsDesktop();
+  const fabHidden = useHideOnScrollDown();
   const pageHidden = usePageHidden();
   const { width: panelW, dragging: resizing, handleProps: resizeHandle } = useResizableWidth();
   const meId = user?.id;
@@ -756,8 +791,10 @@ export function GroupChat() {
           data-tour="groupchat"
           aria-label={open ? 'Tutup GroupChat' : `Buka GroupChat${unreadShown ? `, ${unreadShown} pesan baru` : ''}${unreadShown > 0 && unreadMention ? ', ada yang menandai Anda' : ''}`}
           className={cn(
-            'fixed bottom-5 right-5 z-[45] flex h-14 w-14 items-center justify-center rounded-full bg-obsidian text-white shadow-float transition-transform duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/40 sm:bottom-6 sm:right-6',
+            'fixed bottom-5 right-4 z-[45] max-sm:right-[max(16px,env(safe-area-inset-right))] flex h-14 w-14 max-sm:h-12 max-sm:w-12 max-sm:bottom-[max(16px,calc(env(safe-area-inset-bottom)+8px))] items-center justify-center rounded-full bg-obsidian text-white shadow-float transition-transform duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cobalt/40 sm:bottom-6 sm:right-6',
             open && 'max-lg:hidden',
+            'max-sm:transition-[transform,opacity] max-sm:duration-300',
+            fabHidden && !open && 'max-sm:pointer-events-none max-sm:translate-y-24 max-sm:opacity-0',
           )}
         >
           {open ? <X className="h-6 w-6" /> : <MessagesSquare className="h-6 w-6" />}
@@ -812,7 +849,7 @@ export function GroupChat() {
             </div>
           )}
           {/* Header */}
-          <header className="flex items-center gap-3 border-b border-mist-100 px-4 py-3">
+          <header className="flex items-center gap-3 border-b border-mist-100 px-4 py-3 max-sm:pt-[max(12px,env(safe-area-inset-top))]">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-obsidian text-white">
               <MessagesSquare className="h-5 w-5" />
             </span>

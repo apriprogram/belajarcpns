@@ -68,7 +68,7 @@ export function AnnouncementsView() {
           <ErrorState error={error} onRetry={() => reload()} />
         </Panel>
       ) : loading && !data ? (
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-3">
           {Array.from({ length: 3 }).map((_, i) => (
             <Skeleton key={i} className="h-56" rounded="rounded-[20px]" />
           ))}
@@ -88,14 +88,14 @@ export function AnnouncementsView() {
           }
         />
       ) : (
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-3">
           {shown.map((a) => (
             <Panel as="article" key={a.id} className="flex min-h-[240px] flex-col">
               <div className="flex items-start justify-between gap-3">
                 <IconBox icon={<Megaphone />} tone={a.published ? 'cobalt' : 'default'} />
                 <StatusPill status={a.published ? 'terbit' : 'draft'} />
               </div>
-              <h2 className="mt-4 line-clamp-2 text-[16px] font-semibold leading-snug tracking-[-0.01em]">{a.title}</h2>
+              <h2 className="mt-4 line-clamp-2 text-[14px] font-semibold leading-snug sm:text-[16px] tracking-[-0.01em]">{a.title}</h2>
               <p className="mt-2 line-clamp-4 whitespace-pre-line text-sm leading-relaxed text-mist-700">{a.body}</p>
               <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
                 <p className="mr-auto flex items-center gap-1.5 text-xs text-mist-700" title={formatTanggalJam(a.created_at)}>
@@ -284,7 +284,7 @@ function EngagementModal({ item, onClose }) {
               {loading ? (
                 <Skeleton className="mt-2 h-8 w-16" />
               ) : (
-                <p className="mt-1.5 text-[28px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(data?.views || 0)}</p>
+                <p className="mt-1.5 text-[20px] font-semibold leading-none tracking-[-0.02em] sm:text-[28px] sm:tracking-[-0.03em] tabular-nums">{formatAngka(data?.views || 0)}</p>
               )}
               <p className="mt-1.5 text-xs text-mist-700">
                 dari {formatAngka(audience)} peserta · <span className="font-semibold text-obsidian">{pct}%</span>
@@ -300,7 +300,7 @@ function EngagementModal({ item, onClose }) {
               {loading ? (
                 <Skeleton className="mt-2 h-8 w-16" />
               ) : (
-                <p className="mt-1.5 text-[28px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(data?.likes || 0)}</p>
+                <p className="mt-1.5 text-[20px] font-semibold leading-none tracking-[-0.02em] sm:text-[28px] sm:tracking-[-0.03em] tabular-nums">{formatAngka(data?.likes || 0)}</p>
               )}
               <p className="mt-1.5 text-xs text-mist-700">
                 {data?.views ? `${Math.round(((data?.likes || 0) / data.views) * 100)}% dari yang melihat` : 'peserta menyukai'}

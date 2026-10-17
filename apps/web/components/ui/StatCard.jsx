@@ -75,7 +75,7 @@ export function StatCard({ label, value, suffix, icon, tone = 'cobalt', trend, t
         {loading ? (
           <div className={cn('h-9 w-28 animate-pulse rounded-xl', dark ? 'bg-white/10' : 'bg-mist-100')} />
         ) : (
-          <p className="flex min-w-0 items-baseline gap-1 text-[32px] font-semibold leading-none tracking-[-0.03em] tabular-nums">
+          <p className="flex min-w-0 items-baseline gap-1 text-[24px] font-semibold leading-none tracking-[-0.03em] tabular-nums sm:text-[32px]">
             <span className="truncate">{value ?? '—'}</span>
             {suffix && <span className={cn('text-base font-medium tracking-tight', dark ? 'text-white/50' : 'text-mist-500')}>{suffix}</span>}
           </p>

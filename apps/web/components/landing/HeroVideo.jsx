@@ -153,7 +153,7 @@ export function HeroVideo({ className }) {
                   onClick={() => seek(s.start)}
                   aria-current={on ? 'step' : undefined}
                   className={cn(
-                    'group/step relative flex h-11 w-full items-center overflow-hidden rounded-full px-3 text-left ring-1 sm:px-4 lg:px-3 min-[1440px]:px-4 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
+                    'group/step relative flex h-9 w-full items-center overflow-hidden rounded-full px-2.5 text-left sm:h-11 ring-1 sm:px-4 lg:px-3 min-[1440px]:px-4 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt',
                     on ? 'bg-white ring-mist-100' : 'bg-ghost ring-transparent hover:bg-mist-50',
                   )}
                 >
@@ -163,7 +163,7 @@ export function HeroVideo({ className }) {
                     <span className={cn('-ml-2.5 hidden h-7 w-7 shrink-0 items-center justify-center rounded-full font-mono text-[11px] font-semibold transition-colors sm:flex lg:hidden min-[1440px]:flex', on ? 'bg-obsidian text-white' : pct >= 100 ? 'bg-cobalt text-white' : 'bg-white text-mist-700 ring-1 ring-inset ring-mist-100')}>
                       {i + 1}
                     </span>
-                    <span className={cn('truncate text-[12px] font-semibold leading-tight sm:text-[13px] lg:text-[12px] xl:text-[13px]', on ? 'text-obsidian' : 'text-obsidian-600')}>{s.label}</span>
+                    <span className={cn('truncate text-[11px] font-semibold leading-tight sm:text-[13px] lg:text-[12px] xl:text-[13px]', on ? 'text-obsidian' : 'text-obsidian-600')}>{s.label}</span>
                   </span>
                 </button>
               </li>

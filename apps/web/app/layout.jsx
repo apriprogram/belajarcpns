@@ -70,6 +70,8 @@ export const viewport = {
   themeColor: '#F2F3F6',
   width: 'device-width',
   initialScale: 1,
+  // Konten boleh sampai tepi layar ber-notch; jarak aman diatur lewat env(safe-area-inset-*).
+  viewportFit: 'cover',
 };
 
 export default async function RootLayout({ children }) {

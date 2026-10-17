@@ -56,8 +56,8 @@ export function ContactForm() {
         <span className="flex h-16 w-16 items-center justify-center rounded-full bg-mint-50 text-mint-700">
           <CheckCircle2 className="h-8 w-8" />
         </span>
-        <h3 className="mt-5 text-[22px] font-semibold tracking-tight sm:mt-6 sm:text-2xl">Terima kasih, {sent.name}!</h3>
-        <p className="mt-2 max-w-sm text-[15px] leading-relaxed text-mist-700">
+        <h3 className="mt-5 text-xl font-semibold tracking-tight sm:mt-6 sm:text-2xl">Terima kasih, {sent.name}!</h3>
+        <p className="mt-2 max-w-sm text-sm leading-relaxed text-mist-700 sm:text-[15px]">
           Pesan Anda sudah diterima {sent.recipient === 'developer' ? 'tim developer' : 'admin'}. Kami akan membacanya secepatnya.
         </p>
         <Button shape="pill" variant="secondary" className="mt-8" onClick={() => setSent(null)}>
@@ -89,7 +89,7 @@ export function ContactForm() {
                 aria-checked={on}
                 onClick={() => form.setValue('recipient', r.value)}
                 className={cn(
-                  'flex min-h-14 items-center gap-2.5 rounded-2xl px-3 py-2.5 text-left ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:gap-3 sm:px-4 sm:py-3',
+                  'flex min-h-12 items-center gap-2.5 rounded-2xl px-3 py-2 text-left ring-1 ring-inset transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:gap-3 sm:px-4 sm:py-3',
                   on ? 'bg-cobalt-50 ring-cobalt/40' : 'bg-white ring-mist-100 hover:bg-mist-50',
                 )}
               >
@@ -133,7 +133,7 @@ export function ContactForm() {
                 name="occupation"
                 onClick={() => form.setValue('occupation', o.value)}
                 className={cn(
-                  'inline-flex h-11 items-center gap-2 rounded-full px-4 text-sm font-medium ring-1 ring-inset transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:h-10',
+                  'inline-flex h-9 items-center gap-1.5 rounded-full px-3.5 text-sm font-medium sm:gap-2 sm:px-4 ring-1 ring-inset transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:h-10',
                   on ? 'bg-obsidian text-white ring-obsidian' : 'bg-white text-obsidian-600 ring-mist-100 hover:bg-mist-50 hover:text-obsidian',
                 )}
               >

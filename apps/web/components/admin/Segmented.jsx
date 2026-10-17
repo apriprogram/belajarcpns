@@ -8,6 +8,7 @@ import { cn } from '@/lib/cn';
  * Gaya: kontainer bg-ghost p-1 rounded-xl, item aktif putih + ring mist-100.
  * options: [{ value, label, count?, disabled?, activeClass? }] · value · onChange(value)
  * size: sm | md · fullWidth · ariaLabel · invalid
+ * Bila tidak muat (mobile), kontainer bergulir horizontal sendiri tanpa melebarkan halaman.
  */
 export function Segmented({ options = [], value, onChange, size = 'md', fullWidth, ariaLabel, invalid, className, id }) {
   const refs = useRef([]);
@@ -29,7 +30,7 @@ export function Segmented({ options = [], value, onChange, size = 'md', fullWidt
       aria-label={ariaLabel}
       aria-invalid={invalid || undefined}
       className={cn(
-        'inline-flex max-w-full items-center gap-0.5 rounded-xl bg-ghost p-1',
+        'no-scrollbar inline-flex max-w-full items-center gap-0.5 rounded-xl bg-ghost p-1 max-sm:overflow-x-auto',
         fullWidth && 'flex w-full',
         invalid && 'ring-2 ring-danger/40',
         className,
@@ -49,9 +50,9 @@ export function Segmented({ options = [], value, onChange, size = 'md', fullWidt
             onClick={() => onChange && onChange(o.value)}
             onKeyDown={(e) => onKey(e, i)}
             className={cn(
-              'inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:cursor-not-allowed disabled:opacity-40',
+              'relative inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg font-medium transition-colors duration-150 max-sm:after:absolute max-sm:after:inset-x-0 max-sm:after:-inset-y-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:cursor-not-allowed disabled:opacity-40',
               fullWidth && 'flex-1',
-              size === 'sm' ? 'h-8 min-w-8 px-3 text-[13px]' : 'h-9 px-3.5 text-sm',
+              size === 'sm' ? 'h-8 min-w-8 px-3 text-[13px] max-sm:px-2.5 max-sm:text-xs' : 'h-9 px-3.5 text-sm max-sm:h-8 max-sm:px-3 max-sm:text-xs',
               active ? o.activeClass || 'bg-white text-obsidian ring-1 ring-inset ring-mist-100' : 'text-mist-700 hover:text-obsidian',
             )}
           >

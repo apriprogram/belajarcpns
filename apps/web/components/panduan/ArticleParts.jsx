@@ -20,7 +20,7 @@ export function Breadcrumbs({ items = [], className }) {
           return (
             <li key={`${i}-${it.label}`} className="flex min-w-0 items-center gap-1.5">
               {it.href && !last ? (
-                <Link href={it.href} className="rounded-md transition-colors hover:text-obsidian">
+                <Link href={it.href} className="rounded-md transition-colors hover:text-obsidian max-sm:py-2">
                   {it.label}
                 </Link>
               ) : (
@@ -78,7 +78,7 @@ function TocList({ items }) {
     <ol className="space-y-0.5">
       {items.map((it, i) => (
         <li key={it.id}>
-          <a href={`#${it.id}`} className="flex gap-3 rounded-lg px-2 py-1.5 text-[14px] leading-snug text-obsidian-600 transition-colors hover:bg-ghost hover:text-obsidian">
+          <a href={`#${it.id}`} className="flex gap-3 rounded-lg px-2 py-1.5 text-[14px] leading-snug max-sm:py-2 text-obsidian-600 transition-colors hover:bg-ghost hover:text-obsidian">
             <span className="w-5 shrink-0 pt-px font-mono text-[11px] tabular-nums text-mist-500">{String(i + 1).padStart(2, '0')}</span>
             <span>{it.title}</span>
           </a>
@@ -125,9 +125,9 @@ export function TocInline({ body, className }) {
 export function ArticleIntro({ text }) {
   if (!text) return null;
   return (
-    <div className="relative rounded-2xl bg-cobalt-50/60 p-5 ring-1 ring-inset ring-cobalt-100 sm:p-6">
+    <div className="relative rounded-2xl bg-cobalt-50/60 p-4 ring-1 ring-inset ring-cobalt-100 sm:p-6">
       <p className="text-xs font-semibold uppercase tracking-[0.08em] text-cobalt-700">Jawaban singkat</p>
-      <p className="mt-2 text-[17px] leading-[1.75] text-obsidian sm:text-lg">
+      <p className="mt-2 text-[16px] leading-[1.7] text-obsidian sm:text-lg">
         <Inline text={text} />
       </p>
     </div>
@@ -141,7 +141,7 @@ export function ArticleBody({ body }) {
     <>
       {(body?.sections || []).map((s, si) => (
         <section key={s.id || si} aria-labelledby={s.id ? `${s.id}-title` : undefined} id={s.id} className="scroll-mt-24">
-          <h2 id={s.id ? `${s.id}-title` : undefined} className="group mb-4 mt-14 text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[28px]">
+          <h2 id={s.id ? `${s.id}-title` : undefined} className="group mb-4 mt-10 text-[22px] font-semibold leading-tight tracking-[-0.02em] sm:mt-14 sm:text-[28px] sm:tracking-[-0.025em]">
             {s.title}
             {s.id && (
               <a href={`#${s.id}`} className="ml-2 inline-block align-middle text-[20px] font-normal text-mist opacity-0 transition-opacity hover:text-cobalt focus-visible:opacity-100 group-hover:opacity-100" aria-label={`Tautan ke bagian: ${s.title}`}>
@@ -163,20 +163,20 @@ export function ArticleFaq({ items = [], title = 'Pertanyaan yang sering diajuka
   if (!items.length) return null;
   return (
     <section id="faq" aria-labelledby="faq-title" className="scroll-mt-24">
-      <h2 id="faq-title" className="mb-5 mt-14 text-[24px] font-semibold leading-tight tracking-[-0.025em] sm:text-[28px]">
+      <h2 id="faq-title" className="mb-5 mt-10 text-[22px] sm:mt-14 font-semibold leading-tight tracking-[-0.025em] sm:text-[28px]">
         {title}
       </h2>
       <div className="space-y-2.5">
         {items.map((f, i) => (
           <details key={i} className="group/f rounded-[20px] bg-ghost/70 ring-1 ring-inset ring-transparent transition-colors open:bg-white open:ring-mist-100" open={i === 0}>
-            <summary className="flex cursor-pointer list-none items-start gap-4 rounded-[20px] px-5 py-4 sm:px-6 [&::-webkit-details-marker]:hidden">
+            <summary className="flex min-h-14 cursor-pointer list-none items-start gap-3 rounded-[20px] px-4 py-4 sm:min-h-0 sm:gap-4 sm:px-6 [&::-webkit-details-marker]:hidden">
               <span className="pt-1 font-mono text-xs font-semibold text-mist-500 group-open/f:text-cobalt">{String(i + 1).padStart(2, '0')}</span>
               <h3 className="flex-1 text-[15.5px] font-semibold leading-snug sm:text-base">{f.q}</h3>
               <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-white text-obsidian ring-1 ring-inset ring-mist-100 transition-all duration-300 group-open/f:rotate-45 group-open/f:bg-obsidian group-open/f:text-white group-open/f:ring-obsidian">
                 <Plus className="h-3.5 w-3.5" aria-hidden />
               </span>
             </summary>
-            <p className="pb-5 pl-[52px] pr-6 text-[15.5px] leading-[1.75] text-obsidian-800 sm:pl-[60px]">
+            <p className="pb-5 pl-11 pr-4 text-[15px] leading-[1.7] text-obsidian-800 sm:pl-[60px] sm:pr-6 sm:text-[15.5px] sm:leading-[1.75]">
               <Inline text={f.a} />
             </p>
           </details>
@@ -198,7 +198,7 @@ const hostOf = (url) => {
 export function ArticleSources({ items = [], brand }) {
   if (!items.length) return null;
   return (
-    <section id="sumber" aria-labelledby="sumber-title" className="mt-14 scroll-mt-24 rounded-2xl bg-ghost p-5 ring-1 ring-inset ring-mist-100 sm:p-6">
+    <section id="sumber" aria-labelledby="sumber-title" className="mt-10 scroll-mt-24 rounded-2xl bg-ghost p-4 ring-1 sm:mt-14 ring-inset ring-mist-100 sm:p-6">
       <h2 id="sumber-title" className="text-[15px] font-semibold">
         Sumber resmi &amp; rujukan
       </h2>
@@ -225,7 +225,7 @@ export function ArticleSources({ items = [], brand }) {
 export function ArticleCta({ currentSlug, className }) {
   const onTryout = currentSlug === 'tryout-cpns-gratis';
   return (
-    <aside aria-label="Latihan dan tryout gratis" className={cn('relative overflow-hidden rounded-[24px] bg-obsidian p-6 text-white sm:p-8', className)}>
+    <aside aria-label="Latihan dan tryout gratis" className={cn('relative overflow-hidden rounded-[24px] bg-obsidian p-5 text-white sm:p-8', className)}>
       <div className="grid-dots-light pointer-events-none absolute inset-0 opacity-60 [mask-image:radial-gradient(80%_80%_at_100%_0%,#000,transparent)]" aria-hidden />
       <div className="relative">
         <p className="text-xs font-semibold uppercase tracking-[0.08em] text-mint">Gratis · tanpa iklan</p>
@@ -260,12 +260,12 @@ export function RelatedArticles({ slug }) {
   const list = relatedArticles(slug);
   if (!list.length) return null;
   return (
-    <section aria-labelledby="terkait-title" className="mt-16 lg:mt-20">
+    <section aria-labelledby="terkait-title" className="mt-12 sm:mt-16 lg:mt-20">
       <div className="flex items-end justify-between gap-4">
-        <h2 id="terkait-title" className="text-[26px] font-semibold tracking-[-0.03em] sm:text-[32px]">
+        <h2 id="terkait-title" className="text-[24px] font-semibold tracking-[-0.03em] sm:text-[32px]">
           Baca juga
         </h2>
-        <Link href="/panduan" className="inline-flex items-center gap-1.5 pb-1 text-sm font-semibold text-obsidian transition-colors hover:text-cobalt">
+        <Link href="/panduan" className="inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold sm:min-h-0 sm:pb-1 text-obsidian transition-colors hover:text-cobalt">
           Semua panduan
           <ArrowRight className="h-4 w-4" aria-hidden />
         </Link>

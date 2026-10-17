@@ -103,7 +103,7 @@ export function PackagesView() {
           <ErrorState error={error} onRetry={() => reload()} />
         </Panel>
       ) : loading && !data ? (
-        <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
+        <div className="grid gap-3 sm:gap-4 md:grid-cols-2 2xl:grid-cols-3">
           {Array.from({ length: 4 }).map((_, i) => (
             <div key={i} className="rounded-[20px] bg-white p-2 ring-1 ring-inset ring-mist-100">
               <Skeleton className="h-24 w-full" rounded="rounded-[14px]" />
@@ -130,7 +130,7 @@ export function PackagesView() {
           }
         />
       ) : (
-        <div className="grid gap-4 md:grid-cols-2 2xl:grid-cols-3">
+        <div className="grid gap-3 sm:gap-4 md:grid-cols-2 2xl:grid-cols-3">
           {shown.map((p) => (
             <article key={p.id} className="flex flex-col rounded-[20px] bg-white p-2 ring-1 ring-inset ring-mist-100 transition-[box-shadow,color] duration-200 hover:ring-2 hover:ring-cobalt focus-within:ring-2 focus-within:ring-cobalt">
               <div className="rounded-[14px] bg-ghost px-4 pb-4 pt-3.5">
@@ -141,8 +141,8 @@ export function PackagesView() {
                     <Menu items={menuFor(p)} label={`Aksi untuk ${p.title}`} />
                   </div>
                 </div>
-                <h2 className="mt-1.5 line-clamp-1 text-[16px] font-semibold tracking-[-0.01em]">
-                  <Link href={`/admin/paket/${p.id}`} className="rounded-md hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
+                <h2 className="mt-1.5 line-clamp-1 text-[14px] font-semibold tracking-[-0.01em] sm:text-[16px]">
+                  <Link href={`/admin/paket/${p.id}`} className="rounded-md max-sm:inline-block max-sm:py-1.5 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
                     {p.title}
                   </Link>
                 </h2>

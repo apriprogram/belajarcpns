@@ -24,7 +24,7 @@ export function PageTitle({ breadcrumb, title, description, actions, eyebrow, ba
       )}
       {crumbs.length > 0 && (
         <nav aria-label="Breadcrumb" className="mb-2">
-          <ol className="flex flex-wrap items-center gap-1 text-[13px] text-mist-700">
+          <ol className="flex flex-wrap items-center gap-1 text-xs text-mist-700 sm:text-[13px]">
             {crumbs.map((c, i) => {
               const last = i === crumbs.length - 1;
               return (
@@ -54,7 +54,7 @@ export function PageTitle({ breadcrumb, title, description, actions, eyebrow, ba
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div className="min-w-0">
           {eyebrow && <p className="eyebrow mb-2">{eyebrow}</p>}
-          <h1 className={cn('font-semibold text-obsidian', size === 'lg' ? 'text-[32px] leading-tight tracking-[-0.03em] sm:text-[40px]' : 'text-2xl leading-tight tracking-[-0.02em] sm:text-[28px]')}>{title}</h1>
+          <h1 className={cn('font-semibold text-obsidian', size === 'lg' ? 'text-[24px] leading-tight tracking-[-0.02em] sm:text-[40px] sm:tracking-[-0.03em]' : 'text-2xl leading-tight tracking-[-0.02em] sm:text-[28px]')}>{title}</h1>
           {description && <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-mist-700">{description}</p>}
           {meta && <div className="mt-3 flex flex-wrap items-center gap-2">{meta}</div>}
         </div>

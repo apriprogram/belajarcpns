@@ -194,15 +194,15 @@ function LoadingView() {
     <div aria-busy="true" aria-label="Memuat pengaturan GroupChat">
       <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 2xl:grid-cols-6">
         {STATS.map((t) => (
-          <StatTile key={t.key} title={t.title} icon={t.icon} tone={t.tone} loading />
+          <StatTile key={t.key} title={t.title} icon={t.icon} tone={t.tone} loading compact />
         ))}
       </div>
-      <div className="mt-4 grid gap-4 lg:grid-cols-12">
-        <div className="space-y-4 lg:col-span-7">
+      <div className="mt-3 grid gap-3 sm:mt-4 sm:gap-4 lg:grid-cols-12">
+        <div className="space-y-3 sm:space-y-4 lg:col-span-7">
           <SkeletonCard height="h-32" />
           <SkeletonCard height="h-72" />
         </div>
-        <div className="space-y-4 lg:col-span-5">
+        <div className="space-y-3 sm:space-y-4 lg:col-span-5">
           <SkeletonCard height="h-48" />
           <SkeletonCard height="h-40" />
         </div>
@@ -446,12 +446,12 @@ export function ChatSettingsView() {
           {/* Statistik */}
           <section aria-label="Statistik GroupChat" className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 2xl:grid-cols-6">
             {STATS.map((t) => (
-              <StatTile key={t.key} title={t.title} info={t.info} icon={t.icon} tone={t.tone} value={num(stats[t.key])} suffix={t.suffix} caption={t.caption} />
+              <StatTile key={t.key} title={t.title} info={t.info} icon={t.icon} tone={t.tone} value={num(stats[t.key])} suffix={t.suffix} caption={t.caption} compact />
             ))}
           </section>
 
-          <div className="mt-4 grid items-start gap-4 lg:grid-cols-12">
-            <div className="space-y-4 lg:col-span-7">
+          <div className="mt-3 grid items-start gap-3 sm:mt-4 sm:gap-4 lg:grid-cols-12">
+            <div className="space-y-3 sm:space-y-4 lg:col-span-7">
               {/* Status grup */}
               <Section icon={s.enabled && s.peserta_can_send ? <LockOpen /> : <Lock />} title="Status grup" subtitle="Buka, tutup, atau nonaktifkan GroupChat untuk peserta.">
                 {row('enabled', 'Aktifkan GroupChat untuk peserta', 'Bila nonaktif, peserta tidak melihat GroupChat sama sekali. Admin tetap dapat membuka panel dan mengirim pesan.')}
@@ -489,7 +489,7 @@ export function ChatSettingsView() {
               </Section>
             </div>
 
-            <div className="space-y-4 lg:col-span-5">
+            <div className="space-y-3 sm:space-y-4 lg:col-span-5">
               {/* Lampiran */}
               <Section
                 icon={<Paperclip />}
@@ -567,11 +567,11 @@ export function ChatSettingsView() {
               </Section>
 
               {/* Zona berbahaya */}
-              <section aria-label="Zona berbahaya" className="rounded-[20px] bg-white p-5 ring-1 ring-inset ring-danger/25 sm:p-6">
+              <section aria-label="Zona berbahaya" className="rounded-[20px] bg-white p-4 ring-1 ring-inset ring-danger/25 sm:p-6">
                 <div className="flex items-start gap-3">
                   <IconBox icon={<TriangleAlert />} tone="danger" />
                   <div className="min-w-0">
-                    <h2 className="text-[15px] font-semibold leading-6 tracking-[-0.01em] text-obsidian">Zona berbahaya</h2>
+                    <h2 className="text-[14px] font-semibold leading-6 tracking-[-0.01em] text-obsidian sm:text-[15px]">Zona berbahaya</h2>
                     <p className="mt-0.5 text-[13px] leading-relaxed text-mist-700">
                       Reset menghapus SEMUA riwayat pesan dan file untuk semua anggota, termasuk pesan berbintang, tersemat, dan reaksi. Pengaturan di halaman ini tidak berubah.
                     </p>

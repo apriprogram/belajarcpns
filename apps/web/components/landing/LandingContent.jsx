@@ -39,7 +39,7 @@ export function LandingContent() {
         <ScrollProgress className="relative -mt-16 overflow-hidden">
           <HeroBackground className="absolute inset-0" />
           {/* Mobile: tinggi mengikuti isi (tanpa min-h layar penuh); efek scroll (--p) dimatikan lewat .hero-parallax di globals.css */}
-          <section id="beranda" className="container-wide relative grid items-center gap-10 pb-14 pt-24 sm:min-h-[100svh] sm:gap-12 sm:pb-16 sm:pt-28 lg:grid-cols-2 lg:gap-16 lg:pb-20 lg:pt-24 2xl:gap-24">
+          <section id="beranda" className="container-wide relative grid items-center gap-8 pb-12 pt-20 sm:min-h-[100svh] sm:gap-12 sm:pb-16 sm:pt-28 lg:grid-cols-2 lg:gap-16 lg:pb-20 lg:pt-24 2xl:gap-24">
             <div className="hero-parallax lg:pl-[4%]" style={{ opacity: 'calc(1 - var(--p) * 1.2)', transform: 'translate3d(0, calc(var(--p) * -70px), 0)' }}>
               <HeroIntro />
             </div>
@@ -161,22 +161,22 @@ export function LandingContent() {
                 <div className="relative">
                   <SplitText
                     as="h2"
-                    className="mx-auto block max-w-3xl text-[28px] font-semibold leading-[1.15] tracking-[-0.03em] text-white sm:text-6xl sm:leading-none sm:tracking-[-0.035em]"
+                    className="mx-auto block max-w-3xl text-2xl font-semibold leading-[1.2] tracking-[-0.025em] text-white sm:text-6xl sm:leading-none sm:tracking-[-0.035em]"
                     parts={[cta.title && { text: cta.title }, cta.accent && { text: cta.accent, className: 'text-mint' }].filter(Boolean)}
                   />
                   {cta.subtitle && (
-                    <Reveal as="p" delay={250} className="mx-auto mt-4 max-w-md text-base leading-relaxed text-white/60 sm:mt-5 sm:text-lg sm:leading-relaxed">
+                    <Reveal as="p" delay={250} className="mx-auto mt-3 max-w-md text-[14px] leading-relaxed text-white/60 sm:mt-5 sm:text-lg sm:leading-relaxed">
                       {cta.subtitle}
                     </Reveal>
                   )}
                   <Reveal delay={350} className="mt-8 flex flex-col items-stretch justify-center gap-2.5 sm:mt-10 sm:flex-row sm:items-center sm:gap-3">
                     {cta.primary_label && (
-                      <Button shape="pill" href={cta.primary_href || '/daftar'} size="xl" variant="mint" iconRight={<ArrowRight />} className="max-sm:h-12 max-sm:text-[15px]">
+                      <Button shape="pill" href={cta.primary_href || '/daftar'} size="xl" variant="mint" iconRight={<ArrowRight />}>
                         {cta.primary_label}
                       </Button>
                     )}
                     {cta.secondary_label && (
-                      <Button shape="pill" href={cta.secondary_href || '/login'} size="xl" variant="ghost" className="text-white hover:bg-white/10 max-sm:h-12 max-sm:text-[15px]">
+                      <Button shape="pill" href={cta.secondary_href || '/login'} size="xl" variant="ghost" className="text-white hover:bg-white/10">
                         {cta.secondary_label}
                       </Button>
                     )}
@@ -240,12 +240,12 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
   const heading = (
     <div>
       <Reveal>
-        <span className="inline-flex h-7 items-center gap-2 rounded-full bg-white pl-1 pr-3 text-xs font-medium sm:h-8 sm:pr-3.5 sm:text-[13px] text-obsidian-600 ring-1 ring-inset ring-mist-100">
+        <span className="inline-flex h-6 items-center gap-1.5 rounded-full bg-white pl-0.5 pr-2.5 text-[11px] font-medium sm:h-8 sm:gap-2 sm:pl-1 sm:pr-3.5 sm:text-[13px] text-obsidian-600 ring-1 ring-inset ring-mist-100">
           <span className="flex h-5 items-center rounded-full bg-obsidian px-2 font-mono text-[11px] font-semibold text-white sm:h-6">{index}</span>
           {label}
         </span>
       </Reveal>
-      <SplitText as="h2" delay={120} className="mt-4 block text-[28px] font-semibold leading-[1.15] tracking-[-0.03em] sm:mt-5 sm:text-5xl sm:leading-none sm:tracking-[-0.035em] xl:text-[56px]">
+      <SplitText as="h2" delay={120} className="mt-4 block text-2xl font-semibold leading-[1.2] tracking-[-0.025em] sm:mt-5 sm:text-5xl sm:leading-none sm:tracking-[-0.035em] xl:text-[56px]">
         {title}
       </SplitText>
     </div>
@@ -262,7 +262,7 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
           heading
         )}
         {description && (
-          <Reveal as="p" delay={250} className="mt-3 text-base leading-relaxed text-mist-700 sm:mt-5 sm:text-lg sm:leading-relaxed">
+          <Reveal as="p" delay={250} className="mt-2.5 text-[14px] leading-relaxed text-mist-700 sm:mt-5 sm:text-lg sm:leading-relaxed">
             {description}
           </Reveal>
         )}
@@ -278,7 +278,7 @@ function SectionHeading({ index, label, title, description, mascot, align = 'spl
       {(description || buddy) && (
         <div className="flex items-end gap-6 lg:pb-1">
           {description && (
-            <Reveal as="p" delay={250} className="max-w-sm text-base leading-relaxed text-mist-700 sm:text-lg sm:leading-relaxed lg:pb-2 lg:text-right">
+            <Reveal as="p" delay={250} className="max-w-sm text-[14px] leading-relaxed text-mist-700 sm:text-lg sm:leading-relaxed lg:pb-2 lg:text-right">
               {description}
             </Reveal>
           )}
@@ -301,8 +301,8 @@ function FeatureHero({ tag, image, title, description, meta }) {
         </div>
         <div className="flex flex-col p-5 sm:p-9 lg:p-11">
           {tag && <Tag>{tag}</Tag>}
-          <h3 className="mt-4 text-[22px] font-semibold leading-[1.2] tracking-[-0.025em] sm:mt-5 sm:text-3xl sm:leading-[1.1] sm:tracking-[-0.03em] lg:text-[40px]">{title}</h3>
-          {description && <p className="mt-3 max-w-lg text-base leading-relaxed text-mist-700 sm:mt-4 sm:text-[17px]">{description}</p>}
+          <h3 className="mt-4 text-xl font-semibold leading-[1.25] tracking-[-0.02em] sm:mt-5 sm:text-3xl sm:leading-[1.1] sm:tracking-[-0.03em] lg:text-[40px]">{title}</h3>
+          {description && <p className="mt-2.5 max-w-lg text-[14px] leading-relaxed text-mist-700 sm:mt-4 sm:text-[17px]">{description}</p>}
           <div className="mt-auto flex items-center justify-between pt-6 max-sm:flex-wrap max-sm:gap-2 text-[13px] sm:pt-8 sm:text-sm">
             <span className="flex items-center gap-2 font-medium">
               <span className="h-2 w-2 rounded-full bg-obsidian" />
@@ -329,8 +329,8 @@ function FeaturePost({ tag, image, title, description, delay }) {
           {tag && <Tag className="absolute right-3 top-3">{tag}</Tag>}
         </div>
         <div className="px-4 pb-5 pt-3 sm:px-5 sm:pb-6 lg:px-6">
-          <h3 className="text-[17px] font-semibold leading-snug tracking-tight sm:text-xl sm:leading-snug">{title}</h3>
-          <p className="mt-1.5 text-[15px] leading-relaxed text-mist-700 sm:mt-2">{description}</p>
+          <h3 className="text-base font-semibold leading-snug tracking-tight sm:text-xl sm:leading-snug">{title}</h3>
+          <p className="mt-1.5 text-sm leading-relaxed text-mist-700 sm:mt-2 sm:text-[15px]">{description}</p>
         </div>
       </article>
     </Reveal>

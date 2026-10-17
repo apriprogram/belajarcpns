@@ -86,15 +86,15 @@ export function ProfilView({ admin = false }) {
         </div>
 
         <Panel padding="none" className="lg:col-span-8">
-          <div className="px-6 pb-6 pt-7 sm:px-10 sm:pt-9">
-            <h2 className="text-[28px] font-semibold leading-tight tracking-[-0.02em]">Edit profil</h2>
-            <p className="mt-2 max-w-xl text-[15px] leading-relaxed text-mist-700">Perbarui data diri yang tampil di hasil dan peringkat tryout, serta jaga keamanan akun Anda.</p>
+          <div className="px-5 pb-5 pt-6 sm:px-10 sm:pb-6 sm:pt-9">
+            <h2 className="text-[20px] font-semibold leading-tight tracking-[-0.01em] sm:text-[28px] sm:tracking-[-0.02em]">Edit profil</h2>
+            <p className="mt-2 max-w-xl text-[14px] leading-relaxed text-mist-700 sm:text-[15px]">Perbarui data diri yang tampil di hasil dan peringkat tryout, serta jaga keamanan akun Anda.</p>
           </div>
-          <div className="mx-6 border-t border-mist-100 sm:mx-10" />
+          <div className="mx-5 border-t border-mist-100 sm:mx-10" />
           <AvatarUploader user={user} />
-          <div className="mx-6 border-t border-mist-100 sm:mx-10" />
+          <div className="mx-5 border-t border-mist-100 sm:mx-10" />
           <ProfileForm user={user} />
-          <div className="mx-6 border-t border-mist-100 sm:mx-10" />
+          <div className="mx-5 border-t border-mist-100 sm:mx-10" />
           <PasswordForm />
         </Panel>
       </div>
@@ -114,12 +114,12 @@ function InfoRow({ icon, label, value, mono, wrap }) {
 
 function SectionTitle({ icon: Icon, title, subtitle }) {
   return (
-    <div className="mb-6 flex items-start gap-3">
+    <div className="mb-5 flex items-start gap-3 sm:mb-6">
       <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ring-1 ring-inset ring-mist-100 text-obsidian-600" aria-hidden>
         <Icon className="h-[18px] w-[18px]" strokeWidth={1.75} />
       </span>
       <div>
-        <h3 className="text-xl font-semibold tracking-[-0.02em]">{title}</h3>
+        <h3 className="text-[15px] font-semibold tracking-[-0.01em] sm:text-xl sm:tracking-[-0.02em]">{title}</h3>
         <p className="mt-1 text-sm text-mist-700">{subtitle}</p>
       </div>
     </div>
@@ -156,7 +156,7 @@ function ProfileForm({ user }) {
     toast.success('Profil diperbarui', 'Perubahan data diri sudah disimpan.');
   });
   return (
-    <section aria-labelledby="judul-data-diri" className="px-6 py-8 sm:px-10">
+    <section aria-labelledby="judul-data-diri" className="px-5 py-6 sm:px-10 sm:py-8">
       <SectionTitle icon={User} title={<span id="judul-data-diri">Informasi dasar</span>} subtitle="Nama tampil di hasil dan peringkat tryout." />
       <form onSubmit={onSubmit} noValidate className="space-y-6">
         {form.formError && <FormAlert>{form.formError}</FormAlert>}
@@ -202,7 +202,7 @@ function ProfileForm({ user }) {
         <Field label="Alamat" optional {...form.field('address')} hint={`${form.values.address.length}/300`}>
           <Textarea rows={3} maxLength={300} placeholder="Jalan, RT/RW, kelurahan, kecamatan, kota/kabupaten, provinsi" {...form.bind('address')} />
         </Field>
-        <div className="flex justify-end gap-2 pt-2">
+        <div className="flex justify-end gap-2 pt-2 max-sm:[&>*]:flex-1">
           <Button variant="secondary" disabled={!dirty || form.submitting} onClick={() => form.reset(initialValues)}>
             Batal
           </Button>
@@ -233,7 +233,7 @@ function PasswordForm() {
     toast.success('Kata sandi diperbarui', 'Gunakan kata sandi baru saat masuk berikutnya.');
   });
   return (
-    <section aria-labelledby="judul-sandi" className="px-6 py-8 sm:px-10">
+    <section aria-labelledby="judul-sandi" className="px-5 py-6 sm:px-10 sm:py-8">
       <SectionTitle icon={KeyRound} title={<span id="judul-sandi">Ubah kata sandi</span>} subtitle="Minimal 8 karakter, kombinasi huruf dan angka." />
       <form onSubmit={onSubmit} noValidate className="space-y-6">
         {form.formError && <FormAlert>{form.formError}</FormAlert>}
@@ -258,7 +258,7 @@ function PasswordForm() {
             <PasswordInput size="lg" autoComplete="new-password" {...form.bind('password_confirm')} />
           </Field>
         </div>
-        <div className="flex justify-end pt-2">
+        <div className="flex justify-end pt-2 max-sm:[&>*]:flex-1">
           <Button type="submit" icon={<KeyRound />} loading={form.submitting}>
             Perbarui kata sandi
           </Button>

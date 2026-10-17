@@ -130,7 +130,7 @@ export function TestimoniView() {
         {loading && !data ? (
           <div className="divide-y divide-mist-100">
             {Array.from({ length: 4 }, (_, i) => (
-              <div key={i} className="flex gap-4 p-5">
+              <div key={i} className="flex gap-4 p-4 sm:p-5">
                 <Skeleton className="h-11 w-11 rounded-full" />
                 <div className="flex-1 space-y-2.5">
                   <Skeleton className="h-3.5 w-1/3" />
@@ -237,7 +237,7 @@ function TestimonialRow({ t, busy, onToggle, onEdit, onDelete }) {
           </label>
           <Switch id={`tampil-${t.id}`} checked={shown} disabled={busy} onChange={onToggle} />
         </span>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 max-sm:gap-2">
           <IconButton icon={<PencilLine />} label="Edit testimoni" variant="ghost" size="sm" onClick={onEdit} />
           <IconButton icon={<Trash2 />} label="Hapus testimoni" variant="ghost" size="sm" className="text-danger-700" onClick={onDelete} />
         </div>
@@ -397,7 +397,7 @@ function SectionToggle() {
           {visible ? <Eye className="h-5 w-5" /> : <EyeOff className="h-5 w-5" />}
         </span>
         <div className="min-w-0">
-          <p className="text-[15px] font-semibold text-obsidian">Section testimoni di halaman utama</p>
+          <p className="text-[14px] font-semibold text-obsidian sm:text-[15px]">Section testimoni di halaman utama</p>
           <p className="mt-0.5 text-sm text-mist-700">
             {failed ? 'Gagal memuat pengaturan website.' : visible ? 'Sedang ditampilkan di bawah section Fitur, termasuk link di navbar.' : 'Sedang disembunyikan — section dan link navbar tidak tampil.'}
           </p>

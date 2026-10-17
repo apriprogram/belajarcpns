@@ -28,7 +28,7 @@ export function PanelFooter({ admin = false, className }) {
           href="https://apriprogram.web.id"
           target="_blank"
           rel="noopener"
-          className="flex items-center gap-2.5 rounded-md text-center transition-colors hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt md:text-left"
+          className="flex items-center gap-2.5 rounded-md text-center transition-colors max-sm:min-h-11 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt md:text-left"
         >
           {/* eslint-disable-next-line @next/next/no-img-element -- logo statis */}
           <img src="/apriprogram.png" alt="" width={28} height={28} className="h-7 w-7 shrink-0" />
@@ -37,10 +37,10 @@ export function PanelFooter({ admin = false, className }) {
           </span>
         </a>
         <nav aria-label="Tautan footer">
-          <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5">
+          <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5 max-sm:gap-x-3 max-sm:gap-y-0">
             {links.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="rounded-md font-medium transition-colors hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
+                <Link href={l.href} className="rounded-md font-medium transition-colors max-sm:inline-flex max-sm:min-h-11 max-sm:items-center max-sm:px-1 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt">
                   {l.label}
                 </Link>
               </li>

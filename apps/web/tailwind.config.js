@@ -16,6 +16,17 @@ module.exports = {
         sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         mono: ['var(--font-mono)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
+      // Skala font: desktop = default Tailwind; di HP (< 640px) lebih ringkas lewat CSS variable di app/globals.css.
+      fontSize: {
+        xs: ['var(--fs-xs)', { lineHeight: 'var(--lh-xs)' }],
+        sm: ['var(--fs-sm)', { lineHeight: 'var(--lh-sm)' }],
+        base: ['var(--fs-base)', { lineHeight: 'var(--lh-base)' }],
+        lg: ['var(--fs-lg)', { lineHeight: 'var(--lh-lg)' }],
+        xl: ['var(--fs-xl)', { lineHeight: 'var(--lh-xl)' }],
+        '2xl': ['var(--fs-2xl)', { lineHeight: 'var(--lh-2xl)' }],
+        '3xl': ['var(--fs-3xl)', { lineHeight: 'var(--lh-3xl)' }],
+        '4xl': ['var(--fs-4xl)', { lineHeight: 'var(--lh-4xl)' }],
+      },
       borderRadius: {
         card: '28px',
         'card-sm': '24px',

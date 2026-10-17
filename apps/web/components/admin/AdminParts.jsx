@@ -19,7 +19,7 @@ const TONES = {
  */
 export function MetricCard({ label, value, suffix, icon, tone = 'cobalt', href, hint, loading, className }) {
   return (
-    <div className={cn('flex min-h-[156px] min-w-0 flex-col justify-between gap-5 rounded-[20px] bg-white p-5 ring-1 ring-inset ring-mist-100 sm:min-h-[168px]', className)}>
+    <div className={cn('flex min-h-[156px] min-w-0 flex-col justify-between gap-4 rounded-[20px] bg-white p-4 ring-1 sm:gap-5 sm:p-5 ring-inset ring-mist-100 sm:min-h-[168px]', className)}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex items-center gap-2">
           <span className={cn('flex h-10 w-10 items-center justify-center rounded-full', TONES[tone] || TONES.cobalt)} aria-hidden>
@@ -41,7 +41,7 @@ export function MetricCard({ label, value, suffix, icon, tone = 'cobalt', href, 
         {loading ? (
           <div className="h-12 w-28 animate-pulse rounded-xl bg-mist-100" />
         ) : (
-          <p className="flex items-baseline gap-1.5 text-[44px] font-semibold leading-none tracking-tightest tabular-nums text-obsidian sm:text-5xl">
+          <p className="flex items-baseline gap-1.5 text-[32px] font-semibold leading-none tracking-tightest tabular-nums text-obsidian sm:text-5xl">
             {value ?? '—'}
             {suffix && <span className="text-lg font-medium tracking-tight text-mist-500">{suffix}</span>}
           </p>
@@ -100,7 +100,7 @@ export function CompositionBar({ counts = {}, total, showLegend = true, size = '
 export function SectionLabel({ children, action, className }) {
   return (
     <div className={cn('mb-3 flex items-center justify-between gap-3', className)}>
-      <p className="text-[15px] font-semibold text-obsidian">{children}</p>
+      <p className="text-[14px] font-semibold text-obsidian sm:text-[15px]">{children}</p>
       {action}
     </div>
   );

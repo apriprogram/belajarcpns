@@ -113,7 +113,7 @@ export function Pagination({ page: pageProp, totalPages: tpProp, total: totalPro
               value={jump}
               onChange={(e) => setJump(e.target.value.replace(/\D/g, ''))}
               placeholder={String(page)}
-              className="h-8 w-12 rounded-lg border border-mist-100 bg-white px-2 text-center text-[13px] tabular-nums text-obsidian outline-none placeholder:text-mist-500 hover:border-mist focus:border-cobalt focus:ring-1 focus:ring-cobalt"
+              className="h-8 w-12 max-sm:h-9 max-sm:text-[16px] rounded-lg border border-mist-100 bg-white px-2 text-center text-[13px] tabular-nums text-obsidian outline-none placeholder:text-mist-500 hover:border-mist focus:border-cobalt focus:ring-1 focus:ring-cobalt"
             />
             <button type="submit" className={cn(BTN, IDLE, 'px-3 font-semibold text-obsidian')}>
               Buka

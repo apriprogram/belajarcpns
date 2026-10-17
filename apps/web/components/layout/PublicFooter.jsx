@@ -42,7 +42,7 @@ function FooterCol({ title, links }) {
       <ul className="mt-2 sm:mt-4 sm:space-y-3">
         {links.map((l, i) => (
           <li key={`${i}-${l.href}`}>
-            <Link href={l.href || '#'} className="flex min-h-11 items-center text-[15px] text-obsidian-600 transition-colors hover:text-obsidian sm:inline sm:min-h-0 sm:text-sm">
+            <Link href={l.href || '#'} className="flex min-h-10 items-center text-sm text-obsidian-600 transition-colors hover:text-obsidian sm:inline sm:min-h-0 sm:text-sm">
               {l.label}
             </Link>
           </li>

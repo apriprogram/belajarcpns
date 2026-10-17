@@ -45,8 +45,8 @@ export function SegmentedControl({ options = [], value, onChange, size = 'md', f
             onClick={() => onChange && onChange(o.value)}
             onKeyDown={(e) => onKeyDown(e, i)}
             className={cn(
-              'inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg font-medium transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:cursor-not-allowed disabled:opacity-40',
-              size === 'sm' ? 'h-8 px-3 text-[13px]' : 'h-9 px-3.5 text-sm',
+              'relative inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg font-medium transition-colors duration-150 max-sm:after:absolute max-sm:after:inset-x-0 max-sm:after:-inset-y-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt disabled:cursor-not-allowed disabled:opacity-40',
+              size === 'sm' ? 'h-8 px-3 text-[13px] max-sm:px-2.5 max-sm:text-xs' : 'h-9 px-3.5 text-sm max-sm:h-8 max-sm:px-3 max-sm:text-xs',
               fullWidth && 'flex-1',
               active ? 'bg-white text-obsidian ring-1 ring-inset ring-mist-100' : 'text-mist-700 hover:text-obsidian',
             )}

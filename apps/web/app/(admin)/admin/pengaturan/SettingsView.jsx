@@ -131,8 +131,8 @@ export function SettingsView() {
     <div>
       <AdminPageHeader title="Pengaturan" description="Nilai bawaan untuk paket ujian baru, penilaian SKD, dan jejak aktivitas admin." />
 
-      <div className="grid gap-4 lg:grid-cols-12">
-        <div className="space-y-4 min-w-0 lg:col-span-7">
+      <div className="grid gap-3 sm:gap-4 lg:grid-cols-12">
+        <div className="space-y-3 sm:space-y-4 min-w-0 lg:col-span-7">
           <FormAlert tone="info" title="Periksa ketentuan resmi BKN 2027">
             Nilai ambang batas (passing grade), jumlah soal, dan durasi SKD CPNS 2027 mengikuti keputusan resmi BKN/KemenPAN-RB yang dapat berubah. Nilai bawaan di bawah (65/80/166, 110 soal, 100 menit) mengacu pada ketentuan
             periode sebelumnya — sesuaikan setelah pengumuman resmi terbit.
@@ -149,7 +149,7 @@ export function SettingsView() {
               <Panel padding="lg">
                 <PanelHeader icon={<Target />} title="Passing grade default" subtitle="Dipakai saat membuat paket baru. Paket lama tidak berubah." />
                 {formError && <FormAlert className="mb-5">{formError}</FormAlert>}
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
                   {[
                     ['twk', 'TWK', SUBTEST_MAX.TWK],
                     ['tiu', 'TIU', SUBTEST_MAX.TIU],
@@ -161,10 +161,10 @@ export function SettingsView() {
                 </div>
                 <p className="mt-3 text-xs text-mist-700">Total 0 berarti kelulusan hanya ditentukan ambang per subtes.</p>
 
-                <div className="my-6 h-px bg-mist-100" />
+                <div className="my-5 h-px bg-mist-100 sm:my-6" />
 
                 <PanelHeader icon={<Clock3 />} title="Durasi & komposisi default" subtitle="Durasi paket baru dan jumlah soal untuk fitur Isi otomatis." />
-                <div className="grid gap-4 sm:grid-cols-4">
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
                   {numInput('duration', <span className="inline-flex h-7 items-center">Durasi (menit)</span>)}
                   {numInput('c_twk', <span className="flex items-center gap-1.5"><SubtestChip code="TWK" /> soal</span>)}
                   {numInput('c_tiu', <span className="flex items-center gap-1.5"><SubtestChip code="TIU" /> soal</span>)}
@@ -186,7 +186,7 @@ export function SettingsView() {
 
                 <div className="mt-6 flex flex-col-reverse gap-3 border-t border-mist-100 pt-5 sm:flex-row sm:items-center sm:justify-between">
                   <span className="text-xs text-mist-700">{dirty ? 'Ada perubahan belum disimpan' : 'Semua pengaturan tersimpan'}</span>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 max-sm:[&>*]:flex-1">
                     {dirty && (
                       <Button variant="ghost" onClick={() => setV(toForm(settings.data))} disabled={saving}>
                         Batalkan
@@ -203,7 +203,7 @@ export function SettingsView() {
         </div>
 
         <Panel className="h-fit overflow-hidden lg:col-span-5" padding="none">
-          <div className="px-5 pt-5">
+          <div className="px-4 pt-4 sm:px-5 sm:pt-5">
             <PanelHeader icon={<Activity />} title="Log aktivitas" subtitle="Jejak aksi admin dan peserta terbaru." className="mb-2" />
           </div>
           {log.error ? (

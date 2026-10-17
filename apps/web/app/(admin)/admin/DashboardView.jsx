@@ -90,10 +90,10 @@ export function DashboardView() {
           <ErrorState error={error} onRetry={() => reload()} />
         </Panel>
       ) : (
-        <div className="space-y-4">
-          <div className="grid gap-4 xl:grid-cols-12">
+        <div className="space-y-3 sm:space-y-4">
+          <div className="grid gap-3 sm:gap-4 xl:grid-cols-12">
             {/* Kartu statistik 2×2 */}
-            <section aria-label="Statistik utama" className="grid gap-4 sm:grid-cols-2 xl:col-span-7">
+            <section aria-label="Statistik utama" className="grid gap-3 sm:gap-4 sm:grid-cols-2 xl:col-span-7">
               <StatTile
                 title="Peserta"
                 info="Jumlah akun peserta terdaftar"
@@ -163,7 +163,7 @@ export function DashboardView() {
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <IconBox icon={<Activity />} />
-                  <p className="text-[30px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{loading ? '—' : formatAngka(sum14.attempts)}</p>
+                  <p className="text-[22px] font-semibold leading-none tracking-[-0.02em] sm:text-[30px] sm:tracking-[-0.03em] tabular-nums">{loading ? '—' : formatAngka(sum14.attempts)}</p>
                   {!loading && attChange != null && (
                     <DeltaPill tone={attChange < 0 ? 'danger' : 'mint'}>
                       {attChange > 0 ? '+' : ''}
@@ -196,10 +196,10 @@ export function DashboardView() {
             </Panel>
           </div>
 
-          <div className="grid gap-4 xl:grid-cols-12">
+          <div className="grid gap-3 sm:gap-4 xl:grid-cols-12">
             {/* Hasil terbaru */}
             <Panel padding="none" className="overflow-hidden xl:col-span-8">
-              <div className="px-5 pt-5">
+              <div className="px-4 pt-4 sm:px-5 sm:pt-5">
                 <PanelHeader title="Hasil terbaru" info="Ujian yang baru diselesaikan peserta" action={<DetailButton href="/admin/laporan" label="Lihat semua laporan">Lihat semua</DetailButton>} className="mb-4" />
               </div>
               <TableSkin>
@@ -251,7 +251,7 @@ export function DashboardView() {
               </TableSkin>
             </Panel>
 
-            <div className="grid gap-4 sm:grid-cols-2 xl:col-span-4 xl:grid-cols-1">
+            <div className="grid gap-3 sm:gap-4 sm:grid-cols-2 xl:col-span-4 xl:grid-cols-1">
               {/* Bank soal */}
               <Panel className="flex flex-col">
                 <PanelHeader title="Bank soal" info="Jumlah soal per subtes (terbit dan draf)" action={<DetailButton href="/admin/soal" label="Kelola bank soal" />} />
@@ -261,7 +261,7 @@ export function DashboardView() {
                   <>
                     <div className="flex items-center gap-3">
                       <IconBox icon={<LibraryBig />} />
-                      <p className="text-[30px] font-semibold leading-none tracking-[-0.03em] tabular-nums">{formatAngka(bankTotal)}</p>
+                      <p className="text-[22px] font-semibold leading-none tracking-[-0.02em] sm:text-[30px] sm:tracking-[-0.03em] tabular-nums">{formatAngka(bankTotal)}</p>
                       <DeltaPill tone="mist">{formatAngka(t.questions_published)} terbit</DeltaPill>
                     </div>
                     <CompositionBar counts={bySub} showLegend={false} className="mt-4" />
@@ -293,7 +293,7 @@ export function DashboardView() {
                   <>
                     <div className="flex items-center gap-3">
                       <IconBox icon={<FileStack />} />
-                      <p className="flex items-baseline gap-1 text-[30px] font-semibold leading-none tracking-[-0.03em] tabular-nums">
+                      <p className="flex items-baseline gap-1 text-[22px] font-semibold leading-none tracking-[-0.02em] sm:text-[30px] sm:tracking-[-0.03em] tabular-nums">
                         {formatAngka(t.packages_published)}
                         <span className="text-sm font-medium tracking-normal text-mist-500">/{formatAngka(t.packages)}</span>
                       </p>

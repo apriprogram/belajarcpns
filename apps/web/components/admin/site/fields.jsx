@@ -108,7 +108,7 @@ export function SwitchField({ path, label, description, fallback = true }) {
 
 export function RowActions({ index, length, onMove, onRemove, removeDisabled, label = 'item' }) {
   return (
-    <div className="flex shrink-0 items-center gap-1">
+    <div className="flex shrink-0 items-center gap-1 max-sm:gap-2">
       {onMove && (
         <>
           <IconButton icon={<ArrowUp />} label={`Naikkan ${label}`} size="xs" variant="ghost" shape="rounded" disabled={index === 0} onClick={() => onMove(index, index - 1)} />

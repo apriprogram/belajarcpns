@@ -32,12 +32,12 @@ export function UserMenu({ admin = false, className }) {
         <button
           type="button"
           className={cn(
-            'flex h-11 items-center gap-2.5 rounded-full bg-white p-1 ring-1 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 hover:ring-mist focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:pr-3',
+            'flex h-11 items-center gap-2.5 rounded-full bg-white p-1 ring-1 max-sm:h-9 max-sm:p-0.5 ring-inset ring-mist-100 transition-colors hover:bg-mist-50 hover:ring-mist focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt sm:pr-3',
             className,
           )}
           aria-label={`Menu akun ${name}`}
         >
-          <Avatar name={name} src={user?.avatar_url} size="md" className="[&>img]:!h-9 [&>img]:!w-9 [&>img]:!ring-0 [&>span]:!h-9 [&>span]:!w-9 [&>span]:!ring-0" />
+          <Avatar name={name} src={user?.avatar_url} size="md" className="[&>img]:!h-9 [&>img]:!w-9 [&>img]:!ring-0 [&>span]:!h-9 [&>span]:!w-9 [&>span]:!ring-0 max-sm:[&>img]:!h-8 max-sm:[&>img]:!w-8 max-sm:[&>span]:!h-8 max-sm:[&>span]:!w-8" />
           <span className="hidden min-w-0 text-left leading-tight sm:block">
             <span className="block max-w-[132px] truncate text-[13px] font-semibold text-obsidian">{name}</span>
             <span className="block text-[11px] font-medium text-mist-700">{role}</span>

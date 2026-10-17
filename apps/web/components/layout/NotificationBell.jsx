@@ -60,7 +60,7 @@ export function NotificationBell({ variant = 'white', engage = true }) {
           label="Pengumuman"
           variant={variant}
           dot={unread}
-          className={variant === 'white' ? '!h-11 !w-11 !shadow-none' : undefined}
+          className={variant === 'white' ? '!h-11 !w-11 !shadow-none max-sm:!h-9 max-sm:!w-9' : undefined}
         />
       }
     >
@@ -100,7 +100,7 @@ export function NotificationBell({ variant = 'white', engage = true }) {
                   <div className="min-w-0">
                     <p className="text-sm font-medium leading-snug">{a.title}</p>
                     <p className="mt-0.5 line-clamp-2 text-[13px] text-mist-700">{excerpt(a.body, 140)}</p>
-                    <p className="mt-1 text-[11px] leading-7 text-mist-500">{formatRelatif(a.created_at)}</p>
+                    <p className="mt-1 text-xs leading-9 text-mist-500 sm:text-[11px] sm:leading-7">{formatRelatif(a.created_at)}</p>
                   </div>
                 </div>
               </button>
