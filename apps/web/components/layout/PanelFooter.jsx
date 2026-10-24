@@ -25,15 +25,16 @@ export function PanelFooter({ admin = false, className }) {
     <footer className={cn('rounded-[20px] bg-white px-5 py-4 ring-1 ring-inset ring-mist-100 sm:px-6 md:pr-24', className)}>
       <div className="flex flex-col items-center justify-between gap-3 text-[13px] text-mist-700 md:flex-row">
         <a
-          href="https://apriprogram.web.id"
+          href="https://garudanexa.com"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
+          title="PT. Garuda Nexa Bahtera — garudanexa.com"
           className="flex items-center gap-2.5 rounded-md text-center transition-colors max-sm:min-h-11 hover:text-cobalt focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cobalt md:text-left"
         >
           {/* eslint-disable-next-line @next/next/no-img-element -- logo statis */}
-          <img src="/apriprogram.png" alt="" width={28} height={28} className="h-7 w-7 shrink-0" />
+          <img src="/brand/garudanexa.svg" alt="" width={46} height={28} className="h-7 w-auto shrink-0" />
           <span>
-            © {year} <span className="font-semibold text-obsidian">Apriprogram</span>
+            © {year} <span className="font-semibold text-obsidian">PT. Garuda Nexa Bahtera</span>
           </span>
         </a>
         <nav aria-label="Tautan footer">

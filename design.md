@@ -47,6 +47,7 @@ Ukuran bernama Tailwind (`text-xs` … `text-4xl`) memakai CSS variable (`tailwi
 
 Ukuran px tertulis langsung (`text-[15px]` dll.) tidak ikut berubah, jadi beri nilai HP sendiri (base = HP, `sm:` = desktop).
 **Input/textarea wajib `max-sm:text-[16px]`** (bukan `text-base`, karena di HP `text-base` = 15px → iOS auto-zoom).
+Alat ukur: skrip `~/.claude/skills/design-system/scripts/mobile_audit.js` (lihat §7).
 
 ### Skala per layar
 Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop. Preferensi pengguna: **tampilan HP ringkas**.
@@ -93,14 +94,14 @@ Basis = HP (< 640px); `sm:` (≥ 640px) dan seterusnya = nilai desktop. Preferen
 | Komponen | Aturan |
 |---|---|
 | Button | `primary` obsidian, `accent` cobalt, `mint`, `secondary` putih + ring, `soft` ghost, `ghost`, `danger`. Ukuran desktop: sm 36 · md 44 · lg 48 · xl 56. **Di HP otomatis**: sm 32 (teks 12px) · md/lg/xl 40 (teks 13px), plus area sentuh tak terlihat (`after:`) ±44–48px. Landing & nav memakai `shape="pill"`. Jangan menimpa tinggi di HP lewat `className` biasa (bentrok dengan kelas `max-sm:` bawaan); kalau terpaksa pakai `max-sm:!h-8` dsb. |
-| IconButton | xs 28 · sm 32 · md 40 · lg 48. Di HP sm/md diberi **area sentuh tak terlihat** +4px tiap sisi (`max-sm:before:absolute max-sm:before:-inset-1 max-sm:before:content-['']`). Label (aria) wajib. |
-| Input/Select/Textarea | h-11 (md), `rounded-xl`, ring mist-100, fokus ring cobalt, error ring danger + pesan. Teks 16px di HP. Pakai `type`/`inputMode`/`autoComplete`/`enterKeyHint` yang tepat. |
+| IconButton | xs 28 · sm 32 · md 40 · lg 48 — **sama di HP, jangan diperbesar** (`max-sm:!h-10` sudah dihapus). Di HP xs/sm/md diberi **area sentuh tak terlihat** +4px tiap sisi (`max-sm:before:absolute max-sm:before:-inset-1`). Label (aria) wajib. |
+| Input/Select/Textarea | h-11 (md; lg 48 → 44px di HP), `rounded-xl`, garis mist-100, fokus cobalt, error danger + pesan. Teks **16px di HP** (`max-sm:text-[16px]` di `_field.js`). Pakai `type`/`inputMode`/`autoComplete`/`enterKeyHint` yang tepat. |
 | Switch | track 36×20 (sm 28×16); di HP area sentuh diperluas `before:-inset-3`. |
 | SegmentedControl / Segmented / Tabs | kontainer `bg-ghost p-1 rounded-xl`, item aktif putih + ring. **Di HP item 32px, teks 12px** + area sentuh vertikal (`after:-inset-y-1.5`), digulir horizontal di kontainernya sendiri (`max-sm:overflow-x-auto no-scrollbar`). |
 | Modal | header + divider + body + footer kanan. Di HP berbentuk bottom-sheet, padding 20px, `pb-[env(safe-area-inset-bottom)]`, dan tombol footer bertumpuk (`flex-col-reverse`). Latar tanpa blur (`bg-obsidian/30`). |
 | Tabel | dibungkus kartu; header `bg-ghost text-[11px] uppercase`. **Di HP (< 768px) tampil sebagai kartu bertumpuk** (contoh: Riwayat), atau tabel dibungkus `overflow-x-auto` di dalam kartu. Halaman tidak boleh ikut melebar. |
-| Pagination | tombol 32px (HP 40px). |
-| Gauge | angka tengah 32px di HP, 40px di desktop. |
+| Pagination | tombol 32px (desktop & HP); input lompat halaman 36px, teks 16px di HP. |
+| Gauge | angka tengah 26px di HP, 40px di desktop. |
 | BarChart | label sumbu-x dijarangkan otomatis, dan label terakhir selalu tampil tanpa bertumpuk. |
 
 Pola kartu statistik (StatTile/kit): kotak ikon + angka besar `tabular-nums` + pill delta mint + keterangan kecil. Di HP bisa 2 kolom `compact` (ikon disembunyikan), dengan angka total selebar penuh.
@@ -108,45 +109,70 @@ Pola kartu statistik (StatTile/kit): kotak ikon + angka besar `tabular-nums` + p
 ## 5. Layout per area
 
 - **Website publik (`/`)**:
-  - Navbar sticky transparan → putih. Tombol CTA 36px di HP (area sentuh 44px lewat `max-sm:after:-inset-y-1`), menu hamburger 44px, dan item menu HP 48px.
-  - Urutan section: Hero (toggle mode + judul + checklist + CTA | video/mockup + maskot + emblem) → Fitur → Testimoni (marquee) → SKD (explorer donat) → Langkah (bento) → Panduan → FAQ (accordion) → Kontak (form) → CTA gelap → Footer (2 kolom tautan di HP).
+  - Navbar sticky transparan → putih, tinggi 64px. Di HP:
+    - Logo: tanda 32px, nama 15px.
+    - Tombol CTA 32px teks 12px (`max-sm:!h-8 max-sm:!px-3 max-sm:!text-xs`, area sentuh 44px).
+    - Hamburger 36px (area sentuh 44px).
+    - Item menu 44px teks 13px.
+  - Hero di HP:
+    - Section `pt-20 pb-12` tanpa `min-h` layar penuh.
+    - Tab TRYOUT/LATIHAN 32px teks 11px.
+    - Bar langkah video 36px teks 11px.
+    - Tombol utama 40px teks 13px.
+  - Urutan section: Hero (toggle mode + judul + checklist + CTA | video/mockup + maskot + emblem) → Fitur → Testimoni (marquee) → SKD (explorer donat) → Langkah (bento) → Panduan → FAQ (accordion) → Kontak (form) → CTA gelap → Footer (2 kolom tautan di HP, tiap tautan 40px teks 13px).
   - Indikator titik section hanya `xl:`. Latar section crossfade.
-- **Auth** (login/daftar/lupa/reset): layar terbagi. Kiri panel media besar, kanan form max-w 380px. Di HP hanya form, judul 28px, tombol 48px, dan safe-area atas/bawah.
+- **Auth** (login/daftar/lupa/reset): layar terbagi. Kiri panel media besar, kanan form max-w 380px. Di HP hanya form, tombol 40px (Button md), input 16px/44px, dan safe-area atas/bawah. Judul masih 28px di HP — belum ikut skala ringkas (kandidat 24px).
 - **Panel peserta**:
-  - Topbar: logo + nav pill, cari ⌘K, lonceng, profil. Di HP: hamburger berisi nav + Profil/Testimoni/Putar tutorial.
+  - Topbar: logo + nav pill, cari ⌘K, lonceng, profil. Di HP:
+    - Ikon bulat 36px (area sentuh 44px).
+    - Hamburger berisi nav + Profil/Testimoni/Putar tutorial (item 44px teks 13px).
   - Header halaman bertema biru-putih bermaskot.
-  - Dashboard: kalender minggu. Di HP berupa strip 7 hari + agenda hari terpilih; ≥640 berupa grid.
+  - Dashboard: kalender minggu. Di HP berupa strip 7 hari (52px) + agenda hari terpilih; ≥640 berupa grid.
+  - Header halaman: judul 20px di HP. Tombol aksi 40px teks 13px, dua per baris.
 - **Ruang ujian CBT (`/ujian`)**:
   - Tanpa sidebar. Soal di kiri, panel nomor di kanan, timer monospace di header.
   - Di HP: bar bawah fixed `[←] [Ragu] [Lanjut →]` + safe-area, daftar soal di bottom-sheet 6 kolom × 44px.
   - Status nomor: belum (mist), dijawab (cobalt), ragu (kuning), aktif (outline obsidian).
 - **Panel super admin**:
-  - Sidebar putih rounded terpisah. Di HP berupa drawer dengan item 44px + safe-area. Topbar memuat breadcrumb + ikon 44px + menu profil kanan.
-  - `AdminPageHeader`: judul 24px (HP); tombol aksi wrap 2 per baris dan tombol utama full-width di HP.
+  - Sidebar putih rounded terpisah. Di HP berupa drawer dengan item 40px + safe-area.
+  - Topbar memuat breadcrumb + ikon 40px (IconButton md, area sentuh 48px) + menu profil kanan (36px di HP).
+  - `AdminPageHeader`: judul 20px (HP); tombol aksi wrap 2 per baris dan tombol utama full-width di HP.
 - **Elemen melayang**:
-  - Tombol GroupChat (56px) memakai safe-area dan otomatis bersembunyi saat scroll ke bawah di HP.
+  - Tombol GroupChat (56px desktop, 48px HP) memakai safe-area dan otomatis bersembunyi saat scroll ke bawah di HP.
   - Konten/footer diberi ruang bawah ±88px + safe-area agar tidak tertutup.
   - Tombol ke-atas 44px.
 
 ## 6. Aturan mobile (wajib untuk perubahan baru)
 
+0. **Skala HP ringkas (preferensi pengguna).** Ikuti tabel §2. Jangan memperbesar elemen khusus HP. Ukuran HP tombol
+   dan tab sudah diatur di komponen (`Button`, `SegmentedControl`, `Segmented`, `Tabs`, `kit.jsx`), jadi halaman
+   tinggal memakai komponennya.
 1. **Mobile-first tanpa merusak desktop.** `cn()` (`lib/cn.js`) **tidak** memakai tailwind-merge, jadi menimpa kelas lewat `className` tidak andal. Gunakan:
    - pola **base = nilai HP + `sm:` = nilai desktop**, atau
    - varian **`max-sm:`** (berlaku < 640px, selalu menang atas kelas base).
    Ingat ikut mengunci `sm:leading-*`/`sm:tracking-*` bila mengubah line-height/tracking base, agar desktop tidak bergeser.
+   Menimpa ukuran bawaan komponen di HP harus pakai `!` (mis. `max-sm:!h-8 max-sm:!text-xs`), karena dua kelas
+   `max-sm:` untuk properti yang sama bentrok.
 2. **Target sentuh ≥ 44×44px**, jarak antar target ≥ 8px. Kalau ukuran visual harus kecil, perluas area sentuh dengan pseudo-element `before:`/`after:` (lihat IconButton/Switch, tombol navbar, tab hero). Tailwind otomatis memberi `content: ''`.
-3. **Input 16px di HP.** Lebih kecil dari itu memicu auto-zoom di iOS.
+3. **Input 16px di HP** (`max-sm:text-[16px]`, bukan `text-base`). Lebih kecil dari itu memicu auto-zoom di iOS.
 4. **Tanpa scroll horizontal di 360 & 390px.** Tabel, grafik, dan tab boleh digulir di dalam kontainernya sendiri, asal terlihat bisa digeser.
 5. **Safe-area iPhone:** `viewport.viewportFit = 'cover'` sudah aktif (`app/layout.jsx`). Elemen fixed di tepi layar pakai `env(safe-area-inset-*)`, mis. `pb-[max(12px,env(safe-area-inset-bottom))]`.
 6. **Gerak lebih ringan di HP:** parallax/rotasi scroll dimatikan (`.hero-parallax`), reveal tanpa blur, hover-lift mati, dan `prefers-reduced-motion` selalu dihormati.
 7. **Hero tidak dipaksa setinggi layar** di HP. Pastikan konten penting dan CTA terlihat di layar pertama.
 8. **Tombol aksi di header halaman** di HP rata lebar/terbungkus rapi, tidak berdesakan dalam satu baris.
+9. **Token font HP.** `text-sm`…`text-4xl` otomatis mengecil di HP (§2). Ukuran px langsung (`text-[15px]`) tidak,
+   jadi tulis nilai HP sendiri (base) + desktop (`sm:`). Teks bacaan panjang (soal, pembahasan, artikel) minimal 14px.
 
 ## 7. Checklist sebelum selesai
 
 - [ ] Cek di **360×740**, **390×844**, dan **1366×900**: `document.documentElement.scrollWidth <= innerWidth`.
 - [ ] Tampilan ≥ 640px tidak berubah (kecuali memang disengaja).
-- [ ] Target sentuh ≥ 44px, teks fungsional ≥ 11px, input 16px di HP.
+- [ ] Skala HP sesuai tabel §2: judul 20–24px, teks 13–14px, tombol 40px/13px, tab 32px/12px.
+- [ ] Target sentuh ≥ 44px (boleh lewat pseudo-element), teks fungsional ≥ 11px, input 16px di HP.
+- [ ] Audit otomatis di 390px dengan `~/.claude/skills/design-system/scripts/mobile_audit.js`:
+      `mobileAudit(['/', '/dashboard', '/admin', …], { key: 'A' })` lalu `mobileAuditReport('A')`.
+      Tidak ada temuan di luar skala, dan tidak ada scroll horizontal. Jangan mengedit file selama audit berjalan
+      (HMR me-reload tab).
 - [ ] Semua state ada: default, hover, focus (ring cobalt), disabled, loading, error, empty.
 - [ ] Elemen melayang tidak menutupi konten atau tombol, dan safe-area dipakai.
 - [ ] Teks UI berbahasa Indonesia, nada ramah dan ringkas.

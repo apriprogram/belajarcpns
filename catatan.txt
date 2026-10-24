@@ -1,0 +1,189 @@
+================================================================================
+  CATATAN WEBSITE — BELAJAR CPNS
+  Diperbarui: 17 Oktober 2026
+================================================================================
+
+1. RINGKASAN
+--------------------------------------------------------------------------------
+Nama website   : BELAJAR CPNS (nama kode proyek/repo: BISA-PNS)
+Fungsi         : Platform latihan soal & tryout CBT (Computer Based Test) gratis
+                 untuk persiapan SKD CPNS 2027 (TWK, TIU, TKP).
+Alamat online  : https://belajarcpns.web.id
+Repo GitHub    : https://github.com/apriprogram/belajarcpns  (branch: main)
+Folder lokal   : E:\_____________\WEBSITE\GARUDANEXA\Belajar CPNS\BISA-PNS-app
+Bentuk proyek  : Monorepo
+                 - apps/web  → website (frontend)
+                 - apps/api  → server API (backend)
+
+
+2. STACK / TEKNOLOGI
+--------------------------------------------------------------------------------
+FRONTEND (apps/web)
+  - Framework   : Next.js 15.5 (App Router)
+  - Library UI  : React 19.1
+  - Bahasa      : JavaScript / JSX (bukan TypeScript)
+  - Styling     : Tailwind CSS 3.4 (+ PostCSS, Autoprefixer), CSS murni untuk animasi
+  - Ikon        : lucide-react
+  - Font        : Inter & JetBrains Mono (di-host sendiri lewat next/font/local)
+  - Grafik      : komponen SVG buatan sendiri (BarChart, LineChart, Gauge) — tanpa library chart
+  - Build       : output "standalone" (dijalankan dengan: node server.js)
+  - Kualitas    : ESLint 8 + eslint-config-next
+
+BACKEND / API (apps/api)
+  - Bahasa      : Go (Golang) 1.24+ — build memakai Go 1.25
+  - Framework   : Gin 1.10 (REST API, ±107 endpoint)
+  - Akses DB    : pgx v5 (query SQL langsung, tanpa ORM)
+  - Login/Auth  : JWT (golang-jwt v5) disimpan di cookie httpOnly
+                  - access token 15 menit + refresh token 7 hari
+                  - password di-hash bcrypt (cost 12)
+  - ID          : UUID (google/uuid)
+  - Migrasi DB  : file SQL tertanam di program, otomatis jalan saat API start
+  - Format API  : { success, data, error, meta }
+
+DATABASE
+  - Jenis       : PostgreSQL
+                  - lokal: versi 16 (Docker)
+                  - hosting cPanel: versi 13
+  - Migrasi     : 10 file (0001_init … 0010_announcement_engagement)
+  - Tabel (26)  : users, refresh_tokens, password_resets, categories, questions,
+                  question_options, exam_packages, package_questions, attempts,
+                  attempt_questions, attempt_answers, results, attempt_events,
+                  practice_answers, study_logs, daily_targets, announcements,
+                  settings, activity_logs, messages, chat_messages, chat_reactions,
+                  testimonials, site_visits, announcement_views, announcement_likes
+  - Isi data    : 1.100 soal orisinal dalam 10 paket "Tryout SKD CPNS 2027 #1–#10"
+
+INFRASTRUKTUR — LOKAL (laptop)
+  - Docker Compose dengan 3 layanan:
+      db  (postgres:16-alpine)  → port 5432
+      api (Go)                  → port 8080
+      web (Next.js)             → port 3000
+  - Mode pengembangan cepat: "next dev" (port 3001) + db & api dari Docker
+  - Shortcut Windows: JALANKAN-BISA-PNS.bat / HENTIKAN-BISA-PNS.bat
+
+INFRASTRUKTUR — PRODUKSI (hosting cPanel)
+  - Server        : cPanel + CloudLinux (shared hosting)
+  - Website       : "Setup Node.js App" (Phusion Passenger), Node 22, file awal server.js
+  - API Go        : jalan di 127.0.0.1:47391 (tidak terbuka ke internet)
+                    - dinyalakan oleh server.js
+                    - dijaga cron "watchdog" tiap 5 menit
+  - Lokasi file   : public/belajarcpns.web.id
+                    - folder _app/ dilindungi .htaccess
+                    - konfigurasi di _app/.env (tidak masuk Git)
+  - Database      : PostgreSQL cPanel (tanjunak_belajarcpns_db)
+  - HTTPS         : AutoSSL cPanel; http & www otomatis dialihkan ke https
+  - Build         : GitHub Actions (.github/workflows/cpanel-build.yml)
+                    → paket siap pasang di rilis "cpanel-build"
+                    (RAM hosting tidak cukup untuk build Next.js)
+  - Cara deploy   : cPanel → Git Version Control → Update from Remote → Deploy HEAD Commit
+                    (menjalankan .cpanel.yml → deploy/cpanel/deploy.sh)
+
+
+3. FITUR
+--------------------------------------------------------------------------------
+HALAMAN PUBLIK
+  - Halaman utama, isinya diatur dari menu admin "Atur Website" (CMS).
+  - Panduan CPNS (artikel SEO), Tentang, FAQ, form Kontak.
+  - Testimoni berjalan (marquee).
+  - Daftar, Masuk, Lupa & Reset kata sandi.
+  - Pencatat kunjungan anonim untuk statistik pengunjung (tanpa menyimpan IP).
+
+PANEL PESERTA
+  - Dashboard:
+    - kalender minggu
+    - waktu belajar
+    - rata-rata skor
+    - target harian
+    - pengumuman (bisa dilihat & disukai)
+  - Latihan soal per sub-materi dengan pembahasan langsung.
+  - Tryout & ruang ujian CBT:
+    - timer dihitung server
+    - jawaban tersimpan otomatis
+    - tanda ragu-ragu
+    - acak soal/opsi
+    - kirim otomatis saat waktu habis
+  - Hasil & pembahasan, peringkat, riwayat ujian, profil, menulis testimoni.
+  - GroupChat sesama peserta, tur pengenalan untuk pengguna baru, "Traktir Kopi".
+
+PANEL ADMIN
+  - Dashboard statistik + statistik pengunjung (harian/mingguan/bulanan/tahunan, negara).
+  - Bank soal (tambah/ubah/hapus, kategori, import & export CSV).
+  - Paket ujian, peserta (detail, blokir, reset sandi).
+  - Laporan & analisis butir soal.
+  - Pengumuman (jumlah dilihat & disukai), testimoni, pesan masuk.
+  - GroupChat (pengaturan & moderasi).
+  - Atur Website (CMS), pengaturan (passing grade), profil.
+
+
+4. DESAIN
+--------------------------------------------------------------------------------
+  - Konsep "Order. Balance. Clarity." (gaya "Calm Workspace"):
+    datar, hampir tanpa shadow, ruang lega.
+  - Warna utama:
+      Obsidian #181D25, Cobalt #3765F6, Mint #70FC8E, Mist #C3CED7, Ghost #F2F3F6
+  - Warna status:
+      merah #E5484D, kuning #F5B301
+  - Tampilan HP dibuat ringkas:
+    - teks 13–14px, judul 20–24px
+    - tombol 40px, tab 32px
+    - kolom isian tetap 16px agar iPhone tidak auto-zoom
+  - Panduan lengkap: design.md (di folder proyek).
+  - Skill Claude: C:\Users\ASUS\.claude\skills\design-system
+
+
+5. STRUKTUR FOLDER PENTING
+--------------------------------------------------------------------------------
+  apps/web/app/             halaman (publik, auth, peserta, admin, ruang ujian)
+  apps/web/components/      komponen
+                            - ui = komponen dasar
+                            - landing, admin, layout, dll.
+  apps/web/lib/             helper (api, format, konten panduan, SEO)
+  apps/api/cmd/             program utama API & seeder
+  apps/api/internal/        logika API (auth, app/handler, db + migrasi, seed)
+  deploy/cpanel/            skrip deploy hosting
+                            - deploy.sh, server.js, watchdog.sh, restore-data.sh
+  .github/workflows/        build otomatis GitHub Actions
+  data/bank-soal-2027/      data mentah bank soal
+  scripts/                  skrip bantu (backup, restore, bank soal, rekam video)
+  docs/                     dokumentasi (lihat bagian 7)
+
+
+6. PERINTAH PENTING
+--------------------------------------------------------------------------------
+  Jalankan lokal          : docker compose up -d
+  Hentikan                : docker compose down
+  Build ulang web         : docker compose up -d --build --no-deps web
+  Mode dev web            : cd apps/web  lalu  npm run dev
+  Cek kode web (lint)     : cd apps/web  lalu  npx next lint --dir app --dir components --dir lib
+  Tes API (Go)            : go vet ./...  dan  go test ./...
+                            (lewat Docker golang:1.25 — lihat CLAUDE.md)
+  Update website online   :
+    1. git push ke main
+    2. tunggu GitHub Actions hijau (±3–5 menit)
+    3. cPanel → Deploy HEAD Commit
+
+
+7. DOKUMEN TERKAIT
+--------------------------------------------------------------------------------
+  README.md               cara menjalankan proyek
+  CLAUDE.md               aturan kerja proyek & catatan teknis
+  design.md               panduan desain (warna, font, skala HP, komponen)
+  docs/SPEC.md            kontrak API & peta halaman
+  docs/API.md             daftar endpoint API
+  docs/DEPLOY-CPANEL.md   cara deploy ke cPanel
+  docs/SITE-CMS.md        menu "Atur Website"
+  docs/VISITORS.md        statistik pengunjung
+  docs/TESTIMONI.md       fitur testimoni
+  docs/GROUPCHAT-V2.md    fitur GroupChat
+  docs/SEO.md             SEO & halaman panduan
+  docs/BANK-SOAL-2027.md  format bank soal 2027
+
+
+8. CATATAN KEAMANAN
+--------------------------------------------------------------------------------
+  - Akun bawaan dari seeder (lihat CLAUDE.md) memakai kata sandi yang tertulis di
+    repo publik → WAJIB diganti di website online.
+  - File .env (lokal maupun _app/.env di hosting) berisi rahasia
+    (password database, JWT secret) dan tidak boleh masuk Git.
+  - Folder backups/ diabaikan Git; berisi cadangan data/database.
+================================================================================
